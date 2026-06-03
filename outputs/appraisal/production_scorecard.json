@@ -2266,8 +2266,8 @@
     "status": "ready",
     "schema_version": 1,
     "summary": {
-      "check_count": 36,
-      "pass_count": 36,
+      "check_count": 38,
+      "pass_count": 38,
       "fail_count": 0
     },
     "canonical_commands": [
@@ -2298,6 +2298,10 @@
       {
         "id": "external_score",
         "command": "python scripts/score_external_results.py"
+      },
+      {
+        "id": "external_review_status",
+        "command": "python scripts/external_review_status.py"
       },
       {
         "id": "repo_doctor",
@@ -2472,6 +2476,13 @@
         "message": "exists"
       },
       {
+        "id": "versioned_outputs:outputs/appraisal/external_review_status.json",
+        "category": "versioned_outputs",
+        "path": "outputs/appraisal/external_review_status.json",
+        "status": "pass",
+        "message": "exists"
+      },
+      {
         "id": "versioned_outputs:outputs/external_benchmarks/manifest.json",
         "category": "versioned_outputs",
         "path": "outputs/external_benchmarks/manifest.json",
@@ -2504,6 +2515,14 @@
         "category": "script_tool_pair",
         "path": "scripts/export_external_benchmarks.py",
         "tool_path": "tools/export_external_benchmarks.py",
+        "status": "pass",
+        "message": "script wrapper and tool implementation are paired"
+      },
+      {
+        "id": "script_tool_pair:external_review_status.py",
+        "category": "script_tool_pair",
+        "path": "scripts/external_review_status.py",
+        "tool_path": "tools/external_review_status.py",
         "status": "pass",
         "message": "script wrapper and tool implementation are paired"
       },
@@ -2580,6 +2599,16 @@
         "message": "script wrapper and tool implementation are paired"
       }
     ]
+  },
+  "external_review_status": {
+    "status": "timed_out",
+    "tool": "CodeRabbit",
+    "command": "coderabbit review --agent --base origin/master",
+    "duration_ms": 604046,
+    "issue_count": null,
+    "review_claim_allowed": false,
+    "note": "CLI version 0.5.3 and agent auth succeeded, but review command timed out with exit code 124 before returning issues.",
+    "next_step": "Retry external AI/code review later or use a different review service; do not claim external review passed."
   },
   "external_comparison_matrix": [
     {

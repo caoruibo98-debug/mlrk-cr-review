@@ -94,6 +94,14 @@ python scripts/model_card.py
 
 This writes `docs/MODEL_CARD.md` and `outputs/appraisal/model_card_summary.json`.
 
+Record external AI/code-review status:
+
+```bash
+python scripts/external_review_status.py --tool CodeRabbit --status timed_out --command "coderabbit review --agent --base origin/master" --duration-ms 604046
+```
+
+This writes `outputs/appraisal/external_review_status.json`. A timed-out review is not a passed review.
+
 Export external benchmark inputs:
 
 ```bash
@@ -130,6 +138,7 @@ freezes/generation_14/manifest.json
 freezes/generation_15/manifest.json
 freezes/generation_16/manifest.json
 freezes/generation_17/manifest.json
+freezes/generation_18/manifest.json
 ```
 
 ## Retrain deployment models

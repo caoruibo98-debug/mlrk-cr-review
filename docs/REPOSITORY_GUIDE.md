@@ -33,6 +33,7 @@ python scripts/reaction_family_kpis.py
 python scripts/model_card.py
 python scripts/export_external_benchmarks.py
 python scripts/score_external_results.py
+python scripts/external_review_status.py
 python scripts/repo_doctor.py
 python -m mlrk_prod.cli predict --name rutin --topn 10
 python -m mlrk_prod.cli serve --host 127.0.0.1 --port 8765

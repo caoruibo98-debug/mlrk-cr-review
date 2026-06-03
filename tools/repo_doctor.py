@@ -10,6 +10,7 @@ DEFAULT_OUT = ROOT / "outputs" / "appraisal" / "repo_doctor.json"
 
 SCRIPT_TOOL_PAIRS = [
     "export_external_benchmarks.py",
+    "external_review_status.py",
     "freeze_generation.py",
     "life_science_appraisal.py",
     "model_card.py",
@@ -51,6 +52,7 @@ REQUIRED_PATHS = {
         "outputs/appraisal/production_scorecard.json",
         "outputs/appraisal/reaction_family_kpis.json",
         "outputs/appraisal/model_card_summary.json",
+        "outputs/appraisal/external_review_status.json",
         "outputs/external_benchmarks/manifest.json",
         "outputs/external_benchmarks/external_result_scorecard.json",
         "outputs/modular/ltr/clean2_metrics.csv",
@@ -66,6 +68,7 @@ CANONICAL_COMMANDS = [
     {"id": "model_card", "command": "python scripts/model_card.py"},
     {"id": "external_export", "command": "python scripts/export_external_benchmarks.py"},
     {"id": "external_score", "command": "python scripts/score_external_results.py"},
+    {"id": "external_review_status", "command": "python scripts/external_review_status.py"},
     {"id": "repo_doctor", "command": "python scripts/repo_doctor.py"},
     {"id": "predict", "command": "python -m mlrk_prod.cli predict --name rutin --topn 10"},
     {"id": "serve", "command": "python -m mlrk_prod.cli serve --host 127.0.0.1 --port 8765"},

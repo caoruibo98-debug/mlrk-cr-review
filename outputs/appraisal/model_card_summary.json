@@ -66,6 +66,8 @@
   },
   "reaction_family_count": 19,
   "external_result_status": "awaiting_external_outputs",
+  "external_ai_review_status": "timed_out",
+  "external_ai_review_claim_allowed": false,
   "repository_doctor_status": "ready",
   "readiness_issues": [
     {

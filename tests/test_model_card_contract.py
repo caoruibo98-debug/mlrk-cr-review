@@ -34,4 +34,6 @@ def test_model_card_builder_matches_current_scorecard() -> None:
     summary = build_summary(scorecard)
     assert summary["core_panel"]["top5_hit_rate"] == 1.0
     assert summary["external_result_status"] == "awaiting_external_outputs"
+    assert summary["external_ai_review_status"] == "timed_out"
+    assert summary["external_ai_review_claim_allowed"] is False
     assert summary["generalization_evidence_level"]["level"] == 3

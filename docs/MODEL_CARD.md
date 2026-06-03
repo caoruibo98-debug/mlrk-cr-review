@@ -7,6 +7,7 @@ Generated from `outputs/appraisal/production_scorecard.json`.
 - Readiness status: `internal_mvp_only`
 - Generalization evidence level: `3` (internal benchmark evidence only; no external tool outputs or wet-lab validation imported)
 - External result status: `awaiting_external_outputs`
+- External AI/code review status: `timed_out` (claim allowed: `false`)
 - Repository doctor status: `ready`
 
 ## System Type

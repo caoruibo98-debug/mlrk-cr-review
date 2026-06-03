@@ -1,0 +1,10 @@
+{
+  "status": "timed_out",
+  "tool": "CodeRabbit",
+  "command": "coderabbit review --agent --base origin/master",
+  "duration_ms": 604046,
+  "issue_count": null,
+  "review_claim_allowed": false,
+  "note": "CLI version 0.5.3 and agent auth succeeded, but review command timed out with exit code 124 before returning issues.",
+  "next_step": "Retry external AI/code review later or use a different review service; do not claim external review passed."
+}

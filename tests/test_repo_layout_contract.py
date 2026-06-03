@@ -19,7 +19,17 @@ def test_repo_doctor_report_is_ready() -> None:
 def test_repo_doctor_declares_human_reviewer_entrypoints() -> None:
     report = build_report()
     command_ids = {row["id"] for row in report["canonical_commands"]}
-    for expected in {"test", "readiness", "scorecard", "family_kpis", "model_card", "repo_doctor", "predict", "serve"}:
+    for expected in {
+        "test",
+        "readiness",
+        "scorecard",
+        "family_kpis",
+        "model_card",
+        "external_review_status",
+        "repo_doctor",
+        "predict",
+        "serve",
+    }:
         assert expected in command_ids
 
 

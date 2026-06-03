@@ -33,6 +33,7 @@ def build_summary(scorecard: dict[str, Any]) -> dict[str, Any]:
     reaction_family_kpis = scorecard.get("reaction_family_kpis", {})
     combined_families = reaction_family_kpis.get("combined_family_kpis", [])
     external_results = scorecard.get("external_result_scorecard", {})
+    external_review = scorecard.get("external_review_status", {})
     repo_doctor = scorecard.get("repository_doctor", {})
     return {
         "status": "ready",
@@ -60,6 +61,8 @@ def build_summary(scorecard: dict[str, Any]) -> dict[str, Any]:
         "internal_comparison": scorecard.get("internal_comparison", {}),
         "reaction_family_count": len(combined_families),
         "external_result_status": external_results.get("status", "unknown"),
+        "external_ai_review_status": external_review.get("status", "unknown"),
+        "external_ai_review_claim_allowed": external_review.get("review_claim_allowed", False),
         "repository_doctor_status": repo_doctor.get("status", "unknown"),
         "readiness_issues": scorecard.get("readiness_issues", []),
         "remaining_gaps": scorecard.get("remaining_gap_to_full_food_microbiome_metabolite_prediction", []),
@@ -77,6 +80,7 @@ def render_model_card(summary: dict[str, Any]) -> str:
     method_means = internal.get("r5_mean_by_method", {})
     issues = summary.get("readiness_issues", [])
     gaps = summary.get("remaining_gaps", [])
+    review_claim_allowed = str(summary["external_ai_review_claim_allowed"]).lower()
     not_allowed = "\n".join(f"- {item}" for item in summary["not_allowed_claims"])
     issue_lines = "\n".join(f"- `{item.get('code')}`: {item.get('message')}" for item in issues)
     gap_lines = "\n".join(f"- {item}" for item in gaps)
@@ -90,6 +94,7 @@ Generated from `{summary['source_scorecard']}`.
 - Readiness status: `{summary['readiness_status']}`
 - Generalization evidence level: `{summary['generalization_evidence_level']['level']}` ({summary['generalization_evidence_level']['label']})
 - External result status: `{summary['external_result_status']}`
+- External AI/code review status: `{summary['external_ai_review_status']}` (claim allowed: `{review_claim_allowed}`)
 - Repository doctor status: `{summary['repository_doctor_status']}`
 
 ## System Type
