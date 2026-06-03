@@ -12,6 +12,7 @@
     "level": 3,
     "label": "internal benchmark evidence only; no external tool outputs or wet-lab validation imported"
   },
+  "biochemical_quality_boundary": "Candidate quality is a structural plausibility screen. High tier requires traceable enzyme, microbe, EC, PMID, or known-product evidence; structural-only candidates are capped at medium.",
   "allowed_claim": "Internal research MVP for food-polyphenol candidate generation/ranking, strongest on glycoside aglycone release.",
   "not_allowed_claims": [
     "Broad prediction of all food-derived gut microbial metabolites.",

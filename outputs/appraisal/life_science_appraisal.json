@@ -40,7 +40,7 @@
       "expected_matched_product_inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -48,7 +48,7 @@
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "quercetin",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -78,7 +78,7 @@
       "expected_matched_product_inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -86,7 +86,7 @@
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "quercetin",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -114,7 +114,7 @@
       "expected_matched_product_inchikey": "FTVWIRXFELQLPI-ZDUSSCGKSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -122,7 +122,7 @@
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "(R)-naringenin",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -153,7 +153,7 @@
       "expected_matched_product_inchikey": "AIONOLUJZLIMTK-AWEZNQCLSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -161,7 +161,7 @@
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "24604-97-5",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -192,7 +192,7 @@
       "expected_matched_product_inchikey": "ZQSIJRDFPHDXIC-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -200,7 +200,7 @@
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "daidzein",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -232,7 +232,7 @@
       "expected_matched_product_inchikey": "TZBJGXHYKVUXJN-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -240,7 +240,7 @@
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "genistein",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -255,8 +255,8 @@
   "known_readiness_issues": [
     {
       "severity": "warning",
-      "code": "external_benchmark_missing",
-      "message": "External BioTransformer/MicrobeRX/GutBug-style benchmark is not complete."
+      "code": "external_benchmark_results_missing",
+      "message": "External benchmark inputs and import harness are ready, but real BioTransformer/MicrobeRX/GutBug-style outputs are not scored yet."
     },
     {
       "severity": "info",

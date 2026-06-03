@@ -48,9 +48,10 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue"
       ],
       "interpretation_ready_count": 10,
       "rejected_returned_ranks": []
@@ -83,9 +84,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "Nasutin A",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 6,
       "rejected_returned_ranks": []
@@ -118,9 +121,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 3,
       "rejected_returned_ranks": [
@@ -157,7 +162,7 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "(2S,3R,4R,5S,6S)-2-[(2S,3S)-4-hydroxy-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -235,9 +240,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 3,
       "rejected_returned_ranks": [
@@ -269,16 +276,19 @@
       "expected_matched_product_inchikey": "DZAUWHJDUNRCTF-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue"
       ],
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "trans-3-coumaric acid",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 10,
       "rejected_returned_ranks": []
@@ -306,16 +316,19 @@
       "expected_matched_product_inchikey": "BOLQJTPHPSDZHR-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue"
       ],
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "3-(3-Methoxyphenyl)propionic acid",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 9,
       "rejected_returned_ranks": [
@@ -345,16 +358,18 @@
       "expected_matched_product_inchikey": "NMHMNPHRMNGLLB-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue"
       ],
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "3-(4-Hydroxyphenyl)propionic acid",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue"
       ],
       "interpretation_ready_count": 5,
       "rejected_returned_ranks": [
@@ -388,16 +403,19 @@
       "expected_matched_product_inchikey": "HITJFUSPLYBJPE-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue"
       ],
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
@@ -428,16 +446,19 @@
       "expected_matched_product_inchikey": "ILEYXPCRQKRNIJ-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue"
       ],
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
@@ -473,9 +494,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 10,
       "rejected_returned_ranks": []
@@ -508,9 +531,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 10,
       "rejected_returned_ranks": []
@@ -543,9 +568,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 6,
       "rejected_returned_ranks": [
@@ -582,9 +609,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 10,
       "rejected_returned_ranks": []
@@ -617,9 +646,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 3,
       "rejected_returned_ranks": [
@@ -656,9 +687,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "5,4'-Dihydroxyisoflavone",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 6,
       "rejected_returned_ranks": [
@@ -695,9 +728,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "3-(4-hydroxyphenyl)-8-[(2~{S},3~{R},4~{R},5~{S},6~{R})-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]chromen-4-one",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 3,
       "rejected_returned_ranks": [
@@ -728,7 +763,7 @@
       "expected_matched_product_inchikey": "DXYUAIFZCFRPTH-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -736,7 +771,7 @@
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "5,8-dideuterio-7-hydroxy-6-methoxy-3-(2,3,5,6-tetradeuterio-4-hydroxy-phenyl)chromen-4-one",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
@@ -770,16 +805,19 @@
       "expected_matched_product_inchikey": "WQGWDDDVZFFDIG-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue"
       ],
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "3,4-DIHYDROXYBENZOIC ACID",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 9,
       "rejected_returned_ranks": [
@@ -809,16 +847,20 @@
       "expected_matched_product_inchikey": "RIUPLDUFZCXCHM-UHFFFAOYSA-N",
       "expected_full_inchikey_match": true,
       "expected_evidence_source": "benchmark_panel",
-      "expected_quality_tier": "high",
+      "expected_quality_tier": "medium",
       "expected_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "expected_interpretation_allowed": true,
       "failure_type": "hit_top5_benchmark_only",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 6,
       "rejected_returned_ranks": []
@@ -851,9 +893,11 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "high",
+      "top_quality_tier": "medium",
       "top_quality_flags": [
-        "no_prior_evidence"
+        "no_prior_evidence",
+        "heuristic_microbial_rescue",
+        "broad_dehydroxylation_hypothesis"
       ],
       "interpretation_ready_count": 10,
       "rejected_returned_ranks": []
@@ -862,8 +906,8 @@
   "known_readiness_issues": [
     {
       "severity": "warning",
-      "code": "external_benchmark_missing",
-      "message": "External BioTransformer/MicrobeRX/GutBug-style benchmark is not complete."
+      "code": "external_benchmark_results_missing",
+      "message": "External benchmark inputs and import harness are ready, but real BioTransformer/MicrobeRX/GutBug-style outputs are not scored yet."
     },
     {
       "severity": "info",

@@ -55,6 +55,7 @@ def build_summary(scorecard: dict[str, Any]) -> dict[str, Any]:
             "level": 3,
             "label": "internal benchmark evidence only; no external tool outputs or wet-lab validation imported",
         },
+        "biochemical_quality_boundary": "Candidate quality is a structural plausibility screen. High tier requires traceable enzyme, microbe, EC, PMID, or known-product evidence; structural-only candidates are capped at medium.",
         "allowed_claim": scorecard.get("current_claim"),
         "not_allowed_claims": [
             "Broad prediction of all food-derived gut microbial metabolites.",
@@ -115,6 +116,10 @@ This is a hybrid internal research system:
 - contract-checked internal API.
 
 It is not an externally validated biological occurrence predictor.
+
+## Biochemical Quality Boundary
+
+{summary['biochemical_quality_boundary']}
 
 ## Intended Use
 

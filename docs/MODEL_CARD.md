@@ -22,6 +22,10 @@ This is a hybrid internal research system:
 
 It is not an externally validated biological occurrence predictor.
 
+## Biochemical Quality Boundary
+
+Candidate quality is a structural plausibility screen. High tier requires traceable enzyme, microbe, EC, PMID, or known-product evidence; structural-only candidates are capped at medium.
+
 ## Intended Use
 
 Internal research MVP for food-polyphenol candidate generation/ranking, strongest on glycoside aglycone release.

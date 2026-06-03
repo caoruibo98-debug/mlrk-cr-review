@@ -39,7 +39,8 @@ def test_clean_rutin_prediction_payload_contract() -> None:
     assert issues == []
     assert payload["module"] == "B"
     assert payload["top"]
-    assert payload["top"][0]["biochem_quality"]["tier"] == "high"
+    assert payload["top"][0]["biochem_quality"]["tier"] == "medium"
+    assert payload["top"][0]["biochem_quality"]["evidence_level"] == "structural_only"
 
 
 def test_no_candidate_prediction_writes_contract_payload() -> None:

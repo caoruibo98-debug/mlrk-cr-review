@@ -19,7 +19,36 @@ def test_rutin_to_quercetin_quality_is_high() -> None:
     }
     quality = candidate_quality(rutin, row, module_name="carb_glycoside")
     assert quality["tier"] == "high"
+    assert quality["evidence_level"] == "traceable_biochemical_evidence"
     assert any(flag["code"] == "plausible_glycoside_mass_loss" for flag in quality["flags"])
+
+
+def test_structural_only_glycoside_candidate_is_capped_at_medium() -> None:
+    rutin = "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O"
+    row = {
+        "product_smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12",
+        "evidence": "-",
+    }
+    quality = candidate_quality(rutin, row, module_name="carb_glycoside")
+    assert quality["tier"] == "medium"
+    assert quality["interpretation_allowed"] is True
+    assert quality["evidence_level"] == "structural_only"
+    assert any(flag["code"] == "no_prior_evidence" for flag in quality["flags"])
+
+
+def test_heuristic_microbial_dehydroxylation_is_marked_as_hypothesis() -> None:
+    resveratrol = "Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1"
+    row = {
+        "product_smiles": "Oc1ccc(CCc2cccc(O)c2)cc1",
+        "evidence": "-",
+        "candidate_source": "microbial_rescue:phenol_dehydroxylation:step2",
+    }
+    quality = candidate_quality(resveratrol, row, module_name="small_molecule")
+    flag_codes = {flag["code"] for flag in quality["flags"]}
+    assert quality["tier"] == "medium"
+    assert quality["evidence_level"] == "structural_only"
+    assert "heuristic_microbial_rescue" in flag_codes
+    assert "broad_dehydroxylation_hypothesis" in flag_codes
 
 
 def test_phosphorus_introduction_is_rejected_for_flavonoid() -> None:
