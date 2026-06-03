@@ -120,6 +120,7 @@ freezes/generation_12/manifest.json
 freezes/generation_13/manifest.json
 freezes/generation_14/manifest.json
 freezes/generation_15/manifest.json
+freezes/generation_16/manifest.json
 ```
 
 ## Retrain deployment models

@@ -36,3 +36,27 @@ def test_repository_guide_documents_legacy_boundary() -> None:
     assert "Keep legacy scientific code in place" in text
     assert "modular/" in text
     assert "scripts/repo_doctor.py" in text
+
+
+def test_readme_is_reviewer_first_and_claim_limited() -> None:
+    text = (ROOT / "README.md").read_text(encoding="utf-8")
+    for heading in (
+        "## Reviewer Summary",
+        "## Fast Review Path",
+        "## Current Evidence",
+        "## Important Outputs",
+        "## Known Limitations",
+        "## Reviewer Documents",
+    ):
+        assert heading in text
+    opening = text[:1600]
+    assert "internal_mvp_only" in opening
+    assert "Current safe claim" in opening
+    assert "Current unsafe claim" in opening
+    for command in (
+        "python scripts/run_contract_tests.py",
+        "python scripts/validate_production_readiness.py",
+        "python scripts/repo_doctor.py",
+        "python scripts/production_scorecard.py",
+    ):
+        assert command in text

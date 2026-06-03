@@ -1,16 +1,12 @@
 # ML Ranking Kernel Production Candidate
 
-This repository is a production-candidate shell for a food and gut-microbiome metabolite ranking model.
+Production-candidate shell for an internal food and gut-microbiome metabolite ranking model.
 
-The model combines:
+This repository does not claim to be a broad, externally validated predictor. It is currently an internal research MVP for prioritizing rule-generated food-polyphenol metabolite candidates.
 
-1. rule-based candidate generation,
-2. chemistry-only learned-to-rank scoring,
-3. evidence overlays from enzyme, microbe, and literature records,
-4. biochemical quality filters,
-5. explicit claim boundaries.
+## Reviewer Summary
 
-## Current Position
+Current status: `internal_mvp_only`
 
 Current safe claim:
 
@@ -20,50 +16,43 @@ Current unsafe claim:
 
 > Broad prediction of all food-derived gut microbial metabolites, strain-aware metabolism, clinical effects, consumer health recommendations, or wet-lab occurrence probabilities.
 
-## Current Performance Snapshot
-
-As of `generation_15`:
+As of `generation_16`:
 
 - Core curated food-glycoside panel: `6 / 6` strict top-5 hits, score `3.88 / 5`.
 - Production challenge panel: `8 / 22` strict top-5 hits, score `2.81 / 5`.
 - Challenge failure taxonomy: `14` expected products not generated, `8` benchmark-only top-5 hits.
-- Reaction-family KPI report: `19` families, with candidate-generation-blocked families separated from evidence-integration-blocked families.
+- Reaction-family KPI report: `19` families, separating candidate-generation-blocked families from evidence-integration-blocked families.
 - API contract: stable error codes for invalid input, schema validation, pending jobs, failed jobs, and timeout states.
 - Repository doctor: `ready`, with `33` layout and entrypoint checks passing.
+- Contract tests: `44`.
 - Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
-- Readiness status: `internal_mvp_only`.
 
-The core score dropped from `4.43 / 5` after generation 09 because the default evidence pool is no longer a local Windows-only path. External evidence can still be supplied with `MLRK_EVIDENCE_POOL`, but reproducible scorecard runs should not depend on hidden local files.
+The challenge-panel result is intentional and important: it shows the model is not ready for broad food microbiome metabolite prediction.
 
-The challenge-panel result is intentional and important: it shows that the current system is not yet ready for broad food microbiome metabolite prediction.
+## Fast Review Path
 
-## Repository Layout
+Install dependencies:
 
-```text
-mlrk_prod/      Production-candidate API, CLI, schema, readiness, and quality wrappers.
-modular/        Legacy modular candidate generation, deployment prediction, and LTR scripts.
-src/            Original research/data-building utilities.
-scripts/        GitHub-friendly command entrypoints that wrap production tools.
-tools/          Internal production, appraisal, freezing, and test utilities.
-tests/          Contract tests for requests, prediction payloads, appraisal matching, and quality filters.
-data/           Curated core and challenge evaluation panels.
-docs/           Model cards, readiness reviews, production ledger, and scientific positioning.
-outputs/        Versioned deployment metrics/models plus small appraisal reports.
-freezes/        Generation manifests with file hashes and score snapshots.
+```bash
+python -m pip install -r requirements.txt
 ```
 
-## Quickstart
-
-Run contract tests:
+Run the main reviewer checks:
 
 ```bash
 python scripts/run_contract_tests.py
+python scripts/validate_production_readiness.py
+python scripts/repo_doctor.py
+python scripts/production_scorecard.py
 ```
 
-Validate readiness:
+Expected high-level results:
 
-```bash
-python scripts/validate_production_readiness.py
+```text
+PASSED 44 contract tests
+readiness status: internal_mvp_only
+repo doctor: ready
+scorecard status: internal_mvp_only
 ```
 
 Run one prediction:
@@ -72,7 +61,9 @@ Run one prediction:
 python -m mlrk_prod.cli predict --name rutin --topn 10
 ```
 
-Optional evidence overlays can be enabled by setting `MLRK_EVIDENCE_POOL` to a CSV with substrate/product InChIKey and enzyme, microbe, PMID fields. Without it, predictions still rank candidates but evidence fields may be `-`.
+Optional evidence overlays can be enabled by setting `MLRK_EVIDENCE_POOL` to a CSV with substrate/product InChIKey and enzyme, microbe, PMID fields. Reproducible scorecard runs should not depend on hidden local evidence files.
+
+## Current Evidence
 
 Run the core panel:
 
@@ -86,22 +77,10 @@ Run the challenge panel:
 python scripts/life_science_appraisal.py --panel data/production_challenge_panel.csv --run-panel --topn 10 --out outputs/appraisal/challenge_appraisal.json
 ```
 
-Build the production scorecard:
-
-```bash
-python scripts/production_scorecard.py
-```
-
 Build reaction-family KPI reporting:
 
 ```bash
 python scripts/reaction_family_kpis.py
-```
-
-Check repository layout and reviewer entrypoints:
-
-```bash
-python scripts/repo_doctor.py
 ```
 
 Export external benchmark inputs:
@@ -115,6 +94,21 @@ Score imported external benchmark outputs:
 ```bash
 python scripts/score_external_results.py
 ```
+
+The external benchmark input files under `outputs/external_benchmarks/` are not external validation results. They are the reproducible handoff for running BioTransformer, MicrobeRX, GutBug-style EC/enzyme comparison, and related external checks.
+
+## Important Outputs
+
+| Path | Meaning |
+| --- | --- |
+| `outputs/appraisal/production_scorecard.json` | Combined internal readiness and evaluation scorecard. |
+| `outputs/appraisal/life_science_appraisal.json` | Core food-glycoside appraisal. |
+| `outputs/appraisal/challenge_appraisal.json` | Harder production challenge panel appraisal. |
+| `outputs/appraisal/reaction_family_kpis.json` | Reaction-family coverage and next-action report. |
+| `outputs/appraisal/repo_doctor.json` | Repository layout and reviewer-entrypoint check report. |
+| `outputs/external_benchmarks/manifest.json` | External benchmark export manifest. |
+| `outputs/external_benchmarks/external_result_scorecard.json` | External result import status and scores, currently awaiting real external outputs. |
+| `freezes/generation_*/manifest.json` | Frozen generation file hashes and review notes. |
 
 ## API
 
@@ -136,41 +130,52 @@ GET  /api/jobs/{job_id}/result
 
 The internal API exposes a stable error contract for web-app clients. See `docs/API_CONTRACT.md`.
 
-## Evaluation Model
+## Repository Layout
 
-The production scorecard separates:
+```text
+mlrk_prod/      Internal API, CLI, schema, readiness, and quality wrappers.
+scripts/        Reviewer-facing commands that wrap matching tools.
+tools/          Appraisal, scorecards, exports, freezing, and repository checks.
+tests/          Contract tests runnable through scripts/run_contract_tests.py.
+docs/           Production boundary, API contract, evaluation, and iteration docs.
+data/           Curated core and challenge evaluation panels.
+outputs/        Versioned metrics, model artifacts, benchmark exports, and appraisal reports.
+freezes/        Generation manifests with file hashes and score snapshots.
+modular/        Legacy candidate-generation, prediction, and LTR scripts.
+src/            Legacy research/data-building utilities.
+```
 
-1. internal comparison against random, EC-only, Tanimoto, and full-feature baselines,
-2. core curated food-glycoside appraisal,
-3. challenge panel appraisal across harder food-metabolism classes,
-4. candidate-generation failure, ranking failure, evidence failure, and no-candidate states,
-5. reaction-family KPI reporting for candidate-pool recall, strict top-5 recall, benchmark traceability, and model evidence coverage,
-6. external comparison readiness and exported inputs for BioTransformer, MicrobeRX, GutBug, MIMOSA2, and AGREDA,
-7. remaining production blockers.
+The layout policy is documented in `docs/REPOSITORY_GUIDE.md`: keep legacy scientific code in place, and add production wrappers, tests, contracts, and reports around it.
 
-The external benchmark input files are under `outputs/external_benchmarks/`. They are not external validation results; they are the reproducible handoff for running those tools and importing their outputs later.
+## Known Limitations
 
-External result templates are under `outputs/external_benchmarks/result_templates/`. Until real external output files are imported, the external result scorecard stays at `awaiting_external_outputs`.
+- External head-to-head outputs from BioTransformer, MicrobeRX, and GutBug-style enzyme tools have not been imported yet.
+- No wet-lab validation is included.
+- No strain-level abundance or genome context is connected to predictions.
+- Candidate generation is still the ceiling: ranking cannot recover metabolites absent from the candidate pool.
+- Model-output evidence coverage remains incomplete even when benchmark traceability exists.
+- Public consumer, clinical, and health recommendation claims are out of scope.
 
-Reaction-family KPI outputs are under `outputs/appraisal/reaction_family_kpis.json` and `outputs/appraisal/reaction_family_kpis.csv`. They are internal diagnostic reports, not external validation.
+## Reviewer Documents
+
+- `docs/PRODUCTION_READINESS_REVIEW.md`
+- `docs/EVALUATION_PROTOCOL.md`
+- `docs/API_CONTRACT.md`
+- `docs/REPOSITORY_GUIDE.md`
+- `docs/WEB_APP_MVP_SPEC.md`
+- `docs/SECURITY_AND_DEPLOYMENT_BOUNDARIES.md`
+- `docs/production/SCIENTIFIC_POSITIONING.md`
+- `docs/production/ITERATION_LEDGER.md`
+- `docs/reviews/`
 
 ## Iteration Process
 
-The repository uses explicit generation freezes. Each production round must include:
+Each production round must include:
 
-1. a material improvement,
+1. one material improvement,
 2. contract tests,
 3. relevant appraisal or scorecard output,
-4. a review note,
+4. a review note under `docs/reviews/`,
 5. a git commit,
 6. a freeze manifest,
 7. a tag.
-
-See:
-
-- `docs/production/ITERATION_LEDGER.md`
-- `docs/production/SCIENTIFIC_POSITIONING.md`
-- `docs/API_CONTRACT.md`
-- `docs/REPOSITORY_GUIDE.md`
-- `docs/reviews/`
-- `freezes/`
