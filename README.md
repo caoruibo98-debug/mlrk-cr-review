@@ -22,13 +22,14 @@ Current unsafe claim:
 
 ## Current Performance Snapshot
 
-As of `generation_14`:
+As of `generation_15`:
 
 - Core curated food-glycoside panel: `6 / 6` strict top-5 hits, score `3.88 / 5`.
 - Production challenge panel: `8 / 22` strict top-5 hits, score `2.81 / 5`.
 - Challenge failure taxonomy: `14` expected products not generated, `8` benchmark-only top-5 hits.
 - Reaction-family KPI report: `19` families, with candidate-generation-blocked families separated from evidence-integration-blocked families.
 - API contract: stable error codes for invalid input, schema validation, pending jobs, failed jobs, and timeout states.
+- Repository doctor: `ready`, with `33` layout and entrypoint checks passing.
 - Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
 - Readiness status: `internal_mvp_only`.
 
@@ -95,6 +96,12 @@ Build reaction-family KPI reporting:
 
 ```bash
 python scripts/reaction_family_kpis.py
+```
+
+Check repository layout and reviewer entrypoints:
+
+```bash
+python scripts/repo_doctor.py
 ```
 
 Export external benchmark inputs:
@@ -164,5 +171,6 @@ See:
 - `docs/production/ITERATION_LEDGER.md`
 - `docs/production/SCIENTIFIC_POSITIONING.md`
 - `docs/API_CONTRACT.md`
+- `docs/REPOSITORY_GUIDE.md`
 - `docs/reviews/`
 - `freezes/`

@@ -22,6 +22,7 @@ CHALLENGE_REPORT = ROOT / "outputs" / "appraisal" / "challenge_appraisal.json"
 EXTERNAL_EXPORT_MANIFEST = ROOT / "outputs" / "external_benchmarks" / "manifest.json"
 EXTERNAL_RESULT_SCORECARD = ROOT / "outputs" / "external_benchmarks" / "external_result_scorecard.json"
 REACTION_FAMILY_KPIS = ROOT / "outputs" / "appraisal" / "reaction_family_kpis.json"
+REPO_DOCTOR = ROOT / "outputs" / "appraisal" / "repo_doctor.json"
 
 
 def parse_mean(value: str) -> float:
@@ -179,6 +180,7 @@ def main() -> int:
         "external_benchmark_export": read_json(EXTERNAL_EXPORT_MANIFEST) or {"status": "missing_export_manifest"},
         "external_result_scorecard": read_json(EXTERNAL_RESULT_SCORECARD) or {"status": "awaiting_external_outputs"},
         "reaction_family_kpis": read_json(REACTION_FAMILY_KPIS) or {"status": "missing_reaction_family_kpis"},
+        "repository_doctor": read_json(REPO_DOCTOR) or {"status": "missing_repo_doctor"},
         "external_comparison_matrix": external_comparison_matrix(),
         "current_claim": "Internal research MVP for food-polyphenol candidate generation/ranking, strongest on glycoside aglycone release.",
         "remaining_gap_to_full_food_microbiome_metabolite_prediction": [

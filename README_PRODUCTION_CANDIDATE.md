@@ -78,6 +78,14 @@ python scripts/reaction_family_kpis.py
 
 This writes `outputs/appraisal/reaction_family_kpis.json` and `.csv`, splitting each family into candidate-pool recall, strict top-5 recall, benchmark traceability, model-output evidence coverage, production gap, and recommended next action.
 
+Check repository layout and reviewer entrypoints:
+
+```bash
+python scripts/repo_doctor.py
+```
+
+This writes `outputs/appraisal/repo_doctor.json`.
+
 Export external benchmark inputs:
 
 ```bash
@@ -111,6 +119,7 @@ freezes/generation_11/manifest.json
 freezes/generation_12/manifest.json
 freezes/generation_13/manifest.json
 freezes/generation_14/manifest.json
+freezes/generation_15/manifest.json
 ```
 
 ## Retrain deployment models

@@ -21,6 +21,12 @@
     "deployment_models": "outputs/modular/ltr/models_clean",
     "prediction_entrypoint": "modular/predict_substrate_clean.py"
   },
+  "repository_contract": {
+    "guide": "docs/REPOSITORY_GUIDE.md",
+    "doctor_command": "python scripts/repo_doctor.py",
+    "doctor_report": "outputs/appraisal/repo_doctor.json",
+    "entrypoint_policy": "Reviewer-facing scripts live under scripts/ and wrap matching tools/ implementations; legacy modular/ and src/ code remains in place unless migrated in a dedicated round."
+  },
   "training": {
     "deployment_training_command": "python tools/train_deploy_models.py",
     "underlying_training_script": "modular/ltr_deploy.py --candidates clean_candidates.parquet --force",
@@ -80,7 +86,7 @@
   },
   "next_required_evidence": [
     "External head-to-head against BioTransformer, MicrobeRX, and a GutBug-style EC/enzyme baseline.",
-    "Generation recall report by module, reaction class, and rule family.",
+    "Generation recall report by module, reaction class, and rule family, expanded with external tool outputs.",
     "Schema and regression tests for known compounds such as rutin.",
     "Model and data version registry binding rules, embeddings, metrics, and model files."
   ]

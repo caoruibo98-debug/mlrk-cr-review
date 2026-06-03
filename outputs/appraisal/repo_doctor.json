@@ -1,0 +1,293 @@
+{
+  "status": "ready",
+  "schema_version": 1,
+  "summary": {
+    "check_count": 33,
+    "pass_count": 33,
+    "fail_count": 0
+  },
+  "canonical_commands": [
+    {
+      "id": "test",
+      "command": "python scripts/run_contract_tests.py"
+    },
+    {
+      "id": "readiness",
+      "command": "python scripts/validate_production_readiness.py"
+    },
+    {
+      "id": "scorecard",
+      "command": "python scripts/production_scorecard.py"
+    },
+    {
+      "id": "family_kpis",
+      "command": "python scripts/reaction_family_kpis.py"
+    },
+    {
+      "id": "external_export",
+      "command": "python scripts/export_external_benchmarks.py"
+    },
+    {
+      "id": "external_score",
+      "command": "python scripts/score_external_results.py"
+    },
+    {
+      "id": "repo_doctor",
+      "command": "python scripts/repo_doctor.py"
+    },
+    {
+      "id": "predict",
+      "command": "python -m mlrk_prod.cli predict --name rutin --topn 10"
+    },
+    {
+      "id": "serve",
+      "command": "python -m mlrk_prod.cli serve --host 127.0.0.1 --port 8765"
+    }
+  ],
+  "legacy_policy": {
+    "status": "preserved",
+    "message": "Production wrappers live beside legacy code; legacy modular and src paths are not moved during standardization."
+  },
+  "checks": [
+    {
+      "id": "root_docs:README.md",
+      "category": "root_docs",
+      "path": "README.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "root_docs:README_PRODUCTION_CANDIDATE.md",
+      "category": "root_docs",
+      "path": "README_PRODUCTION_CANDIDATE.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "root_docs:production_artifact_manifest.json",
+      "category": "root_docs",
+      "path": "production_artifact_manifest.json",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "root_docs:pyproject.toml",
+      "category": "root_docs",
+      "path": "pyproject.toml",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "root_docs:requirements.txt",
+      "category": "root_docs",
+      "path": "requirements.txt",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "production_docs:docs/API_CONTRACT.md",
+      "category": "production_docs",
+      "path": "docs/API_CONTRACT.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "production_docs:docs/EVALUATION_PROTOCOL.md",
+      "category": "production_docs",
+      "path": "docs/EVALUATION_PROTOCOL.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "production_docs:docs/PRODUCTION_READINESS_REVIEW.md",
+      "category": "production_docs",
+      "path": "docs/PRODUCTION_READINESS_REVIEW.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "production_docs:docs/REPOSITORY_GUIDE.md",
+      "category": "production_docs",
+      "path": "docs/REPOSITORY_GUIDE.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "production_docs:docs/SECURITY_AND_DEPLOYMENT_BOUNDARIES.md",
+      "category": "production_docs",
+      "path": "docs/SECURITY_AND_DEPLOYMENT_BOUNDARIES.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "production_docs:docs/WEB_APP_MVP_SPEC.md",
+      "category": "production_docs",
+      "path": "docs/WEB_APP_MVP_SPEC.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "production_docs:docs/production/ITERATION_LEDGER.md",
+      "category": "production_docs",
+      "path": "docs/production/ITERATION_LEDGER.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "production_docs:docs/production/SCIENTIFIC_POSITIONING.md",
+      "category": "production_docs",
+      "path": "docs/production/SCIENTIFIC_POSITIONING.md",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "legacy_boundaries:modular/predict_substrate_clean.py",
+      "category": "legacy_boundaries",
+      "path": "modular/predict_substrate_clean.py",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "legacy_boundaries:modular/ltr_deploy.py",
+      "category": "legacy_boundaries",
+      "path": "modular/ltr_deploy.py",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "legacy_boundaries:src",
+      "category": "legacy_boundaries",
+      "path": "src",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "versioned_outputs:outputs/appraisal/life_science_appraisal.json",
+      "category": "versioned_outputs",
+      "path": "outputs/appraisal/life_science_appraisal.json",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "versioned_outputs:outputs/appraisal/challenge_appraisal.json",
+      "category": "versioned_outputs",
+      "path": "outputs/appraisal/challenge_appraisal.json",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "versioned_outputs:outputs/appraisal/production_scorecard.json",
+      "category": "versioned_outputs",
+      "path": "outputs/appraisal/production_scorecard.json",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "versioned_outputs:outputs/appraisal/reaction_family_kpis.json",
+      "category": "versioned_outputs",
+      "path": "outputs/appraisal/reaction_family_kpis.json",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "versioned_outputs:outputs/external_benchmarks/manifest.json",
+      "category": "versioned_outputs",
+      "path": "outputs/external_benchmarks/manifest.json",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "versioned_outputs:outputs/external_benchmarks/external_result_scorecard.json",
+      "category": "versioned_outputs",
+      "path": "outputs/external_benchmarks/external_result_scorecard.json",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "versioned_outputs:outputs/modular/ltr/clean2_metrics.csv",
+      "category": "versioned_outputs",
+      "path": "outputs/modular/ltr/clean2_metrics.csv",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "versioned_outputs:outputs/modular/ltr/models_clean/deploy_meta.json",
+      "category": "versioned_outputs",
+      "path": "outputs/modular/ltr/models_clean/deploy_meta.json",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
+      "id": "script_tool_pair:export_external_benchmarks.py",
+      "category": "script_tool_pair",
+      "path": "scripts/export_external_benchmarks.py",
+      "tool_path": "tools/export_external_benchmarks.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    },
+    {
+      "id": "script_tool_pair:freeze_generation.py",
+      "category": "script_tool_pair",
+      "path": "scripts/freeze_generation.py",
+      "tool_path": "tools/freeze_generation.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    },
+    {
+      "id": "script_tool_pair:life_science_appraisal.py",
+      "category": "script_tool_pair",
+      "path": "scripts/life_science_appraisal.py",
+      "tool_path": "tools/life_science_appraisal.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    },
+    {
+      "id": "script_tool_pair:production_scorecard.py",
+      "category": "script_tool_pair",
+      "path": "scripts/production_scorecard.py",
+      "tool_path": "tools/production_scorecard.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    },
+    {
+      "id": "script_tool_pair:reaction_family_kpis.py",
+      "category": "script_tool_pair",
+      "path": "scripts/reaction_family_kpis.py",
+      "tool_path": "tools/reaction_family_kpis.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    },
+    {
+      "id": "script_tool_pair:repo_doctor.py",
+      "category": "script_tool_pair",
+      "path": "scripts/repo_doctor.py",
+      "tool_path": "tools/repo_doctor.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    },
+    {
+      "id": "script_tool_pair:run_contract_tests.py",
+      "category": "script_tool_pair",
+      "path": "scripts/run_contract_tests.py",
+      "tool_path": "tools/run_contract_tests.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    },
+    {
+      "id": "script_tool_pair:score_external_results.py",
+      "category": "script_tool_pair",
+      "path": "scripts/score_external_results.py",
+      "tool_path": "tools/score_external_results.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    },
+    {
+      "id": "script_tool_pair:validate_production_readiness.py",
+      "category": "script_tool_pair",
+      "path": "scripts/validate_production_readiness.py",
+      "tool_path": "tools/validate_production_readiness.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    }
+  ]
+}
