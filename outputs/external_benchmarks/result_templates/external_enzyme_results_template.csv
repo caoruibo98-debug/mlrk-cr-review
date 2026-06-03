@@ -1,0 +1,4 @@
+tool,case_id,substrate_pubchem_cid,predicted_ec,predicted_enzyme,predicted_microbe_or_strain,score,raw_source_file
+example_ec_tool,rutin_quercetin,5280805,,,,,
+example_ec_tool,quercitrin_quercetin,5280459,,,,,
+example_ec_tool,naringin_naringenin,442428,,,,,

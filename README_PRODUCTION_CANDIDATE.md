@@ -78,6 +78,14 @@ python scripts/export_external_benchmarks.py
 
 This writes BioTransformer, MicrobeRX, and GutBug-style benchmark input files under `outputs/external_benchmarks/`. These files are not external validation results; they are the case-level handoff for external tool execution.
 
+Score imported external outputs:
+
+```bash
+python scripts/score_external_results.py
+```
+
+Without real external tool outputs, the scorecard remains `awaiting_external_outputs`. Product-output tools are scored by expected-product InChIKey recall; EC/enzyme tools are imported as evidence coverage only unless expected EC labels are later curated.
+
 Frozen iterations are recorded under:
 
 ```text
@@ -92,6 +100,7 @@ freezes/generation_08/manifest.json
 freezes/generation_09/manifest.json
 freezes/generation_10/manifest.json
 freezes/generation_11/manifest.json
+freezes/generation_12/manifest.json
 ```
 
 ## Retrain deployment models

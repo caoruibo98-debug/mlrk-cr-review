@@ -95,6 +95,12 @@ Export external benchmark inputs:
 python scripts/export_external_benchmarks.py
 ```
 
+Score imported external benchmark outputs:
+
+```bash
+python scripts/score_external_results.py
+```
+
 ## API
 
 Start the internal API:
@@ -125,6 +131,8 @@ The production scorecard separates:
 6. remaining production blockers.
 
 The external benchmark input files are under `outputs/external_benchmarks/`. They are not external validation results; they are the reproducible handoff for running those tools and importing their outputs later.
+
+External result templates are under `outputs/external_benchmarks/result_templates/`. Until real external output files are imported, the external result scorecard stays at `awaiting_external_outputs`.
 
 ## Iteration Process
 

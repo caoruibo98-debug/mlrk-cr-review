@@ -12,6 +12,8 @@ outputs/*
 !outputs/external_benchmarks/*.tsv
 !outputs/external_benchmarks/*.sdf
 !outputs/external_benchmarks/*.json
+!outputs/external_benchmarks/result_templates/
+!outputs/external_benchmarks/result_templates/*.csv
 !outputs/modular/
 outputs/modular/*
 !outputs/modular/ltr/

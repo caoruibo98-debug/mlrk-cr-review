@@ -83,11 +83,22 @@ def validate_readiness(manifest: dict[str, Any] | None = None) -> list[Readiness
     gates = data.get("readiness_gates", {})
     if not gates.get("external_head_to_head_complete", False):
         external_inputs = resolve_kernel_path("outputs/external_benchmarks/manifest.json")
+        external_scores = resolve_kernel_path("outputs/external_benchmarks/external_result_scorecard.json")
+        score_status = None
+        if external_scores.exists():
+            with external_scores.open("r", encoding="utf-8") as f:
+                score_status = json.load(f).get("status")
         detail = (
-            "External benchmark inputs are exported, but BioTransformer/MicrobeRX/GutBug-style outputs are not scored yet."
+            "External benchmark inputs and import harness are ready, but real BioTransformer/MicrobeRX/GutBug-style outputs are not scored yet."
+            if external_inputs.exists() and score_status == "awaiting_external_outputs"
+            else "External benchmark inputs are exported, but BioTransformer/MicrobeRX/GutBug-style outputs are not scored yet."
             if external_inputs.exists()
             else "External BioTransformer/MicrobeRX/GutBug-style benchmark inputs and scored outputs are not complete."
         )
+        if score_status == "scored_external_outputs":
+            detail = (
+                "External benchmark outputs have been imported, but the manifest gate remains false until the review accepts the head-to-head comparison."
+            )
         issues.append(ReadinessIssue("warning", "external_benchmark_results_missing", detail))
     if not gates.get("wet_lab_validation_complete", False):
         issues.append(ReadinessIssue("info", "wet_lab_missing", "Wet-lab validation is not complete; public biological claims must stay limited."))

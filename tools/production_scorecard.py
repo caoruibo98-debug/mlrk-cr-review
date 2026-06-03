@@ -20,6 +20,7 @@ METRICS = ROOT / "outputs" / "modular" / "ltr" / "clean2_metrics.csv"
 CORE_REPORT = ROOT / "outputs" / "appraisal" / "life_science_appraisal.json"
 CHALLENGE_REPORT = ROOT / "outputs" / "appraisal" / "challenge_appraisal.json"
 EXTERNAL_EXPORT_MANIFEST = ROOT / "outputs" / "external_benchmarks" / "manifest.json"
+EXTERNAL_RESULT_SCORECARD = ROOT / "outputs" / "external_benchmarks" / "external_result_scorecard.json"
 
 
 def parse_mean(value: str) -> float:
@@ -175,6 +176,7 @@ def main() -> int:
         "core_panel": panel_summary(read_json(CORE_REPORT), "core_food_glycoside_panel"),
         "challenge_panel": panel_summary(read_json(CHALLENGE_REPORT), "production_challenge_panel"),
         "external_benchmark_export": read_json(EXTERNAL_EXPORT_MANIFEST) or {"status": "missing_export_manifest"},
+        "external_result_scorecard": read_json(EXTERNAL_RESULT_SCORECARD) or {"status": "awaiting_external_outputs"},
         "external_comparison_matrix": external_comparison_matrix(),
         "current_claim": "Internal research MVP for food-polyphenol candidate generation/ranking, strongest on glycoside aglycone release.",
         "remaining_gap_to_full_food_microbiome_metabolite_prediction": [

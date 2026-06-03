@@ -1,0 +1,4 @@
+tool,case_id,rank,predicted_product_name,predicted_product_smiles,predicted_product_inchikey,reaction_id,enzyme_ec,evidence_reference,raw_source_file
+sample_product_tool,rutin_quercetin,1,quercetin,O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,,fixture_rxn,3.2.1.21,PMID:fixture,fixture.csv
+sample_product_tool,quercitrin_quercetin,1,ethanol,CCO,,fixture_bad,,,fixture.csv
+sample_product_tool,chlorogenic_acid_caffeic_acid,7,caffeic acid,O=C(O)/C=C/c1ccc(O)c(O)c1,,fixture_late,,,fixture.csv

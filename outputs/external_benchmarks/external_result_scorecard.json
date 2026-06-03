@@ -1,0 +1,14 @@
+{
+  "status": "awaiting_external_outputs",
+  "case_count": 28,
+  "product_result_files": [],
+  "enzyme_result_files": [],
+  "template_files": [
+    "outputs/external_benchmarks/result_templates/external_product_results_template.csv",
+    "outputs/external_benchmarks/result_templates/external_enzyme_results_template.csv"
+  ],
+  "product_tool_summaries": {},
+  "product_case_results": [],
+  "enzyme_tool_summaries": {},
+  "claim_boundary": "External validation is not complete unless real external tool outputs are imported and scored."
+}

@@ -1,0 +1,4 @@
+tool,case_id,rank,predicted_product_name,predicted_product_smiles,predicted_product_inchikey,reaction_id,enzyme_ec,evidence_reference,raw_source_file
+example_product_tool,rutin_quercetin,1,quercetin,O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,REFJWTPEDVJJIY-UHFFFAOYSA-N,,,PMID:9875509,
+example_product_tool,quercitrin_quercetin,1,quercetin,O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,REFJWTPEDVJJIY-UHFFFAOYSA-N,,,PMID:3435494,
+example_product_tool,naringin_naringenin,1,naringenin,O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21,FTVWIRXFELQLPI-ZDUSSCGKSA-N,,,PMID:26505733,
