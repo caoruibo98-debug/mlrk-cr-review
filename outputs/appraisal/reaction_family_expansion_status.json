@@ -1,0 +1,262 @@
+{
+  "status": "ready",
+  "branch_intent": "reaction-family-expansion",
+  "source_seed_manifest": "data/reaction_family_gap_seed_manifest.tsv",
+  "source_reaction_kpis": "outputs/appraisal/reaction_family_kpis.json",
+  "policy": {
+    "challenge_holdouts_are_not_training_data": true,
+    "reason": "Seed rows resolve known blocked benchmark cases into machine-readable structures, but must be replaced by independent cases before training to avoid leakage."
+  },
+  "seed_summary": {
+    "rows": 14,
+    "families": 12,
+    "training_allowed_rows": 0,
+    "holdout_rows": 14,
+    "family_counts": {
+      "ellagitannin_hydrolysis": 1,
+      "ellagitannin_urolithin_multistep": 1,
+      "flavanol_ring_fission": 2,
+      "flavanone_ring_fission": 1,
+      "flavonol_ring_fission": 1,
+      "isoflavone_c_glycoside_conversion": 1,
+      "isoflavone_reduction": 2,
+      "isoflavone_reductive_metabolism": 1,
+      "lignan_deglucosylation": 1,
+      "lignan_multistep_demethylation_dehydroxylation": 1,
+      "lignan_oxidation": 1,
+      "phenolic_ester_hydrolysis": 1
+    },
+    "transformation_counts": {
+      "ellagitannin_hydrolysis": 1,
+      "ester_hydrolysis": 1,
+      "flavanol_c_ring_fission_to_valerolactone": 2,
+      "flavanone_ring_fission_to_phenylpropionic_acid": 1,
+      "flavonol_ring_fission_to_phenylacetic_acid": 1,
+      "isoflavone_c_glycoside_conversion": 1,
+      "isoflavone_first_reduction": 2,
+      "lignan_dehydrogenation_lactonization": 1,
+      "lignan_o_deglycosylation": 1,
+      "multistep_demethylation_dehydroxylation": 1,
+      "multistep_isoflavone_reduction": 1,
+      "multistep_lactone_cleavage_decarboxylation_dehydroxylation": 1
+    }
+  },
+  "blocked_family_count": 12,
+  "blocked_families": [
+    "ellagitannin_hydrolysis",
+    "ellagitannin_urolithin_multistep",
+    "flavanol_ring_fission",
+    "flavanone_ring_fission",
+    "flavonol_ring_fission",
+    "isoflavone_c_glycoside_conversion",
+    "isoflavone_reduction",
+    "isoflavone_reductive_metabolism",
+    "lignan_deglucosylation",
+    "lignan_multistep_demethylation_dehydroxylation",
+    "lignan_oxidation",
+    "phenolic_ester_hydrolysis"
+  ],
+  "blocked_without_seed": [],
+  "ready_for_retraining_families": [],
+  "family_status": [
+    {
+      "reaction_family": "ellagitannin_hydrolysis",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 20,
+      "additional_training_pairs_needed": 20,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_large_ellagitannin_hydrolysis_or_external_tool_import"
+      ]
+    },
+    {
+      "reaction_family": "ellagitannin_urolithin_multistep",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 30,
+      "additional_training_pairs_needed": 30,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_multistep_urolithin_pathway_candidates_with_stage_labels"
+      ]
+    },
+    {
+      "reaction_family": "flavanol_ring_fission",
+      "current_case_count": 2,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 2,
+      "holdout_seed_rows": 2,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 30,
+      "additional_training_pairs_needed": 30,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_flavanol_c_ring_fission_templates_or_curated_external_import"
+      ]
+    },
+    {
+      "reaction_family": "flavanone_ring_fission",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 25,
+      "additional_training_pairs_needed": 25,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_flavanone_ring_fission_to_phenylpropionic_acid_family"
+      ]
+    },
+    {
+      "reaction_family": "flavonol_ring_fission",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 25,
+      "additional_training_pairs_needed": 25,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_flavonol_ring_fission_to_low_molecular_weight_phenolics"
+      ]
+    },
+    {
+      "reaction_family": "isoflavone_c_glycoside_conversion",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 20,
+      "additional_training_pairs_needed": 20,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_c_glycoside_conversion_family_distinct_from_o_glycoside_hydrolysis"
+      ]
+    },
+    {
+      "reaction_family": "isoflavone_reduction",
+      "current_case_count": 2,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 2,
+      "holdout_seed_rows": 2,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 25,
+      "additional_training_pairs_needed": 25,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_isoflavone_c2_c3_reduction_templates"
+      ]
+    },
+    {
+      "reaction_family": "isoflavone_reductive_metabolism",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 30,
+      "additional_training_pairs_needed": 30,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_isoflavone_reduction_intermediate_rules_and_equol_pathway_labels"
+      ]
+    },
+    {
+      "reaction_family": "lignan_deglucosylation",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 20,
+      "additional_training_pairs_needed": 20,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "extend_glycoside_rescue_to_lignan_diglucosides_and_record_lignan_family"
+      ]
+    },
+    {
+      "reaction_family": "lignan_multistep_demethylation_dehydroxylation",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 30,
+      "additional_training_pairs_needed": 30,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_enterolignan_pathway_intermediates_not_single_step_shortcuts"
+      ]
+    },
+    {
+      "reaction_family": "lignan_oxidation",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 15,
+      "additional_training_pairs_needed": 15,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_lignan_terminal_oxidation_lactone_candidate_generation"
+      ]
+    },
+    {
+      "reaction_family": "phenolic_ester_hydrolysis",
+      "current_case_count": 1,
+      "current_candidate_pool_recall": 0.0,
+      "current_top5_hit_rate": 0.0,
+      "seed_rows": 1,
+      "holdout_seed_rows": 1,
+      "training_allowed_seed_rows": 0,
+      "target_independent_training_pairs": 20,
+      "additional_training_pairs_needed": 20,
+      "current_status": "seeded_holdout_only",
+      "next_action": "Add curated reaction-family candidate generation before tuning the ranker.",
+      "required_model_changes": [
+        "add_phenolic_ester_hydrolysis_rule_or_external_product_import"
+      ]
+    }
+  ],
+  "overall_next_steps": [
+    "Collect independent non-holdout positive pairs for each seeded family.",
+    "Attach source IDs, English names, Chinese names, SMILES, InChIKey, PMIDs/PMCIDs/DOIs, enzymes, microbes, and evidence tiers.",
+    "Add reaction-family candidate-generation rules only after at least one independent training seed and one holdout case exist for that family.",
+    "Benchmark ChemBERTa-2 against MoLFormer and MolT5/ChemT5-style encoders after the new cases are versioned.",
+    "Retrain only after data audit confirms no challenge-holdout leakage."
+  ]
+}

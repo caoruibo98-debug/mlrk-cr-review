@@ -23,6 +23,7 @@ TEST_MODULES = [
     "tests.test_fresh_clone_report",
     "tests.test_atomic_report_writes",
     "tests.test_release_summary",
+    "tests.test_reaction_family_expansion_status",
 ]
 
 
