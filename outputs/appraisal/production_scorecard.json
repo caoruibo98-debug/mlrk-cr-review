@@ -2266,8 +2266,8 @@
     "status": "ready",
     "schema_version": 1,
     "summary": {
-      "check_count": 38,
-      "pass_count": 38,
+      "check_count": 40,
+      "pass_count": 40,
       "fail_count": 0
     },
     "canonical_commands": [
@@ -2302,6 +2302,10 @@
       {
         "id": "external_review_status",
         "command": "python scripts/external_review_status.py"
+      },
+      {
+        "id": "fresh_clone_report",
+        "command": "python scripts/fresh_clone_report.py"
       },
       {
         "id": "repo_doctor",
@@ -2483,6 +2487,13 @@
         "message": "exists"
       },
       {
+        "id": "versioned_outputs:outputs/appraisal/fresh_clone_report.json",
+        "category": "versioned_outputs",
+        "path": "outputs/appraisal/fresh_clone_report.json",
+        "status": "pass",
+        "message": "exists"
+      },
+      {
         "id": "versioned_outputs:outputs/external_benchmarks/manifest.json",
         "category": "versioned_outputs",
         "path": "outputs/external_benchmarks/manifest.json",
@@ -2531,6 +2542,14 @@
         "category": "script_tool_pair",
         "path": "scripts/freeze_generation.py",
         "tool_path": "tools/freeze_generation.py",
+        "status": "pass",
+        "message": "script wrapper and tool implementation are paired"
+      },
+      {
+        "id": "script_tool_pair:fresh_clone_report.py",
+        "category": "script_tool_pair",
+        "path": "scripts/fresh_clone_report.py",
+        "tool_path": "tools/fresh_clone_report.py",
         "status": "pass",
         "message": "script wrapper and tool implementation are paired"
       },
@@ -2609,6 +2628,46 @@
     "review_claim_allowed": false,
     "note": "CLI version 0.5.3 and agent auth succeeded, but review command timed out with exit code 124 before returning issues.",
     "next_step": "Retry external AI/code review later or use a different review service; do not claim external review passed."
+  },
+  "fresh_clone_report": {
+    "status": "passed",
+    "source_url": "https://github.com/caoruibo98-debug/mlrk-cr-review.git",
+    "source_ref": "generation_18",
+    "commit": "fda7f6c8eff8ccd99eb3a6b7275037c2cfcacd2c",
+    "clone_path": "D:\\CRB\\FoodGut\\fresh_clone_generation_19",
+    "checks": [
+      {
+        "id": "contract_tests",
+        "status": "passed",
+        "detail": "PASSED 49 contract tests"
+      },
+      {
+        "id": "production_scorecard",
+        "status": "passed",
+        "detail": "internal_mvp_only"
+      },
+      {
+        "id": "readiness",
+        "status": "passed",
+        "detail": "internal_mvp_only"
+      },
+      {
+        "id": "repo_doctor",
+        "status": "passed",
+        "detail": "ready",
+        "check_count": 38
+      },
+      {
+        "id": "model_card",
+        "status": "passed",
+        "detail": "ready"
+      }
+    ],
+    "metrics": {
+      "core_top5": 1.0,
+      "challenge_top5": 0.364
+    },
+    "claim_boundary": "Fresh-clone reproducibility supports internal release-candidate confidence only; it is not external biological validation."
   },
   "external_comparison_matrix": [
     {

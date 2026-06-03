@@ -2,8 +2,8 @@
   "status": "ready",
   "schema_version": 1,
   "summary": {
-    "check_count": 38,
-    "pass_count": 38,
+    "check_count": 40,
+    "pass_count": 40,
     "fail_count": 0
   },
   "canonical_commands": [
@@ -38,6 +38,10 @@
     {
       "id": "external_review_status",
       "command": "python scripts/external_review_status.py"
+    },
+    {
+      "id": "fresh_clone_report",
+      "command": "python scripts/fresh_clone_report.py"
     },
     {
       "id": "repo_doctor",
@@ -219,6 +223,13 @@
       "message": "exists"
     },
     {
+      "id": "versioned_outputs:outputs/appraisal/fresh_clone_report.json",
+      "category": "versioned_outputs",
+      "path": "outputs/appraisal/fresh_clone_report.json",
+      "status": "pass",
+      "message": "exists"
+    },
+    {
       "id": "versioned_outputs:outputs/external_benchmarks/manifest.json",
       "category": "versioned_outputs",
       "path": "outputs/external_benchmarks/manifest.json",
@@ -267,6 +278,14 @@
       "category": "script_tool_pair",
       "path": "scripts/freeze_generation.py",
       "tool_path": "tools/freeze_generation.py",
+      "status": "pass",
+      "message": "script wrapper and tool implementation are paired"
+    },
+    {
+      "id": "script_tool_pair:fresh_clone_report.py",
+      "category": "script_tool_pair",
+      "path": "scripts/fresh_clone_report.py",
+      "tool_path": "tools/fresh_clone_report.py",
       "status": "pass",
       "message": "script wrapper and tool implementation are paired"
     },

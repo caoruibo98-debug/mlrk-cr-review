@@ -35,6 +35,7 @@ def build_summary(scorecard: dict[str, Any]) -> dict[str, Any]:
     external_results = scorecard.get("external_result_scorecard", {})
     external_review = scorecard.get("external_review_status", {})
     repo_doctor = scorecard.get("repository_doctor", {})
+    fresh_clone = scorecard.get("fresh_clone_report", {})
     return {
         "status": "ready",
         "source_scorecard": "outputs/appraisal/production_scorecard.json",
@@ -64,6 +65,7 @@ def build_summary(scorecard: dict[str, Any]) -> dict[str, Any]:
         "external_ai_review_status": external_review.get("status", "unknown"),
         "external_ai_review_claim_allowed": external_review.get("review_claim_allowed", False),
         "repository_doctor_status": repo_doctor.get("status", "unknown"),
+        "fresh_clone_status": fresh_clone.get("status", "unknown"),
         "readiness_issues": scorecard.get("readiness_issues", []),
         "remaining_gaps": scorecard.get("remaining_gap_to_full_food_microbiome_metabolite_prediction", []),
     }
@@ -96,6 +98,7 @@ Generated from `{summary['source_scorecard']}`.
 - External result status: `{summary['external_result_status']}`
 - External AI/code review status: `{summary['external_ai_review_status']}` (claim allowed: `{review_claim_allowed}`)
 - Repository doctor status: `{summary['repository_doctor_status']}`
+- Fresh-clone release-candidate status: `{summary['fresh_clone_status']}`
 
 ## System Type
 

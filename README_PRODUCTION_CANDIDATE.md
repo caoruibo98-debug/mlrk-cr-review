@@ -102,6 +102,14 @@ python scripts/external_review_status.py --tool CodeRabbit --status timed_out --
 
 This writes `outputs/appraisal/external_review_status.json`. A timed-out review is not a passed review.
 
+Record fresh-clone release-candidate status:
+
+```bash
+python scripts/fresh_clone_report.py --source-url https://github.com/caoruibo98-debug/mlrk-cr-review.git --source-ref generation_18 --commit fda7f6c8eff8ccd99eb3a6b7275037c2cfcacd2c --clone-path D:\CRB\FoodGut\fresh_clone_generation_19 --contract-tests "PASSED 49 contract tests" --scorecard-status internal_mvp_only --core-top5 1.0 --challenge-top5 0.364 --readiness-status internal_mvp_only --repo-doctor-status ready --repo-doctor-checks 38 --model-card-status ready
+```
+
+This writes `outputs/appraisal/fresh_clone_report.json`.
+
 Export external benchmark inputs:
 
 ```bash
@@ -139,6 +147,7 @@ freezes/generation_15/manifest.json
 freezes/generation_16/manifest.json
 freezes/generation_17/manifest.json
 freezes/generation_18/manifest.json
+freezes/generation_19/manifest.json
 ```
 
 ## Retrain deployment models

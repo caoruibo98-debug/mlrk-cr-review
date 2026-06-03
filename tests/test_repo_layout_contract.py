@@ -26,6 +26,7 @@ def test_repo_doctor_declares_human_reviewer_entrypoints() -> None:
         "family_kpis",
         "model_card",
         "external_review_status",
+        "fresh_clone_report",
         "repo_doctor",
         "predict",
         "serve",

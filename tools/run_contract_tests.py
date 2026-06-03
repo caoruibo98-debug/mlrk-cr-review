@@ -20,6 +20,7 @@ TEST_MODULES = [
     "tests.test_repo_layout_contract",
     "tests.test_model_card_contract",
     "tests.test_external_review_status",
+    "tests.test_fresh_clone_report",
 ]
 
 

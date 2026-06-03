@@ -69,6 +69,7 @@
   "external_ai_review_status": "timed_out",
   "external_ai_review_claim_allowed": false,
   "repository_doctor_status": "ready",
+  "fresh_clone_status": "passed",
   "readiness_issues": [
     {
       "severity": "warning",

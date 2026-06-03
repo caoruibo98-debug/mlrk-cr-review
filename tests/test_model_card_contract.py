@@ -36,4 +36,5 @@ def test_model_card_builder_matches_current_scorecard() -> None:
     assert summary["external_result_status"] == "awaiting_external_outputs"
     assert summary["external_ai_review_status"] == "timed_out"
     assert summary["external_ai_review_claim_allowed"] is False
+    assert summary["fresh_clone_status"] == "passed"
     assert summary["generalization_evidence_level"]["level"] == 3

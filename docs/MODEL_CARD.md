@@ -9,6 +9,7 @@ Generated from `outputs/appraisal/production_scorecard.json`.
 - External result status: `awaiting_external_outputs`
 - External AI/code review status: `timed_out` (claim allowed: `false`)
 - Repository doctor status: `ready`
+- Fresh-clone release-candidate status: `passed`
 
 ## System Type
 

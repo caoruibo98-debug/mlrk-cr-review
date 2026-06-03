@@ -16,7 +16,7 @@ Current unsafe claim:
 
 > Broad prediction of all food-derived gut microbial metabolites, strain-aware metabolism, clinical effects, consumer health recommendations, or wet-lab occurrence probabilities.
 
-As of `generation_18`:
+As of `generation_19`:
 
 - Core curated food-glycoside panel: `6 / 6` strict top-5 hits, score `3.88 / 5`.
 - Production challenge panel: `8 / 22` strict top-5 hits, score `2.81 / 5`.
@@ -25,8 +25,9 @@ As of `generation_18`:
 - API contract: stable error codes for invalid input, schema validation, pending jobs, failed jobs, and timeout states.
 - Model card: generated from `outputs/appraisal/production_scorecard.json`.
 - External review gate: CodeRabbit CLI/auth passed, review command timed out after `604046 ms`; no external review pass is claimed.
-- Repository doctor: `ready`, with `38` layout and entrypoint checks passing.
-- Contract tests: `49`.
+- Fresh-clone release-candidate check: `passed` on GitHub tag `generation_18` at commit `fda7f6c`.
+- Repository doctor: `ready`, with `40` layout and entrypoint checks passing.
+- Contract tests: `51`.
 - Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
 
 The challenge-panel result is intentional and important: it shows the model is not ready for broad food microbiome metabolite prediction.
@@ -53,7 +54,7 @@ python scripts/production_scorecard.py
 Expected high-level results:
 
 ```text
-PASSED 49 contract tests
+PASSED 51 contract tests
 readiness status: internal_mvp_only
 repo doctor: ready
 scorecard status: internal_mvp_only
@@ -111,6 +112,7 @@ The external benchmark input files under `outputs/external_benchmarks/` are not 
 | `outputs/appraisal/reaction_family_kpis.json` | Reaction-family coverage and next-action report. |
 | `outputs/appraisal/model_card_summary.json` | Scorecard-backed model-card summary. |
 | `outputs/appraisal/external_review_status.json` | External AI/code-review attempt status. |
+| `outputs/appraisal/fresh_clone_report.json` | Fresh-clone release-candidate verification report. |
 | `outputs/appraisal/repo_doctor.json` | Repository layout and reviewer-entrypoint check report. |
 | `outputs/external_benchmarks/manifest.json` | External benchmark export manifest. |
 | `outputs/external_benchmarks/external_result_scorecard.json` | External result import status and scores, currently awaiting real external outputs. |
