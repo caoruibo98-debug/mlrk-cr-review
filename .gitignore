@@ -4,6 +4,13 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 runtime/
-outputs/
+outputs/*
+!outputs/modular/
+outputs/modular/*
+!outputs/modular/ltr/
+outputs/modular/ltr/*
+!outputs/modular/ltr/models_clean/
+!outputs/modular/ltr/models_clean/*.json
+!outputs/modular/ltr/clean2_metrics.csv
+!outputs/modular/ltr/clean2_feature_importance.csv
 *.log
-

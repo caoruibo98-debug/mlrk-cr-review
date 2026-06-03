@@ -1,0 +1,38 @@
+{
+  "A": {
+    "module": "A",
+    "feat": "chem_only_reaction_diff",
+    "dim": 384,
+    "feat_dim": 1536,
+    "n_train_rows": 6522,
+    "n_pos": 438,
+    "n_substrates": 325
+  },
+  "B": {
+    "module": "B",
+    "feat": "chem_only_reaction_diff",
+    "dim": 384,
+    "feat_dim": 1536,
+    "n_train_rows": 7035,
+    "n_pos": 505,
+    "n_substrates": 270
+  },
+  "C": {
+    "module": "C",
+    "feat": "chem_only_reaction_diff",
+    "dim": 384,
+    "feat_dim": 1536,
+    "n_train_rows": 4752,
+    "n_pos": 534,
+    "n_substrates": 397
+  },
+  "D": {
+    "module": "D",
+    "feat": "chem_only_reaction_diff",
+    "dim": 384,
+    "feat_dim": 1536,
+    "n_train_rows": 6394,
+    "n_pos": 662,
+    "n_substrates": 391
+  }
+}

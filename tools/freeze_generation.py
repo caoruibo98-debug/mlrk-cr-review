@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 TRACKED = [
+    ".gitignore",
     "production_artifact_manifest.json",
     "pyproject.toml",
     "mlrk_prod",
@@ -22,6 +23,9 @@ TRACKED = [
     "configs",
     "gen_gap",
     "verification",
+    "outputs/modular/ltr/models_clean",
+    "outputs/modular/ltr/clean2_metrics.csv",
+    "outputs/modular/ltr/clean2_feature_importance.csv",
 ]
 
 

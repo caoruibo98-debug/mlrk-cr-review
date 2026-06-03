@@ -1,14 +1,38 @@
 from __future__ import annotations
 
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 from mlrk_prod.schemas import validate_prediction_payload
 from mlrk_prod.biosanity import annotate_prediction_payload
 
 
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def ensure_clean_rutin_prediction(path: Path) -> None:
+    if path.exists():
+        return
+    cmd = [sys.executable, "-m", "mlrk_prod.cli", "predict", "--name", "rutin", "--topn", "10"]
+    proc = subprocess.run(
+        cmd,
+        cwd=str(ROOT),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        check=False,
+        timeout=240,
+    )
+    if proc.returncode != 0:
+        raise RuntimeError(proc.stderr or proc.stdout)
+
+
 def test_clean_rutin_prediction_payload_contract() -> None:
-    path = Path("outputs/modular/predictions/clean_rutin.json")
+    path = ROOT / "outputs" / "modular" / "predictions" / "clean_rutin.json"
+    ensure_clean_rutin_prediction(path)
     payload = json.loads(path.read_text(encoding="utf-8"))
     payload = annotate_prediction_payload(payload)
     issues = validate_prediction_payload(payload)
