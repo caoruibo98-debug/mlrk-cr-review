@@ -1,0 +1,316 @@
+{
+  "generation": "generation_05",
+  "git_commit": "dd38d9977932151b807463225a0f41917441b163",
+  "review": "score 4.43; CodeRabbit PR review fixes for appraisal matching, invalid SMILES handling, malformed rejected ranks, and generation_02 traceability",
+  "file_count": 74,
+  "files": [
+    {
+      "path": "configs/kernel_config.yaml",
+      "sha256": "4ec1ba9d17d2872e25627502a12fbabf069ddb67ffa288b656aa2dcce561c002"
+    },
+    {
+      "path": "data/real_biochemistry_panel.csv",
+      "sha256": "477a2441fd2890673b6cc94de6f8d73a69cc86541c9450016cf56d0c8e79878b"
+    },
+    {
+      "path": "docs/EVALUATION_PROTOCOL.md",
+      "sha256": "5106ba39924ac544acc1043d6779106dcd01778166a35594816923f7d0179765"
+    },
+    {
+      "path": "docs/PRODUCTION_READINESS_REVIEW.md",
+      "sha256": "e59d98ddc60cb164ed8450189c5e9684b18e80aba71c7ba2fb2a7e3775917910"
+    },
+    {
+      "path": "docs/reviews/generation_01_review.md",
+      "sha256": "f267110304201b58f2b3625229aaf17ba3a267c87068ce52c3ab6dcb77d4b49d"
+    },
+    {
+      "path": "docs/reviews/generation_02_review.md",
+      "sha256": "52024179fee51d75adb57a1295fca358b2b7f40be9de170f1ff8b8823f01eafa"
+    },
+    {
+      "path": "docs/reviews/generation_03_review.md",
+      "sha256": "785348a62c1597b6267176898ab8b074bffb5913496705c1fce3a9f042c50a6d"
+    },
+    {
+      "path": "docs/reviews/generation_04_review.md",
+      "sha256": "ccb65f3450d12eb422e94399305622eec94473367ee3c755b17f4434d9f768fa"
+    },
+    {
+      "path": "docs/reviews/generation_05_review.md",
+      "sha256": "6367301e793ebfd0040ae8dd898bf6ef8ba40f84383e24a54ae1275b8f76ac19"
+    },
+    {
+      "path": "docs/SECURITY_AND_DEPLOYMENT_BOUNDARIES.md",
+      "sha256": "efaf07b6da17571b0bd4fd209560e998fc9b17a2305314f53523fb76f781323c"
+    },
+    {
+      "path": "docs/WEB_APP_MVP_SPEC.md",
+      "sha256": "3844a7b9454d8b24f2b444de12d8c1d7d51ceb4188519c8f6e307b660ef9a955"
+    },
+    {
+      "path": "gen_gap/diagnose_generation_miss.py",
+      "sha256": "9c4990722c8d21a455109ac30fd79b523610e85cb5f2d22ddc101b2ac47342c9"
+    },
+    {
+      "path": "gen_gap/full_rule_diagnose.py",
+      "sha256": "daaffd72dcec24e0e30627ddb65871e384c1dfc4aa07ec671c0f40d879c511d7"
+    },
+    {
+      "path": "mlrk_prod/__init__.py",
+      "sha256": "0d871341926a99905465717560f70b46823a3332f153773b00f3dcb5e4d3a50b"
+    },
+    {
+      "path": "mlrk_prod/api.py",
+      "sha256": "a85be1c4acef52227de023684b09bc5ca3f42740f11851ead975513e2551dfb9"
+    },
+    {
+      "path": "mlrk_prod/biosanity.py",
+      "sha256": "4d9be590e767521fb66c51c4d43c36a32972eee32b8468b14f6d98519e2bdd85"
+    },
+    {
+      "path": "mlrk_prod/cli.py",
+      "sha256": "6f6bc9e5cd50a0bcf269f2b9a5cabb9965c471da482f507d52e46d1db6b41476"
+    },
+    {
+      "path": "mlrk_prod/glycoside_rescue.py",
+      "sha256": "3274032b0a203dfaf49103276356345d46f963224443fd062a60fcacf4b06f3d"
+    },
+    {
+      "path": "mlrk_prod/manifest.py",
+      "sha256": "bf03c60b24294182a8fd1e2eeeba7f1bbb44ee414d3494c4a8e69a8180569aec"
+    },
+    {
+      "path": "mlrk_prod/paths.py",
+      "sha256": "0c4fbaa8e67b90498da34b3e483253ec9dba8d6a8f2572fa69dd61a0c5e043dc"
+    },
+    {
+      "path": "mlrk_prod/predict_runner.py",
+      "sha256": "2f1d60af55f1fdc80981c7704320a05c6827fd6146b1e45f219463eff2930a3d"
+    },
+    {
+      "path": "mlrk_prod/schemas.py",
+      "sha256": "eb10e66d81dd1b703821d3e0be9f452f5537b6889c23bc72e958b6b581abc142"
+    },
+    {
+      "path": "modular/__init__.py",
+      "sha256": "7d80cd4cae5c99024767f9d2b15df9d2d806f7109790f41d8927a745cabaa400"
+    },
+    {
+      "path": "modular/build_food_test.py",
+      "sha256": "98fbb587dbbb247b23178e209ecd319c30ba2d3c27c0690e130fc5871819d20b"
+    },
+    {
+      "path": "modular/CODE_REVIEW.md",
+      "sha256": "712f8db3571f7cea651f7d0fd426c7cfd43dbc489f58c63bd4272889a4f78b1c"
+    },
+    {
+      "path": "modular/ltr_build.py",
+      "sha256": "c5f701fd8dffac50f221bb701beb710c3ffa1b1721739a94710fd6c2e912e886"
+    },
+    {
+      "path": "modular/ltr_candidates.py",
+      "sha256": "57d4a316328bc0875b3eba410af8d8aa39fc86acde3fa9647e2fa5db03a335cb"
+    },
+    {
+      "path": "modular/ltr_clean_candidates.py",
+      "sha256": "7735c3a8d9678b7e7aa526000b1f379c135c2b865c0f9b18ab3faf5b08c2c68f"
+    },
+    {
+      "path": "modular/ltr_clean_eval.py",
+      "sha256": "ab0a44fa1e383480f55265f51d769916e2a14ab388a2a6d2590bc8e884175ea6"
+    },
+    {
+      "path": "modular/ltr_deploy.py",
+      "sha256": "78eb4f392c2003d4b9fed001bfa33127460ae6ffa18b6cc030a3b4e773ffc5d0"
+    },
+    {
+      "path": "modular/ltr_production.py",
+      "sha256": "646993542086c72cc3fcda9860c052285484950a40b544cb6179cfc83a6a4921"
+    },
+    {
+      "path": "modular/ltr_train_eval.py",
+      "sha256": "9620d5fed262bd534a380acab776d15897fc656ed6052c2acb4eee647f8085cb"
+    },
+    {
+      "path": "modular/ltr_tune.py",
+      "sha256": "a94d8e6040b84b8749e27d2ff76ff3850f4e36442ade7a34c1b727d88e12733c"
+    },
+    {
+      "path": "modular/ltr_v3_train_eval.py",
+      "sha256": "9d55ef591933594d40b0e1d522da854a8b0d5c9b1678bc64a84ab191d549e91b"
+    },
+    {
+      "path": "modular/ltr_v4_train_eval.py",
+      "sha256": "412da43c1f818ea67eda6dbc478fd60b9367bfcbefa8bc1723c9872f8485587c"
+    },
+    {
+      "path": "modular/ltr_v5_eval.py",
+      "sha256": "1d1164144e4c98eb8e8932731cf81a8efb7add7d9e391c6ec7cc7c9c2ded75eb"
+    },
+    {
+      "path": "modular/make_paper_figure.py",
+      "sha256": "f35810e65f89af2158b580c8ac3fa902804df15db27ea591ef8bd55ad70a4453"
+    },
+    {
+      "path": "modular/MODEL_CARD.md",
+      "sha256": "b45e32a41d694afae19319fdcaddb2c65fb94396d801a9406613d2f49c698bdf"
+    },
+    {
+      "path": "modular/module_router.py",
+      "sha256": "f4433875d6ee6e6d01b152ec47720f2be42131e0f5036a0660b3e1dd6dd4ba58"
+    },
+    {
+      "path": "modular/predict_modular.py",
+      "sha256": "045909284563c03aa8954e51496bc35cc30b0a83755730f76f569fc0f99aef58"
+    },
+    {
+      "path": "modular/predict_substrate_clean.py",
+      "sha256": "6f7ca8d51a95d12d375f8b627ce5d49006b11ff7079b0e818812e292c0b9a39d"
+    },
+    {
+      "path": "modular/prepare_gutmgene.py",
+      "sha256": "807c8aa946cf9bbfb70222bbcb65e6bd5a89bdc69ef65201c897730ef0e697a6"
+    },
+    {
+      "path": "modular/PUBLIC_MODEL_COMPARISON.md",
+      "sha256": "d25e0471ba7687605c48fda861e3c0230a549907154275f83fd01fae71e2ba15"
+    },
+    {
+      "path": "production_artifact_manifest.json",
+      "sha256": "61e71a62a49bc14194fe7bd179a76328621288bd1476c152be3d6f1c8d75bce8"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "df2284ccd286cef56a91de0739664ee5242f01a840454aeeb6ff75d8dabfe248"
+    },
+    {
+      "path": "src/__init__.py",
+      "sha256": "6089365e4a75846fa6279eee5a49f08f6b0a9644f54343399613bc8bdeeedcd5"
+    },
+    {
+      "path": "src/ablation_decoy_bias.py",
+      "sha256": "015531d6081561e272073156287e086f37e10a36c2cd7237697bedb3a77d3af2"
+    },
+    {
+      "path": "src/analyze_report.py",
+      "sha256": "fc1d5a01b2d91c075c56c3ff1df051d82d7bbcad134a65fdf06730eea489193c"
+    },
+    {
+      "path": "src/build_kernel_dataset.py",
+      "sha256": "b444d81d72f481fb9e385e2e030207a60cedc9b08ecba6667fe41db197c088d4"
+    },
+    {
+      "path": "src/build_name_map.py",
+      "sha256": "029024ae160a4538f388631425bf5018b4acef11abbc4551645d846aa6cd20db"
+    },
+    {
+      "path": "src/build_network_negatives.py",
+      "sha256": "4c4fa0d1c7c2dc3301a71dad0e49c30ecc1c7d3f1018bb3e026bc05e0cdd6a7e"
+    },
+    {
+      "path": "src/encode_molecules.py",
+      "sha256": "f47f907168a7b1ce654181acaf322997894765f4779493913e4fc6e13b991273"
+    },
+    {
+      "path": "src/evaluate_kernel.py",
+      "sha256": "0ff67d8258c1ef2f195a11bb73f54b91b4bb89026670fd5a6022dc6c355a55a4"
+    },
+    {
+      "path": "src/fuse_hybrid.py",
+      "sha256": "b55108aeddeb75ad4b91e87a5970e9dd63cf1b51235cf20d1605f5fa8f979210"
+    },
+    {
+      "path": "src/generate_candidates.py",
+      "sha256": "64cfb4dce9d967a7e94665892ff8efe999421f73f9f36185a78e9101c7227396"
+    },
+    {
+      "path": "src/kio.py",
+      "sha256": "5d26ff7eeb719075c5b250a91253ab1665dfdcf908d535d2da2e1d957d0ef074"
+    },
+    {
+      "path": "src/make_splits.py",
+      "sha256": "3cb242254d31ad8cc305a827c8497d84d3b665b2dcde5cc9df9f8a204c5064a5"
+    },
+    {
+      "path": "src/predict_kernel.py",
+      "sha256": "02fff6a0feb69ad80bb0f80d7a7b867fc4bff8c1feb297f081a6aa800d573dbf"
+    },
+    {
+      "path": "src/predict_substrate.py",
+      "sha256": "385b9818579ce179e6d7b9d0c2fb2dcad84e42a63220babef21f5b5571e9b240"
+    },
+    {
+      "path": "src/resolve.py",
+      "sha256": "cecba9b54d6e4a26d617d80cbce7d3aa479c744e99d848a4ffab8fa60a7fad41"
+    },
+    {
+      "path": "src/rxnfeat.py",
+      "sha256": "a7985218c7c3a5d64a0463d356c89b4a0f90a790c871ce9d2139ad72d5b0cbe0"
+    },
+    {
+      "path": "src/train_kernel.py",
+      "sha256": "c2e716232633479ff26cb0eda723a9d7cbb68227d6b42384a1e784863092f6d8"
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "8734e5ddf07ab34ea95b1926ae23d8a3c4d12644bd069e88728a0d688f38f573"
+    },
+    {
+      "path": "tests/test_api_contract.py",
+      "sha256": "353b049c322dd9cf550d65c83d79ff1fabcc5378d8d5551b58607d546b3c6da6"
+    },
+    {
+      "path": "tests/test_appraisal_matching.py",
+      "sha256": "3d61403145d0a94e7bee2ade1d5fc1ea013b427bbfe48ad7b3a95a7fd2da926d"
+    },
+    {
+      "path": "tests/test_biosanity.py",
+      "sha256": "719a5f9f9e5a378be3c64037a5dd6555d7f788d6a546d125c9e3a497c85d26ea"
+    },
+    {
+      "path": "tests/test_manifest_contract.py",
+      "sha256": "30380af9e77fe2be3d6084f2f03f8bed1c38a9c562f0dedb10bc85018d8eac54"
+    },
+    {
+      "path": "tests/test_prediction_contract.py",
+      "sha256": "0fe0da0d2ed326e86752c6b1a9d393bba8acda1387920a0975b8f53b107fe272"
+    },
+    {
+      "path": "tools/freeze_generation.py",
+      "sha256": "2bf605d17d45804b2e911807fc42c2a19e9867f4f9d7c1692c9057484ea08f6c"
+    },
+    {
+      "path": "tools/life_science_appraisal.py",
+      "sha256": "0923f29b3e42a2c3cffafc86df1e1e26655dd9fbdd5bd8e42183f0d629bed2e2"
+    },
+    {
+      "path": "tools/run_contract_tests.py",
+      "sha256": "11ae84824e3767fd94d32b18d26ab7a62da4882effe9fcdcfe10b41d45c4450a"
+    },
+    {
+      "path": "tools/train_deploy_models.py",
+      "sha256": "b1e193609167d9a262e0c5f4dc838ffde0906458504298dfc8e04035c676af7e"
+    },
+    {
+      "path": "tools/validate_production_readiness.py",
+      "sha256": "a439783357fd83e4b7dc37a0de8c6d59300e3a483b75bd72f67c4c6e2ad47cab"
+    },
+    {
+      "path": "verification/build_verification_checklist.py",
+      "sha256": "20cd8eb8a823f617ce8bcc89551789c8d2ca119f956468d18df9ad62fe04a62b"
+    }
+  ],
+  "score_file": "outputs/appraisal/life_science_appraisal.json",
+  "score": {
+    "score_0_to_5": 4.43,
+    "dimensions": {
+      "internal_ranker_and_anti_cheat": 1.0,
+      "real_biochemistry_panel": 1.0,
+      "candidate_biochemical_sanity": 1.0,
+      "model_output_evidence_coverage": 0.667,
+      "benchmark_evidence_traceability": 1.0,
+      "deployment_and_claim_boundaries": 0.65
+    }
+  }
+}
