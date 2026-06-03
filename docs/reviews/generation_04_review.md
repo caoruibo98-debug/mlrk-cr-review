@@ -36,6 +36,50 @@ Result: timed out after 10 minutes with no finding or error event.
 
 Stored findings were checked and none were present. This generation therefore records CodeRabbit as authenticated but blocked by review timeout, not as a passed review.
 
+## Follow-up retry after authentication
+
+A no-space review mirror was created at:
+
+```text
+D:\CRB\FoodGut\mlrk_cr_review
+```
+
+The mirror was checked out at `generation_03` with `cr_base_generation_01` pointing to `generation_01`, so the review scope was exactly `generation_01..generation_03`.
+
+Additional CodeRabbit attempts:
+
+1. Full diff in the no-space mirror:
+
+```text
+coderabbit review --agent --base cr_base_generation_01
+```
+
+Result: timed out after 10 minutes with no finding or error event.
+
+2. Scoped `tools` diff in the no-space mirror:
+
+```text
+coderabbit review --agent --type committed --base cr_base_generation_01 --dir tools
+```
+
+Result: timed out after 10 minutes with no finding or error event.
+
+3. Minimal `tests` diff in the no-space mirror:
+
+```text
+coderabbit review --agent --base cr_base_generation_01 --dir tests
+```
+
+Result: timed out after 20 minutes with no finding or error event.
+
+Stored findings were checked again and none were present. The local CodeRabbit CLI review path is therefore still blocked despite confirmed authentication.
+
+GitHub CLI `2.93.0` was installed to prepare a PR-based review route. It is not authenticated yet:
+
+```text
+You are not logged into any GitHub hosts.
+```
+
 ## Model-quality changes
 
 1. Added `mlrk_prod.glycoside_rescue.aromatic_o_glycoside_rescue_candidates`.
@@ -57,4 +101,3 @@ Stored findings were checked and none were present. This generation therefore re
 2. Wet-lab validation is still missing.
 3. The model is strongest for food polyphenol glycoside aglycone prioritization, not for arbitrary gut microbiome metabolism.
 4. CodeRabbit still needs a successful review run before it can be treated as an external code-quality gate.
-
