@@ -62,7 +62,7 @@ Run the production challenge panel:
 python scripts/life_science_appraisal.py --panel data/production_challenge_panel.csv --run-panel --topn 10 --out outputs/appraisal/challenge_appraisal.json
 ```
 
-The current challenge-panel score is `1.79 / 5` with `0 / 6` top-5 hits. That result is used to track the remaining gap to broad food microbiome metabolite prediction.
+The current challenge-panel score is `1.79 / 5` with `1 / 22` top-5 hits. The failure taxonomy shows `18` expected products not generated, `3` no-candidate substrates, and `1` benchmark-only top-5 hit. That result is used to track the remaining gap to broad food microbiome metabolite prediction.
 
 Build the combined production scorecard:
 
@@ -80,6 +80,7 @@ freezes/generation_04/manifest.json
 freezes/generation_05/manifest.json
 freezes/generation_06/manifest.json
 freezes/generation_07/manifest.json
+freezes/generation_08/manifest.json
 ```
 
 ## Retrain deployment models

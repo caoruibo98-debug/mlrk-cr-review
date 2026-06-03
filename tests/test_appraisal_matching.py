@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from tools.life_science_appraisal import block1_from_smiles, find_expected_row
+from tools.life_science_appraisal import block1_from_smiles, classify_expected_outcome, expected_in_candidate_pool, find_expected_row
 
 
 def test_expected_match_uses_connectivity_not_display_name() -> None:
@@ -41,3 +41,28 @@ def test_expected_block1_prevents_name_only_false_positive() -> None:
 
 def test_block1_from_smiles_tolerates_invalid_smiles() -> None:
     assert block1_from_smiles("not a smiles") is None
+
+
+def test_expected_in_candidate_pool_uses_candidate_summary() -> None:
+    payload = {"candidate_summary": {"all_product_blocks": ["AAAA", "BBBB"]}}
+    assert expected_in_candidate_pool(payload, "BBBB") is True
+    assert expected_in_candidate_pool(payload, "CCCC") is False
+
+
+def test_failure_taxonomy_distinguishes_generation_from_ranking() -> None:
+    payload = {
+        "n_rule_candidates": 4,
+        "candidate_summary": {"all_product_blocks": ["EXPECTED"]},
+    }
+    assert (
+        classify_expected_outcome(payload, None, {}, "EXPECTED", "none")
+        == "expected_generated_not_returned_topn"
+    )
+    assert (
+        classify_expected_outcome(payload, None, {}, "MISSING", "none")
+        == "expected_product_not_generated"
+    )
+    assert (
+        classify_expected_outcome(payload, 2, {"biochem_quality": {"interpretation_allowed": True}}, "EXPECTED", "benchmark_panel")
+        == "hit_top5_benchmark_only"
+    )

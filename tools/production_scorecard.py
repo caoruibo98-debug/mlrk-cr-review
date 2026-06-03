@@ -79,14 +79,18 @@ def panel_summary(report: dict[str, Any] | None, label: str) -> dict[str, Any]:
     cases = report.get("cases", [])
     top5 = [c for c in cases if c.get("expected_rank") is not None and int(c["expected_rank"]) <= 5]
     generated = [c for c in cases if c.get("expected_rank") is not None]
+    expected_in_pool = [c for c in cases if c.get("expected_in_candidate_pool") is True]
     evidence = Counter(str(c.get("expected_evidence_source", "none")) for c in cases)
     families = Counter(str(c.get("reaction_family", "unknown")) for c in cases)
+    failure_types = Counter(str(c.get("failure_type", "not_recorded")) for c in cases)
     failures = [
         {
             "case_id": c.get("case_id"),
             "substrate": c.get("substrate_name"),
             "expected_product": c.get("expected_product_name"),
             "reaction_family": c.get("reaction_family"),
+            "failure_type": c.get("failure_type"),
+            "expected_in_candidate_pool": c.get("expected_in_candidate_pool"),
             "expected_rank": c.get("expected_rank"),
             "match_type": c.get("expected_match_type"),
             "top_product": c.get("top_product"),
@@ -101,9 +105,11 @@ def panel_summary(report: dict[str, Any] | None, label: str) -> dict[str, Any]:
         "case_count": len(cases),
         "score": report.get("score", {}),
         "expected_generated_count": len(generated),
+        "expected_in_candidate_pool_count": len(expected_in_pool),
         "top5_hit_count": len(top5),
         "top5_hit_rate": round(len(top5) / max(1, len(cases)), 3),
         "evidence_source_counts": dict(sorted(evidence.items())),
+        "failure_type_counts": dict(sorted(failure_types.items())),
         "reaction_family_counts": dict(sorted(families.items())),
         "failure_cases": failures,
     }
@@ -157,7 +163,8 @@ def main() -> int:
         "external_comparison_matrix": external_comparison_matrix(),
         "current_claim": "Internal research MVP for food-polyphenol candidate generation/ranking, strongest on glycoside aglycone release.",
         "remaining_gap_to_full_food_microbiome_metabolite_prediction": [
-            "Challenge panel sample size and reaction-family breadth are still small.",
+            "Challenge-panel failures are dominated by candidate-generation recall, not ranking.",
+            "Reaction-family coverage is still narrow for reductions, dehydroxylations, ring fission, decarboxylation, and multi-step gut microbial pathways.",
             "External tools have not yet been run on the exact same substrate panel.",
             "No gene/genome or strain-level abundance context is connected to predictions.",
             "Candidate generation still constrains the ceiling; ranking cannot recover products absent from the candidate set.",

@@ -22,10 +22,11 @@ Current unsafe claim:
 
 ## Current Performance Snapshot
 
-As of `generation_07`:
+As of `generation_08`:
 
 - Core curated food-glycoside panel: `6 / 6` top-5 hits, score `4.43 / 5`.
-- Production challenge panel: `0 / 6` top-5 hits, score `1.79 / 5`.
+- Production challenge panel: `1 / 22` top-5 hits, score `1.79 / 5`.
+- Challenge failure taxonomy: `18` expected products not generated, `3` substrates with no generated candidates, `1` benchmark-only top-5 hit.
 - Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
 - Readiness status: `internal_mvp_only`.
 
@@ -109,8 +110,9 @@ The production scorecard separates:
 1. internal comparison against random, EC-only, Tanimoto, and full-feature baselines,
 2. core curated food-glycoside appraisal,
 3. challenge panel appraisal across harder food-metabolism classes,
-4. external comparison readiness for BioTransformer, MicrobeRX, GutBug, MIMOSA2, and AGREDA,
-5. remaining production blockers.
+4. candidate-generation failure, ranking failure, evidence failure, and no-candidate states,
+5. external comparison readiness for BioTransformer, MicrobeRX, GutBug, MIMOSA2, and AGREDA,
+6. remaining production blockers.
 
 ## Iteration Process
 

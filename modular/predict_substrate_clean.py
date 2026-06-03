@@ -4,6 +4,7 @@ import argparse
 import json
 import os
 import sys
+from collections import Counter
 from pathlib import Path
 
 import numpy as np
@@ -88,9 +89,23 @@ def no_candidate_payload(label: str, smiles: str, module: str) -> dict:
         "module": module,
         "module_name": mr.MODULE_NAMES[module],
         "n_rule_candidates": 0,
+        "candidate_summary": {
+            "pool_size": 0,
+            "all_product_blocks": [],
+            "candidate_source_counts": {},
+        },
         "candidate_generation_status": "no_candidates",
         "honest_note": HONEST_NOTE,
         "top": [],
+    }
+
+
+def summarize_candidate_pool(candidates: dict[str, tuple[str, str]], candidate_sources: dict[str, str]) -> dict:
+    source_counts = Counter(candidate_sources.get(block, "rule") for block in candidates)
+    return {
+        "pool_size": len(candidates),
+        "all_product_blocks": sorted(candidates.keys()),
+        "candidate_source_counts": dict(sorted(source_counts.items())),
     }
 
 
@@ -218,6 +233,7 @@ def main() -> None:
         "module": module,
         "module_name": mr.MODULE_NAMES[module],
         "n_rule_candidates": len(candidates),
+        "candidate_summary": summarize_candidate_pool(candidates, candidate_sources),
         "candidate_generation_status": "generated_candidates",
         "honest_note": HONEST_NOTE,
         "top": rows,

@@ -53,11 +53,16 @@
       }
     },
     "expected_generated_count": 6,
+    "expected_in_candidate_pool_count": 6,
     "top5_hit_count": 6,
     "top5_hit_rate": 1.0,
     "evidence_source_counts": {
       "benchmark_panel": 2,
       "model_output": 4
+    },
+    "failure_type_counts": {
+      "hit_top5_benchmark_only": 2,
+      "hit_top5_model_evidence": 4
     },
     "reaction_family_counts": {
       "glycoside_hydrolysis": 6
@@ -68,31 +73,50 @@
     "label": "production_challenge_panel",
     "status": "internal_mvp_only",
     "panel_file": "data/production_challenge_panel.csv",
-    "case_count": 6,
+    "case_count": 22,
     "score": {
       "score_0_to_5": 1.79,
       "dimensions": {
         "internal_ranker_and_anti_cheat": 1.0,
-        "real_biochemistry_panel": 0.0,
-        "candidate_biochemical_sanity": 0.5,
+        "real_biochemistry_panel": 0.045,
+        "candidate_biochemical_sanity": 0.409,
         "model_output_evidence_coverage": 0.0,
-        "benchmark_evidence_traceability": 0.0,
+        "benchmark_evidence_traceability": 0.045,
         "deployment_and_claim_boundaries": 0.65
       }
     },
-    "expected_generated_count": 0,
-    "top5_hit_count": 0,
-    "top5_hit_rate": 0.0,
+    "expected_generated_count": 1,
+    "expected_in_candidate_pool_count": 1,
+    "top5_hit_count": 1,
+    "top5_hit_rate": 0.045,
     "evidence_source_counts": {
-      "none": 6
+      "benchmark_panel": 1,
+      "none": 21
+    },
+    "failure_type_counts": {
+      "expected_product_not_generated": 18,
+      "hit_top5_benchmark_only": 1,
+      "no_generated_candidates": 3
     },
     "reaction_family_counts": {
+      "ellagitannin_hydrolysis": 1,
       "ellagitannin_urolithin_multistep": 1,
+      "flavanol_ring_fission": 2,
+      "flavanone_ring_fission": 1,
+      "flavonol_ring_fission": 1,
+      "gallate_decarboxylation": 1,
+      "hydroxycinnamate_reduction": 3,
+      "isoflavone_c_glycoside_conversion": 1,
+      "isoflavone_deglucosylation": 1,
+      "isoflavone_reduction": 2,
       "isoflavone_reductive_metabolism": 1,
       "lignan_deglucosylation": 1,
       "lignan_multistep_demethylation_dehydroxylation": 1,
       "lignan_oxidation": 1,
-      "phenolic_ester_hydrolysis": 1
+      "phenolic_ester_hydrolysis": 1,
+      "stilbene_dehydroxylation": 1,
+      "stilbene_reduction": 1,
+      "urolithin_dehydroxylation": 1
     },
     "failure_cases": [
       {
@@ -100,6 +124,8 @@
         "substrate": "chlorogenic acid",
         "expected_product": "caffeic acid",
         "reaction_family": "phenolic_ester_hydrolysis",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -109,6 +135,8 @@
         "substrate": "ellagic acid",
         "expected_product": "urolithin A",
         "reaction_family": "ellagitannin_urolithin_multistep",
+        "failure_type": "no_generated_candidates",
+        "expected_in_candidate_pool": false,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": null
@@ -118,6 +146,8 @@
         "substrate": "daidzein",
         "expected_product": "equol",
         "reaction_family": "isoflavone_reductive_metabolism",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -127,6 +157,8 @@
         "substrate": "secoisolariciresinol diglucoside",
         "expected_product": "secoisolariciresinol",
         "reaction_family": "lignan_deglucosylation",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "(2S,3R,4R,5S,6S)-2-[(2S,3S)-4-hydroxy-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butoxy]-6-(hydroxymethyl)oxane-3,4,5-triol"
@@ -136,6 +168,8 @@
         "substrate": "secoisolariciresinol",
         "expected_product": "enterodiol",
         "reaction_family": "lignan_multistep_demethylation_dehydroxylation",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -145,9 +179,176 @@
         "substrate": "enterodiol",
         "expected_product": "enterolactone",
         "reaction_family": "lignan_oxidation",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "caffeic_acid_dihydrocaffeic_acid",
+        "substrate": "caffeic acid",
+        "expected_product": "dihydrocaffeic acid",
+        "reaction_family": "hydroxycinnamate_reduction",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "ferulic_acid_dihydroferulic_acid",
+        "substrate": "ferulic acid",
+        "expected_product": "dihydroferulic acid",
+        "reaction_family": "hydroxycinnamate_reduction",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "p_coumaric_acid_phloretic_acid",
+        "substrate": "p-coumaric acid",
+        "expected_product": "phloretic acid",
+        "reaction_family": "hydroxycinnamate_reduction",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "resveratrol_dihydroresveratrol",
+        "substrate": "resveratrol",
+        "expected_product": "dihydroresveratrol",
+        "reaction_family": "stilbene_reduction",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "resveratrol_lunularin",
+        "substrate": "resveratrol",
+        "expected_product": "lunularin",
+        "reaction_family": "stilbene_dehydroxylation",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "catechin_valerolactone",
+        "substrate": "catechin",
+        "expected_product": "5-(3',4'-dihydroxyphenyl)-gamma-valerolactone",
+        "reaction_family": "flavanol_ring_fission",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "epicatechin_valerolactone",
+        "substrate": "epicatechin",
+        "expected_product": "5-(3',4'-dihydroxyphenyl)-gamma-valerolactone",
+        "reaction_family": "flavanol_ring_fission",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "naringenin_hydroxyphenylpropionic_acid",
+        "substrate": "naringenin",
+        "expected_product": "3-(4-hydroxyphenyl)propionic acid",
+        "reaction_family": "flavanone_ring_fission",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "quercetin_dihydroxyphenylacetic_acid",
+        "substrate": "quercetin",
+        "expected_product": "3,4-dihydroxyphenylacetic acid",
+        "reaction_family": "flavonol_ring_fission",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "daidzein_dihydrodaidzein",
+        "substrate": "daidzein",
+        "expected_product": "dihydrodaidzein",
+        "reaction_family": "isoflavone_reduction",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "genistein_dihydrogenistein",
+        "substrate": "genistein",
+        "expected_product": "dihydrogenistein",
+        "reaction_family": "isoflavone_reduction",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "puerarin_daidzein",
+        "substrate": "puerarin",
+        "expected_product": "daidzein",
+        "reaction_family": "isoflavone_c_glycoside_conversion",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "hydron"
+      },
+      {
+        "case_id": "gallic_acid_pyrogallol",
+        "substrate": "gallic acid",
+        "expected_product": "pyrogallol",
+        "reaction_family": "gallate_decarboxylation",
+        "failure_type": "expected_product_not_generated",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "urolithin_c_urolithin_a",
+        "substrate": "urolithin C",
+        "expected_product": "urolithin A",
+        "reaction_family": "urolithin_dehydroxylation",
+        "failure_type": "no_generated_candidates",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": null
+      },
+      {
+        "case_id": "punicalagin_ellagic_acid",
+        "substrate": "punicalagin",
+        "expected_product": "ellagic acid",
+        "reaction_family": "ellagitannin_hydrolysis",
+        "failure_type": "no_generated_candidates",
+        "expected_in_candidate_pool": false,
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": null
       }
     ]
   },
@@ -183,7 +384,8 @@
   ],
   "current_claim": "Internal research MVP for food-polyphenol candidate generation/ranking, strongest on glycoside aglycone release.",
   "remaining_gap_to_full_food_microbiome_metabolite_prediction": [
-    "Challenge panel sample size and reaction-family breadth are still small.",
+    "Challenge-panel failures are dominated by candidate-generation recall, not ranking.",
+    "Reaction-family coverage is still narrow for reductions, dehydroxylations, ring fission, decarboxylation, and multi-step gut microbial pathways.",
     "External tools have not yet been run on the exact same substrate panel.",
     "No gene/genome or strain-level abundance context is connected to predictions.",
     "Candidate generation still constrains the ceiling; ranking cannot recover products absent from the candidate set.",

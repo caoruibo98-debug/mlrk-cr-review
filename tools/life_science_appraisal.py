@@ -120,6 +120,55 @@ def row_has_model_evidence(row: dict) -> bool:
     return "pmid=" in evidence or "enzyme=" in evidence or "microbe=" in evidence or "ec=" in evidence
 
 
+def expected_in_candidate_pool(payload: dict, expected_block1: str | None) -> bool | None:
+    if not expected_block1:
+        return None
+    summary = payload.get("candidate_summary")
+    if not isinstance(summary, dict):
+        return None
+    blocks = summary.get("all_product_blocks")
+    if not isinstance(blocks, list):
+        return None
+    return expected_block1 in {str(block) for block in blocks}
+
+
+def classify_expected_outcome(
+    payload: dict,
+    expected_rank: int | None,
+    expected_row: dict,
+    expected_block1: str | None,
+    evidence_source: str,
+) -> str:
+    if not expected_block1:
+        return "expected_identity_unresolved"
+    try:
+        n_candidates = int(payload.get("n_rule_candidates") or 0)
+    except (TypeError, ValueError):
+        n_candidates = 0
+    if n_candidates == 0:
+        return "no_generated_candidates"
+
+    in_pool = expected_in_candidate_pool(payload, expected_block1)
+    if expected_rank is None:
+        if in_pool is True:
+            return "expected_generated_not_returned_topn"
+        if in_pool is False:
+            return "expected_product_not_generated"
+        return "expected_not_returned_pool_unknown"
+
+    quality = expected_row.get("biochem_quality", {})
+    if quality and quality.get("interpretation_allowed") is False:
+        return "hit_top5_quality_rejected" if expected_rank <= 5 else "hit_below_top5_quality_rejected"
+
+    if expected_rank <= 5:
+        if evidence_source == "model_output":
+            return "hit_top5_model_evidence"
+        if evidence_source == "benchmark_panel":
+            return "hit_top5_benchmark_only"
+        return "hit_top5_no_traceable_evidence"
+    return "hit_below_top5"
+
+
 def score_appraisal(cases: list[dict], metrics: dict, readiness: str) -> dict:
     rank_hits = [c for c in cases if c["expected_rank"] is not None and c["expected_rank"] <= 5]
     high_quality_top = [c for c in cases if c["top_quality_tier"] in {"high", "medium"}]
@@ -177,16 +226,32 @@ def main() -> int:
             evidence_source = "model_output"
         elif expected_rank is not None and str(case.get("reference", "")).strip():
             evidence_source = "benchmark_panel"
+        expected_quality = expected.get("biochem_quality", {})
+        failure_type = classify_expected_outcome(
+            payload,
+            expected_rank,
+            expected,
+            expected_identity["expected_block1"],
+            evidence_source,
+        )
         cases.append(
             {
                 **case,
                 **expected_identity,
                 "module": payload.get("module_name"),
                 "n_rule_candidates": payload.get("n_rule_candidates"),
+                "expected_in_candidate_pool": expected_in_candidate_pool(
+                    payload,
+                    expected_identity["expected_block1"],
+                ),
                 "expected_rank": expected_rank,
                 "expected_match_type": match_type,
                 "expected_matched_product_name": expected.get("product_name"),
                 "expected_evidence_source": evidence_source,
+                "expected_quality_tier": expected_quality.get("tier"),
+                "expected_quality_flags": [f["code"] for f in expected_quality.get("flags", [])],
+                "expected_interpretation_allowed": expected_quality.get("interpretation_allowed"),
+                "failure_type": failure_type,
                 "top_product": top.get("product_name"),
                 "top_quality_tier": top.get("biochem_quality", {}).get("tier"),
                 "top_quality_flags": [f["code"] for f in top.get("biochem_quality", {}).get("flags", [])],

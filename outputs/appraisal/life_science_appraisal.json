@@ -32,10 +32,17 @@
       "expected_block1": "REFJWTPEDVJJIY",
       "module": "carb_glycoside",
       "n_rule_candidates": 38,
+      "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
       "expected_matched_product_name": "quercetin",
       "expected_evidence_source": "model_output",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "plausible_glycoside_mass_loss"
+      ],
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_model_evidence",
       "top_product": "quercetin",
       "top_quality_tier": "high",
       "top_quality_flags": [
@@ -60,10 +67,18 @@
       "expected_block1": "REFJWTPEDVJJIY",
       "module": "carb_glycoside",
       "n_rule_candidates": 10,
+      "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
       "expected_matched_product_name": "quercetin",
       "expected_evidence_source": "benchmark_panel",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "no_prior_evidence",
+        "plausible_glycoside_mass_loss"
+      ],
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_benchmark_only",
       "top_product": "quercetin",
       "top_quality_tier": "high",
       "top_quality_flags": [
@@ -94,10 +109,17 @@
       "expected_block1": "FTVWIRXFELQLPI",
       "module": "carb_glycoside",
       "n_rule_candidates": 38,
+      "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
       "expected_matched_product_name": "(R)-naringenin",
       "expected_evidence_source": "model_output",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "plausible_glycoside_mass_loss"
+      ],
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_model_evidence",
       "top_product": "(R)-naringenin",
       "top_quality_tier": "high",
       "top_quality_flags": [
@@ -121,10 +143,18 @@
       "expected_block1": "AIONOLUJZLIMTK",
       "module": "carb_glycoside",
       "n_rule_candidates": 37,
+      "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
       "expected_matched_product_name": "24604-97-5",
       "expected_evidence_source": "benchmark_panel",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "no_prior_evidence",
+        "plausible_glycoside_mass_loss"
+      ],
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_benchmark_only",
       "top_product": "24604-97-5",
       "top_quality_tier": "high",
       "top_quality_flags": [
@@ -150,10 +180,17 @@
       "expected_block1": "ZQSIJRDFPHDXIC",
       "module": "carb_glycoside",
       "n_rule_candidates": 35,
+      "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
       "expected_matched_product_name": "daidzein",
       "expected_evidence_source": "model_output",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "plausible_glycoside_mass_loss"
+      ],
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_model_evidence",
       "top_product": "daidzein",
       "top_quality_tier": "high",
       "top_quality_flags": [
@@ -178,10 +215,17 @@
       "expected_block1": "TZBJGXHYKVUXJN",
       "module": "carb_glycoside",
       "n_rule_candidates": 35,
+      "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
       "expected_matched_product_name": "genistein",
       "expected_evidence_source": "model_output",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "plausible_glycoside_mass_loss"
+      ],
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_model_evidence",
       "top_product": "genistein",
       "top_quality_tier": "high",
       "top_quality_flags": [
