@@ -1,0 +1,26 @@
+[project]
+name = "ml-ranking-kernel-prod-candidate"
+version = "0.1.0"
+description = "Production-candidate shell for the food microbiome metabolite ranking kernel."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "pyyaml",
+]
+
+[project.optional-dependencies]
+serve = [
+  "fastapi",
+  "uvicorn",
+]
+test = [
+  "pytest",
+]
+
+[project.scripts]
+mlrk-prod = "mlrk_prod.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+

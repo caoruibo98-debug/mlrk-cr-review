@@ -1,0 +1,8 @@
+case_id,substrate_name,expected_product_name,reaction_family,evidence_type,reference
+rutin_quercetin,rutin,quercetin,glycoside_hydrolysis,literature_curated,PMID:9875509
+quercitrin_quercetin,quercitrin,quercetin,glycoside_hydrolysis,literature_curated,PMID:3435494
+naringin_naringenin,naringin,naringenin,glycoside_hydrolysis,literature_curated,PMID:26505733
+hesperidin_hesperetin,hesperidin,hesperetin,glycoside_hydrolysis,literature_curated,PMID:26505733
+daidzin_daidzein,daidzin,daidzein,glycoside_hydrolysis,literature_curated,PMID:22113864
+genistin_genistein,genistin,genistein,glycoside_hydrolysis,literature_curated,PMID:22113864
+

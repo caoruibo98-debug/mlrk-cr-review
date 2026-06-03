@@ -1,0 +1,110 @@
+# L-RCLSS kernel 配置。相对 PROJECT_ROOT = D:\CRB\Food models
+# 所有路径在 kio.resolve_input() 里相对 PROJECT_ROOT 解析。
+
+# ----------------------------------------------------------------------
+# 正样本来源（独立、低泄漏；按干净度排序）
+# ----------------------------------------------------------------------
+positive_sources:
+  - name: curated_literature_gap7
+    path: Dataset/curated_literature/2026_04_19_microbiome_reaction_gap_fill/curated_literature_gap7_import_ready_v1.csv
+    substrate_smiles_col: substrate_smiles
+    product_smiles_col: product_smiles
+    category_col: reaction_category
+    confidence_col: confidence_tier
+    pmid_col: primary_pmid
+    review_flag_col: curator_flag        # 含 NEEDS_REVIEW 的行进 needs_review_queue
+    leakage_tier: low
+
+  - name: known_reaction_gold_edges
+    path: scripts/ssrf/known_reaction_gold_edges.csv
+    substrate_smiles_col: compound_smiles
+    product_smiles_col: known_product_smiles
+    category_col: reaction_type
+    confidence_col: confidence_level
+    pmid_col: null
+    review_flag_col: null
+    leakage_tier: low
+
+  - name: benchmark_ssrf_rclss
+    path: analysis/benchmark_ssrf_rclss_2026-05-22.csv
+    substrate_smiles_col: substrate_smiles
+    product_smiles_col: product_smiles
+    category_col: reaction_type
+    confidence_col: confidence_level
+    pmid_col: pmid
+    review_flag_col: null
+    leakage_col: possible_data_leakage_risk   # High/Medium/Low → leakage_flag
+    leakage_tier: from_column
+
+# ----------------------------------------------------------------------
+# 负样本
+# ----------------------------------------------------------------------
+candidate_pool:
+  # V4 raw_union：228K 候选边，in-substrate hard decoy 来源 + PU 未标注池
+  path: scripts/ssrf/outputs/experiments/foodgut_ssrf_v4/run_20260517_0429_ssrf_v4_candidate/ssrf_v4_raw_union_edges.parquet
+  substrate_smiles_col: substrate_smiles
+  substrate_inchikey_col: substrate_inchikey
+  product_smiles_col: predicted_product_smiles
+  product_inchikey_col: predicted_product_inchikey
+  rclss_prior_col: rclss_production_score    # 规则先验基线分（评估对照）
+  same_product_flag_col: same_product_as_substrate
+
+negatives:
+  in_substrate_decoy:
+    max_per_substrate: 40        # 每个正底物最多采样多少 hard decoy
+    exclude_same_product: true   # 排除 same_product_as_substrate
+  seed_true_negatives:
+    # (compound, forbidden-reaction-type)，非 edge → 仅作 rule-family 排除审计
+    path: scripts/ssrf/known_reaction_negative_edges.csv
+  pu_unlabeled:
+    sample_size: 60000           # PU 未标注池采样上限（控内存/时间）
+
+# ----------------------------------------------------------------------
+# 编码器（冻结）
+# ----------------------------------------------------------------------
+encoder:
+  primary:
+    name: ChemBERTa-2
+    hf_model: DeepChem/ChemBERTa-77M-MLM
+    pooling: mean                # mean over token embeddings (mask-aware)
+    max_length: 256
+    batch_size: 256
+  fallback:
+    name: MoLFormer-XL
+    hf_model: ibm/MoLFormer-XL-both-10pct
+    pooling: mean
+    max_length: 202
+    batch_size: 128
+
+reaction_features:
+  components: [z_s, z_p, diff, prod]   # [z_s, z_p, z_s-z_p, z_s*z_p]
+  l2_normalize: true
+
+# ----------------------------------------------------------------------
+# 划分 + 训练
+# ----------------------------------------------------------------------
+splits:
+  scaffold_col: substrate_scaffold     # Bemis-Murcko on substrate
+  group_col: substrate_block1
+  n_folds: 5
+  random_seed: 42
+  test_frac: 0.2
+  quarantine_leakage: High             # 这些泄漏正样本隔离出干净测试
+
+train:
+  head: mlp                            # mlp | gbt
+  hidden: [256, 64]
+  dropout: 0.3
+  lr: 0.001
+  weight_decay: 0.0001
+  epochs: 200
+  patience: 25
+  pairwise_margin: 0.3
+  pairwise_weight: 1.0
+  pu_weight: 0.5
+  pu_prior: 0.1                        # nnPU class prior π_p（未标注里正例占比估计）
+  device: cuda
+
+evaluate:
+  topk: [1, 3, 5, 10, 20]
+  scaffold_random_gap_tol: 0.1         # |ML(scaffold)-ML(random)| ≤ tol 视为小 gap

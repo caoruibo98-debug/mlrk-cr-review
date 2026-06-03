@@ -1,0 +1,87 @@
+{
+  "schema_version": "0.1.0",
+  "model_family": "L-RCLSS modular metabolite retrieval ranker",
+  "status": "production-candidate",
+  "claim_boundary": {
+    "allowed": [
+      "Ranks rule-generated candidate metabolites for research prioritization.",
+      "Provides evidence overlay for known microbe, enzyme, and literature support.",
+      "Supports internal research web-app MVP after readiness validation passes."
+    ],
+    "not_allowed": [
+      "Does not prove gut microbial occurrence.",
+      "Does not output wet-lab probability.",
+      "Does not claim complete metabolite generation.",
+      "Does not provide consumer health or clinical recommendations."
+    ]
+  },
+  "current_mainline": {
+    "candidate_generation": "modular/ltr_clean_candidates.py",
+    "evaluation": "outputs/modular/ltr/clean2_metrics.csv",
+    "deployment_models": "outputs/modular/ltr/models_clean",
+    "prediction_entrypoint": "modular/predict_substrate_clean.py"
+  },
+  "training": {
+    "deployment_training_command": "python tools/train_deploy_models.py",
+    "underlying_training_script": "modular/ltr_deploy.py --candidates clean_candidates.parquet --force",
+    "current_training_scope": "LTR_chem deployment models for modules A/B/C/D using clean_candidates.parquet"
+  },
+  "required_artifacts": [
+    {
+      "id": "deploy_meta",
+      "path": "outputs/modular/ltr/models_clean/deploy_meta.json",
+      "type": "json"
+    },
+    {
+      "id": "model_A",
+      "path": "outputs/modular/ltr/models_clean/ltr_chem_A.json",
+      "type": "xgboost_model"
+    },
+    {
+      "id": "model_B",
+      "path": "outputs/modular/ltr/models_clean/ltr_chem_B.json",
+      "type": "xgboost_model"
+    },
+    {
+      "id": "model_C",
+      "path": "outputs/modular/ltr/models_clean/ltr_chem_C.json",
+      "type": "xgboost_model"
+    },
+    {
+      "id": "model_D",
+      "path": "outputs/modular/ltr/models_clean/ltr_chem_D.json",
+      "type": "xgboost_model"
+    },
+    {
+      "id": "clean2_metrics",
+      "path": "outputs/modular/ltr/clean2_metrics.csv",
+      "type": "metrics_csv"
+    },
+    {
+      "id": "clean2_feature_importance",
+      "path": "outputs/modular/ltr/clean2_feature_importance.csv",
+      "type": "metrics_csv"
+    }
+  ],
+  "readiness_gates": {
+    "artifact_files_exist": true,
+    "deploy_meta_has_modules_A_B_C_D": true,
+    "clean2_metrics_has_baselines": [
+      "random",
+      "ec_only",
+      "tanimoto",
+      "LTR_chem"
+    ],
+    "ltr_chem_r5_minimum": 0.80,
+    "ec_only_probe_must_not_exceed_ltr_chem": true,
+    "external_head_to_head_complete": false,
+    "wet_lab_validation_complete": false,
+    "public_web_app_allowed": false
+  },
+  "next_required_evidence": [
+    "External head-to-head against BioTransformer, MicrobeRX, and a GutBug-style EC/enzyme baseline.",
+    "Generation recall report by module, reaction class, and rule family.",
+    "Schema and regression tests for known compounds such as rutin.",
+    "Model and data version registry binding rules, embeddings, metrics, and model files."
+  ]
+}
