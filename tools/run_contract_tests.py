@@ -16,6 +16,7 @@ TEST_MODULES = [
     "tests.test_biosanity",
     "tests.test_appraisal_matching",
     "tests.test_external_benchmark_exports",
+    "tests.test_reaction_family_kpis",
 ]
 
 

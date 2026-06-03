@@ -22,11 +22,12 @@ Current unsafe claim:
 
 ## Current Performance Snapshot
 
-As of `generation_10`:
+As of `generation_13`:
 
 - Core curated food-glycoside panel: `6 / 6` strict top-5 hits, score `3.88 / 5`.
 - Production challenge panel: `8 / 22` strict top-5 hits, score `2.81 / 5`.
 - Challenge failure taxonomy: `14` expected products not generated, `8` benchmark-only top-5 hits.
+- Reaction-family KPI report: `19` families, with candidate-generation-blocked families separated from evidence-integration-blocked families.
 - Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
 - Readiness status: `internal_mvp_only`.
 
@@ -89,6 +90,12 @@ Build the production scorecard:
 python scripts/production_scorecard.py
 ```
 
+Build reaction-family KPI reporting:
+
+```bash
+python scripts/reaction_family_kpis.py
+```
+
 Export external benchmark inputs:
 
 ```bash
@@ -127,12 +134,15 @@ The production scorecard separates:
 2. core curated food-glycoside appraisal,
 3. challenge panel appraisal across harder food-metabolism classes,
 4. candidate-generation failure, ranking failure, evidence failure, and no-candidate states,
-5. external comparison readiness and exported inputs for BioTransformer, MicrobeRX, GutBug, MIMOSA2, and AGREDA,
-6. remaining production blockers.
+5. reaction-family KPI reporting for candidate-pool recall, strict top-5 recall, benchmark traceability, and model evidence coverage,
+6. external comparison readiness and exported inputs for BioTransformer, MicrobeRX, GutBug, MIMOSA2, and AGREDA,
+7. remaining production blockers.
 
 The external benchmark input files are under `outputs/external_benchmarks/`. They are not external validation results; they are the reproducible handoff for running those tools and importing their outputs later.
 
 External result templates are under `outputs/external_benchmarks/result_templates/`. Until real external output files are imported, the external result scorecard stays at `awaiting_external_outputs`.
+
+Reaction-family KPI outputs are under `outputs/appraisal/reaction_family_kpis.json` and `outputs/appraisal/reaction_family_kpis.csv`. They are internal diagnostic reports, not external validation.
 
 ## Iteration Process
 

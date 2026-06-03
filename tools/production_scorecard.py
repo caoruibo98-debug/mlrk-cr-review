@@ -21,6 +21,7 @@ CORE_REPORT = ROOT / "outputs" / "appraisal" / "life_science_appraisal.json"
 CHALLENGE_REPORT = ROOT / "outputs" / "appraisal" / "challenge_appraisal.json"
 EXTERNAL_EXPORT_MANIFEST = ROOT / "outputs" / "external_benchmarks" / "manifest.json"
 EXTERNAL_RESULT_SCORECARD = ROOT / "outputs" / "external_benchmarks" / "external_result_scorecard.json"
+REACTION_FAMILY_KPIS = ROOT / "outputs" / "appraisal" / "reaction_family_kpis.json"
 
 
 def parse_mean(value: str) -> float:
@@ -177,11 +178,13 @@ def main() -> int:
         "challenge_panel": panel_summary(read_json(CHALLENGE_REPORT), "production_challenge_panel"),
         "external_benchmark_export": read_json(EXTERNAL_EXPORT_MANIFEST) or {"status": "missing_export_manifest"},
         "external_result_scorecard": read_json(EXTERNAL_RESULT_SCORECARD) or {"status": "awaiting_external_outputs"},
+        "reaction_family_kpis": read_json(REACTION_FAMILY_KPIS) or {"status": "missing_reaction_family_kpis"},
         "external_comparison_matrix": external_comparison_matrix(),
         "current_claim": "Internal research MVP for food-polyphenol candidate generation/ranking, strongest on glycoside aglycone release.",
         "remaining_gap_to_full_food_microbiome_metabolite_prediction": [
             "Challenge-panel failures are dominated by candidate-generation recall, not ranking.",
             "Reaction-family coverage is still narrow for reductions, dehydroxylations, ring fission, decarboxylation, and multi-step gut microbial pathways.",
+            "Reaction-family KPI reporting is now available, but KPI strength is internal benchmark evidence only.",
             "External tools have not yet been run on the exact same substrate panel.",
             "No gene/genome or strain-level abundance context is connected to predictions.",
             "Candidate generation still constrains the ceiling; ranking cannot recover products absent from the candidate set.",

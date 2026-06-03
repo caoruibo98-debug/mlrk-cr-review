@@ -342,6 +342,1926 @@
     "enzyme_tool_summaries": {},
     "claim_boundary": "External validation is not complete unless real external tool outputs are imported and scored."
   },
+  "reaction_family_kpis": {
+    "status": "ready",
+    "schema_version": 1,
+    "source_reports": {
+      "core": "outputs/appraisal/life_science_appraisal.json",
+      "challenge": "outputs/appraisal/challenge_appraisal.json"
+    },
+    "metric_definitions": {
+      "top5_hit_rate": "Strict expected-product top-5 recall; connectivity hits with full-InChIKey mismatches are not counted.",
+      "candidate_pool_recall": "Fraction of cases where the expected product appears anywhere in the generated candidate pool.",
+      "benchmark_traceability_rate": "Fraction of cases where the expected product has any traceable benchmark or model evidence source.",
+      "model_evidence_rate": "Fraction of cases where matched output evidence is not limited to benchmark-panel labels."
+    },
+    "panels": {
+      "core": {
+        "label": "core_food_glycoside_panel",
+        "panel_file": "data/real_biochemistry_panel.csv",
+        "status": "internal_mvp_only",
+        "score": {
+          "score_0_to_5": 3.88,
+          "dimensions": {
+            "internal_ranker_and_anti_cheat": 1.0,
+            "real_biochemistry_panel": 1.0,
+            "candidate_biochemical_sanity": 1.0,
+            "model_output_evidence_coverage": 0.0,
+            "benchmark_evidence_traceability": 1.0,
+            "deployment_and_claim_boundaries": 0.65
+          }
+        },
+        "case_count": 6,
+        "family_count": 1,
+        "top5_hit_rate": 1.0,
+        "candidate_pool_recall": 1.0
+      },
+      "challenge": {
+        "label": "production_challenge_panel",
+        "panel_file": "data/production_challenge_panel.csv",
+        "status": "internal_mvp_only",
+        "score": {
+          "score_0_to_5": 2.81,
+          "dimensions": {
+            "internal_ranker_and_anti_cheat": 1.0,
+            "real_biochemistry_panel": 0.364,
+            "candidate_biochemical_sanity": 1.0,
+            "model_output_evidence_coverage": 0.0,
+            "benchmark_evidence_traceability": 0.364,
+            "deployment_and_claim_boundaries": 0.65
+          }
+        },
+        "case_count": 22,
+        "family_count": 18,
+        "top5_hit_rate": 0.364,
+        "candidate_pool_recall": 0.364
+      }
+    },
+    "family_kpis": [
+      {
+        "panel": "core",
+        "reaction_family": "glycoside_hydrolysis",
+        "case_count": 6,
+        "expected_generated_count": 6,
+        "expected_in_candidate_pool_count": 6,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 6,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 6,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 6,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 6
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 6
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "ellagitannin_hydrolysis",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "punicalagin_ellagic_acid",
+            "substrate": "punicalagin",
+            "expected_product": "ellagic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "ellagitannin_urolithin_multistep",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "ellagic_acid_urolithin_a",
+            "substrate": "ellagic acid",
+            "expected_product": "urolithin A",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "Nasutin A"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "flavanol_ring_fission",
+        "case_count": 2,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 2
+        },
+        "evidence_source_counts": {
+          "none": 2
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "catechin_valerolactone",
+            "substrate": "catechin",
+            "expected_product": "5-(3',4'-dihydroxyphenyl)-gamma-valerolactone",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          },
+          {
+            "case_id": "epicatechin_valerolactone",
+            "substrate": "epicatechin",
+            "expected_product": "5-(3',4'-dihydroxyphenyl)-gamma-valerolactone",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "flavanone_ring_fission",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "naringenin_hydroxyphenylpropionic_acid",
+            "substrate": "naringenin",
+            "expected_product": "3-(4-hydroxyphenyl)propionic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "flavonol_ring_fission",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "quercetin_dihydroxyphenylacetic_acid",
+            "substrate": "quercetin",
+            "expected_product": "3,4-dihydroxyphenylacetic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "gallate_decarboxylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "hydroxycinnamate_reduction",
+        "case_count": 3,
+        "expected_generated_count": 3,
+        "expected_in_candidate_pool_count": 3,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 3,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 3,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 3,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 3
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 3
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "isoflavone_c_glycoside_conversion",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "puerarin_daidzein",
+            "substrate": "puerarin",
+            "expected_product": "daidzein",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "3-(4-hydroxyphenyl)-8-[(2~{S},3~{R},4~{R},5~{S},6~{R})-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]chromen-4-one"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "isoflavone_deglucosylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "isoflavone_reduction",
+        "case_count": 2,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 2
+        },
+        "evidence_source_counts": {
+          "none": 2
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "daidzein_dihydrodaidzein",
+            "substrate": "daidzein",
+            "expected_product": "dihydrodaidzein",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          },
+          {
+            "case_id": "genistein_dihydrogenistein",
+            "substrate": "genistein",
+            "expected_product": "dihydrogenistein",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "5,4'-Dihydroxyisoflavone"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "isoflavone_reductive_metabolism",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "daidzein_equol",
+            "substrate": "daidzein",
+            "expected_product": "equol",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "lignan_deglucosylation",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "secoisolariciresinol_diglucoside_secoisolariciresinol",
+            "substrate": "secoisolariciresinol diglucoside",
+            "expected_product": "secoisolariciresinol",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "(2S,3R,4R,5S,6S)-2-[(2S,3S)-4-hydroxy-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butoxy]-6-(hydroxymethyl)oxane-3,4,5-triol"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "lignan_multistep_demethylation_dehydroxylation",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "secoisolariciresinol_enterodiol",
+            "substrate": "secoisolariciresinol",
+            "expected_product": "enterodiol",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "lignan_oxidation",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "enterodiol_enterolactone",
+            "substrate": "enterodiol",
+            "expected_product": "enterolactone",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "phenolic_ester_hydrolysis",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "chlorogenic_acid_caffeic_acid",
+            "substrate": "chlorogenic acid",
+            "expected_product": "caffeic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "stilbene_dehydroxylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "stilbene_reduction",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "challenge",
+        "reaction_family": "urolithin_dehydroxylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      }
+    ],
+    "combined_family_kpis": [
+      {
+        "panel": "all",
+        "reaction_family": "ellagitannin_hydrolysis",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "punicalagin_ellagic_acid",
+            "substrate": "punicalagin",
+            "expected_product": "ellagic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "ellagitannin_urolithin_multistep",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "ellagic_acid_urolithin_a",
+            "substrate": "ellagic acid",
+            "expected_product": "urolithin A",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "Nasutin A"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "flavanol_ring_fission",
+        "case_count": 2,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 2
+        },
+        "evidence_source_counts": {
+          "none": 2
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "catechin_valerolactone",
+            "substrate": "catechin",
+            "expected_product": "5-(3',4'-dihydroxyphenyl)-gamma-valerolactone",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          },
+          {
+            "case_id": "epicatechin_valerolactone",
+            "substrate": "epicatechin",
+            "expected_product": "5-(3',4'-dihydroxyphenyl)-gamma-valerolactone",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "flavanone_ring_fission",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "naringenin_hydroxyphenylpropionic_acid",
+            "substrate": "naringenin",
+            "expected_product": "3-(4-hydroxyphenyl)propionic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "flavonol_ring_fission",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "quercetin_dihydroxyphenylacetic_acid",
+            "substrate": "quercetin",
+            "expected_product": "3,4-dihydroxyphenylacetic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "gallate_decarboxylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "glycoside_hydrolysis",
+        "case_count": 6,
+        "expected_generated_count": 6,
+        "expected_in_candidate_pool_count": 6,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 6,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 6,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 6,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 6
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 6
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "hydroxycinnamate_reduction",
+        "case_count": 3,
+        "expected_generated_count": 3,
+        "expected_in_candidate_pool_count": 3,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 3,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 3,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 3,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 3
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 3
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "isoflavone_c_glycoside_conversion",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "puerarin_daidzein",
+            "substrate": "puerarin",
+            "expected_product": "daidzein",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "3-(4-hydroxyphenyl)-8-[(2~{S},3~{R},4~{R},5~{S},6~{R})-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]chromen-4-one"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "isoflavone_deglucosylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "isoflavone_reduction",
+        "case_count": 2,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 2
+        },
+        "evidence_source_counts": {
+          "none": 2
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "daidzein_dihydrodaidzein",
+            "substrate": "daidzein",
+            "expected_product": "dihydrodaidzein",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          },
+          {
+            "case_id": "genistein_dihydrogenistein",
+            "substrate": "genistein",
+            "expected_product": "dihydrogenistein",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "5,4'-Dihydroxyisoflavone"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "isoflavone_reductive_metabolism",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "daidzein_equol",
+            "substrate": "daidzein",
+            "expected_product": "equol",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "lignan_deglucosylation",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "secoisolariciresinol_diglucoside_secoisolariciresinol",
+            "substrate": "secoisolariciresinol diglucoside",
+            "expected_product": "secoisolariciresinol",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "(2S,3R,4R,5S,6S)-2-[(2S,3S)-4-hydroxy-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butoxy]-6-(hydroxymethyl)oxane-3,4,5-triol"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "lignan_multistep_demethylation_dehydroxylation",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "secoisolariciresinol_enterodiol",
+            "substrate": "secoisolariciresinol",
+            "expected_product": "enterodiol",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "lignan_oxidation",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "enterodiol_enterolactone",
+            "substrate": "enterodiol",
+            "expected_product": "enterolactone",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "phenolic_ester_hydrolysis",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "chlorogenic_acid_caffeic_acid",
+            "substrate": "chlorogenic acid",
+            "expected_product": "caffeic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "stilbene_dehydroxylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "stilbene_reduction",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "urolithin_dehydroxylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      }
+    ],
+    "production_priority_queue": [
+      {
+        "panel": "all",
+        "reaction_family": "flavanol_ring_fission",
+        "case_count": 2,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 2
+        },
+        "evidence_source_counts": {
+          "none": 2
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "catechin_valerolactone",
+            "substrate": "catechin",
+            "expected_product": "5-(3',4'-dihydroxyphenyl)-gamma-valerolactone",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          },
+          {
+            "case_id": "epicatechin_valerolactone",
+            "substrate": "epicatechin",
+            "expected_product": "5-(3',4'-dihydroxyphenyl)-gamma-valerolactone",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "isoflavone_reduction",
+        "case_count": 2,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 2
+        },
+        "evidence_source_counts": {
+          "none": 2
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "daidzein_dihydrodaidzein",
+            "substrate": "daidzein",
+            "expected_product": "dihydrodaidzein",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          },
+          {
+            "case_id": "genistein_dihydrogenistein",
+            "substrate": "genistein",
+            "expected_product": "dihydrogenistein",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "5,4'-Dihydroxyisoflavone"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "ellagitannin_hydrolysis",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "punicalagin_ellagic_acid",
+            "substrate": "punicalagin",
+            "expected_product": "ellagic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "ellagitannin_urolithin_multistep",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "ellagic_acid_urolithin_a",
+            "substrate": "ellagic acid",
+            "expected_product": "urolithin A",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "Nasutin A"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "flavanone_ring_fission",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "naringenin_hydroxyphenylpropionic_acid",
+            "substrate": "naringenin",
+            "expected_product": "3-(4-hydroxyphenyl)propionic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "flavonol_ring_fission",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "quercetin_dihydroxyphenylacetic_acid",
+            "substrate": "quercetin",
+            "expected_product": "3,4-dihydroxyphenylacetic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "isoflavone_c_glycoside_conversion",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "puerarin_daidzein",
+            "substrate": "puerarin",
+            "expected_product": "daidzein",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "3-(4-hydroxyphenyl)-8-[(2~{S},3~{R},4~{R},5~{S},6~{R})-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]chromen-4-one"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "isoflavone_reductive_metabolism",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "daidzein_equol",
+            "substrate": "daidzein",
+            "expected_product": "equol",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "lignan_deglucosylation",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "secoisolariciresinol_diglucoside_secoisolariciresinol",
+            "substrate": "secoisolariciresinol diglucoside",
+            "expected_product": "secoisolariciresinol",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "(2S,3R,4R,5S,6S)-2-[(2S,3S)-4-hydroxy-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butoxy]-6-(hydroxymethyl)oxane-3,4,5-triol"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "lignan_multistep_demethylation_dehydroxylation",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "secoisolariciresinol_enterodiol",
+            "substrate": "secoisolariciresinol",
+            "expected_product": "enterodiol",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "lignan_oxidation",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "enterodiol_enterolactone",
+            "substrate": "enterodiol",
+            "expected_product": "enterolactone",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "phenolic_ester_hydrolysis",
+        "case_count": 1,
+        "expected_generated_count": 0,
+        "expected_in_candidate_pool_count": 0,
+        "candidate_pool_recall": 0.0,
+        "connectivity_top5_hit_count": 0,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 0,
+        "top5_hit_rate": 0.0,
+        "benchmark_traceable_count": 0,
+        "benchmark_traceability_rate": 0.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "expected_product_not_generated": 1
+        },
+        "evidence_source_counts": {
+          "none": 1
+        },
+        "top_failure_type": "expected_product_not_generated",
+        "example_failure_cases": [
+          {
+            "case_id": "chlorogenic_acid_caffeic_acid",
+            "substrate": "chlorogenic acid",
+            "expected_product": "caffeic acid",
+            "failure_type": "expected_product_not_generated",
+            "expected_rank": null,
+            "top_product": "unnamed/novel"
+          }
+        ],
+        "production_gap": "candidate_generation_blocked",
+        "recommended_next_action": "Add curated reaction-family candidate generation before tuning the ranker."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "glycoside_hydrolysis",
+        "case_count": 6,
+        "expected_generated_count": 6,
+        "expected_in_candidate_pool_count": 6,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 6,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 6,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 6,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 6
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 6
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "hydroxycinnamate_reduction",
+        "case_count": 3,
+        "expected_generated_count": 3,
+        "expected_in_candidate_pool_count": 3,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 3,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 3,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 3,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 3
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 3
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "gallate_decarboxylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "isoflavone_deglucosylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "stilbene_dehydroxylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "stilbene_reduction",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      },
+      {
+        "panel": "all",
+        "reaction_family": "urolithin_dehydroxylation",
+        "case_count": 1,
+        "expected_generated_count": 1,
+        "expected_in_candidate_pool_count": 1,
+        "candidate_pool_recall": 1.0,
+        "connectivity_top5_hit_count": 1,
+        "stereo_mismatch_top5_count": 0,
+        "top5_hit_count": 1,
+        "top5_hit_rate": 1.0,
+        "benchmark_traceable_count": 1,
+        "benchmark_traceability_rate": 1.0,
+        "model_evidence_count": 0,
+        "model_evidence_rate": 0.0,
+        "failure_type_counts": {
+          "hit_top5_benchmark_only": 1
+        },
+        "evidence_source_counts": {
+          "benchmark_panel": 1
+        },
+        "top_failure_type": "hit_top5_benchmark_only",
+        "example_failure_cases": [],
+        "production_gap": "evidence_integration_blocked",
+        "recommended_next_action": "Attach independent enzyme, microbe, strain, or literature evidence to matched products."
+      }
+    ],
+    "interpretation": {
+      "main_use": "Locate production blockers by reaction family before adding rules, labels, or ranker features.",
+      "claim_boundary": "Family KPI strength is internal benchmark evidence only; it is not external validation or wet-lab proof."
+    }
+  },
   "external_comparison_matrix": [
     {
       "tool_or_model": "BioTransformer 3/4",
@@ -376,6 +2296,7 @@
   "remaining_gap_to_full_food_microbiome_metabolite_prediction": [
     "Challenge-panel failures are dominated by candidate-generation recall, not ranking.",
     "Reaction-family coverage is still narrow for reductions, dehydroxylations, ring fission, decarboxylation, and multi-step gut microbial pathways.",
+    "Reaction-family KPI reporting is now available, but KPI strength is internal benchmark evidence only.",
     "External tools have not yet been run on the exact same substrate panel.",
     "No gene/genome or strain-level abundance context is connected to predictions.",
     "Candidate generation still constrains the ceiling; ranking cannot recover products absent from the candidate set.",

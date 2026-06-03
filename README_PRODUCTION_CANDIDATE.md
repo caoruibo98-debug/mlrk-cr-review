@@ -70,6 +70,14 @@ Build the combined production scorecard:
 python scripts/production_scorecard.py
 ```
 
+Build the reaction-family KPI report:
+
+```bash
+python scripts/reaction_family_kpis.py
+```
+
+This writes `outputs/appraisal/reaction_family_kpis.json` and `.csv`, splitting each family into candidate-pool recall, strict top-5 recall, benchmark traceability, model-output evidence coverage, production gap, and recommended next action.
+
 Export external benchmark inputs:
 
 ```bash
@@ -101,6 +109,7 @@ freezes/generation_09/manifest.json
 freezes/generation_10/manifest.json
 freezes/generation_11/manifest.json
 freezes/generation_12/manifest.json
+freezes/generation_13/manifest.json
 ```
 
 ## Retrain deployment models

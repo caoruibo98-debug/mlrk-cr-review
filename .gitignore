@@ -7,6 +7,7 @@ runtime/
 outputs/*
 !outputs/appraisal/
 !outputs/appraisal/*.json
+!outputs/appraisal/*.csv
 !outputs/external_benchmarks/
 !outputs/external_benchmarks/*.csv
 !outputs/external_benchmarks/*.tsv
