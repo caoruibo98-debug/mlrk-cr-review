@@ -80,6 +80,23 @@ GitHub CLI `2.93.0` was installed to prepare a PR-based review route. It is not 
 You are not logged into any GitHub hosts.
 ```
 
+## Subsequent blocker audit
+
+Another continuation pass revalidated the blocker:
+
+- `coderabbit doctor` reported 9 passed checks, including authentication, backend reachability, and WebSocket reachability.
+- The latest CodeRabbit review logs still show review startup followed by WebSocket/TRPC failure or no review completion. One log ended with `TRPCWebSocketClosedError`.
+- `coderabbit stats` reported no review history.
+- GitHub CLI is installed but remains unauthenticated.
+- GitHub connector metadata lookups returned `404 Not Found` for the likely repositories:
+  - `caoruibo98-debug/mlrk_cr_review`
+  - `caoruibo98-debug/FoodGut`
+  - `caoruibo98-debug/ml_ranking_kernel_prod_candidate`
+  - `caoruibo98-debug/ml_ranking_kernel`
+  - `caoruibo98-debug/Food_models`
+
+Conclusion: the local CodeRabbit review path is blocked despite successful authentication, and the PR-based route needs either `gh auth login` or an explicit existing GitHub repository with write access.
+
 ## Model-quality changes
 
 1. Added `mlrk_prod.glycoside_rescue.aromatic_o_glycoside_rescue_candidates`.
