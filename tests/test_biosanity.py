@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from mlrk_prod.biosanity import candidate_quality
 from mlrk_prod.biosanity import annotate_prediction_payload
+from mlrk_prod.glycoside_rescue import aromatic_o_glycoside_rescue_candidates
 
 
 def test_rutin_to_quercetin_quality_is_high() -> None:
@@ -51,3 +52,16 @@ def test_annotated_payload_excludes_rejected_candidates_from_interpretation_read
     out = annotate_prediction_payload(payload)
     assert [row["rank"] for row in out["interpretation_ready_top"]] == [2]
     assert out["quality_summary"]["rejected_ranks"] == [1]
+
+
+def test_aromatic_glycoside_rescue_finds_quercitrin_aglycone() -> None:
+    quercitrin = "C[C@@H]1O[C@@H](Oc2c(-c3ccc(O)c(O)c3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@H](O)[C@H]1O"
+    products = aromatic_o_glycoside_rescue_candidates(quercitrin)
+    assert "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12" in products
+
+
+def test_aromatic_glycoside_rescue_does_not_fire_on_aglycone_or_caffeine() -> None:
+    quercetin = "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12"
+    caffeine = "Cn1c(=O)c2c(ncn2C)n(C)c1=O"
+    assert aromatic_o_glycoside_rescue_candidates(quercetin) == []
+    assert aromatic_o_glycoside_rescue_candidates(caffeine) == []

@@ -26,12 +26,14 @@ from rdkit import Chem
 from rdkit import RDLogger
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import kio  # noqa: E402
 import module_router as mr  # noqa: E402
 from generate_candidates import run_reactants  # noqa: E402
 from ltr_candidates import load_module_rules  # noqa: E402
 from ltr_build import LTR_OUT  # noqa: E402
+from mlrk_prod.glycoside_rescue import aromatic_o_glycoside_rescue_candidates  # noqa: E402
 
 RDLogger.DisableLog("rdApp.*")
 MODELS = LTR_OUT / "models_clean"
@@ -89,12 +91,20 @@ def main() -> None:
     rules = load_module_rules(np.random.default_rng(0), args.n_rules)[module]
     cmol = Chem.MolFromSmiles(smi); cmolh = Chem.AddHs(cmol)
     cand = {}
+    candidate_source = {}
+    sb0 = kio.inchikey_block1(kio.smiles_to_inchikey(smi))
     for smarts, ecc in rules:
         for psmi in run_reactants(smarts, cmol, cmolh):
             pik = kio.smiles_to_inchikey(psmi); pb = kio.inchikey_block1(pik)
-            sb0 = kio.inchikey_block1(kio.smiles_to_inchikey(smi))
             if pb and pb != sb0 and pb not in cand:
                 cand[pb] = (psmi, pik)
+                candidate_source[pb] = "rule"
+    if module == "B":
+        for psmi in aromatic_o_glycoside_rescue_candidates(smi):
+            pik = kio.smiles_to_inchikey(psmi); pb = kio.inchikey_block1(pik)
+            if pb and pb != sb0 and pb not in cand:
+                cand[pb] = (psmi, pik)
+                candidate_source[pb] = "curated_aromatic_o_glycoside_rescue"
     if not cand:
         print(json.dumps({"input": label, "module": module, "n_candidates": 0,
                           "note": "规则未生成任何候选(generation miss)"}, ensure_ascii=False, indent=2)); return
@@ -111,8 +121,13 @@ def main() -> None:
         zp = _l2(emb[cand[pb][0]]); X[i] = np.concatenate([zs, zp, zs - zp, zs * zp])
     score = model.predict(X)
 
-    ev = evidence_lookup(); sb0 = kio.inchikey_block1(kio.smiles_to_inchikey(smi))
-    out = pd.DataFrame({"pb": pbs, "smiles": [cand[pb][0] for pb in pbs], "score": score})
+    ev = evidence_lookup()
+    out = pd.DataFrame({
+        "pb": pbs,
+        "smiles": [cand[pb][0] for pb in pbs],
+        "score": score,
+        "candidate_source": [candidate_source.get(pb, "rule") for pb in pbs],
+    })
     out = out.sort_values("score", ascending=False).head(args.topn).reset_index(drop=True)
     lo, hi = out.score.min(), out.score.max()
     rows = []
@@ -121,6 +136,7 @@ def main() -> None:
         rows.append({"rank": i + 1, "product_name": block1_to_name(r.pb) or "unnamed/novel",
                      "product_smiles": r.smiles, "score": round(float((r.score - lo) / (hi - lo)) if hi > lo else 0.5, 3),
                      "evidence": ";".join(f"{k}={v}" for k, v in e.items() if v) or "—"})
+        rows[-1]["candidate_source"] = r.candidate_source
     prov = {"input": {"name": label, "smiles": smi}, "module": module, "module_name": mr.MODULE_NAMES[module],
             "n_rule_candidates": len(cand),
             "honest_note": "只在规则生成的候选里排序;排序分=LTR_chem学习分(非湿实验概率);证据仅解释不进排序。",

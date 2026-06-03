@@ -54,7 +54,7 @@ Run the internal, non-clinical life-science appraisal:
 python tools/life_science_appraisal.py --run-panel --topn 10
 ```
 
-The appraisal uses a real curated food-glycoside panel, structure-aware expected-product matching, anti-cheat internal metrics, biochemical quality flags, and claim-boundary checks. The current strict score is `4.15 / 5`; this is an internal research-product score, not wet-lab validation.
+The appraisal uses a real curated food-glycoside panel, structure-aware expected-product matching, anti-cheat internal metrics, biochemical quality flags, and claim-boundary checks. The current strict score is `4.43 / 5`; this is an internal research-product score, not wet-lab validation.
 
 Frozen iterations are recorded under:
 
@@ -62,6 +62,7 @@ Frozen iterations are recorded under:
 freezes/generation_01/manifest.json
 freezes/generation_02/manifest.json
 freezes/generation_03/manifest.json
+freezes/generation_04/manifest.json
 ```
 
 ## Retrain deployment models
