@@ -28,10 +28,8 @@ from mlrk_prod.glycoside_rescue import aromatic_o_glycoside_rescue_candidates  #
 RDLogger.DisableLog("rdApp.*")
 
 MODELS = LTR_OUT / "models_clean"
-DEFAULT_EVIDENCE_POOL = Path(
-    r"D:\CRB\FoodGut\positive_sample_db\data\processed\foodgut_modular_positive_candidate_pool_v2.csv"
-)
-EVIDENCE_POOL = Path(os.environ.get("MLRK_EVIDENCE_POOL", str(DEFAULT_EVIDENCE_POOL)))
+DEFAULT_EVIDENCE_POOL = ROOT / "data" / "foodgut_modular_positive_candidate_pool_v2.csv"
+EVIDENCE_POOL = Path(os.environ["MLRK_EVIDENCE_POOL"]) if "MLRK_EVIDENCE_POOL" in os.environ else DEFAULT_EVIDENCE_POOL
 HONEST_NOTE = (
     "Ranks only rule-generated candidates; ranking score is non-wet-lab and is not a biological "
     "occurrence probability; evidence is explanatory only and is not used for ranking."

@@ -75,13 +75,20 @@ def metric_summary() -> dict:
     }
 
 
-def block1_from_smiles(smiles: str | None) -> str | None:
+def inchikey_from_smiles(smiles: str | None) -> str | None:
     if not smiles:
         return None
     try:
         inchikey = kio.smiles_to_inchikey(smiles)
     except Exception:
         return None
+    if not inchikey:
+        return None
+    return str(inchikey)
+
+
+def block1_from_smiles(smiles: str | None) -> str | None:
+    inchikey = inchikey_from_smiles(smiles)
     if not inchikey:
         return None
     return kio.inchikey_block1(inchikey)
@@ -96,7 +103,13 @@ def row_rank(row: dict) -> int | None:
 
 def resolve_expected_product(expected: str) -> dict:
     smiles, source = name_to_smiles(expected)
-    return {"expected_smiles": smiles, "expected_source": source, "expected_block1": block1_from_smiles(smiles)}
+    inchikey = inchikey_from_smiles(smiles)
+    return {
+        "expected_smiles": smiles,
+        "expected_source": source,
+        "expected_inchikey": inchikey,
+        "expected_block1": kio.inchikey_block1(inchikey) if inchikey else None,
+    }
 
 
 def find_expected_row(payload: dict, expected: str, expected_block1: str | None = None) -> tuple[int | None, dict, str]:
@@ -120,6 +133,21 @@ def row_has_model_evidence(row: dict) -> bool:
     return "pmid=" in evidence or "enzyme=" in evidence or "microbe=" in evidence or "ec=" in evidence
 
 
+def full_inchikey_match(row: dict, expected_inchikey: str | None) -> bool | None:
+    if not row or not expected_inchikey:
+        return None
+    product_inchikey = inchikey_from_smiles(row.get("product_smiles"))
+    if not product_inchikey:
+        return None
+    return product_inchikey == expected_inchikey
+
+
+def counts_as_strict_hit(case: dict) -> bool:
+    if case.get("expected_rank") is None or int(case["expected_rank"]) > 5:
+        return False
+    return case.get("expected_full_inchikey_match") is not False
+
+
 def expected_in_candidate_pool(payload: dict, expected_block1: str | None) -> bool | None:
     if not expected_block1:
         return None
@@ -138,6 +166,7 @@ def classify_expected_outcome(
     expected_row: dict,
     expected_block1: str | None,
     evidence_source: str,
+    expected_full_match: bool | None = None,
 ) -> str:
     if not expected_block1:
         return "expected_identity_unresolved"
@@ -160,6 +189,9 @@ def classify_expected_outcome(
     if quality and quality.get("interpretation_allowed") is False:
         return "hit_top5_quality_rejected" if expected_rank <= 5 else "hit_below_top5_quality_rejected"
 
+    if expected_full_match is False:
+        return "hit_top5_connectivity_only_stereo_mismatch" if expected_rank <= 5 else "hit_below_top5_connectivity_only_stereo_mismatch"
+
     if expected_rank <= 5:
         if evidence_source == "model_output":
             return "hit_top5_model_evidence"
@@ -170,10 +202,17 @@ def classify_expected_outcome(
 
 
 def score_appraisal(cases: list[dict], metrics: dict, readiness: str) -> dict:
-    rank_hits = [c for c in cases if c["expected_rank"] is not None and c["expected_rank"] <= 5]
+    rank_hits = [c for c in cases if counts_as_strict_hit(c)]
     high_quality_top = [c for c in cases if c["top_quality_tier"] in {"high", "medium"}]
-    model_evidence_hits = [c for c in cases if c["expected_evidence_source"] == "model_output"]
-    traceable_evidence_hits = [c for c in cases if c["expected_evidence_source"] in {"model_output", "benchmark_panel"}]
+    model_evidence_hits = [
+        c for c in cases if c["expected_evidence_source"] == "model_output" and c.get("expected_full_inchikey_match") is not False
+    ]
+    traceable_evidence_hits = [
+        c
+        for c in cases
+        if c["expected_evidence_source"] in {"model_output", "benchmark_panel"}
+        and c.get("expected_full_inchikey_match") is not False
+    ]
     flagged_bad_top = [c for c in cases if c["top_quality_tier"] == "reject"]
 
     real_case_score = len(rank_hits) / max(1, len(cases))
@@ -227,12 +266,14 @@ def main() -> int:
         elif expected_rank is not None and str(case.get("reference", "")).strip():
             evidence_source = "benchmark_panel"
         expected_quality = expected.get("biochem_quality", {})
+        expected_full_match = full_inchikey_match(expected, expected_identity["expected_inchikey"])
         failure_type = classify_expected_outcome(
             payload,
             expected_rank,
             expected,
             expected_identity["expected_block1"],
             evidence_source,
+            expected_full_match,
         )
         cases.append(
             {
@@ -247,6 +288,8 @@ def main() -> int:
                 "expected_rank": expected_rank,
                 "expected_match_type": match_type,
                 "expected_matched_product_name": expected.get("product_name"),
+                "expected_matched_product_inchikey": inchikey_from_smiles(expected.get("product_smiles")),
+                "expected_full_inchikey_match": expected_full_match,
                 "expected_evidence_source": evidence_source,
                 "expected_quality_tier": expected_quality.get("tier"),
                 "expected_quality_flags": [f["code"] for f in expected_quality.get("flags", [])],

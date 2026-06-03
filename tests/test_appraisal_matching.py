@@ -1,6 +1,14 @@
 from __future__ import annotations
 
-from tools.life_science_appraisal import block1_from_smiles, classify_expected_outcome, expected_in_candidate_pool, find_expected_row
+from tools.life_science_appraisal import (
+    block1_from_smiles,
+    classify_expected_outcome,
+    counts_as_strict_hit,
+    expected_in_candidate_pool,
+    full_inchikey_match,
+    inchikey_from_smiles,
+    find_expected_row,
+)
 
 
 def test_expected_match_uses_connectivity_not_display_name() -> None:
@@ -65,4 +73,33 @@ def test_failure_taxonomy_distinguishes_generation_from_ranking() -> None:
     assert (
         classify_expected_outcome(payload, 2, {"biochem_quality": {"interpretation_allowed": True}}, "EXPECTED", "benchmark_panel")
         == "hit_top5_benchmark_only"
+    )
+
+
+def test_full_inchikey_match_detects_stereo_mismatch() -> None:
+    expected_smiles = "O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21"
+    opposite_smiles = "O=C1C[C@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21"
+    expected_block1 = block1_from_smiles(expected_smiles)
+    assert expected_block1 == block1_from_smiles(opposite_smiles)
+    payload = {
+        "n_rule_candidates": 1,
+        "candidate_summary": {"all_product_blocks": [expected_block1]},
+        "top": [
+            {
+                "rank": 1,
+                "product_name": "naringenin",
+                "product_smiles": opposite_smiles,
+            }
+        ]
+    }
+    rank, row, match_type = find_expected_row(payload, "naringenin", expected_block1)
+    assert rank == 1
+    assert match_type == "inchikey_block1"
+    expected_inchikey = inchikey_from_smiles(expected_smiles)
+    assert full_inchikey_match(row, expected_inchikey) is False
+    case = {"expected_rank": rank, "expected_full_inchikey_match": False}
+    assert counts_as_strict_hit(case) is False
+    assert (
+        classify_expected_outcome(payload, rank, row, expected_block1, "benchmark_panel", False)
+        == "hit_top5_connectivity_only_stereo_mismatch"
     )

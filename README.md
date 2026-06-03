@@ -22,13 +22,15 @@ Current unsafe claim:
 
 ## Current Performance Snapshot
 
-As of `generation_08`:
+As of `generation_09`:
 
-- Core curated food-glycoside panel: `6 / 6` top-5 hits, score `4.43 / 5`.
+- Core curated food-glycoside panel: `6 / 6` strict top-5 hits, score `3.88 / 5`.
 - Production challenge panel: `1 / 22` top-5 hits, score `1.79 / 5`.
 - Challenge failure taxonomy: `18` expected products not generated, `3` substrates with no generated candidates, `1` benchmark-only top-5 hit.
 - Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
 - Readiness status: `internal_mvp_only`.
+
+The core score dropped from `4.43 / 5` after generation 09 because the default evidence pool is no longer a local Windows-only path. External evidence can still be supplied with `MLRK_EVIDENCE_POOL`, but reproducible scorecard runs should not depend on hidden local files.
 
 The challenge-panel result is intentional and important: it shows that the current system is not yet ready for broad food microbiome metabolite prediction.
 
@@ -66,6 +68,8 @@ Run one prediction:
 ```bash
 python -m mlrk_prod.cli predict --name rutin --topn 10
 ```
+
+Optional evidence overlays can be enabled by setting `MLRK_EVIDENCE_POOL` to a CSV with substrate/product InChIKey and enzyme, microbe, PMID fields. Without it, predictions still rank candidates but evidence fields may be `-`.
 
 Run the core panel:
 

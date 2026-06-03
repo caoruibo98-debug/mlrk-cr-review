@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -42,12 +43,17 @@ def sha256(path: Path) -> str:
 
 def iter_files() -> list[Path]:
     files: list[Path] = []
+    missing: list[str] = []
     for item in TRACKED:
         p = ROOT / item
         if p.is_file():
             files.append(p)
         elif p.is_dir():
             files.extend(x for x in p.rglob("*") if x.is_file() and "__pycache__" not in x.parts)
+        else:
+            missing.append(item)
+    if missing:
+        print(f"Warning: {len(missing)} tracked paths not found: {missing}", file=sys.stderr)
     return sorted(files)
 
 

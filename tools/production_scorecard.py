@@ -35,7 +35,11 @@ def read_json(path: Path) -> dict[str, Any] | None:
 
 
 def internal_metric_summary() -> dict[str, Any]:
-    rows = list(csv.DictReader(METRICS.open("r", encoding="utf-8-sig", newline="")))
+    try:
+        rows = list(csv.DictReader(METRICS.open("r", encoding="utf-8-sig", newline="")))
+    except FileNotFoundError as exc:
+        rel = str(METRICS.relative_to(ROOT)).replace("\\", "/")
+        raise FileNotFoundError(f"Missing internal metrics file: {rel}. Run or restore deployed LTR metrics before building the scorecard.") from exc
     by_method: dict[str, list[float]] = {}
     by_module: dict[str, dict[str, float]] = {}
     for row in rows:
@@ -77,7 +81,9 @@ def panel_summary(report: dict[str, Any] | None, label: str) -> dict[str, Any]:
     if report is None:
         return {"label": label, "status": "missing_report"}
     cases = report.get("cases", [])
-    top5 = [c for c in cases if c.get("expected_rank") is not None and int(c["expected_rank"]) <= 5]
+    connectivity_top5 = [c for c in cases if c.get("expected_rank") is not None and int(c["expected_rank"]) <= 5]
+    top5 = [c for c in connectivity_top5 if c.get("expected_full_inchikey_match") is not False]
+    stereo_mismatch_top5 = [c for c in connectivity_top5 if c.get("expected_full_inchikey_match") is False]
     generated = [c for c in cases if c.get("expected_rank") is not None]
     expected_in_pool = [c for c in cases if c.get("expected_in_candidate_pool") is True]
     evidence = Counter(str(c.get("expected_evidence_source", "none")) for c in cases)
@@ -91,6 +97,7 @@ def panel_summary(report: dict[str, Any] | None, label: str) -> dict[str, Any]:
             "reaction_family": c.get("reaction_family"),
             "failure_type": c.get("failure_type"),
             "expected_in_candidate_pool": c.get("expected_in_candidate_pool"),
+            "expected_full_inchikey_match": c.get("expected_full_inchikey_match"),
             "expected_rank": c.get("expected_rank"),
             "match_type": c.get("expected_match_type"),
             "top_product": c.get("top_product"),
@@ -106,6 +113,9 @@ def panel_summary(report: dict[str, Any] | None, label: str) -> dict[str, Any]:
         "score": report.get("score", {}),
         "expected_generated_count": len(generated),
         "expected_in_candidate_pool_count": len(expected_in_pool),
+        "connectivity_top5_hit_count": len(connectivity_top5),
+        "connectivity_top5_hit_rate": round(len(connectivity_top5) / max(1, len(cases)), 3),
+        "stereo_mismatch_top5_count": len(stereo_mismatch_top5),
         "top5_hit_count": len(top5),
         "top5_hit_rate": round(len(top5) / max(1, len(cases)), 3),
         "evidence_source_counts": dict(sorted(evidence.items())),

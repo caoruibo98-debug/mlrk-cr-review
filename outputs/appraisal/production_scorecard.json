@@ -42,27 +42,28 @@
     "panel_file": "data/real_biochemistry_panel.csv",
     "case_count": 6,
     "score": {
-      "score_0_to_5": 4.43,
+      "score_0_to_5": 3.88,
       "dimensions": {
         "internal_ranker_and_anti_cheat": 1.0,
         "real_biochemistry_panel": 1.0,
         "candidate_biochemical_sanity": 1.0,
-        "model_output_evidence_coverage": 0.667,
+        "model_output_evidence_coverage": 0.0,
         "benchmark_evidence_traceability": 1.0,
         "deployment_and_claim_boundaries": 0.65
       }
     },
     "expected_generated_count": 6,
     "expected_in_candidate_pool_count": 6,
+    "connectivity_top5_hit_count": 6,
+    "connectivity_top5_hit_rate": 1.0,
+    "stereo_mismatch_top5_count": 0,
     "top5_hit_count": 6,
     "top5_hit_rate": 1.0,
     "evidence_source_counts": {
-      "benchmark_panel": 2,
-      "model_output": 4
+      "benchmark_panel": 6
     },
     "failure_type_counts": {
-      "hit_top5_benchmark_only": 2,
-      "hit_top5_model_evidence": 4
+      "hit_top5_benchmark_only": 6
     },
     "reaction_family_counts": {
       "glycoside_hydrolysis": 6
@@ -87,6 +88,9 @@
     },
     "expected_generated_count": 1,
     "expected_in_candidate_pool_count": 1,
+    "connectivity_top5_hit_count": 1,
+    "connectivity_top5_hit_rate": 0.045,
+    "stereo_mismatch_top5_count": 0,
     "top5_hit_count": 1,
     "top5_hit_rate": 0.045,
     "evidence_source_counts": {
@@ -126,6 +130,7 @@
         "reaction_family": "phenolic_ester_hydrolysis",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -137,6 +142,7 @@
         "reaction_family": "ellagitannin_urolithin_multistep",
         "failure_type": "no_generated_candidates",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": null
@@ -148,6 +154,7 @@
         "reaction_family": "isoflavone_reductive_metabolism",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -159,6 +166,7 @@
         "reaction_family": "lignan_deglucosylation",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "(2S,3R,4R,5S,6S)-2-[(2S,3S)-4-hydroxy-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butoxy]-6-(hydroxymethyl)oxane-3,4,5-triol"
@@ -170,6 +178,7 @@
         "reaction_family": "lignan_multistep_demethylation_dehydroxylation",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -181,6 +190,7 @@
         "reaction_family": "lignan_oxidation",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -192,6 +202,7 @@
         "reaction_family": "hydroxycinnamate_reduction",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -203,6 +214,7 @@
         "reaction_family": "hydroxycinnamate_reduction",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -214,6 +226,7 @@
         "reaction_family": "hydroxycinnamate_reduction",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -225,6 +238,7 @@
         "reaction_family": "stilbene_reduction",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -236,6 +250,7 @@
         "reaction_family": "stilbene_dehydroxylation",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -247,6 +262,7 @@
         "reaction_family": "flavanol_ring_fission",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -258,6 +274,7 @@
         "reaction_family": "flavanol_ring_fission",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -269,6 +286,7 @@
         "reaction_family": "flavanone_ring_fission",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -280,6 +298,7 @@
         "reaction_family": "flavonol_ring_fission",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -291,6 +310,7 @@
         "reaction_family": "isoflavone_reduction",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -302,6 +322,7 @@
         "reaction_family": "isoflavone_reduction",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -313,6 +334,7 @@
         "reaction_family": "isoflavone_c_glycoside_conversion",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "hydron"
@@ -324,6 +346,7 @@
         "reaction_family": "gallate_decarboxylation",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": "unnamed/novel"
@@ -335,6 +358,7 @@
         "reaction_family": "urolithin_dehydroxylation",
         "failure_type": "no_generated_candidates",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": null
@@ -346,6 +370,7 @@
         "reaction_family": "ellagitannin_hydrolysis",
         "failure_type": "no_generated_candidates",
         "expected_in_candidate_pool": false,
+        "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
         "top_product": null

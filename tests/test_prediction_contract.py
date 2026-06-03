@@ -57,6 +57,8 @@ def test_no_candidate_prediction_writes_contract_payload() -> None:
     )
     if proc.returncode != 0:
         raise RuntimeError(proc.stderr or proc.stdout)
+    if not path.is_file():
+        raise RuntimeError(f"prediction completed but output not written: {path}")
     payload = json.loads(path.read_text(encoding="utf-8"))
     payload = annotate_prediction_payload(payload)
     assert validate_prediction_payload(payload) == []
