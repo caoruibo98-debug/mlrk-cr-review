@@ -44,6 +44,26 @@ python tools/run_contract_tests.py
 python -m mlrk_prod.cli predict --name rutin --topn 8
 ```
 
+Prediction payloads include `biochem_quality`, `quality_summary`, and `interpretation_ready_top`. The ranking score is still not a wet-lab probability.
+
+## Life-science appraisal
+
+Run the internal, non-clinical life-science appraisal:
+
+```bash
+python tools/life_science_appraisal.py --run-panel --topn 10
+```
+
+The appraisal uses a real curated food-glycoside panel, structure-aware expected-product matching, anti-cheat internal metrics, biochemical quality flags, and claim-boundary checks. The current strict score is `4.15 / 5`; this is an internal research-product score, not wet-lab validation.
+
+Frozen iterations are recorded under:
+
+```text
+freezes/generation_01/manifest.json
+freezes/generation_02/manifest.json
+freezes/generation_03/manifest.json
+```
+
 ## Retrain deployment models
 
 ```bash
