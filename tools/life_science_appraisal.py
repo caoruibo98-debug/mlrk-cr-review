@@ -11,9 +11,12 @@ from statistics import mean
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "src"))
 
 from mlrk_prod.biosanity import annotate_prediction_payload  # noqa: E402
 from mlrk_prod.manifest import readiness_status, validate_readiness  # noqa: E402
+import kio  # noqa: E402
+from resolve import name_to_smiles  # noqa: E402
 
 
 PANEL = ROOT / "data" / "real_biochemistry_panel.csv"
@@ -72,18 +75,37 @@ def metric_summary() -> dict:
     }
 
 
-def find_expected_rank(payload: dict, expected: str) -> int | None:
+def block1_from_smiles(smiles: str | None) -> str | None:
+    if not smiles:
+        return None
+    return kio.inchikey_block1(kio.smiles_to_inchikey(smiles))
+
+
+def resolve_expected_product(expected: str) -> dict:
+    smiles, source = name_to_smiles(expected)
+    return {"expected_smiles": smiles, "expected_source": source, "expected_block1": block1_from_smiles(smiles)}
+
+
+def find_expected_row(payload: dict, expected: str, expected_block1: str | None = None) -> tuple[int | None, dict, str]:
     target = expected.strip().lower()
     for row in payload.get("top", []):
+        product_block1 = block1_from_smiles(row.get("product_smiles"))
+        if expected_block1 and product_block1 == expected_block1:
+            return int(row["rank"]), row, "inchikey_block1"
         if str(row.get("product_name", "")).strip().lower() == target:
-            return int(row["rank"])
-    return None
+            return int(row["rank"]), row, "name"
+    return None, {}, "miss"
+
+
+def row_has_model_evidence(row: dict) -> bool:
+    evidence = str(row.get("evidence", "")).lower()
+    return "pmid=" in evidence or "enzyme=" in evidence or "microbe=" in evidence or "ec=" in evidence
 
 
 def score_appraisal(cases: list[dict], metrics: dict, readiness: str) -> dict:
     rank_hits = [c for c in cases if c["expected_rank"] is not None and c["expected_rank"] <= 5]
     high_quality_top = [c for c in cases if c["top_quality_tier"] in {"high", "medium"}]
-    evidence_hits = [c for c in cases if c["expected_has_evidence"]]
+    evidence_hits = [c for c in cases if c["expected_evidence_source"] in {"model_output", "benchmark_panel"}]
     flagged_bad_top = [c for c in cases if c["top_quality_tier"] == "reject"]
 
     real_case_score = len(rank_hits) / max(1, len(cases))
@@ -118,19 +140,28 @@ def main() -> int:
     cases = []
     for case in panel:
         payload = annotate_prediction_payload(read_prediction(case["substrate_name"]))
-        expected_rank = find_expected_rank(payload, case["expected_product_name"])
-        top = payload.get("top", [{}])[0] if payload.get("top") else {}
-        expected = next(
-            (row for row in payload.get("top", []) if str(row.get("product_name", "")).lower() == case["expected_product_name"].lower()),
-            {},
+        expected_identity = resolve_expected_product(case["expected_product_name"])
+        expected_rank, expected, match_type = find_expected_row(
+            payload,
+            case["expected_product_name"],
+            expected_identity["expected_block1"],
         )
+        top = payload.get("top", [{}])[0] if payload.get("top") else {}
+        evidence_source = "none"
+        if row_has_model_evidence(expected):
+            evidence_source = "model_output"
+        elif expected_rank is not None and str(case.get("reference", "")).strip():
+            evidence_source = "benchmark_panel"
         cases.append(
             {
                 **case,
+                **expected_identity,
                 "module": payload.get("module_name"),
                 "n_rule_candidates": payload.get("n_rule_candidates"),
                 "expected_rank": expected_rank,
-                "expected_has_evidence": "pmid=" in str(expected.get("evidence", "")).lower() or "enzyme=" in str(expected.get("evidence", "")).lower(),
+                "expected_match_type": match_type,
+                "expected_matched_product_name": expected.get("product_name"),
+                "expected_evidence_source": evidence_source,
                 "top_product": top.get("product_name"),
                 "top_quality_tier": top.get("biochem_quality", {}).get("tier"),
                 "top_quality_flags": [f["code"] for f in top.get("biochem_quality", {}).get("flags", [])],

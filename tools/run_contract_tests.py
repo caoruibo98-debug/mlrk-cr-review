@@ -14,6 +14,7 @@ TEST_MODULES = [
     "tests.test_prediction_contract",
     "tests.test_api_contract",
     "tests.test_biosanity",
+    "tests.test_appraisal_matching",
 ]
 
 
