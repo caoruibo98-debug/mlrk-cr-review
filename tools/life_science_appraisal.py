@@ -78,7 +78,20 @@ def metric_summary() -> dict:
 def block1_from_smiles(smiles: str | None) -> str | None:
     if not smiles:
         return None
-    return kio.inchikey_block1(kio.smiles_to_inchikey(smiles))
+    try:
+        inchikey = kio.smiles_to_inchikey(smiles)
+    except Exception:
+        return None
+    if not inchikey:
+        return None
+    return kio.inchikey_block1(inchikey)
+
+
+def row_rank(row: dict) -> int | None:
+    try:
+        return int(row["rank"])
+    except (KeyError, TypeError, ValueError):
+        return None
 
 
 def resolve_expected_product(expected: str) -> dict:
@@ -90,10 +103,15 @@ def find_expected_row(payload: dict, expected: str, expected_block1: str | None 
     target = expected.strip().lower()
     for row in payload.get("top", []):
         product_block1 = block1_from_smiles(row.get("product_smiles"))
-        if expected_block1 and product_block1 == expected_block1:
-            return int(row["rank"]), row, "inchikey_block1"
+        rank = row_rank(row)
+        if rank is None:
+            continue
+        if expected_block1:
+            if product_block1 == expected_block1:
+                return rank, row, "inchikey_block1"
+            continue
         if str(row.get("product_name", "")).strip().lower() == target:
-            return int(row["rank"]), row, "name"
+            return rank, row, "name"
     return None, {}, "miss"
 
 

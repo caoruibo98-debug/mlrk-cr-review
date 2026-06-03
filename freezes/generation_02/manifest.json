@@ -1,5 +1,7 @@
 {
   "generation": "generation_02",
+  "evaluated_commit": "72eab3d527e4dfba9dbf14b93a2bf65dda62dc0e",
+  "freeze_commit": "1ebf68cde316d9adf0e3642769b17cb72b375f41",
   "git_commit": "72eab3d527e4dfba9dbf14b93a2bf65dda62dc0e",
   "review": "score 4.32; structure-aware panel; quercitrin remains a true generation miss",
   "file_count": 69,

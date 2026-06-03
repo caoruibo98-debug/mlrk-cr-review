@@ -36,6 +36,13 @@ def _evidence_is_empty(value: Any) -> bool:
     return not any(token in text.lower() for token in ("enzyme=", "pmid=", "microbe=", "ec=", "known:"))
 
 
+def _rank_as_int(value: Any) -> int | None:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
 def _tier(score: float) -> str:
     if score >= 0.75:
         return "high"
@@ -137,7 +144,9 @@ def annotate_prediction_payload(payload: dict[str, Any]) -> dict[str, Any]:
         tier = row["biochem_quality"]["tier"]
         tier_counts[tier] = tier_counts.get(tier, 0) + 1
         if not row["biochem_quality"]["interpretation_allowed"]:
-            rejected_ranks.append(int(row.get("rank", 0)))
+            rank = _rank_as_int(row.get("rank"))
+            if rank is not None:
+                rejected_ranks.append(rank)
     out["interpretation_ready_top"] = [
         row for row in out.get("top", []) if row.get("biochem_quality", {}).get("interpretation_allowed")
     ]

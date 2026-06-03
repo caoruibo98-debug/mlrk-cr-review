@@ -3,7 +3,8 @@
 ## Frozen state
 
 - Git tag: `generation_02`
-- Commit: `1ebf68c`
+- evaluated_commit: `72eab3d527e4dfba9dbf14b93a2bf65dda62dc0e`
+- freeze_commit: `1ebf68cde316d9adf0e3642769b17cb72b375f41`
 - Life-science application score: `4.32 / 5`
 - Contract tests: `PASSED 9`
 
@@ -25,4 +26,3 @@ CodeRabbit CLI is installed in WSL (`0.5.3`). Authentication status returned exi
 2. Add `interpretation_ready_top` and `quality_summary` to prediction payloads.
 3. Add regression tests proving rejected candidates are excluded from the interpretation-ready view.
 4. Freeze generation 03 and report whether the stricter score remains at or above `4/5`.
-

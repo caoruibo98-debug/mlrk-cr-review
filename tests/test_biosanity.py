@@ -54,6 +54,25 @@ def test_annotated_payload_excludes_rejected_candidates_from_interpretation_read
     assert out["quality_summary"]["rejected_ranks"] == [1]
 
 
+def test_annotated_payload_skips_malformed_rejected_rank() -> None:
+    payload = {
+        "input": {"smiles": "O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21"},
+        "module_name": "small_molecule",
+        "top": [
+            {
+                "rank": "not-a-rank",
+                "product_name": "bad phosphate",
+                "product_smiles": "COP(=O)(OC)Oc1ccc([C@@H]2CC(=O)c3c(O)cc(O)cc3O2)cc1",
+                "score": 1.0,
+                "evidence": "-",
+            }
+        ],
+    }
+    out = annotate_prediction_payload(payload)
+    assert out["interpretation_ready_top"] == []
+    assert out["quality_summary"]["rejected_ranks"] == []
+
+
 def test_aromatic_glycoside_rescue_finds_quercitrin_aglycone() -> None:
     quercitrin = "C[C@@H]1O[C@@H](Oc2c(-c3ccc(O)c(O)c3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@H](O)[C@H]1O"
     products = aromatic_o_glycoside_rescue_candidates(quercitrin)
