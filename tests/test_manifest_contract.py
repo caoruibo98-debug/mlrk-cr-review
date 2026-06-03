@@ -12,5 +12,4 @@ def test_artifact_manifest_is_not_blocked_by_missing_files() -> None:
 
 def test_external_validation_gate_is_explicit() -> None:
     issues = validate_readiness()
-    assert any(i.code == "external_benchmark_missing" for i in issues)
-
+    assert any(i.code == "external_benchmark_results_missing" for i in issues)

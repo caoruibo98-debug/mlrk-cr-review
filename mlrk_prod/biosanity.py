@@ -36,6 +36,13 @@ def _evidence_is_empty(value: Any) -> bool:
     return not any(token in text.lower() for token in ("enzyme=", "pmid=", "microbe=", "ec=", "known:"))
 
 
+def _rank_as_int(value: Any) -> int | None:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
 def _tier(score: float) -> str:
     if score >= 0.75:
         return "high"
@@ -63,6 +70,7 @@ def candidate_quality(input_smiles: str, candidate: dict[str, Any], module_name:
         "valid_smiles": prod is not None,
         "score": 0.0,
         "tier": "reject",
+        "interpretation_allowed": False,
         "flags": [flag.__dict__ for flag in flags],
     }
     if sub is None or prod is None:
@@ -107,11 +115,14 @@ def candidate_quality(input_smiles: str, candidate: dict[str, Any], module_name:
             score += 0.10
 
     score = max(0.0, min(1.0, score))
+    tier = _tier(score)
+    has_error_flag = any(flag.severity == "error" for flag in flags)
     result.update(
         {
             "valid_smiles": True,
             "score": round(score, 3),
-            "tier": _tier(score),
+            "tier": tier,
+            "interpretation_allowed": tier in {"high", "medium"} and not has_error_flag,
             "exact_mass": round(prod_mass, 5),
             "formula": rdMolDescriptors.CalcMolFormula(prod),
             "mass_delta_from_input": round(mass_delta, 5),
@@ -126,8 +137,25 @@ def annotate_prediction_payload(payload: dict[str, Any]) -> dict[str, Any]:
     out = copy.deepcopy(payload)
     input_smiles = str(out.get("input", {}).get("smiles", ""))
     module_name = str(out.get("module_name", ""))
+    tier_counts: dict[str, int] = {}
+    rejected_ranks: list[int] = []
     for row in out.get("top", []):
         row["biochem_quality"] = candidate_quality(input_smiles, row, module_name=module_name)
+        tier = row["biochem_quality"]["tier"]
+        tier_counts[tier] = tier_counts.get(tier, 0) + 1
+        if not row["biochem_quality"]["interpretation_allowed"]:
+            rank = _rank_as_int(row.get("rank"))
+            if rank is not None:
+                rejected_ranks.append(rank)
+    out["interpretation_ready_top"] = [
+        row for row in out.get("top", []) if row.get("biochem_quality", {}).get("interpretation_allowed")
+    ]
+    out["quality_summary"] = {
+        "returned_candidates": len(out.get("top", [])),
+        "interpretation_ready_candidates": len(out["interpretation_ready_top"]),
+        "tier_counts": tier_counts,
+        "rejected_ranks": rejected_ranks,
+    }
     out["application_boundary"] = {
         "score_meaning": "Ranking score is not a wet-lab probability.",
         "quality_meaning": "Biochemical quality flags support review; they do not prove occurrence.",
@@ -135,4 +163,3 @@ def annotate_prediction_payload(payload: dict[str, Any]) -> dict[str, Any]:
         "forbidden_use": "Consumer, clinical, or causal microbiome health claims.",
     }
     return out
-

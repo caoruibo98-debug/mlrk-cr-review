@@ -1,0 +1,15 @@
+numpy==2.4.3
+pandas==3.0.1
+pyyaml==6.0.3
+rdkit==2025.9.6
+xgboost==3.2.0
+
+# Optional but recommended for research reproduction and tests:
+pyarrow==23.0.1
+scikit-learn==1.8.0
+pytest==9.0.3
+
+# Optional API server:
+fastapi==0.136.3
+pydantic==2.13.4
+uvicorn==0.48.0

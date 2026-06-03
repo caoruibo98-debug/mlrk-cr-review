@@ -4,16 +4,23 @@ import argparse
 import hashlib
 import json
 import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
 
 
 TRACKED = [
+    ".gitignore",
     "production_artifact_manifest.json",
     "pyproject.toml",
+    "requirements.txt",
     "mlrk_prod",
     "modular",
+    "scripts",
     "src",
     "tools",
     "tests",
@@ -22,6 +29,11 @@ TRACKED = [
     "configs",
     "gen_gap",
     "verification",
+    "outputs/external_benchmarks",
+    "outputs/modular/ltr/models_clean",
+    "outputs/modular/ltr/clean2_metrics.csv",
+    "outputs/modular/ltr/clean2_feature_importance.csv",
+    "outputs/appraisal",
 ]
 
 
@@ -35,12 +47,17 @@ def sha256(path: Path) -> str:
 
 def iter_files() -> list[Path]:
     files: list[Path] = []
+    missing: list[str] = []
     for item in TRACKED:
         p = ROOT / item
         if p.is_file():
             files.append(p)
         elif p.is_dir():
             files.extend(x for x in p.rglob("*") if x.is_file() and "__pycache__" not in x.parts)
+        else:
+            missing.append(item)
+    if missing:
+        print(f"Warning: {len(missing)} tracked paths not found: {missing}", file=sys.stderr)
     return sorted(files)
 
 
@@ -72,7 +89,7 @@ def main() -> int:
     }
     if score_path.exists():
         manifest["score"] = json.loads(score_path.read_text(encoding="utf-8")).get("score")
-    (freeze_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    atomic_write_json(freeze_dir / "manifest.json", manifest)
     print(f"froze {args.generation} with {len(files)} tracked files")
     return 0
 

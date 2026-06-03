@@ -1,43 +1,197 @@
-# L-RCLSS — Learned, Rule-Agnostic Reaction Ranking Kernel
+# ML Ranking Kernel Production Candidate
 
-与反应规则无关、可迁移、打分路径独立于 RDKit 的**神经反应排序内核**。
-把 SSRF/RCLSS 从"人工网格校准的规则相似性"升级为"学习到的可迁移排序内核"。
+Production-candidate shell for an internal food and gut-microbiome metabolite ranking model.
 
-完整设计见 `C:\Users\crb66\.claude\plans\snug-launching-backus.md`。
+This repository does not claim to be a broad, externally validated predictor. It is currently an internal research MVP for prioritizing rule-generated food-polyphenol metabolite candidates.
 
-## 一句话定位
-- **阶段1（稳 / RDKit+SMARTS）**：production SSRF/RCLSS（`scripts/ssrf/`）仍是候选生成器 + SMARTS gate + 溯源来源。
-- **阶段2（拓宽 / 学习 / RDKit-free 打分）**：冻结化学语言模型（ChemBERTa-2 / MolFormer）编码 substrate/product →
-  反应表示 `[z_s, z_p, z_s−z_p, z_s⊙z_p]` → 轻量排序头（pairwise + nnPU）→ `ml_kernel_score`。
-- 内核**不消费** rule_id/EC/RCLSS/category 作特征 → 可迁移到任意来源的候选。
+## Reviewer Summary
 
-## 成功判据（标准式）
-同一 split 下 `ML > 规则先验RCLSS`；且 `ML(scaffold) ≈ ML(random)`（小泛化 gap = 学到可迁移化学）。
+Current status: `internal_mvp_only`
 
-## 安全契约（沿用 trainable_ranker_experiment 模式）
-- **不修改** production SSRF/RCLSS/V3/V4 任何代码或产物；只读取它们的输出 + label 文件。
-- 所有写出落在 `scripts/ssrf/ml_ranking_kernel/outputs/` 内（`kio.safe_output_path` 强制）；
-  已存在文件需 `--force`。
+Current safe claim:
 
-## 流水线
-```
-src/build_kernel_dataset.py   # Phase 1  正/负/未标注边表 → outputs/datasets/kernel_edges.parquet
-src/encode_molecules.py       # Phase 2  冻结化学LM embedding 缓存 → outputs/features/mol_embeddings.parquet
-src/make_splits.py            # Phase 3  scaffold + random split + scaffold k-fold CV
-src/train_kernel.py           # Phase 4  pairwise + nnPU 排序头（规则无关特征闸）
-src/fuse_hybrid.py            # Phase 5  ML-only / gate×ML / late-fusion 变体
-src/evaluate_kernel.py        # Phase 6  {RCLSS,ML,hybrid}×{scaffold,random} 矩阵 + success_gate.json
-src/predict_kernel.py         # Phase 7  打分 + 溯源 JSON + 非破坏接入 ssrf_filter
-src/build_network_negatives.py# Phase 1b AGREDA 隐式负样本（阶段化，不阻塞首版）
-```
+> Internal research MVP for prioritizing rule-generated food-polyphenol metabolite candidates, strongest on glycoside-to-aglycone transformations.
 
-## 运行
+Current unsafe claim:
+
+> Broad prediction of all food-derived gut microbial metabolites, strain-aware metabolism, clinical effects, consumer health recommendations, or wet-lab occurrence probabilities.
+
+As of `generation_20`:
+
+- Core curated food-glycoside panel: `6 / 6` strict top-5 hits, score `3.88 / 5`.
+- Production challenge panel: `8 / 22` strict top-5 hits, score `2.81 / 5`.
+- Challenge failure taxonomy: `14` expected products not generated, `8` benchmark-only top-5 hits.
+- Reaction-family KPI report: `19` families, separating candidate-generation-blocked families from evidence-integration-blocked families.
+- API contract: stable error codes for invalid input, schema validation, pending jobs, failed jobs, and timeout states.
+- Model card: generated from `outputs/appraisal/production_scorecard.json`.
+- External review gate: CodeRabbit CLI/auth passed, review command timed out after `604046 ms`; no external review pass is claimed.
+- Fresh-clone release-candidate check: `passed` on GitHub tag `generation_18` at commit `fda7f6c`.
+- Release summary: generated from scorecard-backed internal, external, cross-family, ablation, review, and fresh-clone artifacts.
+- Report writers: atomic JSON/text writes for major appraisal and release reports.
+- Repository doctor: `ready`, with `43` layout and entrypoint checks passing.
+- Contract tests: `56`.
+- Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
+
+The challenge-panel result is intentional and important: it shows the model is not ready for broad food microbiome metabolite prediction.
+
+## Fast Review Path
+
+Install dependencies:
+
 ```bash
-cd "D:\CRB\Food models"
-python scripts/ssrf/ml_ranking_kernel/src/build_kernel_dataset.py
-python scripts/ssrf/ml_ranking_kernel/src/encode_molecules.py
-python scripts/ssrf/ml_ranking_kernel/src/make_splits.py
-python scripts/ssrf/ml_ranking_kernel/src/train_kernel.py
-python scripts/ssrf/ml_ranking_kernel/src/evaluate_kernel.py
+python -m pip install -r requirements.txt
 ```
-所有脚本支持 `--smoke`（小样本快跑）与 `--force`（覆盖本包 outputs）。
+
+Run the main reviewer checks:
+
+```bash
+python scripts/run_contract_tests.py
+python scripts/validate_production_readiness.py
+python scripts/repo_doctor.py
+python scripts/model_card.py
+python scripts/release_summary.py
+python scripts/external_review_status.py --tool CodeRabbit --status timed_out --command "coderabbit review --agent --base origin/master" --duration-ms 604046
+python scripts/production_scorecard.py
+```
+
+Expected high-level results:
+
+```text
+PASSED 56 contract tests
+readiness status: internal_mvp_only
+repo doctor: ready
+scorecard status: internal_mvp_only
+```
+
+Run one prediction:
+
+```bash
+python -m mlrk_prod.cli predict --name rutin --topn 10
+```
+
+Optional evidence overlays can be enabled by setting `MLRK_EVIDENCE_POOL` to a CSV with substrate/product InChIKey and enzyme, microbe, PMID fields. Reproducible scorecard runs should not depend on hidden local evidence files.
+
+## Current Evidence
+
+Run the core panel:
+
+```bash
+python scripts/life_science_appraisal.py --run-panel --topn 10
+```
+
+Run the challenge panel:
+
+```bash
+python scripts/life_science_appraisal.py --panel data/production_challenge_panel.csv --run-panel --topn 10 --out outputs/appraisal/challenge_appraisal.json
+```
+
+Build reaction-family KPI reporting:
+
+```bash
+python scripts/reaction_family_kpis.py
+```
+
+Export external benchmark inputs:
+
+```bash
+python scripts/export_external_benchmarks.py
+```
+
+Score imported external benchmark outputs:
+
+```bash
+python scripts/score_external_results.py
+```
+
+The external benchmark input files under `outputs/external_benchmarks/` are not external validation results. They are the reproducible handoff for running BioTransformer, MicrobeRX, GutBug-style EC/enzyme comparison, and related external checks.
+
+## Important Outputs
+
+| Path | Meaning |
+| --- | --- |
+| `outputs/appraisal/production_scorecard.json` | Combined internal readiness and evaluation scorecard. |
+| `outputs/appraisal/life_science_appraisal.json` | Core food-glycoside appraisal. |
+| `outputs/appraisal/challenge_appraisal.json` | Harder production challenge panel appraisal. |
+| `outputs/appraisal/reaction_family_kpis.json` | Reaction-family coverage and next-action report. |
+| `outputs/appraisal/model_card_summary.json` | Scorecard-backed model-card summary. |
+| `outputs/appraisal/release_summary.json` | Final consolidated internal/external/cross-family/ablation release summary. |
+| `outputs/appraisal/external_review_status.json` | External AI/code-review attempt status. |
+| `outputs/appraisal/fresh_clone_report.json` | Fresh-clone release-candidate verification report. |
+| `outputs/appraisal/repo_doctor.json` | Repository layout and reviewer-entrypoint check report. |
+| `outputs/external_benchmarks/manifest.json` | External benchmark export manifest. |
+| `outputs/external_benchmarks/external_result_scorecard.json` | External result import status and scores, currently awaiting real external outputs. |
+| `freezes/generation_*/manifest.json` | Frozen generation file hashes and review notes. |
+| `docs/MODEL_CARD.md` | Scorecard-backed model card and claim boundary. |
+| `docs/RELEASE_SUMMARY.md` | Final release summary and production boundary. |
+
+## API
+
+Start the internal API:
+
+```bash
+python -m mlrk_prod.cli serve --host 127.0.0.1 --port 8765
+```
+
+Endpoints:
+
+```text
+GET  /health
+GET  /readiness
+POST /api/jobs
+GET  /api/jobs/{job_id}
+GET  /api/jobs/{job_id}/result
+```
+
+The internal API exposes a stable error contract for web-app clients. See `docs/API_CONTRACT.md`.
+
+## Repository Layout
+
+```text
+mlrk_prod/      Internal API, CLI, schema, readiness, and quality wrappers.
+scripts/        Reviewer-facing commands that wrap matching tools.
+tools/          Appraisal, scorecards, exports, freezing, and repository checks.
+tests/          Contract tests runnable through scripts/run_contract_tests.py.
+docs/           Production boundary, API contract, evaluation, and iteration docs.
+data/           Curated core and challenge evaluation panels.
+outputs/        Versioned metrics, model artifacts, benchmark exports, and appraisal reports.
+freezes/        Generation manifests with file hashes and score snapshots.
+modular/        Legacy candidate-generation, prediction, and LTR scripts.
+src/            Legacy research/data-building utilities.
+```
+
+The layout policy is documented in `docs/REPOSITORY_GUIDE.md`: keep legacy scientific code in place, and add production wrappers, tests, contracts, and reports around it.
+
+## Known Limitations
+
+- External head-to-head outputs from BioTransformer, MicrobeRX, and GutBug-style enzyme tools have not been imported yet.
+- No wet-lab validation is included.
+- No strain-level abundance or genome context is connected to predictions.
+- Candidate generation is still the ceiling: ranking cannot recover metabolites absent from the candidate pool.
+- Model-output evidence coverage remains incomplete even when benchmark traceability exists.
+- Public consumer, clinical, and health recommendation claims are out of scope.
+
+## Reviewer Documents
+
+- `docs/PRODUCTION_READINESS_REVIEW.md`
+- `docs/EVALUATION_PROTOCOL.md`
+- `docs/API_CONTRACT.md`
+- `docs/MODEL_CARD.md`
+- `docs/RELEASE_SUMMARY.md`
+- `docs/REPOSITORY_GUIDE.md`
+- `docs/WEB_APP_MVP_SPEC.md`
+- `docs/SECURITY_AND_DEPLOYMENT_BOUNDARIES.md`
+- `docs/production/SCIENTIFIC_POSITIONING.md`
+- `docs/production/ITERATION_LEDGER.md`
+- `docs/reviews/`
+
+## Iteration Process
+
+Each production round must include:
+
+1. one material improvement,
+2. contract tests,
+3. relevant appraisal or scorecard output,
+4. a review note under `docs/reviews/`,
+5. a git commit,
+6. a freeze manifest,
+7. a tag.

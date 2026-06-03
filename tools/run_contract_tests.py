@@ -14,6 +14,15 @@ TEST_MODULES = [
     "tests.test_prediction_contract",
     "tests.test_api_contract",
     "tests.test_biosanity",
+    "tests.test_appraisal_matching",
+    "tests.test_external_benchmark_exports",
+    "tests.test_reaction_family_kpis",
+    "tests.test_repo_layout_contract",
+    "tests.test_model_card_contract",
+    "tests.test_external_review_status",
+    "tests.test_fresh_clone_report",
+    "tests.test_atomic_report_writes",
+    "tests.test_release_summary",
 ]
 
 

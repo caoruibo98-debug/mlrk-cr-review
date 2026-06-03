@@ -1,0 +1,84 @@
+{
+  "status": "ready",
+  "readiness_status": "internal_mvp_only",
+  "production_position": "internal_research_mvp",
+  "public_or_clinical_ready": false,
+  "internal_metrics": {
+    "r5_mean_by_method": {
+      "LTR_chem": 0.94,
+      "LTR_full": 0.942,
+      "ec_only": 0.525,
+      "ensemble": 0.865,
+      "random": 0.532,
+      "tanimoto": 0.716
+    },
+    "ablation_deltas": {
+      "LTR_chem_minus_random_r5": 0.408,
+      "LTR_chem_minus_ec_only_r5": 0.415,
+      "LTR_chem_minus_tanimoto_r5": 0.224,
+      "LTR_full_minus_LTR_chem_r5": 0.002
+    },
+    "anti_cheat_pass": true
+  },
+  "core_panel": {
+    "case_count": 6,
+    "top5_hit_count": 6,
+    "top5_hit_rate": 1.0,
+    "score_0_to_5": 3.88
+  },
+  "challenge_panel": {
+    "case_count": 22,
+    "top5_hit_count": 8,
+    "top5_hit_rate": 0.364,
+    "score_0_to_5": 2.81,
+    "failure_type_counts": {
+      "expected_product_not_generated": 14,
+      "hit_top5_benchmark_only": 8
+    }
+  },
+  "cross_family_coverage": {
+    "reaction_family_count": 19,
+    "status": "ready"
+  },
+  "external_benchmark_status": {
+    "result_status": "awaiting_external_outputs",
+    "tool_summaries": {},
+    "claim": "external inputs and import harness are ready; real external outputs are not imported"
+  },
+  "external_ai_review": {
+    "tool": "CodeRabbit",
+    "status": "timed_out",
+    "review_claim_allowed": false
+  },
+  "engineering_reproducibility": {
+    "fresh_clone_status": "passed",
+    "fresh_clone_commit": "fda7f6c8eff8ccd99eb3a6b7275037c2cfcacd2c",
+    "repo_doctor_status": "ready"
+  },
+  "remaining_blockers": [
+    "Challenge-panel failures are dominated by candidate-generation recall, not ranking.",
+    "Reaction-family coverage is still narrow for reductions, dehydroxylations, ring fission, decarboxylation, and multi-step gut microbial pathways.",
+    "Reaction-family KPI reporting is now available, but KPI strength is internal benchmark evidence only.",
+    "External tools have not yet been run on the exact same substrate panel.",
+    "No gene/genome or strain-level abundance context is connected to predictions.",
+    "Candidate generation still constrains the ceiling; ranking cannot recover products absent from the candidate set.",
+    "Model-output evidence coverage remains incomplete even when benchmark traceability is present."
+  ],
+  "readiness_issues": [
+    {
+      "severity": "warning",
+      "code": "external_benchmark_results_missing",
+      "message": "External benchmark inputs and import harness are ready, but real BioTransformer/MicrobeRX/GutBug-style outputs are not scored yet."
+    },
+    {
+      "severity": "info",
+      "code": "wet_lab_missing",
+      "message": "Wet-lab validation is not complete; public biological claims must stay limited."
+    },
+    {
+      "severity": "info",
+      "code": "public_web_not_allowed",
+      "message": "Only internal research MVP deployment is allowed by this manifest."
+    }
+  ]
+}

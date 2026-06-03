@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "source_url": "https://github.com/caoruibo98-debug/mlrk-cr-review.git",
+  "source_ref": "generation_18",
+  "commit": "fda7f6c8eff8ccd99eb3a6b7275037c2cfcacd2c",
+  "clone_path": "D:\\CRB\\FoodGut\\fresh_clone_generation_19",
+  "checks": [
+    {
+      "id": "contract_tests",
+      "status": "passed",
+      "detail": "PASSED 49 contract tests"
+    },
+    {
+      "id": "production_scorecard",
+      "status": "passed",
+      "detail": "internal_mvp_only"
+    },
+    {
+      "id": "readiness",
+      "status": "passed",
+      "detail": "internal_mvp_only"
+    },
+    {
+      "id": "repo_doctor",
+      "status": "passed",
+      "detail": "ready",
+      "check_count": 38
+    },
+    {
+      "id": "model_card",
+      "status": "passed",
+      "detail": "ready"
+    }
+  ],
+  "metrics": {
+    "core_top5": 1.0,
+    "challenge_top5": 0.364
+  },
+  "claim_boundary": "Fresh-clone reproducibility supports internal release-candidate confidence only; it is not external biological validation."
+}
