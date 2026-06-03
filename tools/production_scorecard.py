@@ -13,6 +13,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
 from mlrk_prod.manifest import readiness_status, validate_readiness  # noqa: E402
 
 
@@ -199,8 +200,7 @@ def main() -> int:
     }
 
     out = ROOT / args.out
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    atomic_write_json(out, report)
     print(json.dumps({"status": report["status"], "out": str(out), "core_top5": report["core_panel"].get("top5_hit_rate"), "challenge_top5": report["challenge_panel"].get("top5_hit_rate")}, indent=2))
     return 0
 

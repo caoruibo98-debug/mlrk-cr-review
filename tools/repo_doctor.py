@@ -2,10 +2,15 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
+
 DEFAULT_OUT = ROOT / "outputs" / "appraisal" / "repo_doctor.json"
 
 SCRIPT_TOOL_PAIRS = [
@@ -17,6 +22,7 @@ SCRIPT_TOOL_PAIRS = [
     "model_card.py",
     "production_scorecard.py",
     "reaction_family_kpis.py",
+    "release_summary.py",
     "repo_doctor.py",
     "run_contract_tests.py",
     "score_external_results.py",
@@ -37,6 +43,7 @@ REQUIRED_PATHS = {
         "docs/MODEL_CARD.md",
         "docs/PRODUCTION_READINESS_REVIEW.md",
         "docs/REPOSITORY_GUIDE.md",
+        "docs/RELEASE_SUMMARY.md",
         "docs/SECURITY_AND_DEPLOYMENT_BOUNDARIES.md",
         "docs/WEB_APP_MVP_SPEC.md",
         "docs/production/ITERATION_LEDGER.md",
@@ -52,6 +59,7 @@ REQUIRED_PATHS = {
         "outputs/appraisal/challenge_appraisal.json",
         "outputs/appraisal/production_scorecard.json",
         "outputs/appraisal/reaction_family_kpis.json",
+        "outputs/appraisal/release_summary.json",
         "outputs/appraisal/model_card_summary.json",
         "outputs/appraisal/external_review_status.json",
         "outputs/appraisal/fresh_clone_report.json",
@@ -68,6 +76,7 @@ CANONICAL_COMMANDS = [
     {"id": "scorecard", "command": "python scripts/production_scorecard.py"},
     {"id": "family_kpis", "command": "python scripts/reaction_family_kpis.py"},
     {"id": "model_card", "command": "python scripts/model_card.py"},
+    {"id": "release_summary", "command": "python scripts/release_summary.py"},
     {"id": "external_export", "command": "python scripts/export_external_benchmarks.py"},
     {"id": "external_score", "command": "python scripts/score_external_results.py"},
     {"id": "external_review_status", "command": "python scripts/external_review_status.py"},
@@ -151,8 +160,7 @@ def main() -> int:
 
     report = build_report()
     out = ROOT / args.out
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    atomic_write_json(out, report)
     print(
         json.dumps(
             {

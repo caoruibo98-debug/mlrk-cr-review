@@ -2,10 +2,15 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from mlrk_prod.io_utils import atomic_write_json, atomic_write_text  # noqa: E402
+
 SCORECARD = ROOT / "outputs" / "appraisal" / "production_scorecard.json"
 DEFAULT_SUMMARY_OUT = ROOT / "outputs" / "appraisal" / "model_card_summary.json"
 DEFAULT_MODEL_CARD_OUT = ROOT / "docs" / "MODEL_CARD.md"
@@ -145,10 +150,8 @@ Scores are ranking and prioritization signals over generated candidates. They ar
 
 
 def write_outputs(summary: dict[str, Any], summary_out: Path, model_card_out: Path) -> None:
-    summary_out.parent.mkdir(parents=True, exist_ok=True)
-    summary_out.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
-    model_card_out.parent.mkdir(parents=True, exist_ok=True)
-    model_card_out.write_text(render_model_card(summary), encoding="utf-8")
+    atomic_write_json(summary_out, summary)
+    atomic_write_text(model_card_out, render_model_card(summary))
 
 
 def main() -> int:

@@ -2,9 +2,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
+
 DEFAULT_OUT = ROOT / "outputs" / "appraisal" / "fresh_clone_report.json"
 
 
@@ -78,8 +83,7 @@ def main() -> int:
         model_card_status=args.model_card_status,
     )
     out = ROOT / args.out
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    atomic_write_json(out, report)
     print(json.dumps({"status": report["status"], "out": str(out.relative_to(ROOT)).replace("\\", "/"), "commit": report["commit"]}, indent=2))
     return 0 if report["status"] == "passed" else 1
 

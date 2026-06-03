@@ -2,9 +2,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
+
 DEFAULT_OUT = ROOT / "outputs" / "appraisal" / "external_review_status.json"
 
 FINAL_STATUSES = {"completed", "timed_out", "failed", "skipped"}
@@ -58,8 +63,7 @@ def main() -> int:
         note=args.note,
     )
     out = ROOT / args.out
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    atomic_write_json(out, report)
     print(json.dumps({"status": report["status"], "tool": report["tool"], "out": str(out.relative_to(ROOT)).replace("\\", "/")}, indent=2))
     return 0
 

@@ -16,7 +16,7 @@ Current unsafe claim:
 
 > Broad prediction of all food-derived gut microbial metabolites, strain-aware metabolism, clinical effects, consumer health recommendations, or wet-lab occurrence probabilities.
 
-As of `generation_19`:
+As of `generation_20`:
 
 - Core curated food-glycoside panel: `6 / 6` strict top-5 hits, score `3.88 / 5`.
 - Production challenge panel: `8 / 22` strict top-5 hits, score `2.81 / 5`.
@@ -26,8 +26,10 @@ As of `generation_19`:
 - Model card: generated from `outputs/appraisal/production_scorecard.json`.
 - External review gate: CodeRabbit CLI/auth passed, review command timed out after `604046 ms`; no external review pass is claimed.
 - Fresh-clone release-candidate check: `passed` on GitHub tag `generation_18` at commit `fda7f6c`.
-- Repository doctor: `ready`, with `40` layout and entrypoint checks passing.
-- Contract tests: `51`.
+- Release summary: generated from scorecard-backed internal, external, cross-family, ablation, review, and fresh-clone artifacts.
+- Report writers: atomic JSON/text writes for major appraisal and release reports.
+- Repository doctor: `ready`, with `43` layout and entrypoint checks passing.
+- Contract tests: `56`.
 - Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
 
 The challenge-panel result is intentional and important: it shows the model is not ready for broad food microbiome metabolite prediction.
@@ -47,6 +49,7 @@ python scripts/run_contract_tests.py
 python scripts/validate_production_readiness.py
 python scripts/repo_doctor.py
 python scripts/model_card.py
+python scripts/release_summary.py
 python scripts/external_review_status.py --tool CodeRabbit --status timed_out --command "coderabbit review --agent --base origin/master" --duration-ms 604046
 python scripts/production_scorecard.py
 ```
@@ -54,7 +57,7 @@ python scripts/production_scorecard.py
 Expected high-level results:
 
 ```text
-PASSED 51 contract tests
+PASSED 56 contract tests
 readiness status: internal_mvp_only
 repo doctor: ready
 scorecard status: internal_mvp_only
@@ -111,6 +114,7 @@ The external benchmark input files under `outputs/external_benchmarks/` are not 
 | `outputs/appraisal/challenge_appraisal.json` | Harder production challenge panel appraisal. |
 | `outputs/appraisal/reaction_family_kpis.json` | Reaction-family coverage and next-action report. |
 | `outputs/appraisal/model_card_summary.json` | Scorecard-backed model-card summary. |
+| `outputs/appraisal/release_summary.json` | Final consolidated internal/external/cross-family/ablation release summary. |
 | `outputs/appraisal/external_review_status.json` | External AI/code-review attempt status. |
 | `outputs/appraisal/fresh_clone_report.json` | Fresh-clone release-candidate verification report. |
 | `outputs/appraisal/repo_doctor.json` | Repository layout and reviewer-entrypoint check report. |
@@ -118,6 +122,7 @@ The external benchmark input files under `outputs/external_benchmarks/` are not 
 | `outputs/external_benchmarks/external_result_scorecard.json` | External result import status and scores, currently awaiting real external outputs. |
 | `freezes/generation_*/manifest.json` | Frozen generation file hashes and review notes. |
 | `docs/MODEL_CARD.md` | Scorecard-backed model card and claim boundary. |
+| `docs/RELEASE_SUMMARY.md` | Final release summary and production boundary. |
 
 ## API
 
@@ -171,6 +176,7 @@ The layout policy is documented in `docs/REPOSITORY_GUIDE.md`: keep legacy scien
 - `docs/EVALUATION_PROTOCOL.md`
 - `docs/API_CONTRACT.md`
 - `docs/MODEL_CARD.md`
+- `docs/RELEASE_SUMMARY.md`
 - `docs/REPOSITORY_GUIDE.md`
 - `docs/WEB_APP_MVP_SPEC.md`
 - `docs/SECURITY_AND_DEPLOYMENT_BOUNDARIES.md`

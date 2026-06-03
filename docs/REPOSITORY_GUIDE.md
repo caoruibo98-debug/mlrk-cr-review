@@ -31,6 +31,7 @@ python scripts/validate_production_readiness.py
 python scripts/production_scorecard.py
 python scripts/reaction_family_kpis.py
 python scripts/model_card.py
+python scripts/release_summary.py
 python scripts/export_external_benchmarks.py
 python scripts/score_external_results.py
 python scripts/external_review_status.py

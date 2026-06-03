@@ -8,6 +8,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
 
 
 TRACKED = [
@@ -86,7 +89,7 @@ def main() -> int:
     }
     if score_path.exists():
         manifest["score"] = json.loads(score_path.read_text(encoding="utf-8")).get("score")
-    (freeze_dir / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    atomic_write_json(freeze_dir / "manifest.json", manifest)
     print(f"froze {args.generation} with {len(files)} tracked files")
     return 0
 

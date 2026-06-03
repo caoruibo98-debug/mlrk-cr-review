@@ -3,11 +3,15 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import sys
 from collections import Counter
 from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
 
 CORE_REPORT = ROOT / "outputs" / "appraisal" / "life_science_appraisal.json"
 CHALLENGE_REPORT = ROOT / "outputs" / "appraisal" / "challenge_appraisal.json"
@@ -248,8 +252,7 @@ def csv_row(row: dict[str, Any]) -> dict[str, Any]:
 
 
 def write_outputs(report: dict[str, Any], json_out: Path, csv_out: Path) -> None:
-    json_out.parent.mkdir(parents=True, exist_ok=True)
-    json_out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    atomic_write_json(json_out, report)
     csv_out.parent.mkdir(parents=True, exist_ok=True)
     rows = [*report["family_kpis"], *report["combined_family_kpis"]]
     with csv_out.open("w", encoding="utf-8", newline="") as f:

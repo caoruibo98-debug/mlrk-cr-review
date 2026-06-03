@@ -94,6 +94,14 @@ python scripts/model_card.py
 
 This writes `docs/MODEL_CARD.md` and `outputs/appraisal/model_card_summary.json`.
 
+Generate the final release summary:
+
+```bash
+python scripts/release_summary.py
+```
+
+This writes `docs/RELEASE_SUMMARY.md` and `outputs/appraisal/release_summary.json`.
+
 Record external AI/code-review status:
 
 ```bash
@@ -148,6 +156,7 @@ freezes/generation_16/manifest.json
 freezes/generation_17/manifest.json
 freezes/generation_18/manifest.json
 freezes/generation_19/manifest.json
+freezes/generation_20/manifest.json
 ```
 
 ## Retrain deployment models

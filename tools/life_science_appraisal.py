@@ -14,6 +14,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "src"))
 
 from mlrk_prod.biosanity import annotate_prediction_payload  # noqa: E402
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
 from mlrk_prod.manifest import readiness_status, validate_readiness  # noqa: E402
 import kio  # noqa: E402
 from resolve import name_to_smiles  # noqa: E402
@@ -318,8 +319,7 @@ def main() -> int:
         "claim": "Internal research score only; not a wet-lab or clinical validation score.",
     }
     out = ROOT / args.out
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    atomic_write_json(out, report)
     print(json.dumps(report["score"], indent=2))
     print(f"wrote {out}")
     return 0

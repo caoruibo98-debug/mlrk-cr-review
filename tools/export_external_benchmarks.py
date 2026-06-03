@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "src"))
 
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
 import kio  # noqa: E402
 from resolve import name_to_smiles  # noqa: E402
 
@@ -237,7 +238,7 @@ def write_manifest(rows: list[dict[str, Any]], fetch_cids: bool) -> None:
         "claim_boundary": "These are external benchmark inputs and expected-product labels; they are not external benchmark results.",
         "matching_key": "case_id plus expected_product_inchikey/expected_product_block1 for product-output tools; case_id plus substrate_pubchem_cid for GutBug-style EC/enzyme tools.",
     }
-    (OUT_DIR / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    atomic_write_json(OUT_DIR / "manifest.json", manifest)
 
 
 def main() -> int:

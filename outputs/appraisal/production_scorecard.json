@@ -2266,8 +2266,8 @@
     "status": "ready",
     "schema_version": 1,
     "summary": {
-      "check_count": 40,
-      "pass_count": 40,
+      "check_count": 43,
+      "pass_count": 43,
       "fail_count": 0
     },
     "canonical_commands": [
@@ -2290,6 +2290,10 @@
       {
         "id": "model_card",
         "command": "python scripts/model_card.py"
+      },
+      {
+        "id": "release_summary",
+        "command": "python scripts/release_summary.py"
       },
       {
         "id": "external_export",
@@ -2396,6 +2400,13 @@
         "message": "exists"
       },
       {
+        "id": "production_docs:docs/RELEASE_SUMMARY.md",
+        "category": "production_docs",
+        "path": "docs/RELEASE_SUMMARY.md",
+        "status": "pass",
+        "message": "exists"
+      },
+      {
         "id": "production_docs:docs/SECURITY_AND_DEPLOYMENT_BOUNDARIES.md",
         "category": "production_docs",
         "path": "docs/SECURITY_AND_DEPLOYMENT_BOUNDARIES.md",
@@ -2469,6 +2480,13 @@
         "id": "versioned_outputs:outputs/appraisal/reaction_family_kpis.json",
         "category": "versioned_outputs",
         "path": "outputs/appraisal/reaction_family_kpis.json",
+        "status": "pass",
+        "message": "exists"
+      },
+      {
+        "id": "versioned_outputs:outputs/appraisal/release_summary.json",
+        "category": "versioned_outputs",
+        "path": "outputs/appraisal/release_summary.json",
         "status": "pass",
         "message": "exists"
       },
@@ -2582,6 +2600,14 @@
         "category": "script_tool_pair",
         "path": "scripts/reaction_family_kpis.py",
         "tool_path": "tools/reaction_family_kpis.py",
+        "status": "pass",
+        "message": "script wrapper and tool implementation are paired"
+      },
+      {
+        "id": "script_tool_pair:release_summary.py",
+        "category": "script_tool_pair",
+        "path": "scripts/release_summary.py",
+        "tool_path": "tools/release_summary.py",
         "status": "pass",
         "message": "script wrapper and tool implementation are paired"
       },

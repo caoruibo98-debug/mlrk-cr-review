@@ -27,6 +27,7 @@
     "doctor_report": "outputs/appraisal/repo_doctor.json",
     "model_card_command": "python scripts/model_card.py",
     "model_card": "docs/MODEL_CARD.md",
+    "release_summary": "docs/RELEASE_SUMMARY.md",
     "external_review_status": "outputs/appraisal/external_review_status.json",
     "fresh_clone_report": "outputs/appraisal/fresh_clone_report.json",
     "entrypoint_policy": "Reviewer-facing scripts live under scripts/ and wrap matching tools/ implementations; legacy modular/ and src/ code remains in place unless migrated in a dedicated round."

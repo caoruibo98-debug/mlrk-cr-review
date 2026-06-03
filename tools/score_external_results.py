@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "src"))
 
+from mlrk_prod.io_utils import atomic_write_json  # noqa: E402
 import kio  # noqa: E402
 
 
@@ -333,8 +334,7 @@ def main() -> int:
     out = Path(args.out)
     if not out.is_absolute():
         out = ROOT / out
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    atomic_write_json(out, report)
     print(json.dumps({"status": status, "out": str(out), "product_tools": sorted(report["product_tool_summaries"])}, indent=2))
     return 0
 
