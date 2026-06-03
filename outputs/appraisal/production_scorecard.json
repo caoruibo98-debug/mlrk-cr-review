@@ -76,31 +76,30 @@
     "panel_file": "data/production_challenge_panel.csv",
     "case_count": 22,
     "score": {
-      "score_0_to_5": 1.79,
+      "score_0_to_5": 2.81,
       "dimensions": {
         "internal_ranker_and_anti_cheat": 1.0,
-        "real_biochemistry_panel": 0.045,
-        "candidate_biochemical_sanity": 0.409,
+        "real_biochemistry_panel": 0.364,
+        "candidate_biochemical_sanity": 1.0,
         "model_output_evidence_coverage": 0.0,
-        "benchmark_evidence_traceability": 0.045,
+        "benchmark_evidence_traceability": 0.364,
         "deployment_and_claim_boundaries": 0.65
       }
     },
-    "expected_generated_count": 1,
-    "expected_in_candidate_pool_count": 1,
-    "connectivity_top5_hit_count": 1,
-    "connectivity_top5_hit_rate": 0.045,
+    "expected_generated_count": 8,
+    "expected_in_candidate_pool_count": 8,
+    "connectivity_top5_hit_count": 8,
+    "connectivity_top5_hit_rate": 0.364,
     "stereo_mismatch_top5_count": 0,
-    "top5_hit_count": 1,
-    "top5_hit_rate": 0.045,
+    "top5_hit_count": 8,
+    "top5_hit_rate": 0.364,
     "evidence_source_counts": {
-      "benchmark_panel": 1,
-      "none": 21
+      "benchmark_panel": 8,
+      "none": 14
     },
     "failure_type_counts": {
-      "expected_product_not_generated": 18,
-      "hit_top5_benchmark_only": 1,
-      "no_generated_candidates": 3
+      "expected_product_not_generated": 14,
+      "hit_top5_benchmark_only": 8
     },
     "reaction_family_counts": {
       "ellagitannin_hydrolysis": 1,
@@ -140,12 +139,12 @@
         "substrate": "ellagic acid",
         "expected_product": "urolithin A",
         "reaction_family": "ellagitannin_urolithin_multistep",
-        "failure_type": "no_generated_candidates",
+        "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
         "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
-        "top_product": null
+        "top_product": "Nasutin A"
       },
       {
         "case_id": "daidzein_equol",
@@ -188,66 +187,6 @@
         "substrate": "enterodiol",
         "expected_product": "enterolactone",
         "reaction_family": "lignan_oxidation",
-        "failure_type": "expected_product_not_generated",
-        "expected_in_candidate_pool": false,
-        "expected_full_inchikey_match": null,
-        "expected_rank": null,
-        "match_type": "miss",
-        "top_product": "unnamed/novel"
-      },
-      {
-        "case_id": "caffeic_acid_dihydrocaffeic_acid",
-        "substrate": "caffeic acid",
-        "expected_product": "dihydrocaffeic acid",
-        "reaction_family": "hydroxycinnamate_reduction",
-        "failure_type": "expected_product_not_generated",
-        "expected_in_candidate_pool": false,
-        "expected_full_inchikey_match": null,
-        "expected_rank": null,
-        "match_type": "miss",
-        "top_product": "unnamed/novel"
-      },
-      {
-        "case_id": "ferulic_acid_dihydroferulic_acid",
-        "substrate": "ferulic acid",
-        "expected_product": "dihydroferulic acid",
-        "reaction_family": "hydroxycinnamate_reduction",
-        "failure_type": "expected_product_not_generated",
-        "expected_in_candidate_pool": false,
-        "expected_full_inchikey_match": null,
-        "expected_rank": null,
-        "match_type": "miss",
-        "top_product": "unnamed/novel"
-      },
-      {
-        "case_id": "p_coumaric_acid_phloretic_acid",
-        "substrate": "p-coumaric acid",
-        "expected_product": "phloretic acid",
-        "reaction_family": "hydroxycinnamate_reduction",
-        "failure_type": "expected_product_not_generated",
-        "expected_in_candidate_pool": false,
-        "expected_full_inchikey_match": null,
-        "expected_rank": null,
-        "match_type": "miss",
-        "top_product": "unnamed/novel"
-      },
-      {
-        "case_id": "resveratrol_dihydroresveratrol",
-        "substrate": "resveratrol",
-        "expected_product": "dihydroresveratrol",
-        "reaction_family": "stilbene_reduction",
-        "failure_type": "expected_product_not_generated",
-        "expected_in_candidate_pool": false,
-        "expected_full_inchikey_match": null,
-        "expected_rank": null,
-        "match_type": "miss",
-        "top_product": "unnamed/novel"
-      },
-      {
-        "case_id": "resveratrol_lunularin",
-        "substrate": "resveratrol",
-        "expected_product": "lunularin",
-        "reaction_family": "stilbene_dehydroxylation",
         "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
         "expected_full_inchikey_match": null,
@@ -325,7 +264,7 @@
         "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
-        "top_product": "unnamed/novel"
+        "top_product": "5,4'-Dihydroxyisoflavone"
       },
       {
         "case_id": "puerarin_daidzein",
@@ -337,43 +276,19 @@
         "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
-        "top_product": "hydron"
-      },
-      {
-        "case_id": "gallic_acid_pyrogallol",
-        "substrate": "gallic acid",
-        "expected_product": "pyrogallol",
-        "reaction_family": "gallate_decarboxylation",
-        "failure_type": "expected_product_not_generated",
-        "expected_in_candidate_pool": false,
-        "expected_full_inchikey_match": null,
-        "expected_rank": null,
-        "match_type": "miss",
-        "top_product": "unnamed/novel"
-      },
-      {
-        "case_id": "urolithin_c_urolithin_a",
-        "substrate": "urolithin C",
-        "expected_product": "urolithin A",
-        "reaction_family": "urolithin_dehydroxylation",
-        "failure_type": "no_generated_candidates",
-        "expected_in_candidate_pool": false,
-        "expected_full_inchikey_match": null,
-        "expected_rank": null,
-        "match_type": "miss",
-        "top_product": null
+        "top_product": "3-(4-hydroxyphenyl)-8-[(2~{S},3~{R},4~{R},5~{S},6~{R})-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]chromen-4-one"
       },
       {
         "case_id": "punicalagin_ellagic_acid",
         "substrate": "punicalagin",
         "expected_product": "ellagic acid",
         "reaction_family": "ellagitannin_hydrolysis",
-        "failure_type": "no_generated_candidates",
+        "failure_type": "expected_product_not_generated",
         "expected_in_candidate_pool": false,
         "expected_full_inchikey_match": null,
         "expected_rank": null,
         "match_type": "miss",
-        "top_product": null
+        "top_product": "unnamed/novel"
       }
     ]
   },

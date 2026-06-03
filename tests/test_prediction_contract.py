@@ -43,8 +43,8 @@ def test_clean_rutin_prediction_payload_contract() -> None:
 
 
 def test_no_candidate_prediction_writes_contract_payload() -> None:
-    path = ROOT / "outputs" / "modular" / "predictions" / "clean_ellagic_acid.json"
-    cmd = [sys.executable, "-m", "mlrk_prod.cli", "predict", "--name", "ellagic acid", "--topn", "10"]
+    path = ROOT / "outputs" / "modular" / "predictions" / "clean_methane.json"
+    cmd = [sys.executable, "-m", "mlrk_prod.cli", "predict", "--name", "methane", "--topn", "10"]
     proc = subprocess.run(
         cmd,
         cwd=str(ROOT),

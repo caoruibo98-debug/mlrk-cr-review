@@ -22,11 +22,11 @@ Current unsafe claim:
 
 ## Current Performance Snapshot
 
-As of `generation_09`:
+As of `generation_10`:
 
 - Core curated food-glycoside panel: `6 / 6` strict top-5 hits, score `3.88 / 5`.
-- Production challenge panel: `1 / 22` top-5 hits, score `1.79 / 5`.
-- Challenge failure taxonomy: `18` expected products not generated, `3` substrates with no generated candidates, `1` benchmark-only top-5 hit.
+- Production challenge panel: `8 / 22` strict top-5 hits, score `2.81 / 5`.
+- Challenge failure taxonomy: `14` expected products not generated, `8` benchmark-only top-5 hits.
 - Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
 - Readiness status: `internal_mvp_only`.
 

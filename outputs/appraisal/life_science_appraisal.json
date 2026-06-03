@@ -32,7 +32,7 @@
       "expected_inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
       "expected_block1": "REFJWTPEDVJJIY",
       "module": "carb_glycoside",
-      "n_rule_candidates": 38,
+      "n_rule_candidates": 48,
       "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
@@ -53,11 +53,9 @@
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
       ],
-      "interpretation_ready_count": 7,
+      "interpretation_ready_count": 9,
       "rejected_returned_ranks": [
-        4,
-        6,
-        9
+        8
       ]
     },
     {
@@ -72,7 +70,7 @@
       "expected_inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
       "expected_block1": "REFJWTPEDVJJIY",
       "module": "carb_glycoside",
-      "n_rule_candidates": 10,
+      "n_rule_candidates": 20,
       "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
@@ -93,17 +91,8 @@
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
       ],
-      "interpretation_ready_count": 2,
-      "rejected_returned_ranks": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ]
+      "interpretation_ready_count": 10,
+      "rejected_returned_ranks": []
     },
     {
       "case_id": "naringin_naringenin",
@@ -117,7 +106,7 @@
       "expected_inchikey": "FTVWIRXFELQLPI-ZDUSSCGKSA-N",
       "expected_block1": "FTVWIRXFELQLPI",
       "module": "carb_glycoside",
-      "n_rule_candidates": 38,
+      "n_rule_candidates": 41,
       "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
@@ -141,7 +130,7 @@
       "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
         3,
-        4
+        5
       ]
     },
     {
@@ -156,7 +145,7 @@
       "expected_inchikey": "AIONOLUJZLIMTK-AWEZNQCLSA-N",
       "expected_block1": "AIONOLUJZLIMTK",
       "module": "carb_glycoside",
-      "n_rule_candidates": 37,
+      "n_rule_candidates": 40,
       "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
@@ -177,11 +166,10 @@
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
       ],
-      "interpretation_ready_count": 7,
+      "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
-        4,
-        6,
-        10
+        5,
+        9
       ]
     },
     {
@@ -196,7 +184,7 @@
       "expected_inchikey": "ZQSIJRDFPHDXIC-UHFFFAOYSA-N",
       "expected_block1": "ZQSIJRDFPHDXIC",
       "module": "carb_glycoside",
-      "n_rule_candidates": 35,
+      "n_rule_candidates": 36,
       "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
@@ -220,8 +208,8 @@
       "interpretation_ready_count": 7,
       "rejected_returned_ranks": [
         2,
-        7,
-        8
+        8,
+        9
       ]
     },
     {
@@ -236,7 +224,7 @@
       "expected_inchikey": "TZBJGXHYKVUXJN-UHFFFAOYSA-N",
       "expected_block1": "TZBJGXHYKVUXJN",
       "module": "carb_glycoside",
-      "n_rule_candidates": 35,
+      "n_rule_candidates": 38,
       "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
@@ -257,10 +245,9 @@
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
       ],
-      "interpretation_ready_count": 7,
+      "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
-        2,
-        7,
+        3,
         10
       ]
     }

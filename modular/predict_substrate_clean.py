@@ -23,6 +23,7 @@ from generate_candidates import run_reactants  # noqa: E402
 from ltr_build import LTR_OUT  # noqa: E402
 from ltr_candidates import load_module_rules  # noqa: E402
 from mlrk_prod.glycoside_rescue import aromatic_o_glycoside_rescue_candidates  # noqa: E402
+from mlrk_prod.microbial_rescue import microbial_rescue_candidates  # noqa: E402
 
 
 RDLogger.DisableLog("rdApp.*")
@@ -130,6 +131,12 @@ def generate_candidates(smiles: str, module: str, n_rules: int) -> tuple[dict[st
             if product_block and product_block != substrate_block and product_block not in candidates:
                 candidates[product_block] = (product_smiles, product_inchikey)
                 sources[product_block] = "curated_aromatic_o_glycoside_rescue"
+    for product_smiles, source in microbial_rescue_candidates(smiles):
+        product_inchikey = kio.smiles_to_inchikey(product_smiles)
+        product_block = kio.inchikey_block1(product_inchikey)
+        if product_block and product_block != substrate_block and product_block not in candidates:
+            candidates[product_block] = (product_smiles, product_inchikey)
+            sources[product_block] = source
     return candidates, sources
 
 

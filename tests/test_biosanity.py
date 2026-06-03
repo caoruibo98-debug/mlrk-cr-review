@@ -3,6 +3,12 @@ from __future__ import annotations
 from mlrk_prod.biosanity import candidate_quality
 from mlrk_prod.biosanity import annotate_prediction_payload
 from mlrk_prod.glycoside_rescue import aromatic_o_glycoside_rescue_candidates
+from mlrk_prod.microbial_rescue import microbial_rescue_candidates
+from rdkit import Chem
+
+
+def canonical(smiles: str) -> str:
+    return Chem.MolToSmiles(Chem.MolFromSmiles(smiles))
 
 
 def test_rutin_to_quercetin_quality_is_high() -> None:
@@ -84,3 +90,24 @@ def test_aromatic_glycoside_rescue_does_not_fire_on_aglycone_or_caffeine() -> No
     caffeine = "Cn1c(=O)c2c(ncn2C)n(C)c1=O"
     assert aromatic_o_glycoside_rescue_candidates(quercetin) == []
     assert aromatic_o_glycoside_rescue_candidates(caffeine) == []
+
+
+def test_microbial_rescue_generates_hydroxycinnamate_reduction() -> None:
+    caffeic_acid = "O=C(O)/C=C/c1ccc(O)c(O)c1"
+    expected = canonical("O=C(O)CCc1ccc(O)c(O)c1")
+    products = {product for product, _source in microbial_rescue_candidates(caffeic_acid)}
+    assert expected in products
+
+
+def test_microbial_rescue_generates_decarboxylation() -> None:
+    gallic_acid = "O=C(O)c1cc(O)c(O)c(O)c1"
+    expected = canonical("Oc1cccc(O)c1O")
+    products = {product for product, _source in microbial_rescue_candidates(gallic_acid)}
+    assert expected in products
+
+
+def test_microbial_rescue_generates_two_step_lunularin() -> None:
+    resveratrol = "Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1"
+    expected = canonical("Oc1ccc(CCc2cccc(O)c2)cc1")
+    products = {product for product, _source in microbial_rescue_candidates(resveratrol)}
+    assert expected in products

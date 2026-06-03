@@ -3,13 +3,13 @@
   "panel_file": "data/production_challenge_panel.csv",
   "panel_case_count": 22,
   "score": {
-    "score_0_to_5": 1.79,
+    "score_0_to_5": 2.81,
     "dimensions": {
       "internal_ranker_and_anti_cheat": 1.0,
-      "real_biochemistry_panel": 0.045,
-      "candidate_biochemical_sanity": 0.409,
+      "real_biochemistry_panel": 0.364,
+      "candidate_biochemical_sanity": 1.0,
       "model_output_evidence_coverage": 0.0,
-      "benchmark_evidence_traceability": 0.045,
+      "benchmark_evidence_traceability": 0.364,
       "deployment_and_claim_boundaries": 0.65
     }
   },
@@ -35,7 +35,7 @@
       "expected_inchikey": "QAIPRVGONGVQAS-DUXPYHPUSA-N",
       "expected_block1": "QAIPRVGONGVQAS",
       "module": "small_molecule",
-      "n_rule_candidates": 14,
+      "n_rule_candidates": 20,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -48,17 +48,12 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "medium",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "charged_candidate"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 7,
-      "rejected_returned_ranks": [
-        6,
-        7,
-        10
-      ]
+      "interpretation_ready_count": 10,
+      "rejected_returned_ranks": []
     },
     {
       "case_id": "ellagic_acid_urolithin_a",
@@ -75,7 +70,7 @@
       "expected_inchikey": "RIUPLDUFZCXCHM-UHFFFAOYSA-N",
       "expected_block1": "RIUPLDUFZCXCHM",
       "module": "small_molecule",
-      "n_rule_candidates": 0,
+      "n_rule_candidates": 6,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -86,11 +81,13 @@
       "expected_quality_tier": null,
       "expected_quality_flags": [],
       "expected_interpretation_allowed": null,
-      "failure_type": "no_generated_candidates",
-      "top_product": null,
-      "top_quality_tier": null,
-      "top_quality_flags": [],
-      "interpretation_ready_count": 0,
+      "failure_type": "expected_product_not_generated",
+      "top_product": "Nasutin A",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "interpretation_ready_count": 6,
       "rejected_returned_ranks": []
     },
     {
@@ -108,7 +105,7 @@
       "expected_inchikey": "ADFCQWZHKCXPAJ-GFCCVEGCSA-N",
       "expected_block1": "ADFCQWZHKCXPAJ",
       "module": "small_molecule",
-      "n_rule_candidates": 3,
+      "n_rule_candidates": 6,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -121,17 +118,15 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "reject",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "phosphorus_introduced",
-        "large_mass_gain"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 0,
+      "interpretation_ready_count": 3,
       "rejected_returned_ranks": [
-        1,
-        2,
-        3
+        4,
+        5,
+        6
       ]
     },
     {
@@ -149,7 +144,7 @@
       "expected_inchikey": "PUETUDUXMCLALY-HOTGVXAUSA-N",
       "expected_block1": "PUETUDUXMCLALY",
       "module": "carb_glycoside",
-      "n_rule_candidates": 38,
+      "n_rule_candidates": 40,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -167,11 +162,10 @@
         "no_prior_evidence",
         "plausible_glycoside_mass_loss"
       ],
-      "interpretation_ready_count": 7,
+      "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
         2,
-        4,
-        10
+        6
       ]
     },
     {
@@ -189,7 +183,7 @@
       "expected_inchikey": "DWONJCNDULPHLV-HOTGVXAUSA-N",
       "expected_block1": "DWONJCNDULPHLV",
       "module": "small_molecule",
-      "n_rule_candidates": 10,
+      "n_rule_candidates": 12,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -207,11 +201,9 @@
         "no_prior_evidence",
         "charged_candidate"
       ],
-      "interpretation_ready_count": 6,
+      "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
-        4,
-        8,
-        9,
+        5,
         10
       ]
     },
@@ -230,7 +222,7 @@
       "expected_inchikey": "HVDGDHBAMCBBLR-PBHICJAKSA-N",
       "expected_block1": "HVDGDHBAMCBBLR",
       "module": "small_molecule",
-      "n_rule_candidates": 4,
+      "n_rule_candidates": 6,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -243,16 +235,15 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "medium",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "charged_candidate"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 1,
+      "interpretation_ready_count": 3,
       "rejected_returned_ranks": [
-        2,
         3,
-        4
+        5,
+        6
       ]
     },
     {
@@ -270,30 +261,27 @@
       "expected_inchikey": "DZAUWHJDUNRCTF-UHFFFAOYSA-N",
       "expected_block1": "DZAUWHJDUNRCTF",
       "module": "small_molecule",
-      "n_rule_candidates": 14,
-      "expected_in_candidate_pool": false,
-      "expected_rank": null,
-      "expected_match_type": "miss",
-      "expected_matched_product_name": null,
-      "expected_matched_product_inchikey": null,
-      "expected_full_inchikey_match": null,
-      "expected_evidence_source": "none",
-      "expected_quality_tier": null,
-      "expected_quality_flags": [],
-      "expected_interpretation_allowed": null,
-      "failure_type": "expected_product_not_generated",
-      "top_product": "unnamed/novel",
-      "top_quality_tier": "medium",
-      "top_quality_flags": [
-        "no_prior_evidence",
-        "charged_candidate"
+      "n_rule_candidates": 20,
+      "expected_in_candidate_pool": true,
+      "expected_rank": 3,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "Dihydrocaffeic acid",
+      "expected_matched_product_inchikey": "DZAUWHJDUNRCTF-UHFFFAOYSA-N",
+      "expected_full_inchikey_match": true,
+      "expected_evidence_source": "benchmark_panel",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 7,
-      "rejected_returned_ranks": [
-        6,
-        7,
-        10
-      ]
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_benchmark_only",
+      "top_product": "trans-3-coumaric acid",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "interpretation_ready_count": 10,
+      "rejected_returned_ranks": []
     },
     {
       "case_id": "ferulic_acid_dihydroferulic_acid",
@@ -310,28 +298,28 @@
       "expected_inchikey": "BOLQJTPHPSDZHR-UHFFFAOYSA-N",
       "expected_block1": "BOLQJTPHPSDZHR",
       "module": "small_molecule",
-      "n_rule_candidates": 14,
-      "expected_in_candidate_pool": false,
-      "expected_rank": null,
-      "expected_match_type": "miss",
-      "expected_matched_product_name": null,
-      "expected_matched_product_inchikey": null,
-      "expected_full_inchikey_match": null,
-      "expected_evidence_source": "none",
-      "expected_quality_tier": null,
-      "expected_quality_flags": [],
-      "expected_interpretation_allowed": null,
-      "failure_type": "expected_product_not_generated",
-      "top_product": "unnamed/novel",
+      "n_rule_candidates": 17,
+      "expected_in_candidate_pool": true,
+      "expected_rank": 4,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "1135-23-5",
+      "expected_matched_product_inchikey": "BOLQJTPHPSDZHR-UHFFFAOYSA-N",
+      "expected_full_inchikey_match": true,
+      "expected_evidence_source": "benchmark_panel",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_benchmark_only",
+      "top_product": "3-(3-Methoxyphenyl)propionic acid",
       "top_quality_tier": "high",
       "top_quality_flags": [
         "no_prior_evidence"
       ],
-      "interpretation_ready_count": 7,
+      "interpretation_ready_count": 9,
       "rejected_returned_ranks": [
-        6,
-        9,
-        10
+        9
       ]
     },
     {
@@ -349,31 +337,32 @@
       "expected_inchikey": "NMHMNPHRMNGLLB-UHFFFAOYSA-N",
       "expected_block1": "NMHMNPHRMNGLLB",
       "module": "small_molecule",
-      "n_rule_candidates": 8,
-      "expected_in_candidate_pool": false,
-      "expected_rank": null,
-      "expected_match_type": "miss",
-      "expected_matched_product_name": null,
-      "expected_matched_product_inchikey": null,
-      "expected_full_inchikey_match": null,
-      "expected_evidence_source": "none",
-      "expected_quality_tier": null,
-      "expected_quality_flags": [],
-      "expected_interpretation_allowed": null,
-      "failure_type": "expected_product_not_generated",
-      "top_product": "unnamed/novel",
+      "n_rule_candidates": 11,
+      "expected_in_candidate_pool": true,
+      "expected_rank": 1,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "3-(4-Hydroxyphenyl)propionic acid",
+      "expected_matched_product_inchikey": "NMHMNPHRMNGLLB-UHFFFAOYSA-N",
+      "expected_full_inchikey_match": true,
+      "expected_evidence_source": "benchmark_panel",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_benchmark_only",
+      "top_product": "3-(4-Hydroxyphenyl)propionic acid",
       "top_quality_tier": "high",
       "top_quality_flags": [
         "no_prior_evidence"
       ],
-      "interpretation_ready_count": 2,
+      "interpretation_ready_count": 5,
       "rejected_returned_ranks": [
-        3,
-        4,
-        5,
         6,
         7,
-        8
+        8,
+        9,
+        10
       ]
     },
     {
@@ -391,31 +380,29 @@
       "expected_inchikey": "HITJFUSPLYBJPE-UHFFFAOYSA-N",
       "expected_block1": "HITJFUSPLYBJPE",
       "module": "small_molecule",
-      "n_rule_candidates": 7,
-      "expected_in_candidate_pool": false,
-      "expected_rank": null,
-      "expected_match_type": "miss",
-      "expected_matched_product_name": null,
-      "expected_matched_product_inchikey": null,
-      "expected_full_inchikey_match": null,
-      "expected_evidence_source": "none",
-      "expected_quality_tier": null,
-      "expected_quality_flags": [],
-      "expected_interpretation_allowed": null,
-      "failure_type": "expected_product_not_generated",
-      "top_product": "unnamed/novel",
-      "top_quality_tier": "medium",
-      "top_quality_flags": [
-        "no_prior_evidence",
-        "charged_candidate"
+      "n_rule_candidates": 14,
+      "expected_in_candidate_pool": true,
+      "expected_rank": 2,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "Dihydroresveratrol",
+      "expected_matched_product_inchikey": "HITJFUSPLYBJPE-UHFFFAOYSA-N",
+      "expected_full_inchikey_match": true,
+      "expected_evidence_source": "benchmark_panel",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 2,
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_benchmark_only",
+      "top_product": "unnamed/novel",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
-        2,
-        3,
-        5,
-        6,
-        7
+        7,
+        8
       ]
     },
     {
@@ -433,31 +420,29 @@
       "expected_inchikey": "ILEYXPCRQKRNIJ-UHFFFAOYSA-N",
       "expected_block1": "ILEYXPCRQKRNIJ",
       "module": "small_molecule",
-      "n_rule_candidates": 7,
-      "expected_in_candidate_pool": false,
-      "expected_rank": null,
-      "expected_match_type": "miss",
-      "expected_matched_product_name": null,
-      "expected_matched_product_inchikey": null,
-      "expected_full_inchikey_match": null,
-      "expected_evidence_source": "none",
-      "expected_quality_tier": null,
-      "expected_quality_flags": [],
-      "expected_interpretation_allowed": null,
-      "failure_type": "expected_product_not_generated",
-      "top_product": "unnamed/novel",
-      "top_quality_tier": "medium",
-      "top_quality_flags": [
-        "no_prior_evidence",
-        "charged_candidate"
+      "n_rule_candidates": 14,
+      "expected_in_candidate_pool": true,
+      "expected_rank": 3,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "Lunularin",
+      "expected_matched_product_inchikey": "ILEYXPCRQKRNIJ-UHFFFAOYSA-N",
+      "expected_full_inchikey_match": true,
+      "expected_evidence_source": "benchmark_panel",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 2,
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_benchmark_only",
+      "top_product": "unnamed/novel",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
-        2,
-        3,
-        5,
-        6,
-        7
+        7,
+        8
       ]
     },
     {
@@ -475,7 +460,7 @@
       "expected_inchikey": "ZNXXWTPQHVLMQT-UHFFFAOYSA-N",
       "expected_block1": "ZNXXWTPQHVLMQT",
       "module": "small_molecule",
-      "n_rule_candidates": 7,
+      "n_rule_candidates": 17,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -488,18 +473,12 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "medium",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "charged_candidate"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 3,
-      "rejected_returned_ranks": [
-        4,
-        5,
-        6,
-        7
-      ]
+      "interpretation_ready_count": 10,
+      "rejected_returned_ranks": []
     },
     {
       "case_id": "epicatechin_valerolactone",
@@ -516,7 +495,7 @@
       "expected_inchikey": "ZNXXWTPQHVLMQT-UHFFFAOYSA-N",
       "expected_block1": "ZNXXWTPQHVLMQT",
       "module": "small_molecule",
-      "n_rule_candidates": 7,
+      "n_rule_candidates": 17,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -529,18 +508,12 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "medium",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "charged_candidate"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 3,
-      "rejected_returned_ranks": [
-        4,
-        5,
-        6,
-        7
-      ]
+      "interpretation_ready_count": 10,
+      "rejected_returned_ranks": []
     },
     {
       "case_id": "naringenin_hydroxyphenylpropionic_acid",
@@ -557,7 +530,7 @@
       "expected_inchikey": "NMHMNPHRMNGLLB-UHFFFAOYSA-N",
       "expected_block1": "NMHMNPHRMNGLLB",
       "module": "small_molecule",
-      "n_rule_candidates": 3,
+      "n_rule_candidates": 9,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -570,17 +543,15 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "reject",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "phosphorus_introduced",
-        "large_mass_gain"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 0,
+      "interpretation_ready_count": 6,
       "rejected_returned_ranks": [
-        1,
-        2,
-        3
+        7,
+        8,
+        9
       ]
     },
     {
@@ -598,7 +569,7 @@
       "expected_inchikey": "CFFZDZCDUFSOFZ-UHFFFAOYSA-N",
       "expected_block1": "CFFZDZCDUFSOFZ",
       "module": "small_molecule",
-      "n_rule_candidates": 7,
+      "n_rule_candidates": 22,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -611,18 +582,12 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "medium",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "charged_candidate"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 3,
-      "rejected_returned_ranks": [
-        4,
-        5,
-        6,
-        7
-      ]
+      "interpretation_ready_count": 10,
+      "rejected_returned_ranks": []
     },
     {
       "case_id": "daidzein_dihydrodaidzein",
@@ -639,7 +604,7 @@
       "expected_inchikey": "JHYXBPPMXZIHKG-UHFFFAOYSA-N",
       "expected_block1": "JHYXBPPMXZIHKG",
       "module": "small_molecule",
-      "n_rule_candidates": 3,
+      "n_rule_candidates": 6,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -652,17 +617,15 @@
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
       "top_product": "unnamed/novel",
-      "top_quality_tier": "reject",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "phosphorus_introduced",
-        "large_mass_gain"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 0,
+      "interpretation_ready_count": 3,
       "rejected_returned_ranks": [
-        1,
-        2,
-        3
+        4,
+        5,
+        6
       ]
     },
     {
@@ -680,7 +643,7 @@
       "expected_inchikey": "UQGVUYNHDKMLSE-UHFFFAOYSA-N",
       "expected_block1": "UQGVUYNHDKMLSE",
       "module": "small_molecule",
-      "n_rule_candidates": 3,
+      "n_rule_candidates": 9,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -692,18 +655,16 @@
       "expected_quality_flags": [],
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
-      "top_product": "unnamed/novel",
-      "top_quality_tier": "reject",
+      "top_product": "5,4'-Dihydroxyisoflavone",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "phosphorus_introduced",
-        "large_mass_gain"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 0,
+      "interpretation_ready_count": 6,
       "rejected_returned_ranks": [
-        1,
-        2,
-        3
+        7,
+        8,
+        9
       ]
     },
     {
@@ -721,7 +682,7 @@
       "expected_inchikey": "ZQSIJRDFPHDXIC-UHFFFAOYSA-N",
       "expected_block1": "ZQSIJRDFPHDXIC",
       "module": "carb_glycoside",
-      "n_rule_candidates": 2,
+      "n_rule_candidates": 5,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -733,17 +694,15 @@
       "expected_quality_flags": [],
       "expected_interpretation_allowed": null,
       "failure_type": "expected_product_not_generated",
-      "top_product": "hydron",
-      "top_quality_tier": "reject",
+      "top_product": "3-(4-hydroxyphenyl)-8-[(2~{S},3~{R},4~{R},5~{S},6~{R})-3,4,5-trihydroxy-6-(hydroxymethyl)tetrahydropyran-2-yl]chromen-4-one",
+      "top_quality_tier": "high",
       "top_quality_flags": [
-        "no_prior_evidence",
-        "small_byproduct",
-        "charged_candidate"
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 0,
+      "interpretation_ready_count": 3,
       "rejected_returned_ranks": [
-        1,
-        2
+        4,
+        5
       ]
     },
     {
@@ -761,7 +720,7 @@
       "expected_inchikey": "DXYUAIFZCFRPTH-UHFFFAOYSA-N",
       "expected_block1": "DXYUAIFZCFRPTH",
       "module": "carb_glycoside",
-      "n_rule_candidates": 35,
+      "n_rule_candidates": 36,
       "expected_in_candidate_pool": true,
       "expected_rank": 1,
       "expected_match_type": "inchikey_block1",
@@ -784,8 +743,8 @@
       ],
       "interpretation_ready_count": 8,
       "rejected_returned_ranks": [
-        3,
-        6
+        4,
+        7
       ]
     },
     {
@@ -803,30 +762,28 @@
       "expected_inchikey": "WQGWDDDVZFFDIG-UHFFFAOYSA-N",
       "expected_block1": "WQGWDDDVZFFDIG",
       "module": "small_molecule",
-      "n_rule_candidates": 14,
-      "expected_in_candidate_pool": false,
-      "expected_rank": null,
-      "expected_match_type": "miss",
-      "expected_matched_product_name": null,
-      "expected_matched_product_inchikey": null,
-      "expected_full_inchikey_match": null,
-      "expected_evidence_source": "none",
-      "expected_quality_tier": null,
-      "expected_quality_flags": [],
-      "expected_interpretation_allowed": null,
-      "failure_type": "expected_product_not_generated",
-      "top_product": "unnamed/novel",
-      "top_quality_tier": "medium",
-      "top_quality_flags": [
-        "no_prior_evidence",
-        "charged_candidate"
+      "n_rule_candidates": 21,
+      "expected_in_candidate_pool": true,
+      "expected_rank": 3,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "pyrogallol",
+      "expected_matched_product_inchikey": "WQGWDDDVZFFDIG-UHFFFAOYSA-N",
+      "expected_full_inchikey_match": true,
+      "expected_evidence_source": "benchmark_panel",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "no_prior_evidence"
       ],
-      "interpretation_ready_count": 6,
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_benchmark_only",
+      "top_product": "3,4-DIHYDROXYBENZOIC ACID",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "interpretation_ready_count": 9,
       "rejected_returned_ranks": [
-        3,
-        6,
-        7,
-        10
+        9
       ]
     },
     {
@@ -844,22 +801,26 @@
       "expected_inchikey": "RIUPLDUFZCXCHM-UHFFFAOYSA-N",
       "expected_block1": "RIUPLDUFZCXCHM",
       "module": "small_molecule",
-      "n_rule_candidates": 0,
-      "expected_in_candidate_pool": false,
-      "expected_rank": null,
-      "expected_match_type": "miss",
-      "expected_matched_product_name": null,
-      "expected_matched_product_inchikey": null,
-      "expected_full_inchikey_match": null,
-      "expected_evidence_source": "none",
-      "expected_quality_tier": null,
-      "expected_quality_flags": [],
-      "expected_interpretation_allowed": null,
-      "failure_type": "no_generated_candidates",
-      "top_product": null,
-      "top_quality_tier": null,
-      "top_quality_flags": [],
-      "interpretation_ready_count": 0,
+      "n_rule_candidates": 6,
+      "expected_in_candidate_pool": true,
+      "expected_rank": 2,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "urolithin A",
+      "expected_matched_product_inchikey": "RIUPLDUFZCXCHM-UHFFFAOYSA-N",
+      "expected_full_inchikey_match": true,
+      "expected_evidence_source": "benchmark_panel",
+      "expected_quality_tier": "high",
+      "expected_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "expected_interpretation_allowed": true,
+      "failure_type": "hit_top5_benchmark_only",
+      "top_product": "unnamed/novel",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "interpretation_ready_count": 6,
       "rejected_returned_ranks": []
     },
     {
@@ -877,7 +838,7 @@
       "expected_inchikey": "AFSDNFLWKVMVRB-UHFFFAOYSA-N",
       "expected_block1": "AFSDNFLWKVMVRB",
       "module": "small_molecule",
-      "n_rule_candidates": 0,
+      "n_rule_candidates": 128,
       "expected_in_candidate_pool": false,
       "expected_rank": null,
       "expected_match_type": "miss",
@@ -888,11 +849,13 @@
       "expected_quality_tier": null,
       "expected_quality_flags": [],
       "expected_interpretation_allowed": null,
-      "failure_type": "no_generated_candidates",
-      "top_product": null,
-      "top_quality_tier": null,
-      "top_quality_flags": [],
-      "interpretation_ready_count": 0,
+      "failure_type": "expected_product_not_generated",
+      "top_product": "unnamed/novel",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence"
+      ],
+      "interpretation_ready_count": 10,
       "rejected_returned_ranks": []
     }
   ],
