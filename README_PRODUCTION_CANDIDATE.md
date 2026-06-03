@@ -86,6 +86,14 @@ python scripts/repo_doctor.py
 
 This writes `outputs/appraisal/repo_doctor.json`.
 
+Generate the scorecard-backed model card:
+
+```bash
+python scripts/model_card.py
+```
+
+This writes `docs/MODEL_CARD.md` and `outputs/appraisal/model_card_summary.json`.
+
 Export external benchmark inputs:
 
 ```bash
@@ -121,6 +129,7 @@ freezes/generation_13/manifest.json
 freezes/generation_14/manifest.json
 freezes/generation_15/manifest.json
 freezes/generation_16/manifest.json
+freezes/generation_17/manifest.json
 ```
 
 ## Retrain deployment models

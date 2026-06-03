@@ -18,6 +18,7 @@ TEST_MODULES = [
     "tests.test_external_benchmark_exports",
     "tests.test_reaction_family_kpis",
     "tests.test_repo_layout_contract",
+    "tests.test_model_card_contract",
 ]
 
 

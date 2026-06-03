@@ -25,6 +25,8 @@
     "guide": "docs/REPOSITORY_GUIDE.md",
     "doctor_command": "python scripts/repo_doctor.py",
     "doctor_report": "outputs/appraisal/repo_doctor.json",
+    "model_card_command": "python scripts/model_card.py",
+    "model_card": "docs/MODEL_CARD.md",
     "entrypoint_policy": "Reviewer-facing scripts live under scripts/ and wrap matching tools/ implementations; legacy modular/ and src/ code remains in place unless migrated in a dedicated round."
   },
   "training": {

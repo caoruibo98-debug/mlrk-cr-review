@@ -2266,8 +2266,8 @@
     "status": "ready",
     "schema_version": 1,
     "summary": {
-      "check_count": 33,
-      "pass_count": 33,
+      "check_count": 36,
+      "pass_count": 36,
       "fail_count": 0
     },
     "canonical_commands": [
@@ -2286,6 +2286,10 @@
       {
         "id": "family_kpis",
         "command": "python scripts/reaction_family_kpis.py"
+      },
+      {
+        "id": "model_card",
+        "command": "python scripts/model_card.py"
       },
       {
         "id": "external_export",
@@ -2359,6 +2363,13 @@
         "id": "production_docs:docs/EVALUATION_PROTOCOL.md",
         "category": "production_docs",
         "path": "docs/EVALUATION_PROTOCOL.md",
+        "status": "pass",
+        "message": "exists"
+      },
+      {
+        "id": "production_docs:docs/MODEL_CARD.md",
+        "category": "production_docs",
+        "path": "docs/MODEL_CARD.md",
         "status": "pass",
         "message": "exists"
       },
@@ -2454,6 +2465,13 @@
         "message": "exists"
       },
       {
+        "id": "versioned_outputs:outputs/appraisal/model_card_summary.json",
+        "category": "versioned_outputs",
+        "path": "outputs/appraisal/model_card_summary.json",
+        "status": "pass",
+        "message": "exists"
+      },
+      {
         "id": "versioned_outputs:outputs/external_benchmarks/manifest.json",
         "category": "versioned_outputs",
         "path": "outputs/external_benchmarks/manifest.json",
@@ -2502,6 +2520,14 @@
         "category": "script_tool_pair",
         "path": "scripts/life_science_appraisal.py",
         "tool_path": "tools/life_science_appraisal.py",
+        "status": "pass",
+        "message": "script wrapper and tool implementation are paired"
+      },
+      {
+        "id": "script_tool_pair:model_card.py",
+        "category": "script_tool_pair",
+        "path": "scripts/model_card.py",
+        "tool_path": "tools/model_card.py",
         "status": "pass",
         "message": "script wrapper and tool implementation are paired"
       },
