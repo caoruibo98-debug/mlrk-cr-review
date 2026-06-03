@@ -13,10 +13,15 @@ TRACKED = [
     "production_artifact_manifest.json",
     "pyproject.toml",
     "mlrk_prod",
+    "modular",
+    "src",
     "tools",
     "tests",
     "docs",
     "data",
+    "configs",
+    "gen_gap",
+    "verification",
 ]
 
 
@@ -74,4 +79,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
