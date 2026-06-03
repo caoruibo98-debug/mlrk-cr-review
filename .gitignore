@@ -7,6 +7,11 @@ runtime/
 outputs/*
 !outputs/appraisal/
 !outputs/appraisal/*.json
+!outputs/external_benchmarks/
+!outputs/external_benchmarks/*.csv
+!outputs/external_benchmarks/*.tsv
+!outputs/external_benchmarks/*.sdf
+!outputs/external_benchmarks/*.json
 !outputs/modular/
 outputs/modular/*
 !outputs/modular/ltr/

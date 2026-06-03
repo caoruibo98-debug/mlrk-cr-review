@@ -89,6 +89,12 @@ Build the production scorecard:
 python scripts/production_scorecard.py
 ```
 
+Export external benchmark inputs:
+
+```bash
+python scripts/export_external_benchmarks.py
+```
+
 ## API
 
 Start the internal API:
@@ -115,8 +121,10 @@ The production scorecard separates:
 2. core curated food-glycoside appraisal,
 3. challenge panel appraisal across harder food-metabolism classes,
 4. candidate-generation failure, ranking failure, evidence failure, and no-candidate states,
-5. external comparison readiness for BioTransformer, MicrobeRX, GutBug, MIMOSA2, and AGREDA,
+5. external comparison readiness and exported inputs for BioTransformer, MicrobeRX, GutBug, MIMOSA2, and AGREDA,
 6. remaining production blockers.
+
+The external benchmark input files are under `outputs/external_benchmarks/`. They are not external validation results; they are the reproducible handoff for running those tools and importing their outputs later.
 
 ## Iteration Process
 

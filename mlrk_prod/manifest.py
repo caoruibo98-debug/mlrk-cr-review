@@ -82,7 +82,13 @@ def validate_readiness(manifest: dict[str, Any] | None = None) -> list[Readiness
 
     gates = data.get("readiness_gates", {})
     if not gates.get("external_head_to_head_complete", False):
-        issues.append(ReadinessIssue("warning", "external_benchmark_missing", "External BioTransformer/MicrobeRX/GutBug-style benchmark is not complete."))
+        external_inputs = resolve_kernel_path("outputs/external_benchmarks/manifest.json")
+        detail = (
+            "External benchmark inputs are exported, but BioTransformer/MicrobeRX/GutBug-style outputs are not scored yet."
+            if external_inputs.exists()
+            else "External BioTransformer/MicrobeRX/GutBug-style benchmark inputs and scored outputs are not complete."
+        )
+        issues.append(ReadinessIssue("warning", "external_benchmark_results_missing", detail))
     if not gates.get("wet_lab_validation_complete", False):
         issues.append(ReadinessIssue("info", "wet_lab_missing", "Wet-lab validation is not complete; public biological claims must stay limited."))
     if not gates.get("public_web_app_allowed", False):
@@ -97,4 +103,3 @@ def readiness_status(issues: list[ReadinessIssue]) -> str:
     if any(i.severity == "warning" for i in issues):
         return "internal_mvp_only"
     return "ready_for_limited_beta"
-

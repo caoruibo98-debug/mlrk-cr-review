@@ -1,0 +1,28 @@
+5280805	rutin_quercetin	rutin
+5280459	quercitrin_quercetin	quercitrin
+442428	naringin_naringenin	naringin
+10621	hesperidin_hesperetin	hesperidin
+107971	daidzin_daidzein	daidzin
+5281377	genistin_genistein	genistin
+1794427	chlorogenic_acid_caffeic_acid	chlorogenic acid
+5281855	ellagic_acid_urolithin_a	ellagic acid
+5281708	daidzein_equol	daidzein
+9917980	secoisolariciresinol_diglucoside_secoisolariciresinol	secoisolariciresinol diglucoside
+65373	secoisolariciresinol_enterodiol	secoisolariciresinol
+115089	enterodiol_enterolactone	enterodiol
+689043	caffeic_acid_dihydrocaffeic_acid	caffeic acid
+445858	ferulic_acid_dihydroferulic_acid	ferulic acid
+637542	p_coumaric_acid_phloretic_acid	p-coumaric acid
+445154	resveratrol_dihydroresveratrol	resveratrol
+445154	resveratrol_lunularin	resveratrol
+9064	catechin_valerolactone	catechin
+72276	epicatechin_valerolactone	epicatechin
+439246	naringenin_hydroxyphenylpropionic_acid	naringenin
+5280343	quercetin_dihydroxyphenylacetic_acid	quercetin
+5281708	daidzein_dihydrodaidzein	daidzein
+5280961	genistein_dihydrogenistein	genistein
+5281807	puerarin_daidzein	puerarin
+187808	glycitin_glycitein	glycitin
+370	gallic_acid_pyrogallol	gallic acid
+60198001	urolithin_c_urolithin_a	urolithin C
+16129719	punicalagin_ellagic_acid	punicalagin

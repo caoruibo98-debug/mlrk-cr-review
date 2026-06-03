@@ -19,6 +19,7 @@ from mlrk_prod.manifest import readiness_status, validate_readiness  # noqa: E40
 METRICS = ROOT / "outputs" / "modular" / "ltr" / "clean2_metrics.csv"
 CORE_REPORT = ROOT / "outputs" / "appraisal" / "life_science_appraisal.json"
 CHALLENGE_REPORT = ROOT / "outputs" / "appraisal" / "challenge_appraisal.json"
+EXTERNAL_EXPORT_MANIFEST = ROOT / "outputs" / "external_benchmarks" / "manifest.json"
 
 
 def parse_mean(value: str) -> float:
@@ -126,26 +127,29 @@ def panel_summary(report: dict[str, Any] | None, label: str) -> dict[str, Any]:
 
 
 def external_comparison_matrix() -> list[dict[str, str]]:
+    exported = EXTERNAL_EXPORT_MANIFEST.exists()
+    export_status = "input_exported" if exported else "not_executed"
+    export_next = "Run the exported files with the external tool and import product/EC outputs for case_id-level scoring."
     return [
         {
             "tool_or_model": "BioTransformer 3/4",
             "comparison_role": "small-molecule biotransformation product generation",
-            "current_status": "not_executed",
-            "required_next_step": "Export core and challenge panels as SMILES inputs; compare generation recall and enzyme annotations in gut microbial/SuperBio modes.",
+            "current_status": export_status,
+            "required_next_step": export_next if exported else "Export core and challenge panels as SMILES inputs; compare generation recall and enzyme annotations in gut microbial/SuperBio modes.",
             "source": "Nucleic Acids Research 2022 BioTransformer 3.0; BioTransformer 4.0 reported as successor in 2025 records.",
         },
         {
             "tool_or_model": "MicrobeRX",
             "comparison_role": "enzyme-reaction-based human/gut metabolite prediction from GEM-derived reaction rules",
-            "current_status": "not_executed",
-            "required_next_step": "Run the same substrate SMILES through MicrobeRX and compare product InChIKey block-1 recall plus reaction evidence fields.",
+            "current_status": export_status,
+            "required_next_step": export_next if exported else "Run the same substrate SMILES through MicrobeRX and compare product InChIKey block-1 recall plus reaction evidence fields.",
             "source": "MicrobeRX paper and documentation describe metabolite SMILES, reaction identifiers, EC, Rhea, KEGG, and PubMed fields.",
         },
         {
             "tool_or_model": "GutBug",
             "comparison_role": "gut bacterial enzyme prediction for biotic/xenobiotic molecules",
-            "current_status": "not_executed",
-            "required_next_step": "Use as an enzyme/gene plausibility comparator rather than a strict product-ranking comparator if product output is not directly aligned.",
+            "current_status": export_status,
+            "required_next_step": export_next if exported else "Use as an enzyme/gene plausibility comparator rather than a strict product-ranking comparator if product output is not directly aligned.",
             "source": "GutBug Journal of Molecular Biology 2023 description.",
         },
         {
@@ -170,6 +174,7 @@ def main() -> int:
         "internal_comparison": internal_metric_summary(),
         "core_panel": panel_summary(read_json(CORE_REPORT), "core_food_glycoside_panel"),
         "challenge_panel": panel_summary(read_json(CHALLENGE_REPORT), "production_challenge_panel"),
+        "external_benchmark_export": read_json(EXTERNAL_EXPORT_MANIFEST) or {"status": "missing_export_manifest"},
         "external_comparison_matrix": external_comparison_matrix(),
         "current_claim": "Internal research MVP for food-polyphenol candidate generation/ranking, strongest on glycoside aglycone release.",
         "remaining_gap_to_full_food_microbiome_metabolite_prediction": [

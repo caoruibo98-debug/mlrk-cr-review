@@ -70,6 +70,14 @@ Build the combined production scorecard:
 python scripts/production_scorecard.py
 ```
 
+Export external benchmark inputs:
+
+```bash
+python scripts/export_external_benchmarks.py
+```
+
+This writes BioTransformer, MicrobeRX, and GutBug-style benchmark input files under `outputs/external_benchmarks/`. These files are not external validation results; they are the case-level handoff for external tool execution.
+
 Frozen iterations are recorded under:
 
 ```text
@@ -83,6 +91,7 @@ freezes/generation_07/manifest.json
 freezes/generation_08/manifest.json
 freezes/generation_09/manifest.json
 freezes/generation_10/manifest.json
+freezes/generation_11/manifest.json
 ```
 
 ## Retrain deployment models

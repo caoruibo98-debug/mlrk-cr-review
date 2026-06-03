@@ -26,6 +26,7 @@ TRACKED = [
     "configs",
     "gen_gap",
     "verification",
+    "outputs/external_benchmarks",
     "outputs/modular/ltr/models_clean",
     "outputs/modular/ltr/clean2_metrics.csv",
     "outputs/modular/ltr/clean2_feature_importance.csv",
