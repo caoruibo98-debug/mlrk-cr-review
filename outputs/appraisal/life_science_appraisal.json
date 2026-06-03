@@ -1,0 +1,216 @@
+{
+  "status": "internal_mvp_only",
+  "panel_file": "data/real_biochemistry_panel.csv",
+  "panel_case_count": 6,
+  "score": {
+    "score_0_to_5": 4.43,
+    "dimensions": {
+      "internal_ranker_and_anti_cheat": 1.0,
+      "real_biochemistry_panel": 1.0,
+      "candidate_biochemical_sanity": 1.0,
+      "model_output_evidence_coverage": 0.667,
+      "benchmark_evidence_traceability": 1.0,
+      "deployment_and_claim_boundaries": 0.65
+    }
+  },
+  "metrics": {
+    "ltr_r5_mean": 0.94,
+    "ec_only_r5_mean": 0.525,
+    "tanimoto_r5_mean": 0.716,
+    "anti_cheat_pass": true
+  },
+  "cases": [
+    {
+      "case_id": "rutin_quercetin",
+      "substrate_name": "rutin",
+      "expected_product_name": "quercetin",
+      "reaction_family": "glycoside_hydrolysis",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:9875509",
+      "expected_smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12",
+      "expected_source": "pubchem:quercetin",
+      "expected_block1": "REFJWTPEDVJJIY",
+      "module": "carb_glycoside",
+      "n_rule_candidates": 38,
+      "expected_rank": 1,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "quercetin",
+      "expected_evidence_source": "model_output",
+      "top_product": "quercetin",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "plausible_glycoside_mass_loss"
+      ],
+      "interpretation_ready_count": 7,
+      "rejected_returned_ranks": [
+        4,
+        6,
+        9
+      ]
+    },
+    {
+      "case_id": "quercitrin_quercetin",
+      "substrate_name": "quercitrin",
+      "expected_product_name": "quercetin",
+      "reaction_family": "glycoside_hydrolysis",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:3435494",
+      "expected_smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12",
+      "expected_source": "pubchem:quercetin",
+      "expected_block1": "REFJWTPEDVJJIY",
+      "module": "carb_glycoside",
+      "n_rule_candidates": 10,
+      "expected_rank": 1,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "quercetin",
+      "expected_evidence_source": "benchmark_panel",
+      "top_product": "quercetin",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence",
+        "plausible_glycoside_mass_loss"
+      ],
+      "interpretation_ready_count": 2,
+      "rejected_returned_ranks": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "case_id": "naringin_naringenin",
+      "substrate_name": "naringin",
+      "expected_product_name": "naringenin",
+      "reaction_family": "glycoside_hydrolysis",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:26505733",
+      "expected_smiles": "O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21",
+      "expected_source": "pubchem:naringenin",
+      "expected_block1": "FTVWIRXFELQLPI",
+      "module": "carb_glycoside",
+      "n_rule_candidates": 38,
+      "expected_rank": 1,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "(R)-naringenin",
+      "expected_evidence_source": "model_output",
+      "top_product": "(R)-naringenin",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "plausible_glycoside_mass_loss"
+      ],
+      "interpretation_ready_count": 8,
+      "rejected_returned_ranks": [
+        3,
+        4
+      ]
+    },
+    {
+      "case_id": "hesperidin_hesperetin",
+      "substrate_name": "hesperidin",
+      "expected_product_name": "hesperetin",
+      "reaction_family": "glycoside_hydrolysis",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:26505733",
+      "expected_smiles": "COc1ccc([C@@H]2CC(=O)c3c(O)cc(O)cc3O2)cc1O",
+      "expected_source": "pubchem:hesperetin",
+      "expected_block1": "AIONOLUJZLIMTK",
+      "module": "carb_glycoside",
+      "n_rule_candidates": 37,
+      "expected_rank": 1,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "24604-97-5",
+      "expected_evidence_source": "benchmark_panel",
+      "top_product": "24604-97-5",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence",
+        "plausible_glycoside_mass_loss"
+      ],
+      "interpretation_ready_count": 7,
+      "rejected_returned_ranks": [
+        4,
+        6,
+        10
+      ]
+    },
+    {
+      "case_id": "daidzin_daidzein",
+      "substrate_name": "daidzin",
+      "expected_product_name": "daidzein",
+      "reaction_family": "glycoside_hydrolysis",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:22113864",
+      "expected_smiles": "O=c1c(-c2ccc(O)cc2)coc2cc(O)ccc12",
+      "expected_source": "pubchem:daidzein",
+      "expected_block1": "ZQSIJRDFPHDXIC",
+      "module": "carb_glycoside",
+      "n_rule_candidates": 35,
+      "expected_rank": 1,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "daidzein",
+      "expected_evidence_source": "model_output",
+      "top_product": "daidzein",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "plausible_glycoside_mass_loss"
+      ],
+      "interpretation_ready_count": 7,
+      "rejected_returned_ranks": [
+        2,
+        7,
+        8
+      ]
+    },
+    {
+      "case_id": "genistin_genistein",
+      "substrate_name": "genistin",
+      "expected_product_name": "genistein",
+      "reaction_family": "glycoside_hydrolysis",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:22113864",
+      "expected_smiles": "O=c1c(-c2ccc(O)cc2)coc2cc(O)cc(O)c12",
+      "expected_source": "pubchem:genistein",
+      "expected_block1": "TZBJGXHYKVUXJN",
+      "module": "carb_glycoside",
+      "n_rule_candidates": 35,
+      "expected_rank": 1,
+      "expected_match_type": "inchikey_block1",
+      "expected_matched_product_name": "genistein",
+      "expected_evidence_source": "model_output",
+      "top_product": "genistein",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "plausible_glycoside_mass_loss"
+      ],
+      "interpretation_ready_count": 7,
+      "rejected_returned_ranks": [
+        2,
+        7,
+        10
+      ]
+    }
+  ],
+  "known_readiness_issues": [
+    {
+      "severity": "warning",
+      "code": "external_benchmark_missing",
+      "message": "External BioTransformer/MicrobeRX/GutBug-style benchmark is not complete."
+    },
+    {
+      "severity": "info",
+      "code": "wet_lab_missing",
+      "message": "Wet-lab validation is not complete; public biological claims must stay limited."
+    },
+    {
+      "severity": "info",
+      "code": "public_web_not_allowed",
+      "message": "Only internal research MVP deployment is allowed by this manifest."
+    }
+  ],
+  "claim": "Internal research score only; not a wet-lab or clinical validation score."
+}

@@ -1,0 +1,229 @@
+{
+  "status": "internal_mvp_only",
+  "panel_file": "data/production_challenge_panel.csv",
+  "panel_case_count": 6,
+  "score": {
+    "score_0_to_5": 1.79,
+    "dimensions": {
+      "internal_ranker_and_anti_cheat": 1.0,
+      "real_biochemistry_panel": 0.0,
+      "candidate_biochemical_sanity": 0.5,
+      "model_output_evidence_coverage": 0.0,
+      "benchmark_evidence_traceability": 0.0,
+      "deployment_and_claim_boundaries": 0.65
+    }
+  },
+  "metrics": {
+    "ltr_r5_mean": 0.94,
+    "ec_only_r5_mean": 0.525,
+    "tanimoto_r5_mean": 0.716,
+    "anti_cheat_pass": true
+  },
+  "cases": [
+    {
+      "case_id": "chlorogenic_acid_caffeic_acid",
+      "substrate_name": "chlorogenic acid",
+      "expected_product_name": "caffeic acid",
+      "reaction_family": "phenolic_ester_hydrolysis",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:30113130",
+      "challenge_role": "one_step_phenolic_ester",
+      "production_question": "Can the model generalize from flavonoid glycosides to phenolic ester cleavage?",
+      "expected_difficulty": "medium",
+      "expected_smiles": "O=C(O)/C=C/c1ccc(O)c(O)c1",
+      "expected_source": "pubchem:caffeic acid",
+      "expected_block1": "QAIPRVGONGVQAS",
+      "module": "small_molecule",
+      "n_rule_candidates": 14,
+      "expected_rank": null,
+      "expected_match_type": "miss",
+      "expected_matched_product_name": null,
+      "expected_evidence_source": "none",
+      "top_product": "unnamed/novel",
+      "top_quality_tier": "medium",
+      "top_quality_flags": [
+        "no_prior_evidence",
+        "charged_candidate"
+      ],
+      "interpretation_ready_count": 7,
+      "rejected_returned_ranks": [
+        6,
+        7,
+        10
+      ]
+    },
+    {
+      "case_id": "ellagic_acid_urolithin_a",
+      "substrate_name": "ellagic acid",
+      "expected_product_name": "urolithin A",
+      "reaction_family": "ellagitannin_urolithin_multistep",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:15998116",
+      "challenge_role": "multistep_decarboxylation_dehydroxylation",
+      "production_question": "Can the model handle multi-step urolithin formation from ellagic acid?",
+      "expected_difficulty": "high",
+      "expected_smiles": "O=c1oc2cc(O)ccc2c2ccc(O)cc12",
+      "expected_source": "pubchem:urolithin A",
+      "expected_block1": "RIUPLDUFZCXCHM",
+      "module": "small_molecule",
+      "n_rule_candidates": 0,
+      "expected_rank": null,
+      "expected_match_type": "miss",
+      "expected_matched_product_name": null,
+      "expected_evidence_source": "none",
+      "top_product": null,
+      "top_quality_tier": null,
+      "top_quality_flags": [],
+      "interpretation_ready_count": 0,
+      "rejected_returned_ranks": []
+    },
+    {
+      "case_id": "daidzein_equol",
+      "substrate_name": "daidzein",
+      "expected_product_name": "equol",
+      "reaction_family": "isoflavone_reductive_metabolism",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:25594250",
+      "challenge_role": "multistep_reductive_transformation",
+      "production_question": "Can the model handle reductive isoflavone conversion beyond aglycone release?",
+      "expected_difficulty": "high",
+      "expected_smiles": "Oc1ccc([C@H]2COc3cc(O)ccc3C2)cc1",
+      "expected_source": "pubchem:equol",
+      "expected_block1": "ADFCQWZHKCXPAJ",
+      "module": "small_molecule",
+      "n_rule_candidates": 3,
+      "expected_rank": null,
+      "expected_match_type": "miss",
+      "expected_matched_product_name": null,
+      "expected_evidence_source": "none",
+      "top_product": "unnamed/novel",
+      "top_quality_tier": "reject",
+      "top_quality_flags": [
+        "no_prior_evidence",
+        "phosphorus_introduced",
+        "large_mass_gain"
+      ],
+      "interpretation_ready_count": 0,
+      "rejected_returned_ranks": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "case_id": "secoisolariciresinol_diglucoside_secoisolariciresinol",
+      "substrate_name": "secoisolariciresinol diglucoside",
+      "expected_product_name": "secoisolariciresinol",
+      "reaction_family": "lignan_deglucosylation",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:11086885",
+      "challenge_role": "lignan_deglucosylation",
+      "production_question": "Can the model transfer glycoside logic from flavonoids to lignans?",
+      "expected_difficulty": "medium",
+      "expected_smiles": "COc1cc(C[C@@H](CO)[C@H](CO)Cc2ccc(O)c(OC)c2)ccc1O",
+      "expected_source": "pubchem:secoisolariciresinol",
+      "expected_block1": "PUETUDUXMCLALY",
+      "module": "carb_glycoside",
+      "n_rule_candidates": 38,
+      "expected_rank": null,
+      "expected_match_type": "miss",
+      "expected_matched_product_name": null,
+      "expected_evidence_source": "none",
+      "top_product": "(2S,3R,4R,5S,6S)-2-[(2S,3S)-4-hydroxy-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+      "top_quality_tier": "high",
+      "top_quality_flags": [
+        "no_prior_evidence",
+        "plausible_glycoside_mass_loss"
+      ],
+      "interpretation_ready_count": 7,
+      "rejected_returned_ranks": [
+        2,
+        4,
+        10
+      ]
+    },
+    {
+      "case_id": "secoisolariciresinol_enterodiol",
+      "substrate_name": "secoisolariciresinol",
+      "expected_product_name": "enterodiol",
+      "reaction_family": "lignan_multistep_demethylation_dehydroxylation",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:11086885",
+      "challenge_role": "lignan_multistep",
+      "production_question": "Can the model reach enterolignan intermediates after aglycone release?",
+      "expected_difficulty": "high",
+      "expected_smiles": "OC[C@H](Cc1cccc(O)c1)[C@H](CO)Cc1cccc(O)c1",
+      "expected_source": "pubchem:enterodiol",
+      "expected_block1": "DWONJCNDULPHLV",
+      "module": "small_molecule",
+      "n_rule_candidates": 10,
+      "expected_rank": null,
+      "expected_match_type": "miss",
+      "expected_matched_product_name": null,
+      "expected_evidence_source": "none",
+      "top_product": "unnamed/novel",
+      "top_quality_tier": "medium",
+      "top_quality_flags": [
+        "no_prior_evidence",
+        "charged_candidate"
+      ],
+      "interpretation_ready_count": 6,
+      "rejected_returned_ranks": [
+        4,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "case_id": "enterodiol_enterolactone",
+      "substrate_name": "enterodiol",
+      "expected_product_name": "enterolactone",
+      "reaction_family": "lignan_oxidation",
+      "evidence_type": "literature_curated",
+      "reference": "PMID:11086885",
+      "challenge_role": "lignan_terminal_oxidation",
+      "production_question": "Can the model rank a terminal oxidation in enterolignan metabolism?",
+      "expected_difficulty": "medium",
+      "expected_smiles": "O=C1OC[C@@H](Cc2cccc(O)c2)[C@@H]1Cc1cccc(O)c1",
+      "expected_source": "pubchem:enterolactone",
+      "expected_block1": "HVDGDHBAMCBBLR",
+      "module": "small_molecule",
+      "n_rule_candidates": 4,
+      "expected_rank": null,
+      "expected_match_type": "miss",
+      "expected_matched_product_name": null,
+      "expected_evidence_source": "none",
+      "top_product": "unnamed/novel",
+      "top_quality_tier": "medium",
+      "top_quality_flags": [
+        "no_prior_evidence",
+        "charged_candidate"
+      ],
+      "interpretation_ready_count": 1,
+      "rejected_returned_ranks": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "known_readiness_issues": [
+    {
+      "severity": "warning",
+      "code": "external_benchmark_missing",
+      "message": "External BioTransformer/MicrobeRX/GutBug-style benchmark is not complete."
+    },
+    {
+      "severity": "info",
+      "code": "wet_lab_missing",
+      "message": "Wet-lab validation is not complete; public biological claims must stay limited."
+    },
+    {
+      "severity": "info",
+      "code": "public_web_not_allowed",
+      "message": "Only internal research MVP deployment is allowed by this manifest."
+    }
+  ],
+  "claim": "Internal research score only; not a wet-lab or clinical validation score."
+}

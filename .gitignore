@@ -5,6 +5,8 @@ __pycache__/
 .ruff_cache/
 runtime/
 outputs/*
+!outputs/appraisal/
+!outputs/appraisal/*.json
 !outputs/modular/
 outputs/modular/*
 !outputs/modular/ltr/

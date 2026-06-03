@@ -1,43 +1,132 @@
-# L-RCLSS — Learned, Rule-Agnostic Reaction Ranking Kernel
+# ML Ranking Kernel Production Candidate
 
-与反应规则无关、可迁移、打分路径独立于 RDKit 的**神经反应排序内核**。
-把 SSRF/RCLSS 从"人工网格校准的规则相似性"升级为"学习到的可迁移排序内核"。
+This repository is a production-candidate shell for a food and gut-microbiome metabolite ranking model.
 
-完整设计见 `C:\Users\crb66\.claude\plans\snug-launching-backus.md`。
+The model combines:
 
-## 一句话定位
-- **阶段1（稳 / RDKit+SMARTS）**：production SSRF/RCLSS（`scripts/ssrf/`）仍是候选生成器 + SMARTS gate + 溯源来源。
-- **阶段2（拓宽 / 学习 / RDKit-free 打分）**：冻结化学语言模型（ChemBERTa-2 / MolFormer）编码 substrate/product →
-  反应表示 `[z_s, z_p, z_s−z_p, z_s⊙z_p]` → 轻量排序头（pairwise + nnPU）→ `ml_kernel_score`。
-- 内核**不消费** rule_id/EC/RCLSS/category 作特征 → 可迁移到任意来源的候选。
+1. rule-based candidate generation,
+2. chemistry-only learned-to-rank scoring,
+3. evidence overlays from enzyme, microbe, and literature records,
+4. biochemical quality filters,
+5. explicit claim boundaries.
 
-## 成功判据（标准式）
-同一 split 下 `ML > 规则先验RCLSS`；且 `ML(scaffold) ≈ ML(random)`（小泛化 gap = 学到可迁移化学）。
+## Current Position
 
-## 安全契约（沿用 trainable_ranker_experiment 模式）
-- **不修改** production SSRF/RCLSS/V3/V4 任何代码或产物；只读取它们的输出 + label 文件。
-- 所有写出落在 `scripts/ssrf/ml_ranking_kernel/outputs/` 内（`kio.safe_output_path` 强制）；
-  已存在文件需 `--force`。
+Current safe claim:
 
-## 流水线
+> Internal research MVP for prioritizing rule-generated food-polyphenol metabolite candidates, strongest on glycoside-to-aglycone transformations.
+
+Current unsafe claim:
+
+> Broad prediction of all food-derived gut microbial metabolites, strain-aware metabolism, clinical effects, consumer health recommendations, or wet-lab occurrence probabilities.
+
+## Current Performance Snapshot
+
+As of `generation_07`:
+
+- Core curated food-glycoside panel: `6 / 6` top-5 hits, score `4.43 / 5`.
+- Production challenge panel: `0 / 6` top-5 hits, score `1.79 / 5`.
+- Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
+- Readiness status: `internal_mvp_only`.
+
+The challenge-panel result is intentional and important: it shows that the current system is not yet ready for broad food microbiome metabolite prediction.
+
+## Repository Layout
+
+```text
+mlrk_prod/      Production-candidate API, CLI, schema, readiness, and quality wrappers.
+modular/        Legacy modular candidate generation, deployment prediction, and LTR scripts.
+src/            Original research/data-building utilities.
+scripts/        GitHub-friendly command entrypoints that wrap production tools.
+tools/          Internal production, appraisal, freezing, and test utilities.
+tests/          Contract tests for requests, prediction payloads, appraisal matching, and quality filters.
+data/           Curated core and challenge evaluation panels.
+docs/           Model cards, readiness reviews, production ledger, and scientific positioning.
+outputs/        Versioned deployment metrics/models plus small appraisal reports.
+freezes/        Generation manifests with file hashes and score snapshots.
 ```
-src/build_kernel_dataset.py   # Phase 1  正/负/未标注边表 → outputs/datasets/kernel_edges.parquet
-src/encode_molecules.py       # Phase 2  冻结化学LM embedding 缓存 → outputs/features/mol_embeddings.parquet
-src/make_splits.py            # Phase 3  scaffold + random split + scaffold k-fold CV
-src/train_kernel.py           # Phase 4  pairwise + nnPU 排序头（规则无关特征闸）
-src/fuse_hybrid.py            # Phase 5  ML-only / gate×ML / late-fusion 变体
-src/evaluate_kernel.py        # Phase 6  {RCLSS,ML,hybrid}×{scaffold,random} 矩阵 + success_gate.json
-src/predict_kernel.py         # Phase 7  打分 + 溯源 JSON + 非破坏接入 ssrf_filter
-src/build_network_negatives.py# Phase 1b AGREDA 隐式负样本（阶段化，不阻塞首版）
-```
 
-## 运行
+## Quickstart
+
+Run contract tests:
+
 ```bash
-cd "D:\CRB\Food models"
-python scripts/ssrf/ml_ranking_kernel/src/build_kernel_dataset.py
-python scripts/ssrf/ml_ranking_kernel/src/encode_molecules.py
-python scripts/ssrf/ml_ranking_kernel/src/make_splits.py
-python scripts/ssrf/ml_ranking_kernel/src/train_kernel.py
-python scripts/ssrf/ml_ranking_kernel/src/evaluate_kernel.py
+python scripts/run_contract_tests.py
 ```
-所有脚本支持 `--smoke`（小样本快跑）与 `--force`（覆盖本包 outputs）。
+
+Validate readiness:
+
+```bash
+python scripts/validate_production_readiness.py
+```
+
+Run one prediction:
+
+```bash
+python -m mlrk_prod.cli predict --name rutin --topn 10
+```
+
+Run the core panel:
+
+```bash
+python scripts/life_science_appraisal.py --run-panel --topn 10
+```
+
+Run the challenge panel:
+
+```bash
+python scripts/life_science_appraisal.py --panel data/production_challenge_panel.csv --run-panel --topn 10 --out outputs/appraisal/challenge_appraisal.json
+```
+
+Build the production scorecard:
+
+```bash
+python scripts/production_scorecard.py
+```
+
+## API
+
+Start the internal API:
+
+```bash
+python -m mlrk_prod.cli serve --host 127.0.0.1 --port 8765
+```
+
+Endpoints:
+
+```text
+GET  /health
+GET  /readiness
+POST /api/jobs
+GET  /api/jobs/{job_id}
+GET  /api/jobs/{job_id}/result
+```
+
+## Evaluation Model
+
+The production scorecard separates:
+
+1. internal comparison against random, EC-only, Tanimoto, and full-feature baselines,
+2. core curated food-glycoside appraisal,
+3. challenge panel appraisal across harder food-metabolism classes,
+4. external comparison readiness for BioTransformer, MicrobeRX, GutBug, MIMOSA2, and AGREDA,
+5. remaining production blockers.
+
+## Iteration Process
+
+The repository uses explicit generation freezes. Each production round must include:
+
+1. a material improvement,
+2. contract tests,
+3. relevant appraisal or scorecard output,
+4. a review note,
+5. a git commit,
+6. a freeze manifest,
+7. a tag.
+
+See:
+
+- `docs/production/ITERATION_LEDGER.md`
+- `docs/production/SCIENTIFIC_POSITIONING.md`
+- `docs/reviews/`
+- `freezes/`

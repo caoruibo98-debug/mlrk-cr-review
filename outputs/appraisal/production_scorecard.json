@@ -1,0 +1,192 @@
+{
+  "status": "internal_mvp_only",
+  "readiness_issues": [
+    {
+      "severity": "warning",
+      "code": "external_benchmark_missing",
+      "message": "External BioTransformer/MicrobeRX/GutBug-style benchmark is not complete."
+    },
+    {
+      "severity": "info",
+      "code": "wet_lab_missing",
+      "message": "Wet-lab validation is not complete; public biological claims must stay limited."
+    },
+    {
+      "severity": "info",
+      "code": "public_web_not_allowed",
+      "message": "Only internal research MVP deployment is allowed by this manifest."
+    }
+  ],
+  "internal_comparison": {
+    "metric_file": "outputs/modular/ltr/clean2_metrics.csv",
+    "r5_mean_by_method": {
+      "LTR_chem": 0.94,
+      "LTR_full": 0.942,
+      "ec_only": 0.525,
+      "ensemble": 0.865,
+      "random": 0.532,
+      "tanimoto": 0.716
+    },
+    "ablation_deltas": {
+      "LTR_chem_minus_random_r5": 0.408,
+      "LTR_chem_minus_ec_only_r5": 0.415,
+      "LTR_chem_minus_tanimoto_r5": 0.224,
+      "LTR_full_minus_LTR_chem_r5": 0.002
+    },
+    "anti_cheat_pass": true,
+    "modules_without_ltr_gain": []
+  },
+  "core_panel": {
+    "label": "core_food_glycoside_panel",
+    "status": "internal_mvp_only",
+    "panel_file": "data/real_biochemistry_panel.csv",
+    "case_count": 6,
+    "score": {
+      "score_0_to_5": 4.43,
+      "dimensions": {
+        "internal_ranker_and_anti_cheat": 1.0,
+        "real_biochemistry_panel": 1.0,
+        "candidate_biochemical_sanity": 1.0,
+        "model_output_evidence_coverage": 0.667,
+        "benchmark_evidence_traceability": 1.0,
+        "deployment_and_claim_boundaries": 0.65
+      }
+    },
+    "expected_generated_count": 6,
+    "top5_hit_count": 6,
+    "top5_hit_rate": 1.0,
+    "evidence_source_counts": {
+      "benchmark_panel": 2,
+      "model_output": 4
+    },
+    "reaction_family_counts": {
+      "glycoside_hydrolysis": 6
+    },
+    "failure_cases": []
+  },
+  "challenge_panel": {
+    "label": "production_challenge_panel",
+    "status": "internal_mvp_only",
+    "panel_file": "data/production_challenge_panel.csv",
+    "case_count": 6,
+    "score": {
+      "score_0_to_5": 1.79,
+      "dimensions": {
+        "internal_ranker_and_anti_cheat": 1.0,
+        "real_biochemistry_panel": 0.0,
+        "candidate_biochemical_sanity": 0.5,
+        "model_output_evidence_coverage": 0.0,
+        "benchmark_evidence_traceability": 0.0,
+        "deployment_and_claim_boundaries": 0.65
+      }
+    },
+    "expected_generated_count": 0,
+    "top5_hit_count": 0,
+    "top5_hit_rate": 0.0,
+    "evidence_source_counts": {
+      "none": 6
+    },
+    "reaction_family_counts": {
+      "ellagitannin_urolithin_multistep": 1,
+      "isoflavone_reductive_metabolism": 1,
+      "lignan_deglucosylation": 1,
+      "lignan_multistep_demethylation_dehydroxylation": 1,
+      "lignan_oxidation": 1,
+      "phenolic_ester_hydrolysis": 1
+    },
+    "failure_cases": [
+      {
+        "case_id": "chlorogenic_acid_caffeic_acid",
+        "substrate": "chlorogenic acid",
+        "expected_product": "caffeic acid",
+        "reaction_family": "phenolic_ester_hydrolysis",
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "ellagic_acid_urolithin_a",
+        "substrate": "ellagic acid",
+        "expected_product": "urolithin A",
+        "reaction_family": "ellagitannin_urolithin_multistep",
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": null
+      },
+      {
+        "case_id": "daidzein_equol",
+        "substrate": "daidzein",
+        "expected_product": "equol",
+        "reaction_family": "isoflavone_reductive_metabolism",
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "secoisolariciresinol_diglucoside_secoisolariciresinol",
+        "substrate": "secoisolariciresinol diglucoside",
+        "expected_product": "secoisolariciresinol",
+        "reaction_family": "lignan_deglucosylation",
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "(2S,3R,4R,5S,6S)-2-[(2S,3S)-4-hydroxy-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butoxy]-6-(hydroxymethyl)oxane-3,4,5-triol"
+      },
+      {
+        "case_id": "secoisolariciresinol_enterodiol",
+        "substrate": "secoisolariciresinol",
+        "expected_product": "enterodiol",
+        "reaction_family": "lignan_multistep_demethylation_dehydroxylation",
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      },
+      {
+        "case_id": "enterodiol_enterolactone",
+        "substrate": "enterodiol",
+        "expected_product": "enterolactone",
+        "reaction_family": "lignan_oxidation",
+        "expected_rank": null,
+        "match_type": "miss",
+        "top_product": "unnamed/novel"
+      }
+    ]
+  },
+  "external_comparison_matrix": [
+    {
+      "tool_or_model": "BioTransformer 3/4",
+      "comparison_role": "small-molecule biotransformation product generation",
+      "current_status": "not_executed",
+      "required_next_step": "Export core and challenge panels as SMILES inputs; compare generation recall and enzyme annotations in gut microbial/SuperBio modes.",
+      "source": "Nucleic Acids Research 2022 BioTransformer 3.0; BioTransformer 4.0 reported as successor in 2025 records."
+    },
+    {
+      "tool_or_model": "MicrobeRX",
+      "comparison_role": "enzyme-reaction-based human/gut metabolite prediction from GEM-derived reaction rules",
+      "current_status": "not_executed",
+      "required_next_step": "Run the same substrate SMILES through MicrobeRX and compare product InChIKey block-1 recall plus reaction evidence fields.",
+      "source": "MicrobeRX paper and documentation describe metabolite SMILES, reaction identifiers, EC, Rhea, KEGG, and PubMed fields."
+    },
+    {
+      "tool_or_model": "GutBug",
+      "comparison_role": "gut bacterial enzyme prediction for biotic/xenobiotic molecules",
+      "current_status": "not_executed",
+      "required_next_step": "Use as an enzyme/gene plausibility comparator rather than a strict product-ranking comparator if product output is not directly aligned.",
+      "source": "GutBug Journal of Molecular Biology 2023 description."
+    },
+    {
+      "tool_or_model": "MIMOSA2 / AGORA / AGREDA",
+      "comparison_role": "community metabolic potential and diet-compound network coverage",
+      "current_status": "scope_reference_only",
+      "required_next_step": "Do not compare rank@k directly; use these to audit pathway coverage, gene/reaction evidence, and sample-level microbiome context requirements.",
+      "source": "MIMOSA2 Bioinformatics 2022; AGREDA Nature Communications 2021."
+    }
+  ],
+  "current_claim": "Internal research MVP for food-polyphenol candidate generation/ranking, strongest on glycoside aglycone release.",
+  "remaining_gap_to_full_food_microbiome_metabolite_prediction": [
+    "Challenge panel sample size and reaction-family breadth are still small.",
+    "External tools have not yet been run on the exact same substrate panel.",
+    "No gene/genome or strain-level abundance context is connected to predictions.",
+    "Candidate generation still constrains the ceiling; ranking cannot recover products absent from the candidate set.",
+    "Model-output evidence coverage remains incomplete even when benchmark traceability is present."
+  ]
+}

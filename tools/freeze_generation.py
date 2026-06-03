@@ -13,8 +13,10 @@ TRACKED = [
     ".gitignore",
     "production_artifact_manifest.json",
     "pyproject.toml",
+    "requirements.txt",
     "mlrk_prod",
     "modular",
+    "scripts",
     "src",
     "tools",
     "tests",
@@ -26,6 +28,7 @@ TRACKED = [
     "outputs/modular/ltr/models_clean",
     "outputs/modular/ltr/clean2_metrics.csv",
     "outputs/modular/ltr/clean2_feature_importance.csv",
+    "outputs/appraisal",
 ]
 
 

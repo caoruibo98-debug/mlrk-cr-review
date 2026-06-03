@@ -40,3 +40,26 @@ def test_clean_rutin_prediction_payload_contract() -> None:
     assert payload["module"] == "B"
     assert payload["top"]
     assert payload["top"][0]["biochem_quality"]["tier"] == "high"
+
+
+def test_no_candidate_prediction_writes_contract_payload() -> None:
+    path = ROOT / "outputs" / "modular" / "predictions" / "clean_ellagic_acid.json"
+    cmd = [sys.executable, "-m", "mlrk_prod.cli", "predict", "--name", "ellagic acid", "--topn", "10"]
+    proc = subprocess.run(
+        cmd,
+        cwd=str(ROOT),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        check=False,
+        timeout=240,
+    )
+    if proc.returncode != 0:
+        raise RuntimeError(proc.stderr or proc.stdout)
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    payload = annotate_prediction_payload(payload)
+    assert validate_prediction_payload(payload) == []
+    assert payload["candidate_generation_status"] == "no_candidates"
+    assert payload["n_rule_candidates"] == 0
+    assert payload["top"] == []

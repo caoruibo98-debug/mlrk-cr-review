@@ -1,0 +1,7 @@
+case_id,substrate_name,expected_product_name,reaction_family,evidence_type,reference,challenge_role,production_question,expected_difficulty
+chlorogenic_acid_caffeic_acid,chlorogenic acid,caffeic acid,phenolic_ester_hydrolysis,literature_curated,PMID:30113130,one_step_phenolic_ester,Can the model generalize from flavonoid glycosides to phenolic ester cleavage?,medium
+ellagic_acid_urolithin_a,ellagic acid,urolithin A,ellagitannin_urolithin_multistep,literature_curated,PMID:15998116,multistep_decarboxylation_dehydroxylation,Can the model handle multi-step urolithin formation from ellagic acid?,high
+daidzein_equol,daidzein,equol,isoflavone_reductive_metabolism,literature_curated,PMID:25594250,multistep_reductive_transformation,Can the model handle reductive isoflavone conversion beyond aglycone release?,high
+secoisolariciresinol_diglucoside_secoisolariciresinol,secoisolariciresinol diglucoside,secoisolariciresinol,lignan_deglucosylation,literature_curated,PMID:11086885,lignan_deglucosylation,Can the model transfer glycoside logic from flavonoids to lignans?,medium
+secoisolariciresinol_enterodiol,secoisolariciresinol,enterodiol,lignan_multistep_demethylation_dehydroxylation,literature_curated,PMID:11086885,lignan_multistep,Can the model reach enterolignan intermediates after aglycone release?,high
+enterodiol_enterolactone,enterodiol,enterolactone,lignan_oxidation,literature_curated,PMID:11086885,lignan_terminal_oxidation,Can the model rank a terminal oxidation in enterolignan metabolism?,medium

@@ -19,7 +19,7 @@ import kio  # noqa: E402
 from resolve import name_to_smiles  # noqa: E402
 
 
-PANEL = ROOT / "data" / "real_biochemistry_panel.csv"
+DEFAULT_PANEL = ROOT / "data" / "real_biochemistry_panel.csv"
 PREDICTIONS = ROOT / "outputs" / "modular" / "predictions"
 METRICS = ROOT / "outputs" / "modular" / "ltr" / "clean2_metrics.csv"
 
@@ -44,8 +44,8 @@ def run_prediction(name: str, topn: int) -> None:
         raise RuntimeError(f"prediction failed for {name}: {proc.stderr or proc.stdout}")
 
 
-def read_panel() -> list[dict[str, str]]:
-    with PANEL.open("r", encoding="utf-8", newline="") as f:
+def read_panel(path: Path) -> list[dict[str, str]]:
+    with path.open("r", encoding="utf-8", newline="") as f:
         return list(csv.DictReader(f))
 
 
@@ -148,12 +148,16 @@ def score_appraisal(cases: list[dict], metrics: dict, readiness: str) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--panel", default=str(DEFAULT_PANEL))
     parser.add_argument("--run-panel", action="store_true")
     parser.add_argument("--topn", type=int, default=10)
     parser.add_argument("--out", default="outputs/appraisal/life_science_appraisal.json")
     args = parser.parse_args()
 
-    panel = read_panel()
+    panel_path = Path(args.panel)
+    if not panel_path.is_absolute():
+        panel_path = ROOT / panel_path
+    panel = read_panel(panel_path)
     if args.run_panel:
         for case in panel:
             run_prediction(case["substrate_name"], args.topn)
@@ -197,6 +201,8 @@ def main() -> int:
     score = score_appraisal(cases, metrics, readiness)
     report = {
         "status": readiness,
+        "panel_file": str(panel_path.relative_to(ROOT)).replace("\\", "/"),
+        "panel_case_count": len(panel),
         "score": score,
         "metrics": metrics,
         "cases": cases,

@@ -54,7 +54,21 @@ Run the internal, non-clinical life-science appraisal:
 python tools/life_science_appraisal.py --run-panel --topn 10
 ```
 
-The appraisal uses a real curated food-glycoside panel, structure-aware expected-product matching, anti-cheat internal metrics, biochemical quality flags, and claim-boundary checks. The current strict score is `4.43 / 5`; this is an internal research-product score, not wet-lab validation.
+The appraisal uses a real curated food-glycoside panel, structure-aware expected-product matching, anti-cheat internal metrics, biochemical quality flags, and claim-boundary checks. The current strict core-panel score is `4.43 / 5`; this is an internal research-product score, not wet-lab validation.
+
+Run the production challenge panel:
+
+```bash
+python scripts/life_science_appraisal.py --panel data/production_challenge_panel.csv --run-panel --topn 10 --out outputs/appraisal/challenge_appraisal.json
+```
+
+The current challenge-panel score is `1.79 / 5` with `0 / 6` top-5 hits. That result is used to track the remaining gap to broad food microbiome metabolite prediction.
+
+Build the combined production scorecard:
+
+```bash
+python scripts/production_scorecard.py
+```
 
 Frozen iterations are recorded under:
 
@@ -63,6 +77,9 @@ freezes/generation_01/manifest.json
 freezes/generation_02/manifest.json
 freezes/generation_03/manifest.json
 freezes/generation_04/manifest.json
+freezes/generation_05/manifest.json
+freezes/generation_06/manifest.json
+freezes/generation_07/manifest.json
 ```
 
 ## Retrain deployment models

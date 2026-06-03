@@ -1,0 +1,15 @@
+numpy
+pandas
+pyyaml
+rdkit
+xgboost
+
+# Optional but recommended for research reproduction and tests:
+pyarrow
+scikit-learn
+pytest
+
+# Optional API server:
+fastapi
+pydantic
+uvicorn
