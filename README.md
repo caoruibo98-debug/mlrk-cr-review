@@ -22,12 +22,13 @@ Current unsafe claim:
 
 ## Current Performance Snapshot
 
-As of `generation_13`:
+As of `generation_14`:
 
 - Core curated food-glycoside panel: `6 / 6` strict top-5 hits, score `3.88 / 5`.
 - Production challenge panel: `8 / 22` strict top-5 hits, score `2.81 / 5`.
 - Challenge failure taxonomy: `14` expected products not generated, `8` benchmark-only top-5 hits.
 - Reaction-family KPI report: `19` families, with candidate-generation-blocked families separated from evidence-integration-blocked families.
+- API contract: stable error codes for invalid input, schema validation, pending jobs, failed jobs, and timeout states.
 - Internal ranking comparison: LTR_chem mean recall@5 `0.94`, above random `0.532`, EC-only `0.525`, and Tanimoto `0.716`.
 - Readiness status: `internal_mvp_only`.
 
@@ -126,6 +127,8 @@ GET  /api/jobs/{job_id}
 GET  /api/jobs/{job_id}/result
 ```
 
+The internal API exposes a stable error contract for web-app clients. See `docs/API_CONTRACT.md`.
+
 ## Evaluation Model
 
 The production scorecard separates:
@@ -160,5 +163,6 @@ See:
 
 - `docs/production/ITERATION_LEDGER.md`
 - `docs/production/SCIENTIFIC_POSITIONING.md`
+- `docs/API_CONTRACT.md`
 - `docs/reviews/`
 - `freezes/`

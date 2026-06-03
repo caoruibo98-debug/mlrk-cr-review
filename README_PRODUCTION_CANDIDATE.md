@@ -110,6 +110,7 @@ freezes/generation_10/manifest.json
 freezes/generation_11/manifest.json
 freezes/generation_12/manifest.json
 freezes/generation_13/manifest.json
+freezes/generation_14/manifest.json
 ```
 
 ## Retrain deployment models
@@ -134,6 +135,12 @@ GET  /readiness
 POST /api/jobs
 GET  /api/jobs/{job_id}
 GET  /api/jobs/{job_id}/result
+```
+
+The API returns stable error codes for invalid input, schema validation, missing jobs, pending jobs, worker failures, and timeouts. See:
+
+```text
+docs/API_CONTRACT.md
 ```
 
 Submit a job with Python:
