@@ -105,12 +105,14 @@ def row_has_model_evidence(row: dict) -> bool:
 def score_appraisal(cases: list[dict], metrics: dict, readiness: str) -> dict:
     rank_hits = [c for c in cases if c["expected_rank"] is not None and c["expected_rank"] <= 5]
     high_quality_top = [c for c in cases if c["top_quality_tier"] in {"high", "medium"}]
-    evidence_hits = [c for c in cases if c["expected_evidence_source"] in {"model_output", "benchmark_panel"}]
+    model_evidence_hits = [c for c in cases if c["expected_evidence_source"] == "model_output"]
+    traceable_evidence_hits = [c for c in cases if c["expected_evidence_source"] in {"model_output", "benchmark_panel"}]
     flagged_bad_top = [c for c in cases if c["top_quality_tier"] == "reject"]
 
     real_case_score = len(rank_hits) / max(1, len(cases))
     quality_score = max(0.0, (len(high_quality_top) - len(flagged_bad_top)) / max(1, len(cases)))
-    evidence_score = len(evidence_hits) / max(1, len(cases))
+    model_evidence_score = len(model_evidence_hits) / max(1, len(cases))
+    benchmark_traceability_score = len(traceable_evidence_hits) / max(1, len(cases))
     metric_score = 1.0 if metrics["anti_cheat_pass"] and metrics["ltr_r5_mean"] >= 0.80 else 0.55
     deployment_score = 0.65 if readiness == "internal_mvp_only" else 0.40
 
@@ -118,7 +120,8 @@ def score_appraisal(cases: list[dict], metrics: dict, readiness: str) -> dict:
         "internal_ranker_and_anti_cheat": round(metric_score, 3),
         "real_biochemistry_panel": round(real_case_score, 3),
         "candidate_biochemical_sanity": round(quality_score, 3),
-        "mechanistic_evidence_coverage": round(evidence_score, 3),
+        "model_output_evidence_coverage": round(model_evidence_score, 3),
+        "benchmark_evidence_traceability": round(benchmark_traceability_score, 3),
         "deployment_and_claim_boundaries": round(deployment_score, 3),
     }
     final = round(5.0 * mean(dimensions.values()), 2)
@@ -165,6 +168,8 @@ def main() -> int:
                 "top_product": top.get("product_name"),
                 "top_quality_tier": top.get("biochem_quality", {}).get("tier"),
                 "top_quality_flags": [f["code"] for f in top.get("biochem_quality", {}).get("flags", [])],
+                "interpretation_ready_count": len(payload.get("interpretation_ready_top", [])),
+                "rejected_returned_ranks": payload.get("quality_summary", {}).get("rejected_ranks", []),
             }
         )
 

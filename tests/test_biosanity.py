@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from mlrk_prod.biosanity import candidate_quality
+from mlrk_prod.biosanity import annotate_prediction_payload
 
 
 def test_rutin_to_quercetin_quality_is_high() -> None:
@@ -22,5 +23,31 @@ def test_phosphorus_introduction_is_rejected_for_flavonoid() -> None:
     }
     quality = candidate_quality(naringenin, row, module_name="small_molecule")
     assert quality["tier"] == "reject"
+    assert quality["interpretation_allowed"] is False
     assert any(flag["code"] == "phosphorus_introduced" for flag in quality["flags"])
 
+
+def test_annotated_payload_excludes_rejected_candidates_from_interpretation_ready_view() -> None:
+    payload = {
+        "input": {"smiles": "O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21"},
+        "module_name": "small_molecule",
+        "top": [
+            {
+                "rank": 1,
+                "product_name": "bad phosphate",
+                "product_smiles": "COP(=O)(OC)Oc1ccc([C@@H]2CC(=O)c3c(O)cc(O)cc3O2)cc1",
+                "score": 1.0,
+                "evidence": "-",
+            },
+            {
+                "rank": 2,
+                "product_name": "naringenin",
+                "product_smiles": "O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21",
+                "score": 0.5,
+                "evidence": "pmid=example",
+            },
+        ],
+    }
+    out = annotate_prediction_payload(payload)
+    assert [row["rank"] for row in out["interpretation_ready_top"]] == [2]
+    assert out["quality_summary"]["rejected_ranks"] == [1]
