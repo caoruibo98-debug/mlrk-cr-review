@@ -1,0 +1,433 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "29583112",
+      "24909569",
+      "18499214",
+      "6967506"
+    ],
+    "29583112": {
+      "uid": "29583112",
+      "pubdate": "2018 May",
+      "epubdate": "2018 Mar 27",
+      "source": "Int J Syst Evol Microbiol",
+      "authors": [
+        {
+          "name": "Beltr\u00e1n D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Romo-Vaquero M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Esp\u00edn JC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tom\u00e1s-Barber\u00e1n FA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Selma MV",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Selma MV",
+      "title": "Ellagibacter isourolithinifaciens gen. nov., sp. nov., a new member of the family Eggerthellaceae, isolated from human gut.",
+      "sorttitle": "ellagibacter isourolithinifaciens gen nov sp nov a new member of the family eggerthellaceae isolated from human gut",
+      "volume": "68",
+      "issue": "5",
+      "pages": "1707-1712",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "100899600",
+      "issn": "1466-5026",
+      "essn": "1466-5034",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29583112"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1099/ijsem.0.002735"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/03/28 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/05/24 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/03/28 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "International journal of systematic and evolutionary microbiology",
+      "elocationid": "doi: 10.1099/ijsem.0.002735",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/01 00:00",
+      "sortfirstauthor": "Beltr\u00e1n D",
+      "vernaculartitle": ""
+    },
+    "24909569": {
+      "uid": "24909569",
+      "pubdate": "2014 Aug",
+      "epubdate": "",
+      "source": "Food Funct",
+      "authors": [
+        {
+          "name": "Selma MV",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Beltr\u00e1n D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Garc\u00eda-Villalba R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Esp\u00edn JC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tom\u00e1s-Barber\u00e1n FA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tom\u00e1s-Barber\u00e1n FA",
+      "title": "Description of urolithin production capacity from ellagic acid of two human intestinal Gordonibacter species.",
+      "sorttitle": "description of urolithin production capacity from ellagic acid of two human intestinal gordonibacter species",
+      "volume": "5",
+      "issue": "8",
+      "pages": "1779-84",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101549033",
+      "issn": "2042-6496",
+      "essn": "2042-650X",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "24909569"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1039/c4fo00092g"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2014/06/10 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2014/06/10 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2015/03/31 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Food & function",
+      "elocationid": "doi: 10.1039/c4fo00092g",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2014/08/01 00:00",
+      "sortfirstauthor": "Selma MV",
+      "vernaculartitle": ""
+    },
+    "18499214": {
+      "uid": "18499214",
+      "pubdate": "2008 Nov",
+      "epubdate": "2008 May 21",
+      "source": "Vision Res",
+      "authors": [
+        {
+          "name": "Carroll J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Choi SS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Williams DR",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Williams DR",
+      "title": "In vivo imaging of the photoreceptor mosaic of a rod monochromat.",
+      "sorttitle": "in vivo imaging of the photoreceptor mosaic of a rod monochromat",
+      "volume": "48",
+      "issue": "26",
+      "pages": "2564-8",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0417402",
+      "issn": "0042-6989",
+      "essn": "1878-5646",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "18499214"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS71943"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC2582057"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC2582057;manuscript-id: NIHMS71943;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.visres.2008.04.006"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0042-6989(08)00192-2"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2007/10/15 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2008/02/03 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2008/04/06 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2008/05/24 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2009/01/08 09:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2008/05/24 09:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2009/11/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 46,
+      "fulljournalname": "Vision research",
+      "elocationid": "doi: 10.1016/j.visres.2008.04.006",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2008/11/01 00:00",
+      "sortfirstauthor": "Carroll J",
+      "vernaculartitle": ""
+    },
+    "6967506": {
+      "uid": "6967506",
+      "pubdate": "1980 Jul",
+      "epubdate": "",
+      "source": "J Lipid Res",
+      "authors": [
+        {
+          "name": "Feighner SD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hylemon PB",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Hylemon PB",
+      "title": "Characterization of a corticosteroid 21-dehydroxylase from the intestinal anaerobic bacterium, Eubacterium lentum.",
+      "sorttitle": "characterization of a corticosteroid 21 dehydroxylase from the intestinal anaerobic bacterium eubacterium lentum",
+      "volume": "21",
+      "issue": "5",
+      "pages": "585-93",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0376606",
+      "issn": "0022-2275",
+      "essn": "",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "6967506"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0022-2275(20)42228-X"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "1980/07/01 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "1980/07/01 00:01"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "1980/07/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of lipid research",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "1980/07/01 00:00",
+      "sortfirstauthor": "Feighner SD",
+      "vernaculartitle": ""
+    }
+  }
+}

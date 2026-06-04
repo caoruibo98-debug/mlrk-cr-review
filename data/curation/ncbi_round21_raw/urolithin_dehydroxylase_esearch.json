@@ -1,0 +1,27 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "3",
+    "retmax": "3",
+    "retstart": "0",
+    "idlist": [
+      "41298472",
+      "39856097",
+      "37494568"
+    ],
+    "translationset": [
+      {
+        "from": "urolithin",
+        "to": "\"urolithin\"[All Fields] OR \"urolithins\"[All Fields]"
+      },
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"urolithin\"[All Fields] OR \"urolithins\"[All Fields]) AND \"dehydroxylase\"[All Fields] AND \"Enterocloster\"[All Fields] AND (\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields])"
+  }
+}

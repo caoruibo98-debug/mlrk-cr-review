@@ -1,0 +1,28 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "32067637"
+    ],
+    "translationset": [
+      {
+        "from": "catechols",
+        "to": "\"catecholate\"[All Fields] OR \"catecholates\"[All Fields] OR \"catecholic\"[All Fields] OR \"catechols\"[Supplementary Concept] OR \"catechols\"[All Fields] OR \"catechol\"[All Fields] OR \"catechol\"[Supplementary Concept] OR \"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechols\"[MeSH Terms] OR \"catechin\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "(\"widely\"[All Fields] AND (\"distribute\"[All Fields] OR \"distributed\"[All Fields] OR \"distributer\"[All Fields] OR \"distributers\"[All Fields] OR \"distributes\"[All Fields] OR \"distributing\"[All Fields] OR \"distributional\"[All Fields] OR \"distributions\"[All Fields] OR \"supply and distribution\"[MeSH Subheading] OR (\"supply\"[All Fields] AND \"distribution\"[All Fields]) OR \"supply and distribution\"[All Fields] OR \"distribution\"[All Fields]) AND (\"metalloenzyme\"[All Fields] OR \"metalloenzymes\"[All Fields]) AND (\"class\"[All Fields] OR \"classe\"[All Fields] OR \"classed\"[All Fields] OR \"classes\"[All Fields])) AND (\"catecholate\"[All Fields] OR \"catecholates\"[All Fields] OR \"catecholic\"[All Fields] OR \"catechols\"[Supplementary Concept] OR \"catechols\"[All Fields] OR \"catechol\"[All Fields] OR \"catechol\"[Supplementary Concept] OR \"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechols\"[MeSH Terms] OR \"catechin\"[MeSH Terms])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [
+        "\"A widely distributed metalloenzyme class\""
+      ],
+      "outputmessages": []
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "3",
+    "retmax": "3",
+    "retstart": "0",
+    "idlist": [
+      "38570412",
+      "31196984",
+      "716472"
+    ],
+    "translationset": [
+      {
+        "from": "gut",
+        "to": "\"Gut\"[Journal:__jid2985108R] OR \"gut\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"dopamine\"[All Fields] AND \"m-tyramine\"[All Fields]) AND (\"gut\"[Journal] OR \"gut\"[All Fields])"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "gut",
+        "to": "\"Gut\"[Journal:__jid2985108R] OR \"gut\"[All Fields]"
+      },
+      {
+        "from": "microbial",
+        "to": "\"microbial\"[All Fields] OR \"microbially\"[All Fields] OR \"microbials\"[All Fields]"
+      },
+      {
+        "from": "catechol",
+        "to": "\"catecholate\"[All Fields] OR \"catecholates\"[All Fields] OR \"catecholic\"[All Fields] OR \"catechols\"[Supplementary Concept] OR \"catechols\"[All Fields] OR \"catechol\"[All Fields] OR \"catechol\"[Supplementary Concept] OR \"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechols\"[MeSH Terms] OR \"catechin\"[MeSH Terms]"
+      },
+      {
+        "from": "dopamine",
+        "to": "\"dopamin\"[All Fields] OR \"dopamine\"[Supplementary Concept] OR \"dopamine\"[All Fields] OR \"dopamine\"[MeSH Terms] OR \"dopamine's\"[All Fields] OR \"dopamines\"[All Fields]"
+      },
+      {
+        "from": "m-tyramine",
+        "to": "\"3-tyramine\"[Supplementary Concept] OR \"3-tyramine\"[All Fields] OR \"m tyramine\"[All Fields]"
+      },
+      {
+        "from": "acid",
+        "to": "\"acids\"[Supplementary Concept] OR \"acids\"[All Fields] OR \"acid\"[All Fields] OR \"acids\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "(\"gut\"[Journal] OR \"gut\"[All Fields]) AND (\"microbial\"[All Fields] OR \"microbially\"[All Fields] OR \"microbials\"[All Fields]) AND (\"catecholate\"[All Fields] OR \"catecholates\"[All Fields] OR \"catecholic\"[All Fields] OR \"catechols\"[Supplementary Concept] OR \"catechols\"[All Fields] OR \"catechol\"[All Fields] OR \"catechol\"[Supplementary Concept] OR \"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechols\"[MeSH Terms] OR \"catechin\"[MeSH Terms]) AND \"dehydroxylase\"[All Fields] AND (\"dopamin\"[All Fields] OR \"dopamine\"[Supplementary Concept] OR \"dopamine\"[All Fields] OR \"dopamine\"[MeSH Terms] OR \"dopamine s\"[All Fields] OR \"dopamines\"[All Fields]) AND (\"3 tyramine\"[Supplementary Concept] OR \"3 tyramine\"[All Fields] OR \"m tyramine\"[All Fields]) AND \"hydrocaffeic\"[All Fields] AND (\"acids\"[Supplementary Concept] OR \"acids\"[All Fields] OR \"acid\"[All Fields] OR \"acids\"[MeSH Terms])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

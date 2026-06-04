@@ -1,0 +1,6 @@
+round,query_id,source,query,raw_output,result_summary,next_action
+21,R21-Q-RHEA-UROLITHIN,Rhea,urolithin,data/curation/rhea_round21_raw/urolithin.json,0 returned records; use PubMed/literature as primary evidence for gut urolithin dehydroxylation.,manual exact participant mapping against PubMed-curated urolithin paper tables
+21,R21-Q-RHEA-DOPAMINE,Rhea,RHEA:61520; dopamine m-tyramine,data/curation/rhea_round21_raw/RHEA_61520.json,Approved Rhea reaction: dopamine + AH2 = 3-tyramine + A + H2O.,use as exact positive verification and generator target test seed
+21,R21-Q-RHEA-CAFFEATE,Rhea,caffeate dehydroxylase,data/curation/rhea_round21_raw/caffeate_dehydroxylase.json,0 returned records; hydrocaffeic/caffeic dehydroxylation remains literature-led.,use PubMed PMID 32067637 and exact structure check before route repair
+21,R21-Q-PUBMED-UROLITHIN,PubMed,urolithin dehydroxylase Enterocloster gut microbiota,data/curation/ncbi_round21_raw/urolithin_dehydroxylase_esearch.json,"Returned PMIDs 41298472, 39856097, 37494568.",extract exact substrate/product rows and sentence evidence
+21,R21-Q-PUBMED-CATECHOL,PubMed,A widely distributed metalloenzyme class catechols,data/curation/ncbi_round21_raw/catechol_metalloenzyme_esearch.json,Returned PMID 32067637.,extract substrate panel and exact products for catechol dehydroxylation family

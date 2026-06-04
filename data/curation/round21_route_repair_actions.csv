@@ -1,0 +1,5 @@
+round,reaction_family,candidate_count,verified_or_literature_supported_count,route_gap_types,next_generator_gate,next_negative_gate,training_allowed_round21
+21,catechol_dehydroxylation,1,1,final_clean_absent;reactions_to_clean_full_loss,exact target route dry-run before any training import,generated decoys must be screened against Rhea/ECReact/EnzymeMap/current positive pool,False
+21,decarboxylation,1,0,final_clean_absent;reactions_to_clean_full_loss,exact target route dry-run before any training import,generated decoys must be screened against Rhea/ECReact/EnzymeMap/current positive pool,False
+21,functional_group_removal,5,4,final_clean_absent;reactions_to_clean_full_loss,exact target route dry-run before any training import,generated decoys must be screened against Rhea/ECReact/EnzymeMap/current positive pool,False
+21,polyphenol_urolithin,7,7,final_clean_absent;reactions_to_clean_full_loss,exact target route dry-run before any training import,generated decoys must be screened against Rhea/ECReact/EnzymeMap/current positive pool,False
