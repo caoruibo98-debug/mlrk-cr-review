@@ -1,0 +1,164 @@
+{
+  "count": 4,
+  "results": [
+    {
+      "id": "17369",
+      "equation": "glycyrrhizin + H2O = 2-(beta-D-glucuronosyl)-D-glucuronate + glycyrrhetinate",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29807\">glycyrrhizin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58230\">2-(&#946;-<small>D</small>-glucuronosyl)-<small>D</small>-glucuronate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:17573\">glycyrrhetinate</a><span class=\"location\"> </span></span>",
+      "comment": "Published in:\nMuro, T., Kuramoto, T., Imoto, K. and Okada, S. Purification and some properties of glycyrrhizinic acid hydrolase from <ital>Aspergillus niger</ital> GRM3. <ital>Agric. Biol. Chem.</ital> 50 (1986) 687\u2013692.",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "28130",
+      "equation": "baicalin + H2O = baicalein + D-glucuronate + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:61283\">baicalin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:78324\">baicalein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58720\"><small>D</small>-glucuronate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "Published in:\nMorimoto S., Harioka T., Shoyama Y. Purification and characterization of flavone-specific beta-glucuronidase from callus cultures of Scutellaria baicalensis Georgi. Planta 195:535-540(1995).\nZhang, C., Hang, Y., Chen, J., Liang, X. Purification and characterization of baicalin-\u03b2-D-glucuronidase hydrolyzing baicalin to baicalein from fresh roots of Scutellaria viscidula Bge. Proc. Biochem. 40:1911-1915(2005).\nDOI:10.1016/j.procbio.2004.07.003",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "17633",
+      "equation": "a beta-D-glucuronoside + H2O = D-glucuronate + an alcohol",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:83411\">a &#946;-<small>D</small>-glucuronoside</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58720\"><small>D</small>-glucuronate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:30879\">an alcohol</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "15073",
+      "equation": "3-D-glucuronosyl-N(2),6-disulfo-beta-D-glucosamine + H2O = N(2),6-disulfo-D-glucosamine + D-glucuronate",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58150\">3-<small>D</small>-glucuronosyl-<i>N</i><small><sup>2</sup></small>,6-disulfo-&#946;-<small>D</small>-glucosamine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58102\"><i>N</i><small><sup>2</sup></small>,6-disulfo-<small>D</small>-glucosamine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58720\"><small>D</small>-glucuronate</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "beta": [
+        {
+          "term": "beta",
+          "query": "chebi:\"2-(beta-D-glucuronosyl)-D-glucuronate [58230]\" glucuronidase",
+          "count": "1",
+          "label": "2-(&#946;-<small>D</small>-glucuronosyl)-<small>D</small>-glucuronate",
+          "id": "CHEBI:58230",
+          "isDirect": true,
+          "othernames": "2-(&#946;-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate(2&#8722;), &#946;-<small>D</small>-glucopyranuronosyl-(1&#8594;2)-&#946;-<small>D</small>-glucopyranuronate, 2-(&#946;-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate, 2-<i>O</i>-&#946;-<small>D</small>-glucopyranuronosyl-&#946;-<small>D</small>-glucopyranuronate, 2-(&#946;-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate dianion"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"2-(beta-D-glucopyranosyluronic acid)-D-glucuronic acid [17676]\" glucuronidase",
+          "count": "1",
+          "label": "2-(beta-D-glucopyranosyluronic acid)-D-glucuronic acid",
+          "id": "CHEBI:17676",
+          "isDirect": false,
+          "othernames": "2-(&#946;-<small>D</small>-glucopyranosyluronic acid)-<small>D</small>-glucuronic acid, (1->2)-beta-D-Glucuronosyl-D-glucuronate, 1,2-beta-D-glucuronosyl-D-glucuronate, (&#946;-<small>D</small>-glucopyranosyloxyuronic acid)-(1&#8594;2)-&#946;-<small>D</small>-glucopyranuronic acid, 1,2-beta-D-Glucuronosyl-D-glucuronate, 2-<i>O</i>-&#946;-<small>D</small>-glucopyranuronosyl-&#946;-<small>D</small>-glucopyranuronic acid"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"3-D-glucuronosyl-N(2),6-disulfo-beta-D-glucosamine [58150]\" glucuronidase",
+          "count": "1",
+          "label": "3-<small>D</small>-glucuronosyl-<i>N</i><small><sup>2</sup></small>,6-disulfo-&#946;-<small>D</small>-glucosamine",
+          "id": "CHEBI:58150",
+          "isDirect": true,
+          "othernames": "3-<small>D</small>-glucuronosyl-<i>N</i><small><sup>2</sup></small>,6-disulfonato-&#946;-<small>D</small>-glucosamine trianion, 2-deoxy-3-<i>O</i>-(<small>D</small>-glucopyranosyluronate)-6-<i>O</i>-sulfonato-2-(sulfonatoamino)-&#946;-<small>D</small>-glucopyranose, 3-<small>D</small>-glucuronosyl-<i>N</i><small><sup>2</sup></small>,6-disulfonato-&#946;-<small>D</small>-glucosamine(3&#8722;)"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"baicalin [61283]\" glucuronidase",
+          "count": "1",
+          "label": "baicalin",
+          "id": "CHEBI:61283",
+          "isDirect": true,
+          "othernames": "5,6,7-trihydroxyflavone 7-<i>O</i>-&#946;-<small>D</small>-glucuronate, baicalin(1&#8722;), 5,6-dihydroxy-4-oxo-2-phenyl-4<i>H</i>-chromen-7-yl &#946;-<small>D</small>-glucopyranosiduronate, 5,6,7-trihydroxyflavone-7-<i>O</i>-&#946;-<small>D</small>-glucuronate, baicalein 7-<i>O</i>-&#946;-<small>D</small>-glucuronate"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"glycyrrhizin [29807]\" glucuronidase",
+          "count": "1",
+          "label": "glycyrrhizin",
+          "id": "CHEBI:29807",
+          "isDirect": true,
+          "othernames": "Glycyrrhizinate, (3beta,20beta)-20-Carboxy-11-oxo-30-norolean-12-en-3-yl-2-O-beta-D-glucuronosyl-beta-D-glucosiduronic acid, glycyrrhizinate(3&#8722;), Glycyrrhizic acid"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"baicalin [2981]\" glucuronidase",
+          "count": "1",
+          "label": "baicalin",
+          "id": "CHEBI:2981",
+          "isDirect": false,
+          "othernames": "baicalein 7-<i>O</i>-glucuronide, 5,6,7-trihydroxyflavone 7-<i>O</i>-&#946;-<small>D</small>-glucuronide, 5,6-dihydroxy-4-oxo-2-phenyl-4<i>H</i>-chromen-7-yl &#946;-<small>D</small>-glucopyranosiduronic acid, 7-<small>D</small>-glucuronic acid-5,6-dihydroxyflavone, 5,6-dihydroxy-4-oxo-2-phenyl-4<i>H</i>-1-benzopyran-7-yl &#946;-<small>D</small>-glucopyranosiduronic acid, baicalein 7-glucuronide"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"3-D-glucuronosyl-N(2),6-disulfo-beta-D-glucosamine [17446]\" glucuronidase",
+          "count": "1",
+          "label": "3-D-glucuronosyl-N(2),6-disulfo-beta-D-glucosamine",
+          "id": "CHEBI:17446",
+          "isDirect": false,
+          "othernames": "2-deoxy-3-<i>O</i>-(<small>D</small>-glucopyranosyluronic acid)-6-<i>O</i>-sulfo-2-(sulfoamino)-&#946;-<small>D</small>-glucopyranose, 3-D-Glucuronosyl-N2,6-disulfo-beta-D-glucosamine, 3-<small>D</small>-glucuronosyl-<i>N</i><small><sup>2</sup></small>,6-disulfo-&#946;-<small>D</small>-glucosamine"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"glycyrrhizinic acid [15939]\" glucuronidase",
+          "count": "1",
+          "label": "glycyrrhizinic acid",
+          "id": "CHEBI:15939",
+          "isDirect": false,
+          "othernames": "30-hydroxy-11,30-dioxoolean-12-en-3&#946;-yl (2-<i>O</i>-&#946;-<small>D</small>-glucopyranosyluronic acid)-&#945;-<small>D</small>-glucopyranosiduronic acid, (3&#946;,20&#946;)-20-carboxy-11-oxo-30-norolean-12-en-3-yl-2-<i>O</i>-&#946;-<small>D</small>-glucopyranuronosyl-&#945;-<small>D</small>-glucopyranosiduronic acid, Glycyrrhizin, Glycyrrhizic acid"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"a beta-D-glucuronoside [83411]\" glucuronidase",
+          "count": "1",
+          "label": "a &#946;-<small>D</small>-glucuronoside",
+          "id": "CHEBI:83411",
+          "isDirect": true,
+          "othernames": "&#946;-<small>D</small>-glucosiduronate"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"acceptor beta-D-glucuronoside [132367]\" glucuronidase",
+          "count": "1",
+          "label": "acceptor &#946;-<small>D</small>-glucuronoside",
+          "id": "CHEBI:132367",
+          "isDirect": true,
+          "othernames": "&#946;-<small>D</small>-glucuronoside(1&#8722;)"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"glycyrrhetinic acid [30853]\" glucuronidase",
+          "count": "1",
+          "label": "glycyrrhetinic acid",
+          "id": "CHEBI:30853",
+          "isDirect": false,
+          "othernames": "Enoxolone, 18&#946;-glycyrrhetic acid, 3&#946;-hydroxy-11-oxoolean-12-en-30-oic acid"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"alpha,beta-unsaturated ketone [51721]\" glucuronidase",
+          "count": "1",
+          "label": "alpha,beta-unsaturated ketone",
+          "id": "CHEBI:51721",
+          "isDirect": false,
+          "othernames": "&#945;,&#946;-unsaturated ketone, &#945;,&#946;-unsaturated ketones"
+        },
+        {
+          "term": "beta",
+          "query": "chebi:\"glycyrrhetinate [17573]\" glucuronidase",
+          "count": "1",
+          "label": "glycyrrhetinate",
+          "id": "CHEBI:17573",
+          "isDirect": true,
+          "othernames": "3&#946;-hydroxy-11-oxoolean-12-en-30-oate"
+        }
+      ]
+    }
+  ]
+}

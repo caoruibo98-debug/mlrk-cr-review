@@ -1,0 +1,110 @@
+{
+  "count": 5,
+  "results": [
+    {
+      "id": "34179",
+      "equation": "mycophenolic acid O-acyl-beta-D-glucuronide + H2O = mycophenolate + D-glucuronate + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:66982\">mycophenolic acid <i>O</i>-acyl-&#946;-<small>D</small>-glucuronide</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:62932\">mycophenolate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58720\"><small>D</small>-glucuronate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "28130",
+      "equation": "baicalin + H2O = baicalein + D-glucuronate + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:61283\">baicalin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:78324\">baicalein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58720\"><small>D</small>-glucuronate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "Published in:\nMorimoto S., Harioka T., Shoyama Y. Purification and characterization of flavone-specific beta-glucuronidase from callus cultures of Scutellaria baicalensis Georgi. Planta 195:535-540(1995).\nZhang, C., Hang, Y., Chen, J., Liang, X. Purification and characterization of baicalin-\u03b2-D-glucuronidase hydrolyzing baicalin to baicalein from fresh roots of Scutellaria viscidula Bge. Proc. Biochem. 40:1911-1915(2005).\nDOI:10.1016/j.procbio.2004.07.003",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "17369",
+      "equation": "glycyrrhizin + H2O = 2-(beta-D-glucuronosyl)-D-glucuronate + glycyrrhetinate",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29807\">glycyrrhizin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58230\">2-(&#946;-<small>D</small>-glucuronosyl)-<small>D</small>-glucuronate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:17573\">glycyrrhetinate</a><span class=\"location\"> </span></span>",
+      "comment": "Published in:\nMuro, T., Kuramoto, T., Imoto, K. and Okada, S. Purification and some properties of glycyrrhizinic acid hydrolase from <ital>Aspergillus niger</ital> GRM3. <ital>Agric. Biol. Chem.</ital> 50 (1986) 687\u2013692.",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "28314",
+      "equation": "baicalein + UDP-alpha-D-glucuronate = baicalin + UDP",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:78324\">baicalein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58052\">UDP-&#945;-<small>D</small>-glucuronate</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:61283\">baicalin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58223\">UDP</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "20005",
+      "equation": "an alpha-D-glucuronoside + H2O = D-glucuronate + an alcohol",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58899\">an &#945;-<small>D</small>-glucuronoside</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58720\"><small>D</small>-glucuronate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:30879\">an alcohol</a><span class=\"location\"> </span></span>",
+      "comment": "Published in:\n- alpha-Glucuronidases in the hydrolysis of wood xylans.\nPuls, J.\nVisser, J., Kusters van Someren, M.A., Beldman, G. and Voragen, A.G.J. (Ed.), Xylans and Xylanases, Elsevier, Amsterdam, 1992, pp. 213\u2013224.\n- Purification and characterization of intracellular \u03b1-glucuronidase from Aspergillus niger.\nUchida, H., Nanri, T., Kawabata, Y., Kusakabe, I., Murakami, K.\nBiosci. Biotechnol. Biochem. 56 (1992) 1608\u20131615.",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "glucuronide": [
+        {
+          "term": "glucuronide",
+          "query": "chebi:\"glucosiduronic acid [24302]\" hydrolase",
+          "count": "5",
+          "label": "glucosiduronic acid",
+          "id": "CHEBI:24302",
+          "isDirect": false,
+          "othernames": "glucosiduronic acids, glucuronide"
+        },
+        {
+          "term": "glucuronide",
+          "query": "chebi:\"baicalin [2981]\" hydrolase",
+          "count": "2",
+          "label": "baicalin",
+          "id": "CHEBI:2981",
+          "isDirect": false,
+          "othernames": "baicalein 7-<i>O</i>-glucuronide, 5,6,7-trihydroxyflavone 7-<i>O</i>-&#946;-<small>D</small>-glucuronide, 5,6-dihydroxy-4-oxo-2-phenyl-4<i>H</i>-chromen-7-yl &#946;-<small>D</small>-glucopyranosiduronic acid, 7-<small>D</small>-glucuronic acid-5,6-dihydroxyflavone, 5,6-dihydroxy-4-oxo-2-phenyl-4<i>H</i>-1-benzopyran-7-yl &#946;-<small>D</small>-glucopyranosiduronic acid, baicalein 7-glucuronide"
+        },
+        {
+          "term": "glucuronide",
+          "query": "chebi:\"baicalin [61283]\" hydrolase",
+          "count": "2",
+          "label": "baicalin",
+          "id": "CHEBI:61283",
+          "isDirect": true,
+          "othernames": "5,6,7-trihydroxyflavone 7-<i>O</i>-&#946;-<small>D</small>-glucuronate, baicalin(1&#8722;), 5,6-dihydroxy-4-oxo-2-phenyl-4<i>H</i>-chromen-7-yl &#946;-<small>D</small>-glucopyranosiduronate, 5,6,7-trihydroxyflavone-7-<i>O</i>-&#946;-<small>D</small>-glucuronate, baicalein 7-<i>O</i>-&#946;-<small>D</small>-glucuronate"
+        },
+        {
+          "term": "glucuronide",
+          "query": "chebi:\"mycophenolic acid O-acyl-beta-D-glucuronide [66982]\" hydrolase",
+          "count": "1",
+          "label": "mycophenolic acid <i>O</i>-acyl-&#946;-<small>D</small>-glucuronide",
+          "id": "CHEBI:66982",
+          "isDirect": true,
+          "othernames": "mycophenolic acid acyl-glucuronide(1&#8722;), mycophenolic acid acyl glucuronide(1&#8722;), mycophenolic acid <i>O</i>-acyl-glucuronide anion, mycophenolic acid-<i>O</i>-acyl-&#946;-<small>D</small>-glucopyranuronoside(1&#8722;), AcMPAG(1&#8722;), mycophenolic acid <i>O</i>-acyl-glucuronide(1&#8722;), 1-<i>O</i>-[(4<i>E</i>)-6-(4-hydroxy-6-methoxy-7-methyl-3-oxo-1,3-dihydro-2-benzofuran-5-yl)-4-methylhex-4-enoyl]-&#946;-<small>D</small>-glucopyranuronate"
+        },
+        {
+          "term": "glucuronide",
+          "query": "chebi:\"mycophenolic acid O-acyl-glucuronide [64689]\" hydrolase",
+          "count": "1",
+          "label": "mycophenolic acid O-acyl-glucuronide",
+          "id": "CHEBI:64689",
+          "isDirect": false,
+          "othernames": "mycophenolic acid-<i>O</i>-acyl-&#946;-<small>D</small>-glucopyranuronoside, mycophenolic acid <i>O</i>-acyl-glucuronide, 1-<i>O</i>-[(4<i>E</i>)-6-(4-hydroxy-6-methoxy-7-methyl-3-oxo-1,3-dihydro-2-benzofuran-5-yl)-4-methylhex-4-enoyl]-&#946;-<small>D</small>-glucopyranuronic acid, mycophenolic acid acyl-glucuronide, mycophenolic acid acyl glucuronide, AcMPAG"
+        },
+        {
+          "term": "glucuronide",
+          "query": "chebi:\"beta-D-glucosiduronic acid [15341]\" hydrolase",
+          "count": "1",
+          "label": "beta-D-glucosiduronic acid",
+          "id": "CHEBI:15341",
+          "isDirect": false,
+          "othernames": "&#946;-<small>D</small>-glucuronides, Glucuronide, &#946;-<small>D</small>-glucosiduronic acids, &#946;-<small>D</small>-glucosiduronic acid, beta-D-Glucuronide, beta-D-glucuronosides, Acceptor beta-D-glucuronoside, beta-D-Glucuronoside"
+        }
+      ]
+    }
+  ]
+}

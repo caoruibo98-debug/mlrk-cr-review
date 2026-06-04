@@ -1,0 +1,42 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "sulfatase",
+        "to": "\"sulfatases\"[Supplementary Concept] OR \"sulfatases\"[All Fields] OR \"sulfatases\"[MeSH Terms] OR \"sulphatases\"[All Fields] OR \"sulphatase\"[All Fields] OR \"sulfatase\"[All Fields]"
+      },
+      {
+        "from": "polyphenol",
+        "to": "\"polyphenol's\"[All Fields] OR \"polyphenoles\"[All Fields] OR \"polyphenolic\"[All Fields] OR \"polyphenolics\"[All Fields] OR \"polyphenols\"[Supplementary Concept] OR \"polyphenols\"[All Fields] OR \"polyphenol\"[All Fields] OR \"polyphenols\"[MeSH Terms]"
+      },
+      {
+        "from": "sulfate",
+        "to": "\"bisulfate\"[All Fields] OR \"bisulphate\"[All Fields] OR \"dihydrochloride\"[All Fields] OR \"dihydrochlorides\"[All Fields] OR \"sulfatated\"[All Fields] OR \"sulfatation\"[All Fields] OR \"sulfate's\"[All Fields] OR \"sulfated\"[All Fields] OR \"sulfating\"[All Fields] OR \"sulfation\"[All Fields] OR \"sulfations\"[All Fields] OR \"sulphate\"[All Fields] OR \"sulfates\"[Supplementary Concept] OR \"sulfates\"[All Fields] OR \"sulfate\"[All Fields] OR \"sulfates\"[MeSH Terms] OR \"sulphated\"[All Fields] OR \"sulphates\"[All Fields] OR \"sulphation\"[All Fields]"
+      },
+      {
+        "from": "deconjugation",
+        "to": "\"deconjugate\"[All Fields] OR \"deconjugated\"[All Fields] OR \"deconjugates\"[All Fields] OR \"deconjugating\"[All Fields] OR \"deconjugation\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"sulfatases\"[Supplementary Concept] OR \"sulfatases\"[All Fields] OR \"sulfatases\"[MeSH Terms] OR \"sulphatases\"[All Fields] OR \"sulphatase\"[All Fields] OR \"sulfatase\"[All Fields]) AND (\"polyphenol s\"[All Fields] OR \"polyphenoles\"[All Fields] OR \"polyphenolic\"[All Fields] OR \"polyphenolics\"[All Fields] OR \"polyphenols\"[Supplementary Concept] OR \"polyphenols\"[All Fields] OR \"polyphenol\"[All Fields] OR \"polyphenols\"[MeSH Terms]) AND (\"bisulfate\"[All Fields] OR \"bisulphate\"[All Fields] OR \"dihydrochloride\"[All Fields] OR \"dihydrochlorides\"[All Fields] OR \"sulfatated\"[All Fields] OR \"sulfatation\"[All Fields] OR \"sulfate s\"[All Fields] OR \"sulfated\"[All Fields] OR \"sulfating\"[All Fields] OR \"sulfation\"[All Fields] OR \"sulfations\"[All Fields] OR \"sulphate\"[All Fields] OR \"sulfates\"[Supplementary Concept] OR \"sulfates\"[All Fields] OR \"sulfate\"[All Fields] OR \"sulfates\"[MeSH Terms] OR \"sulphated\"[All Fields] OR \"sulphates\"[All Fields] OR \"sulphation\"[All Fields]) AND (\"deconjugate\"[All Fields] OR \"deconjugated\"[All Fields] OR \"deconjugates\"[All Fields] OR \"deconjugating\"[All Fields] OR \"deconjugation\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

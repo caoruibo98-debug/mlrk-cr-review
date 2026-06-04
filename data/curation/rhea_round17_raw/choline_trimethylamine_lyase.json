@@ -1,0 +1,49 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "35095",
+      "equation": "choline = trimethylamine + acetaldehyde",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15354\">choline</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58389\">trimethylamine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15343\">acetaldehyde</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "choline": [
+        {
+          "term": "choline",
+          "query": "chebi:\"choline [15354]\" trimethylamine lyase",
+          "count": "1",
+          "label": "choline",
+          "id": "CHEBI:15354",
+          "isDirect": true,
+          "othernames": "trimethylethanolamine, 2-hydroxy-<i>N</i>,<i>N</i>,<i>N</i>-trimethylethanaminium, N-trimethylethanolamine, CHOLINE ION, N,N,N-trimethylethanol-ammonium, Bilineurine"
+        }
+      ],
+      "trimethylamine": [
+        {
+          "term": "trimethylamine",
+          "query": "choline chebi:\"trimethylamine [18139]\" lyase",
+          "count": "1",
+          "label": "trimethylamine",
+          "id": "CHEBI:18139",
+          "isDirect": false,
+          "othernames": "(CH3)3N, Trimethylamin, TMA, NMe<small><sub>3</sub></small>, <i>N</i>,<i>N</i>-dimethylmethanamine, N,N-Dimethylmethanamine, tridimethylaminomethane, <i>N</i>,<i>N</i>,<i>N</i>-trimethylamine, N(CH<small><sub>3</sub></small>)<small><sub>3</sub></small>"
+        },
+        {
+          "term": "trimethylamine",
+          "query": "choline chebi:\"trimethylamine [58389]\" lyase",
+          "count": "1",
+          "label": "trimethylamine",
+          "id": "CHEBI:58389",
+          "isDirect": true,
+          "othernames": "<i>N</i>,<i>N</i>-dimethylmethanaminium, trimethylammonium cation, trimethylazanium cation, trimethylammonium, trimethylazanium"
+        }
+      ]
+    }
+  ]
+}

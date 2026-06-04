@@ -1,0 +1,39 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "3",
+    "retmax": "3",
+    "retstart": "0",
+    "idlist": [
+      "38375831",
+      "29549099",
+      "25411028"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "bile acid",
+        "to": "\"bile acids and salts\"[Supplementary Concept] OR \"bile acids and salts\"[All Fields] OR \"bile acid\"[All Fields] OR \"bile acids and salts\"[MeSH Terms] OR (\"bile\"[All Fields] AND \"acids\"[All Fields] AND \"salts\"[All Fields]) OR (\"bile\"[All Fields] AND \"acid\"[All Fields])"
+      },
+      {
+        "from": "alpha",
+        "to": "\"alpha\"[All Fields] OR \"alpha's\"[All Fields] OR \"alphas\"[All Fields]"
+      },
+      {
+        "from": "dehydroxylation",
+        "to": "\"dehydroxylated\"[All Fields] OR \"dehydroxylation\"[All Fields] OR \"dehydroxylations\"[All Fields]"
+      },
+      {
+        "from": "deoxycholic acid",
+        "to": "\"deoxycholic acid\"[Supplementary Concept] OR \"deoxycholic acid\"[All Fields] OR \"deoxycholic acid\"[MeSH Terms] OR (\"deoxycholic\"[All Fields] AND \"acid\"[All Fields])"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"bile acids and salts\"[Supplementary Concept] OR \"bile acids and salts\"[All Fields] OR \"bile acid\"[All Fields] OR \"bile acids and salts\"[MeSH Terms] OR (\"bile\"[All Fields] AND \"acids\"[All Fields] AND \"salts\"[All Fields]) OR (\"bile\"[All Fields] AND \"acid\"[All Fields])) AND \"7\"[All Fields] AND (\"alpha\"[All Fields] OR \"alpha s\"[All Fields] OR \"alphas\"[All Fields]) AND (\"dehydroxylated\"[All Fields] OR \"dehydroxylation\"[All Fields] OR \"dehydroxylations\"[All Fields]) AND (\"deoxycholic acid\"[Supplementary Concept] OR \"deoxycholic acid\"[All Fields] OR \"deoxycholic acid\"[MeSH Terms] OR (\"deoxycholic\"[All Fields] AND \"acid\"[All Fields]))"
+  }
+}

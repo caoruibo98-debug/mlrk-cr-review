@@ -1,0 +1,52 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "68",
+    "retmax": "20",
+    "retstart": "0",
+    "idlist": [
+      "42022109",
+      "42001815",
+      "41997160",
+      "41855263",
+      "41728982",
+      "41614677",
+      "41608868",
+      "41454643",
+      "41406813",
+      "41197815",
+      "41155754",
+      "40863168",
+      "40852121",
+      "39604809",
+      "39275312",
+      "39153148",
+      "37337893",
+      "37011073",
+      "36938237",
+      "36855809"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "choline",
+        "to": "\"cholin\"[All Fields] OR \"choline\"[Supplementary Concept] OR \"choline\"[All Fields] OR \"choline\"[MeSH Terms] OR \"cholines\"[All Fields] OR \"choline's\"[All Fields]"
+      },
+      {
+        "from": "trimethylamine",
+        "to": "\"trimethylamine\"[Supplementary Concept] OR \"trimethylamine\"[All Fields] OR \"trimethylamines\"[All Fields]"
+      },
+      {
+        "from": "lyase",
+        "to": "\"lyases\"[Supplementary Concept] OR \"lyases\"[All Fields] OR \"lyase\"[All Fields] OR \"lyases\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"cholin\"[All Fields] OR \"choline\"[Supplementary Concept] OR \"choline\"[All Fields] OR \"choline\"[MeSH Terms] OR \"cholines\"[All Fields] OR \"choline s\"[All Fields]) AND (\"trimethylamine\"[Supplementary Concept] OR \"trimethylamine\"[All Fields] OR \"trimethylamines\"[All Fields]) AND (\"lyases\"[Supplementary Concept] OR \"lyases\"[All Fields] OR \"lyase\"[All Fields] OR \"lyases\"[MeSH Terms])"
+  }
+}

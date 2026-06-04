@@ -1,0 +1,85 @@
+{
+  "count": 2,
+  "results": [
+    {
+      "id": "55368",
+      "equation": "(R)-carnitine + NADPH + O2 + H(+) = (3R)-3-hydroxy-4-oxobutanoate + trimethylamine + NADP(+) + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:16347\">(<i>R</i>)-carnitine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57783\">NADPH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15379\">O<small><sub>2</sub></small></a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:138809\">(3<i>R</i>)-3-hydroxy-4-oxobutanoate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58389\">trimethylamine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58349\">NADP<small><sup>+</sup></small></a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "55396",
+      "equation": "(R)-carnitine + NADH + O2 + H(+) = (3R)-3-hydroxy-4-oxobutanoate + trimethylamine + NAD(+) + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:16347\">(<i>R</i>)-carnitine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57945\">NADH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15379\">O<small><sub>2</sub></small></a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:138809\">(3<i>R</i>)-3-hydroxy-4-oxobutanoate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58389\">trimethylamine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57540\">NAD<small><sup>+</sup></small></a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "trimethylamine": [
+        {
+          "term": "trimethylamine",
+          "query": "carnitine chebi:\"trimethylamine [18139]\"",
+          "count": "2",
+          "label": "trimethylamine",
+          "id": "CHEBI:18139",
+          "isDirect": false,
+          "othernames": "(CH3)3N, Trimethylamin, TMA, NMe<small><sub>3</sub></small>, <i>N</i>,<i>N</i>-dimethylmethanamine, N,N-Dimethylmethanamine, tridimethylaminomethane, <i>N</i>,<i>N</i>,<i>N</i>-trimethylamine, N(CH<small><sub>3</sub></small>)<small><sub>3</sub></small>"
+        },
+        {
+          "term": "trimethylamine",
+          "query": "carnitine chebi:\"trimethylamine [58389]\"",
+          "count": "2",
+          "label": "trimethylamine",
+          "id": "CHEBI:58389",
+          "isDirect": true,
+          "othernames": "<i>N</i>,<i>N</i>-dimethylmethanaminium, trimethylammonium cation, trimethylazanium cation, trimethylammonium, trimethylazanium"
+        }
+      ],
+      "carnitine": [
+        {
+          "term": "carnitine",
+          "query": "chebi:\"(R)-carnitine [16347]\" trimethylamine",
+          "count": "2",
+          "label": "(<i>R</i>)-carnitine",
+          "id": "CHEBI:16347",
+          "isDirect": true,
+          "othernames": "Vitamin BT, Carnitor, (-)-Carnitine, (-)-L-Carnitine, Carnicor, Carnitene, Levocarnitine, Carnitine, (R)-Carnitine, (3<i>R</i>)-3-hydroxy-4-(trimethylammonio)butanoate, L-Carnitine, 3-Carboxy-2-hydroxy-N,N,N-trimethyl-1-propanaminium hydroxide, inner salt"
+        },
+        {
+          "term": "carnitine",
+          "query": "chebi:\"carnitine [17126]\" trimethylamine",
+          "count": "2",
+          "label": "carnitine",
+          "id": "CHEBI:17126",
+          "isDirect": true,
+          "othernames": "<small>D</small>,<small>L</small>-carnitine, 3-hydroxy-4-(trimethylammonio)butanoate"
+        },
+        {
+          "term": "carnitine",
+          "query": "chebi:\"carnitinium [3424]\" trimethylamine",
+          "count": "2",
+          "label": "carnitinium",
+          "id": "CHEBI:3424",
+          "isDirect": false,
+          "othernames": "3-hydroxy-4-(trimethylammonio)butanoic acid, Carnitine, 3-carboxy-2-hydroxy-<i>N</i>,<i>N</i>,<i>N</i>-trimethylpropan-1-aminium"
+        },
+        {
+          "term": "carnitine",
+          "query": "chebi:\"(R)-carnitinium [39547]\" trimethylamine",
+          "count": "2",
+          "label": "(R)-carnitinium",
+          "id": "CHEBI:39547",
+          "isDirect": false,
+          "othernames": "(2<i>R</i>)-3-carboxy-2-hydroxy-<i>N</i>,<i>N</i>,<i>N</i>-trimethylpropan-1-aminium, CARNITINE, (<i>R</i>)-carnitinium"
+        }
+      ]
+    }
+  ]
+}

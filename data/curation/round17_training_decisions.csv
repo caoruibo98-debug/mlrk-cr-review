@@ -1,0 +1,19 @@
+round,priority_family,priority_level,dominant_gap_type,training_allowed_round17,decision,recommended_next_action
+17,bile_acid_deconjugation_and_lipid_context,P0,route_repair_before_sample_import,False,block_production_until_family_gate_resolved,repair clean route for existing positives; do not import duplicate labels
+17,bile_acid_secondary_transformations,P1,gold_test_visibility_gap,False,curate_next_before_retraining,promote already curated gold/silver positives into family-balanced evaluation where leakage-safe
+17,glucuronide_sulfate_deconjugation,P1,gold_test_visibility_gap,False,curate_next_before_retraining,promote already curated gold/silver positives into family-balanced evaluation where leakage-safe
+17,glycoside_and_hmo_hydrolysis,P2,generator_recall_or_rule_pool_gap,False,monitor_or_generic_background,trace why reactions are present but not generated; add source-traceable rule overlays only
+17,hydroxycinnamate_reduction_and_hydrolysis,P0,route_repair_before_sample_import,False,block_production_until_family_gate_resolved,repair clean route for existing positives; do not import duplicate labels
+17,polyphenol_ring_fission,P1,gold_test_visibility_gap,False,curate_next_before_retraining,promote already curated gold/silver positives into family-balanced evaluation where leakage-safe
+17,urolithin_dehydroxylation,P2,gold_test_visibility_gap,False,monitor_or_generic_background,promote already curated gold/silver positives into family-balanced evaluation where leakage-safe
+17,isoflavone_reductive_and_glycoside_metabolism,P2,gold_test_visibility_gap,False,monitor_or_generic_background,promote already curated gold/silver positives into family-balanced evaluation where leakage-safe
+17,lignan_redox_and_deglycosylation,P2,gold_test_visibility_gap,False,monitor_or_generic_background,promote already curated gold/silver positives into family-balanced evaluation where leakage-safe
+17,prenylflavonoid_o_demethylation,P2,generator_recall_or_rule_pool_gap,False,monitor_or_generic_background,trace why reactions are present but not generated; add source-traceable rule overlays only
+17,tryptophan_indole_metabolism,P1,gold_test_visibility_gap,False,curate_next_before_retraining,promote already curated gold/silver positives into family-balanced evaluation where leakage-safe
+17,tma_choline_carnitine_metabolism,P1,gold_test_visibility_gap,False,curate_next_before_retraining,promote already curated gold/silver positives into family-balanced evaluation where leakage-safe
+17,azoreductase_nitroreductase_xenobiotic,P2,source_backed_family_undercoverage,False,monitor_or_generic_background,"extract exact Rhea/PubMed substrate-product pairs, map structures, de-dup, then run generator gate"
+17,protein_peptide_amino_acid_generic,P2,generic_bucket_needs_subfamily_split,False,monitor_or_generic_background,split this broad bucket into named biochemical subfamilies before using it for production scoring
+17,fatty_lipid_generic,P2,generic_bucket_needs_subfamily_split,False,monitor_or_generic_background,split this broad bucket into named biochemical subfamilies before using it for production scoring
+17,carbohydrate_generic,P2,generic_bucket_needs_subfamily_split,False,monitor_or_generic_background,split this broad bucket into named biochemical subfamilies before using it for production scoring
+17,polyphenol_generic,P2,generic_bucket_needs_subfamily_split,False,monitor_or_generic_background,split this broad bucket into named biochemical subfamilies before using it for production scoring
+17,other_or_unclassified,P2,generic_bucket_needs_subfamily_split,False,monitor_or_generic_background,split this broad bucket into named biochemical subfamilies before using it for production scoring

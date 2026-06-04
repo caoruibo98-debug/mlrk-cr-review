@@ -1,0 +1,48 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "264",
+    "retmax": "20",
+    "retstart": "0",
+    "idlist": [
+      "42105902",
+      "41979582",
+      "41786258",
+      "41724378",
+      "41705073",
+      "41627321",
+      "41516081",
+      "41454643",
+      "41441627",
+      "41374010",
+      "41291687",
+      "41232933",
+      "41154676",
+      "40996814",
+      "40987209",
+      "40970516",
+      "40907381",
+      "40853000",
+      "40820985",
+      "40598778"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "carnitine",
+        "to": "\"carnitin\"[All Fields] OR \"carnitine\"[Supplementary Concept] OR \"carnitine\"[All Fields] OR \"carnitine\"[MeSH Terms] OR \"carnitine's\"[All Fields] OR \"carnitines\"[All Fields]"
+      },
+      {
+        "from": "trimethylamine",
+        "to": "\"trimethylamine\"[Supplementary Concept] OR \"trimethylamine\"[All Fields] OR \"trimethylamines\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"carnitin\"[All Fields] OR \"carnitine\"[Supplementary Concept] OR \"carnitine\"[All Fields] OR \"carnitine\"[MeSH Terms] OR \"carnitine s\"[All Fields] OR \"carnitines\"[All Fields]) AND (\"trimethylamine\"[Supplementary Concept] OR \"trimethylamine\"[All Fields] OR \"trimethylamines\"[All Fields])"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "ferulic acid",
+        "to": "\"ferulic acid\"[Supplementary Concept] OR \"ferulic acid\"[All Fields]"
+      },
+      {
+        "from": "dihydroferulic acid",
+        "to": "\"dihydroferulic acid\"[Supplementary Concept] OR \"dihydroferulic acid\"[All Fields]"
+      },
+      {
+        "from": "reduction",
+        "to": "\"reduction\"[All Fields] OR \"reductions\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"ferulic acid\"[Supplementary Concept] OR \"ferulic acid\"[All Fields]) AND (\"dihydroferulic acid\"[Supplementary Concept] OR \"dihydroferulic acid\"[All Fields]) AND (\"reduction\"[All Fields] OR \"reductions\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

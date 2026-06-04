@@ -1,0 +1,37 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "36829817"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "beta glucuronidase",
+        "to": "\"glucuronidase\"[Supplementary Concept] OR \"glucuronidase\"[All Fields] OR \"beta glucuronidase\"[All Fields] OR \"glucuronidase\"[MeSH Terms] OR (\"beta\"[All Fields] AND \"glucuronidase\"[All Fields])"
+      },
+      {
+        "from": "polyphenol",
+        "to": "\"polyphenol's\"[All Fields] OR \"polyphenoles\"[All Fields] OR \"polyphenolic\"[All Fields] OR \"polyphenolics\"[All Fields] OR \"polyphenols\"[Supplementary Concept] OR \"polyphenols\"[All Fields] OR \"polyphenol\"[All Fields] OR \"polyphenols\"[MeSH Terms]"
+      },
+      {
+        "from": "glucuronide",
+        "to": "\"glucuronidate\"[All Fields] OR \"glucuronidated\"[All Fields] OR \"glucuronidates\"[All Fields] OR \"glucuronidating\"[All Fields] OR \"glucuronidation\"[All Fields] OR \"glucuronidations\"[All Fields] OR \"glucuronides\"[Supplementary Concept] OR \"glucuronides\"[All Fields] OR \"glucuronide\"[All Fields] OR \"glucuronides\"[MeSH Terms]"
+      },
+      {
+        "from": "deconjugation",
+        "to": "\"deconjugate\"[All Fields] OR \"deconjugated\"[All Fields] OR \"deconjugates\"[All Fields] OR \"deconjugating\"[All Fields] OR \"deconjugation\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"glucuronidase\"[Supplementary Concept] OR \"glucuronidase\"[All Fields] OR \"beta glucuronidase\"[All Fields] OR \"glucuronidase\"[MeSH Terms] OR (\"beta\"[All Fields] AND \"glucuronidase\"[All Fields])) AND (\"polyphenol s\"[All Fields] OR \"polyphenoles\"[All Fields] OR \"polyphenolic\"[All Fields] OR \"polyphenolics\"[All Fields] OR \"polyphenols\"[Supplementary Concept] OR \"polyphenols\"[All Fields] OR \"polyphenol\"[All Fields] OR \"polyphenols\"[MeSH Terms]) AND (\"glucuronidate\"[All Fields] OR \"glucuronidated\"[All Fields] OR \"glucuronidates\"[All Fields] OR \"glucuronidating\"[All Fields] OR \"glucuronidation\"[All Fields] OR \"glucuronidations\"[All Fields] OR \"glucuronides\"[Supplementary Concept] OR \"glucuronides\"[All Fields] OR \"glucuronide\"[All Fields] OR \"glucuronides\"[MeSH Terms]) AND (\"deconjugate\"[All Fields] OR \"deconjugated\"[All Fields] OR \"deconjugates\"[All Fields] OR \"deconjugating\"[All Fields] OR \"deconjugation\"[All Fields])"
+  }
+}

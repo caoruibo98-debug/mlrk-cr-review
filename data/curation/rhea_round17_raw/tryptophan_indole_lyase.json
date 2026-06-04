@@ -1,0 +1,237 @@
+{
+  "count": 6,
+  "results": [
+    {
+      "id": "26434",
+      "equation": "indole + L-serine = L-tryptophan + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:16881\">indole</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:33384\"><small>L</small>-serine</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57912\"><small>L</small>-tryptophan</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "RHEA:26434 part of RHEA:10532",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "19553",
+      "equation": "L-tryptophan + H2O = indole + pyruvate + NH4(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57912\"><small>L</small>-tryptophan</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:16881\">indole</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15361\">pyruvate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:28938\">NH<small><sub>4</sub></small><small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "Multi-step reaction: RHEA:42976 + RHEA:40667 + RHEA:40671",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "30339",
+      "equation": "L-tryptophan + H(+) = tryptamine + CO2",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57912\"><small>L</small>-tryptophan</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57887\">tryptamine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:16526\">CO<small><sub>2</sub></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "27586",
+      "equation": "L-tryptophan + pyruvate = indole-3-pyruvate + L-alanine",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57912\"><small>L</small>-tryptophan</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15361\">pyruvate</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:17640\">indole-3-pyruvate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57972\"><small>L</small>-alanine</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "10532",
+      "equation": "(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate + L-serine = D-glyceraldehyde 3-phosphate + L-tryptophan + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58866\">(1<i>S</i>,2<i>R</i>)-1-<i>C</i>-(indol-3-yl)glycerol 3-phosphate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:33384\"><small>L</small>-serine</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:59776\"><small>D</small>-glyceraldehyde 3-phosphate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57912\"><small>L</small>-tryptophan</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "Multi-step reaction: RHEA:14081 and RHEA:26434",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "73763",
+      "equation": "L-tryptophan + L-alanine + 2 ATP = cyclo(L-tryptophyl-L-alanyl) + 2 ADP + 2 phosphate + 2 H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57912\"><small>L</small>-tryptophan</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57972\"><small>L</small>-alanine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\">2 </span><a data-molid=\"chebi:30616\">ATP</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:193002\">cyclo(<small>L</small>-tryptophyl-<small>L</small>-alanyl)</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\">2 </span><a data-molid=\"chebi:456216\">ADP</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\">2 </span><a data-molid=\"chebi:43474\">phosphate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\">2 </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "indole": [
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"L-tryptophan [16828]\" lyase",
+          "count": "6",
+          "label": "L-tryptophan",
+          "id": "CHEBI:16828",
+          "isDirect": false,
+          "othernames": "Tryptophan, TRYPTOPHAN, (<i>S</i>)-tryptophan, <small>L</small>-&#946;-3-indolylalanine, (2<i>S</i>)-2-amino-3-(1<i>H</i>-indol-3-yl)propanoic acid, Trp, (<i>S</i>)-&#945;-amino-1<i>H</i>-indole-3-propanoic acid, (S)-alpha-Amino-beta-(3-indolyl)-propionic acid, tryptophan, <small>L</small>-(&#8722;)-tryptophan, <small>L</small>-tryptophan, W"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"L-tryptophan [57912]\" lyase",
+          "count": "6",
+          "label": "<small>L</small>-tryptophan",
+          "id": "CHEBI:57912",
+          "isDirect": true,
+          "othernames": "<small>L</small>-tryptophan zwitterion, (2<i>S</i>)-2-azaniumyl-3-(1<i>H</i>-indol-3-yl)propanoate, (2<i>S</i>)-2-ammonio-3-(1<i>H</i>-indol-3-yl)propanoate, tryptophan"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"indole [16881]\" lyase",
+          "count": "2",
+          "label": "indole",
+          "id": "CHEBI:16881",
+          "isDirect": true,
+          "othernames": "2,3-Benzopyrrole, Indol, 1<i>H</i>-indole"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"indole [35581]\" lyase",
+          "count": "2",
+          "label": "indole",
+          "id": "CHEBI:35581",
+          "isDirect": false
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"indole alkaloid [38958]\" lyase",
+          "count": "1",
+          "label": "indole alkaloid",
+          "id": "CHEBI:38958",
+          "isDirect": false,
+          "othernames": "indole alkaloids"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"indole-3-pyruvate [17640]\" lyase",
+          "count": "1",
+          "label": "indole-3-pyruvate",
+          "id": "CHEBI:17640",
+          "isDirect": true,
+          "othernames": "3-(1<i>H</i>-indol-3-yl)-2-oxopropanoate, 3-(indol-3-yl)pyruvate"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"tryptamine [16765]\" lyase",
+          "count": "1",
+          "label": "tryptamine",
+          "id": "CHEBI:16765",
+          "isDirect": false,
+          "othernames": "2-(1<i>H</i>-indol-3-yl)ethanamine, 1<i>H</i>-indole-3-ethanamine, 3-(2-Aminoethyl)indole, 2-(3-indolyl)ethylamine, 2-(1H-INDOL-3-YL)ETHANAMINE"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"1-C-(indol-3-yl)glycerol 3-phosphate [18299]\" lyase",
+          "count": "1",
+          "label": "1-C-(indol-3-yl)glycerol 3-phosphate",
+          "id": "CHEBI:18299",
+          "isDirect": false,
+          "othernames": "IGPS, 1-<i>C</i>-(indol-3-yl)glycerol 3-phosphate, 1-(Indol-3-yl)glycerol 3-phosphate, Indoleglycerol phosphate, (3-Indolyl)-glycerol phosphate, C1-(3-Indolyl)-glycerol 3-phosphate, Indole-3-glycerophosphate, 2,3-dihydroxy-3-(1<i>H</i>-indol-3-yl)propyl dihydrogen phosphate"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"3-(indol-3-yl)pyruvic acid [29750]\" lyase",
+          "count": "1",
+          "label": "3-(indol-3-yl)pyruvic acid",
+          "id": "CHEBI:29750",
+          "isDirect": false,
+          "othernames": "indole-3-pyruvic acid, Indolepyruvic acid, 3-(1<i>H</i>-indol-3-yl)-2-oxopropanoic acid"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate [51793]\" lyase",
+          "count": "1",
+          "label": "(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate",
+          "id": "CHEBI:51793",
+          "isDirect": false,
+          "othernames": "(1<i>S</i>,2<i>R</i>)-1-<i>C</i>-(indol-3-yl)glycerol 3-phosphate, (2<i>R</i>,3<i>S</i>)-2,3-dihydroxy-3-(1<i>H</i>-indol-3-yl)propyl dihydrogen phosphate, Indole-3-glycerol phosphate, 1-C-(Indol-3-yl)glycerol 3-phosphate, (3-Indolyl)-glycerol phosphate, C1-(3-Indolyl)-glycerol 3-phosphate"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"tryptamine [57887]\" lyase",
+          "count": "1",
+          "label": "tryptamine",
+          "id": "CHEBI:57887",
+          "isDirect": true,
+          "othernames": "tryptaminium(1+), tryptaminium, 2-(1<i>H</i>-indol-3-yl)ethanaminium, tryptaminium cation"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate [58866]\" lyase",
+          "count": "1",
+          "label": "(1<i>S</i>,2<i>R</i>)-1-<i>C</i>-(indol-3-yl)glycerol 3-phosphate",
+          "id": "CHEBI:58866",
+          "isDirect": true,
+          "othernames": "(1<i>S</i>,2<i>R</i>)-1-<i>C</i>-(indol-3-yl)glycerol 3-phosphate(2&#8722;), (1<i>S</i>,2<i>R</i>)-1-(1<i>H</i>-indol-3-yl)-3-(phosphonatooxy)propane-1,2-diol, (2<i>R</i>,3<i>S</i>)-2,3-dihydroxy-3-(1<i>H</i>-indol-3-yl)propyl phosphate"
+        },
+        {
+          "term": "indole",
+          "query": "tryptophan chebi:\"1-C-(indol-3-yl)glycerol 3-phosphate(2-) [60820]\" lyase",
+          "count": "1",
+          "label": "1-C-(indol-3-yl)glycerol 3-phosphate(2-)",
+          "id": "CHEBI:60820",
+          "isDirect": false,
+          "othernames": "2,3-dihydroxy-3-(1<i>H</i>-indol-3-yl)propyl phosphate, 1-<i>C</i>-(indol-3-yl)glycerol 3-phosphate (2&#8722;), 1-<i>C</i>-(indol-3-yl)glycerol 3-phosphate(2&#8722;), 1-<i>C</i>-(indol-3-yl)glycerol 3-phosphate dianion"
+        }
+      ],
+      "tryptophan": [
+        {
+          "term": "tryptophan",
+          "query": "chebi:\"L-tryptophan [16828]\" indole lyase",
+          "count": "6",
+          "label": "L-tryptophan",
+          "id": "CHEBI:16828",
+          "isDirect": false,
+          "othernames": "Tryptophan, TRYPTOPHAN, (<i>S</i>)-tryptophan, <small>L</small>-&#946;-3-indolylalanine, (2<i>S</i>)-2-amino-3-(1<i>H</i>-indol-3-yl)propanoic acid, Trp, (<i>S</i>)-&#945;-amino-1<i>H</i>-indole-3-propanoic acid, (S)-alpha-Amino-beta-(3-indolyl)-propionic acid, tryptophan, <small>L</small>-(&#8722;)-tryptophan, <small>L</small>-tryptophan, W"
+        },
+        {
+          "term": "tryptophan",
+          "query": "chebi:\"L-tryptophan [57912]\" indole lyase",
+          "count": "6",
+          "label": "<small>L</small>-tryptophan",
+          "id": "CHEBI:57912",
+          "isDirect": true,
+          "othernames": "<small>L</small>-tryptophan zwitterion, (2<i>S</i>)-2-azaniumyl-3-(1<i>H</i>-indol-3-yl)propanoate, (2<i>S</i>)-2-ammonio-3-(1<i>H</i>-indol-3-yl)propanoate, tryptophan"
+        },
+        {
+          "term": "tryptophan",
+          "query": "chebi:\"tryptophan [27897]\" indole lyase",
+          "count": "6",
+          "label": "tryptophan",
+          "id": "CHEBI:27897",
+          "isDirect": false,
+          "othernames": "&#945;-amino-&#946;-3-indolepropionic acid, alpha-Amino-beta-(3-indolyl)-propionic acid, tript&#243;fano, Htrp, tryptophane, 2-amino-3-(1<i>H</i>-indol-3-yl)propanoic acid, W, Trp, &#946;-3-indolylalanine"
+        },
+        {
+          "term": "tryptophan",
+          "query": "chebi:\"tryptophan zwitterion [64554]\" indole lyase",
+          "count": "6",
+          "label": "tryptophan zwitterion",
+          "id": "CHEBI:64554",
+          "isDirect": false,
+          "othernames": "2-azaniumyl-3-(1<i>H</i>-indol-3-yl)propanoate, 2-ammonio-3-(1<i>H</i>-indol-3-yl)propanoate"
+        },
+        {
+          "term": "tryptophan",
+          "query": "chebi:\"L-tryptophanate [32702]\" indole lyase",
+          "count": "6",
+          "label": "L-tryptophanate",
+          "id": "CHEBI:32702",
+          "isDirect": false,
+          "othernames": "<small>L</small>-tryptophanate, (2<i>S</i>)-2-amino-3-(1<i>H</i>-indol-3-yl)propanoate, <small>L</small>-tryptophan anion"
+        },
+        {
+          "term": "tryptophan",
+          "query": "chebi:\"L-tryptophanium [32704]\" indole lyase",
+          "count": "6",
+          "label": "L-tryptophanium",
+          "id": "CHEBI:32704",
+          "isDirect": false,
+          "othernames": "<small>L</small>-tryptophanium, <small>L</small>-tryptophan cation, (1<i>S</i>)-1-carboxy-2-(1<i>H</i>-indol-3-yl)ethanaminium"
+        }
+      ]
+    }
+  ]
+}

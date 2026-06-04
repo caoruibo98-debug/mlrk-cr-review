@@ -1,0 +1,52 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "56",
+    "retmax": "20",
+    "retstart": "0",
+    "idlist": [
+      "42206057",
+      "42199008",
+      "42157054",
+      "42116470",
+      "42034038",
+      "41964572",
+      "41825730",
+      "41741429",
+      "41730870",
+      "41711114",
+      "41651833",
+      "41522356",
+      "41397968",
+      "41198173",
+      "41187844",
+      "41093016",
+      "40942152",
+      "40825672",
+      "40751356",
+      "40451535"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "tryptophan",
+        "to": "\"tryptophan\"[Supplementary Concept] OR \"tryptophan\"[All Fields] OR \"tryptophan\"[MeSH Terms] OR \"tryptophane\"[All Fields] OR \"tryptophan's\"[All Fields] OR \"tryptophanes\"[All Fields] OR \"tryptophans\"[All Fields]"
+      },
+      {
+        "from": "indole",
+        "to": "\"indol\"[All Fields] OR \"indolation\"[All Fields] OR \"indole\"[Supplementary Concept] OR \"indole\"[All Fields] OR \"indoles\"[Supplementary Concept] OR \"indoles\"[All Fields] OR \"indoles\"[MeSH Terms] OR \"indolic\"[All Fields] OR \"indolics\"[All Fields] OR \"indolization\"[All Fields] OR \"indols\"[All Fields]"
+      },
+      {
+        "from": "indolepropionic acid",
+        "to": "\"indolepropionic acid\"[Supplementary Concept] OR \"indolepropionic acid\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"tryptophan\"[Supplementary Concept] OR \"tryptophan\"[All Fields] OR \"tryptophan\"[MeSH Terms] OR \"tryptophane\"[All Fields] OR \"tryptophan s\"[All Fields] OR \"tryptophanes\"[All Fields] OR \"tryptophans\"[All Fields]) AND (\"indol\"[All Fields] OR \"indolation\"[All Fields] OR \"indole\"[Supplementary Concept] OR \"indole\"[All Fields] OR \"indoles\"[Supplementary Concept] OR \"indoles\"[All Fields] OR \"indoles\"[MeSH Terms] OR \"indolic\"[All Fields] OR \"indolics\"[All Fields] OR \"indolization\"[All Fields] OR \"indols\"[All Fields]) AND (\"indolepropionic acid\"[Supplementary Concept] OR \"indolepropionic acid\"[All Fields])"
+  }
+}

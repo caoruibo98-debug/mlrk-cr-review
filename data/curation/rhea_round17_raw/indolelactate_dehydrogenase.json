@@ -1,0 +1,29 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "20133",
+      "equation": "3-(indol-3-yl)lactate + NAD(+) = indole-3-pyruvate + NADH + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:17282\">3-(indol-3-yl)lactate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57540\">NAD<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:17640\">indole-3-pyruvate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57945\">NADH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "indolelactate": [
+        {
+          "term": "indolelactate",
+          "query": "chebi:\"3-(indol-3-yl)lactate [17282]\" dehydrogenase",
+          "count": "1",
+          "label": "3-(indol-3-yl)lactate",
+          "id": "CHEBI:17282",
+          "isDirect": true,
+          "othernames": "2-hydroxy-3-(1<i>H</i>-indol-3-yl)propanoate, indole-3-lactate, Indolelactate, indole lactate"
+        }
+      ]
+    }
+  ]
+}

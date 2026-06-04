@@ -1,0 +1,14 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "52884",
+      "equation": "N-phenylhydroxylamine + 2 NADP(+) + H2O = nitrobenzene + 2 NADPH + 2 H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:28902\"><i>N</i>-phenylhydroxylamine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\">2 </span><a data-molid=\"chebi:58349\">NADP<small><sup>+</sup></small></a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:27798\">nitrobenzene</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\">2 </span><a data-molid=\"chebi:57783\">NADPH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\">2 </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "Multi-step reaction: RHEA:52888 and RHEA:52892",
+      "balanced": true,
+      "transport": false
+    }
+  ]
+}
