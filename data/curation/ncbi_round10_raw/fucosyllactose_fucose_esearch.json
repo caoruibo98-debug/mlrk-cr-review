@@ -1,0 +1,33 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "9",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "40135481",
+      "38389793",
+      "36938958",
+      "33382612",
+      "33330584"
+    ],
+    "translationset": [
+      {
+        "from": "2'-fucosyllactose",
+        "to": "\"2'-fucosyllactose\"[Supplementary Concept] OR \"2'-fucosyllactose\"[All Fields] OR \"2 fucosyllactose\"[All Fields]"
+      },
+      {
+        "from": "fucose",
+        "to": "\"fucose\"[Supplementary Concept] OR \"fucose\"[All Fields] OR \"fucose\"[MeSH Terms] OR \"fucoses\"[All Fields]"
+      },
+      {
+        "from": "Bifidobacterium infantis",
+        "to": "\"bifidobacterium longum subspecies infantis\"[MeSH Terms] OR (\"bifidobacterium\"[All Fields] AND \"longum\"[All Fields] AND \"subspecies\"[All Fields] AND \"infantis\"[All Fields]) OR \"bifidobacterium longum subspecies infantis\"[All Fields] OR (\"bifidobacterium\"[All Fields] AND \"infantis\"[All Fields]) OR \"bifidobacterium infantis\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"2 fucosyllactose\"[Supplementary Concept] OR \"2 fucosyllactose\"[All Fields] OR \"2 fucosyllactose\"[All Fields]) AND (\"fucose\"[Supplementary Concept] OR \"fucose\"[All Fields] OR \"fucose\"[MeSH Terms] OR \"fucoses\"[All Fields]) AND (\"bifidobacterium longum subspecies infantis\"[MeSH Terms] OR (\"bifidobacterium\"[All Fields] AND \"longum\"[All Fields] AND \"subspecies\"[All Fields] AND \"infantis\"[All Fields]) OR \"bifidobacterium longum subspecies infantis\"[All Fields] OR (\"bifidobacterium\"[All Fields] AND \"infantis\"[All Fields]) OR \"bifidobacterium infantis\"[All Fields])"
+  }
+}

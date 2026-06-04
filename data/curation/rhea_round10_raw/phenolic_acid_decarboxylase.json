@@ -1,0 +1,139 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "12749",
+      "equation": "3,4,5-trihydroxybenzoate + H(+) = 1,2,3-trihydroxybenzene + CO2",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:16918\">3,4,5-trihydroxybenzoate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:16164\">1,2,3-trihydroxybenzene</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:16526\">CO<small><sub>2</sub></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "acid": [
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"gallic acid [30778]\" decarboxylase",
+          "count": "1",
+          "label": "gallic acid",
+          "id": "CHEBI:30778",
+          "isDirect": false,
+          "othernames": "3,4,5-Trihydroxybenzoic acid, 3,4,5-trihydroxybenzoic acid, Pyrogallol-5-carboxylic acid"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"hydroxy monocarboxylic acid anion [36059]\" decarboxylase",
+          "count": "1",
+          "label": "hydroxy monocarboxylic acid anion",
+          "id": "CHEBI:36059",
+          "isDirect": false,
+          "othernames": "hydroxy monocarboxylic acid anions, hydroxymonocarboxylic acid anions, hydroxymonocarboxylic acid anion"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"a carboxylate [29067]\" decarboxylase",
+          "count": "1",
+          "label": "a carboxylate",
+          "id": "CHEBI:29067",
+          "isDirect": true,
+          "othernames": "carboxylic acid anions, carboxylic acid anion, carboxylic anions"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"a monocarboxylate [35757]\" decarboxylase",
+          "count": "1",
+          "label": "a monocarboxylate",
+          "id": "CHEBI:35757",
+          "isDirect": true,
+          "othernames": "Carboxylate, monocarboxylic acid anion, Monocarboxylate, monocarboxylic acid anions, monocarboxylates"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"1,2,3-trihydroxybenzene [16164]\" decarboxylase",
+          "count": "1",
+          "label": "1,2,3-trihydroxybenzene",
+          "id": "CHEBI:16164",
+          "isDirect": true,
+          "othernames": "1,2,3-Benzenetriol, pyrogallol, benzene-1,2,3-triol, Pyrogallic acid, Pyrogallol"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"hydroxybenzoic acid [24676]\" decarboxylase",
+          "count": "1",
+          "label": "hydroxybenzoic acid",
+          "id": "CHEBI:24676",
+          "isDirect": false,
+          "othernames": "hydroxybenzoic acids"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"oxoacid [24833]\" decarboxylase",
+          "count": "1",
+          "label": "oxoacid",
+          "id": "CHEBI:24833",
+          "isDirect": false,
+          "othernames": "oxo acid, oxiacids, oxoacids, oxy-acids, oxacids, oxyacids"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"trihydroxybenzoic acid [27115]\" decarboxylase",
+          "count": "1",
+          "label": "trihydroxybenzoic acid",
+          "id": "CHEBI:27115",
+          "isDirect": false,
+          "othernames": "trihydroxybenzoic acids"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"carboxylic acid [33575]\" decarboxylase",
+          "count": "1",
+          "label": "carboxylic acid",
+          "id": "CHEBI:33575",
+          "isDirect": false,
+          "othernames": "Carbons&#228;uren, RC(=O)OH, &#225;cido carbox&#237;lico, acide carboxylique, carboxylic acids, &#225;cidos carbox&#237;licos, acides carboxyliques, Karbons&#228;ure, Carbons&#228;ure"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"aromatic carboxylic acid [33859]\" decarboxylase",
+          "count": "1",
+          "label": "aromatic carboxylic acid",
+          "id": "CHEBI:33859",
+          "isDirect": false,
+          "othernames": "aromatic carboxylic acids"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"organic acid [64709]\" decarboxylase",
+          "count": "1",
+          "label": "organic acid",
+          "id": "CHEBI:64709",
+          "isDirect": false,
+          "othernames": "organic acids"
+        },
+        {
+          "term": "acid",
+          "query": "phenolic chebi:\"3,4,5-trihydroxybenzoate [16918]\" decarboxylase",
+          "count": "1",
+          "label": "3,4,5-trihydroxybenzoate",
+          "id": "CHEBI:16918",
+          "isDirect": true,
+          "othernames": "gallate"
+        }
+      ],
+      "phenolic": [
+        {
+          "term": "phenolic",
+          "query": "chebi:\"a phenolic donor [139520]\" acid decarboxylase",
+          "count": "1",
+          "label": "a phenolic donor",
+          "id": "CHEBI:139520",
+          "isDirect": true,
+          "othernames": "phenolic donor, phenolic donors"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "41797252"
+    ],
+    "translationset": [
+      {
+        "from": "urolithin C",
+        "to": "\"urolithin C\"[Supplementary Concept] OR \"urolithin C\"[All Fields] OR \"urolithin c\"[All Fields]"
+      },
+      {
+        "from": "urolithin A",
+        "to": "\"3,8-dihydroxy-6h-dibenzo(b,d)pyran-6-one\"[Supplementary Concept] OR \"3,8-dihydroxy-6h-dibenzo(b,d)pyran-6-one\"[All Fields] OR \"urolithin a\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"urolithin c\"[Supplementary Concept] OR \"urolithin c\"[All Fields] OR \"urolithin c\"[All Fields]) AND (\"3 8 dihydroxy 6h dibenzo b d pyran 6 one\"[Supplementary Concept] OR \"3 8 dihydroxy 6h dibenzo b d pyran 6 one\"[All Fields] OR \"urolithin a\"[All Fields]) AND \"Enterocloster\"[All Fields]"
+  }
+}

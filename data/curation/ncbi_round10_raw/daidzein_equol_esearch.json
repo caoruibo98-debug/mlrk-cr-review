@@ -1,0 +1,33 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "71",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "41925800",
+      "41770313",
+      "41590663",
+      "41588328",
+      "41511855"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "daidzein",
+        "to": "\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein's\"[All Fields]"
+      },
+      {
+        "from": "equol",
+        "to": "\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein s\"[All Fields]) AND (\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields])"
+  }
+}

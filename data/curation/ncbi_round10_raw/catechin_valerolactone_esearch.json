@@ -1,0 +1,33 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "28",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "40597460",
+      "40543124",
+      "39826514",
+      "39674423",
+      "38975869"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "catechin",
+        "to": "\"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechin\"[MeSH Terms] OR \"catechins\"[All Fields] OR \"catechine\"[All Fields] OR \"catechines\"[All Fields]"
+      },
+      {
+        "from": "valerolactone",
+        "to": "\"valerolactone\"[All Fields] OR \"valerolactones\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechin\"[MeSH Terms] OR \"catechins\"[All Fields] OR \"catechine\"[All Fields] OR \"catechines\"[All Fields]) AND (\"valerolactone\"[All Fields] OR \"valerolactones\"[All Fields])"
+  }
+}

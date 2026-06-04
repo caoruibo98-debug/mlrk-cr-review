@@ -1,0 +1,342 @@
+{
+  "count": 3,
+  "results": [
+    {
+      "id": "24760",
+      "equation": "L-dopa + NADH + H(+) = 3-(3,4-dihydroxyphenyl)propanoate + NH4(+) + NAD(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57504\"><small>L</small>-dopa</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57945\">NADH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58744\">3-(3,4-dihydroxyphenyl)propanoate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:28938\">NH<small><sub>4</sub></small><small><sup>+</sup></small></a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57540\">NAD<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "38027",
+      "equation": "hydrocaffeoyl-CoA + (E)-caffeate = 3-(3,4-dihydroxyphenyl)propanoate + (E)-caffeoyl-CoA",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:87137\">hydrocaffeoyl-CoA</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57770\">(<i>E</i>)-caffeate</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58744\">3-(3,4-dihydroxyphenyl)propanoate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:87136\">(<i>E</i>)-caffeoyl-CoA</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "79503",
+      "equation": "3-(3,4-dihydroxyphenyl)propanoate + NAD(+) = (E)-caffeate + NADH + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58744\">3-(3,4-dihydroxyphenyl)propanoate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57540\">NAD<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57770\">(<i>E</i>)-caffeate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57945\">NADH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "acid": [
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"3-(3,4-dihydroxyphenyl)propanoic acid [48400]\"",
+          "count": "3",
+          "label": "3-(3,4-dihydroxyphenyl)propanoic acid",
+          "id": "CHEBI:48400",
+          "isDirect": false,
+          "othernames": "3,4-dihydroxybenzenepropanoic acid, dihydrocaffeic acid, 3-(3,4-dihydroxyphenyl)propionic acid, 3,4-dihydroxyhydrocinnamic acid, 3,4-dihydroxy-&#946;-phenylpropionic acid, 3,4-dihydroxybenzenepropionic acid, 3,4-dihydroxyphenylpropionic acid, 3,4-dihydroxydihydrocinnamic acid, hydrocaffeic acid"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"a carboxylate [29067]\"",
+          "count": "3",
+          "label": "a carboxylate",
+          "id": "CHEBI:29067",
+          "isDirect": true,
+          "othernames": "carboxylic acid anions, carboxylic acid anion, carboxylic anions"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"a monocarboxylate [35757]\"",
+          "count": "3",
+          "label": "a monocarboxylate",
+          "id": "CHEBI:35757",
+          "isDirect": true,
+          "othernames": "Carboxylate, monocarboxylic acid anion, Monocarboxylate, monocarboxylic acid anions, monocarboxylates"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"oxoacid [24833]\"",
+          "count": "3",
+          "label": "oxoacid",
+          "id": "CHEBI:24833",
+          "isDirect": false,
+          "othernames": "oxo acid, oxiacids, oxoacids, oxy-acids, oxacids, oxyacids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"monocarboxylic acid [25384]\"",
+          "count": "3",
+          "label": "monocarboxylic acid",
+          "id": "CHEBI:25384",
+          "isDirect": false,
+          "othernames": "monocarboxylic acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"phosphoric acid derivative [26079]\"",
+          "count": "3",
+          "label": "phosphoric acid derivative",
+          "id": "CHEBI:26079",
+          "isDirect": false
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"carboxylic acid [33575]\"",
+          "count": "3",
+          "label": "carboxylic acid",
+          "id": "CHEBI:33575",
+          "isDirect": false,
+          "othernames": "Carbons&#228;uren, RC(=O)OH, &#225;cido carbox&#237;lico, acide carboxylique, carboxylic acids, &#225;cidos carbox&#237;licos, acides carboxyliques, Karbons&#228;ure, Carbons&#228;ure"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"organic acid [64709]\"",
+          "count": "3",
+          "label": "organic acid",
+          "id": "CHEBI:64709",
+          "isDirect": false,
+          "othernames": "organic acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"(dihydroxyphenyl)propanoic acid [149591]\"",
+          "count": "3",
+          "label": "(dihydroxyphenyl)propanoic acid",
+          "id": "CHEBI:149591",
+          "isDirect": false,
+          "othernames": "(dihydroxyphenyl)propanoic acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"3-(3,4-dihydroxyphenyl)propanoate [58744]\"",
+          "count": "3",
+          "label": "3-(3,4-dihydroxyphenyl)propanoate",
+          "id": "CHEBI:58744",
+          "isDirect": true
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"trans-caffeic acid [16433]\"",
+          "count": "2",
+          "label": "trans-caffeic acid",
+          "id": "CHEBI:16433",
+          "isDirect": false,
+          "othernames": "<i>trans</i>-caffeic acid, trans-caffeate, 3,4-Dihydroxy-trans-cinnamate, 3,4-Dihydroxycinnamic acid, 3,4-dihydroxy-trans-cinnamate, Caffeic acid, trans-Caffeate, (2<i>E</i>)-3-(3,4-dihydroxyphenyl)prop-2-enoic acid, CAFFEIC ACID"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"hydroxy monocarboxylic acid anion [36059]\"",
+          "count": "2",
+          "label": "hydroxy monocarboxylic acid anion",
+          "id": "CHEBI:36059",
+          "isDirect": false,
+          "othernames": "hydroxy monocarboxylic acid anions, hydroxymonocarboxylic acid anions, hydroxymonocarboxylic acid anion"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"alpha,beta-unsaturated monocarboxylic acid [79020]\"",
+          "count": "2",
+          "label": "alpha,beta-unsaturated monocarboxylic acid",
+          "id": "CHEBI:79020",
+          "isDirect": false,
+          "othernames": "&#945;,&#946;-unsaturated monocarboxylic acid, 2,3-unsaturated monocarboxylic acids, 2,3-unsaturated monocarboxylic acid, &#945;,&#946;-unsaturated monocarboxylic acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"caffeic acid [36281]\"",
+          "count": "2",
+          "label": "caffeic acid",
+          "id": "CHEBI:36281",
+          "isDirect": false,
+          "othernames": "3-(3,4-dihydroxyphenyl)prop-2-enoic acid"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"hydroxycinnamic acid [24689]\"",
+          "count": "2",
+          "label": "hydroxycinnamic acid",
+          "id": "CHEBI:24689",
+          "isDirect": false,
+          "othernames": "hydroxycinnamic acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"(E)-caffeate [57770]\"",
+          "count": "2",
+          "label": "(<i>E</i>)-caffeate",
+          "id": "CHEBI:57770",
+          "isDirect": true,
+          "othernames": "<i>trans</i>-caffeate(1&#8722;), (2<i>E</i>)-3-(3,4-dihydroxyphenyl)prop-2-enoate, <i>trans</i>-caffeate, (2<i>E</i>)-3-(3,4-dihydroxyphenyl)acrylate, <i>trans</i>-caffeate anion, 3,4-dihydroxy-<i>trans</i>-cinnamate"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"proteinogenic amino acid derivative [83811]\"",
+          "count": "1",
+          "label": "proteinogenic amino acid derivative",
+          "id": "CHEBI:83811",
+          "isDirect": false,
+          "othernames": "proteinogenic amino-acid derivative, proteinogenic amino-acid derivatives, canonical amino-acid derivatives, canonical amino acid derivative, canonical amino acid derivatives, proteinogenic amino acid derivatives, canonical amino-acid derivative"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"non-proteinogenic amino acid [83820]\"",
+          "count": "1",
+          "label": "non-proteinogenic amino acid",
+          "id": "CHEBI:83820",
+          "isDirect": false,
+          "othernames": "non-canonical amino-acids, non-coded amino-acids, non-canonical amino acids, non-canonical amino acid, non-coded amino acids, non-proteinogenic amino acids, non-canonical amino-acid, non-coded amino acid, non-proteinogenic amino-acid, non-coded amino-acid, non-proteinogenic amino-acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"an alpha-amino acid [78608]\"",
+          "count": "1",
+          "label": "an &#945;-amino acid",
+          "id": "CHEBI:78608",
+          "isDirect": true,
+          "othernames": "&#945;-amino-acid zwitterion, &#945;-amino acid zwitterions, &#945;-amino acid zwitterion, &#945;-amino-acid zwitterions"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"an L-alpha-amino acid [59869]\"",
+          "count": "1",
+          "label": "an <small>L</small>-&#945;-amino acid",
+          "id": "CHEBI:59869",
+          "isDirect": true,
+          "othernames": "<small>L</small>-&#945;-amino acid zwitterions, <small>L</small>-&#945;-amino acid zwitterion"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"amino-acid zwitterion [35238]\"",
+          "count": "1",
+          "label": "amino-acid zwitterion",
+          "id": "CHEBI:35238",
+          "isDirect": false,
+          "othernames": "amino acid zwitterions, amino-acid zwitterions, amino acid zwitterion"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"amino-acid derivative [83821]\"",
+          "count": "1",
+          "label": "amino-acid derivative",
+          "id": "CHEBI:83821",
+          "isDirect": false,
+          "othernames": "amino acid derivatives, modified amino acids, amino-acid derivatives, amino acid derivative"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"L-alpha-amino acid [15705]\"",
+          "count": "1",
+          "label": "L-alpha-amino acid",
+          "id": "CHEBI:15705",
+          "isDirect": false,
+          "othernames": "L-Amino acid, L-2-Amino acid, <small>L</small>-&#945;-amino acid, <small>L</small>-&#945;-amino acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"alpha-amino acid [33704]\"",
+          "count": "1",
+          "label": "alpha-amino acid",
+          "id": "CHEBI:33704",
+          "isDirect": false,
+          "othernames": "&#945;-amino acid, Amino acids, &#945;-amino acids, Amino acid, &#945;-amino carboxylic acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"non-proteinogenic alpha-amino acid [83925]\"",
+          "count": "1",
+          "label": "non-proteinogenic alpha-amino acid",
+          "id": "CHEBI:83925",
+          "isDirect": false,
+          "othernames": "non-proteinogenic &#945;-amino acid, non-proteinogenic &#945;-amino-acids, non-proteinogenic &#945;-amino acids, non-proteinogenic &#945;-amino-acid"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"aromatic amino acid [33856]\"",
+          "count": "1",
+          "label": "aromatic amino acid",
+          "id": "CHEBI:33856",
+          "isDirect": false,
+          "othernames": "aromatic amino acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"L-dopa [15765]\"",
+          "count": "1",
+          "label": "L-dopa",
+          "id": "CHEBI:15765",
+          "isDirect": false,
+          "othernames": "Dopar, 3-Hydroxy-L-tyrosine, 3,4-DIHYDROXYPHENYLALANINE, levodopa, &#946;-(3,4-dihydroxyphenyl)alanine, (2<i>S</i>)-2-amino-3-(3,4-dihydroxyphenyl)propanoic acid, <small>L</small>-dopa, levodopum, Dihydroxy-L-phenylalanine, L-beta-(3,4-Dihydroxyphenyl)alanine, 3,4-Dihydroxy-L-phenylalanine, &#946;-(3,4-dihydroxyphenyl)-<small>L</small>-alanine, (&#8722;)-3-(3,4-dihydroxyphenyl)-<small>L</small>-alanine, (&#8722;)-dopa"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"hydroxy-amino acid [24662]\"",
+          "count": "1",
+          "label": "hydroxy-amino acid",
+          "id": "CHEBI:24662",
+          "isDirect": false
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"dopa [49168]\"",
+          "count": "1",
+          "label": "dopa",
+          "id": "CHEBI:49168",
+          "isDirect": false,
+          "othernames": "&#946;-(3,4-dihydroxyphenyl)-<small>D</small><small>L</small>-&#945;-alanine, 3',4'-dihydroxyphenylalanine, <small>D</small><small>L</small>-dihydroxyphenylalanine, <small>D</small><small>L</small>-dioxyphenylalanine, (&#177;)-dopa, (<i>R</i>,<i>S</i>)-dopa, 2-amino-3-(3,4-dihydroxyphenyl)propanoic acid, 3-hydroxytyrosine, <small>D</small><small>L</small>-&#946;-(3,4-dihydroxyphenyl)alanine, (&#177;)-3-(3,4-dihydroxyphenyl)alanine, <i>d</i><i>l</i>-&#946;-(3,4-dihydroxyphenyl)-&#945;-alanine, <small>D</small><small>L</small>-3,4-dopa, 3-hydroxy-<small>D</small><small>L</small>-tyrosine"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"non-proteinogenic L-alpha-amino acid [83822]\"",
+          "count": "1",
+          "label": "non-proteinogenic L-alpha-amino acid",
+          "id": "CHEBI:83822",
+          "isDirect": false,
+          "othernames": "non-proteinogenic <small>L</small>-&#945;-amino acid, non-proteinogenic <small>L</small>-&#945;-amino acids"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"amino acid [33709]\"",
+          "count": "1",
+          "label": "amino acid",
+          "id": "CHEBI:33709",
+          "isDirect": false,
+          "othernames": "Aminocarbons&#228;ure, Aminos&#228;ure, amino acids, Aminokarbons&#228;ure"
+        },
+        {
+          "term": "acid",
+          "query": "dihydrocaffeic chebi:\"L-dopa [57504]\"",
+          "count": "1",
+          "label": "<small>L</small>-dopa",
+          "id": "CHEBI:57504",
+          "isDirect": true,
+          "othernames": "(2<i>S</i>)-2-ammonio-3-(3,4-dihydroxyphenyl)propanoate, <small>L</small>-dopa zwitterion, (2<i>S</i>)-2-azaniumyl-3-(3,4-dihydroxyphenyl)propanoate"
+        }
+      ],
+      "dihydrocaffeic": [
+        {
+          "term": "dihydrocaffeic",
+          "query": "chebi:\"3-(3,4-dihydroxyphenyl)propanoic acid [48400]\" acid",
+          "count": "3",
+          "label": "3-(3,4-dihydroxyphenyl)propanoic acid",
+          "id": "CHEBI:48400",
+          "isDirect": false,
+          "othernames": "3,4-dihydroxybenzenepropanoic acid, dihydrocaffeic acid, 3-(3,4-dihydroxyphenyl)propionic acid, 3,4-dihydroxyhydrocinnamic acid, 3,4-dihydroxy-&#946;-phenylpropionic acid, 3,4-dihydroxybenzenepropionic acid, 3,4-dihydroxyphenylpropionic acid, 3,4-dihydroxydihydrocinnamic acid, hydrocaffeic acid"
+        },
+        {
+          "term": "dihydrocaffeic",
+          "query": "chebi:\"3-(3,4-dihydroxyphenyl)propanoate [58744]\" acid",
+          "count": "3",
+          "label": "3-(3,4-dihydroxyphenyl)propanoate",
+          "id": "CHEBI:58744",
+          "isDirect": true
+        }
+      ]
+    }
+  ]
+}

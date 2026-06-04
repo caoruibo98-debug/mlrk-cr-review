@@ -1,0 +1,33 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "10",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "37569640",
+      "36965386",
+      "34689346",
+      "34208885",
+      "34202738"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "quercetin",
+        "to": "\"quercetin\"[Supplementary Concept] OR \"quercetin\"[All Fields] OR \"quercetin\"[MeSH Terms] OR \"quercetin's\"[All Fields] OR \"quercetine\"[All Fields] OR \"quercetins\"[All Fields]"
+      },
+      {
+        "from": "dihydroxyphenylacetic acid",
+        "to": "\"3,4-dihydroxyphenylacetic acid\"[Supplementary Concept] OR \"3,4-dihydroxyphenylacetic acid\"[All Fields] OR \"dihydroxyphenylacetic acid\"[All Fields] OR \"3,4-dihydroxyphenylacetic acid\"[MeSH Terms] OR (\"3,4-dihydroxyphenylacetic\"[All Fields] AND \"acid\"[All Fields]) OR (\"dihydroxyphenylacetic\"[All Fields] AND \"acid\"[All Fields])"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"quercetin\"[Supplementary Concept] OR \"quercetin\"[All Fields] OR \"quercetin\"[MeSH Terms] OR \"quercetin s\"[All Fields] OR \"quercetine\"[All Fields] OR \"quercetins\"[All Fields]) AND (\"3 4 dihydroxyphenylacetic acid\"[Supplementary Concept] OR \"3 4 dihydroxyphenylacetic acid\"[All Fields] OR \"dihydroxyphenylacetic acid\"[All Fields] OR \"3,4 dihydroxyphenylacetic acid\"[MeSH Terms] OR (\"3 4 dihydroxyphenylacetic\"[All Fields] AND \"acid\"[All Fields]) OR (\"dihydroxyphenylacetic\"[All Fields] AND \"acid\"[All Fields]))"
+  }
+}

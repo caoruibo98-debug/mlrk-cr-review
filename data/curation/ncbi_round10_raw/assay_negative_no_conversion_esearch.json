@@ -1,0 +1,48 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "conversion",
+        "to": "\"conversion\"[All Fields] OR \"conversions\"[All Fields]"
+      },
+      {
+        "from": "substrate",
+        "to": "\"substrate\"[All Fields] OR \"substrate's\"[All Fields] OR \"substrated\"[All Fields] OR \"substrates\"[All Fields]"
+      },
+      {
+        "from": "metabolite",
+        "to": "\"metabolite\"[All Fields] OR \"metabolite's\"[All Fields] OR \"metabolites\"[All Fields]"
+      },
+      {
+        "from": "assay",
+        "to": "\"analysis\"[Subheading] OR \"analysis\"[All Fields] OR \"assay\"[All Fields] OR \"biological assay\"[MeSH Terms] OR (\"biological\"[All Fields] AND \"assay\"[All Fields]) OR \"biological assay\"[All Fields] OR \"assay's\"[All Fields] OR \"assayed\"[All Fields] OR \"assaying\"[All Fields] OR \"assays\"[All Fields]"
+      },
+      {
+        "from": "negative",
+        "to": "\"negative\"[All Fields] OR \"negatively\"[All Fields] OR \"negatives\"[All Fields] OR \"negativities\"[All Fields] OR \"negativity\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"conversion\"[All Fields] OR \"conversions\"[All Fields]) AND (\"substrate\"[All Fields] OR \"substrate s\"[All Fields] OR \"substrated\"[All Fields] OR \"substrates\"[All Fields]) AND (\"metabolite\"[All Fields] OR \"metabolite s\"[All Fields] OR \"metabolites\"[All Fields]) AND (\"analysis\"[MeSH Subheading] OR \"analysis\"[All Fields] OR \"assay\"[All Fields] OR \"biological assay\"[MeSH Terms] OR (\"biological\"[All Fields] AND \"assay\"[All Fields]) OR \"biological assay\"[All Fields] OR \"assay s\"[All Fields] OR \"assayed\"[All Fields] OR \"assaying\"[All Fields] OR \"assays\"[All Fields]) AND (\"negative\"[All Fields] OR \"negatively\"[All Fields] OR \"negatives\"[All Fields] OR \"negativities\"[All Fields] OR \"negativity\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [
+        "no"
+      ],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

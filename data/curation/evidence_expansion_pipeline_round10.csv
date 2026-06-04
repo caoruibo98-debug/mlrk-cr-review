@@ -1,0 +1,8 @@
+round,stage_order,stage,input,output,pass_gate,fail_action
+10,1,collect,local gap tables + challenge panel + PubMed/Rhea/GitHub queries,pubmed_candidate_screen_round10.csv; rhea_reaction_screen_round10.csv,query returns a source that can be inspected,record no-hit; revise query; do not create a negative
+10,2,verify_exactness,candidate papers/database reactions,exact-pair manifest for next round,"exact substrate, product, direction, organism/enzyme/context are present",mark review/context/unlabeled
+10,3,map_chemistry,exact candidate rows,canonical SMILES/InChIKey mapping table,local and external identifiers agree or mismatch is manually resolved,manual structure review; no training import
+10,4,split_and_holdout_guard,mapped exact rows,training_allowed flag and split assignment,no challenge/holdout/source/scaffold leakage,hold out or keep as evaluation challenge
+10,5,generator_recall_check,approved exact rows + source-traceable rules,candidate-generation hit/miss table,deployment generator enumerates the known product,recover/import/fix source-traceable rule before ranker training
+10,6,freeze_and_review,curated CSVs and generated candidates,"commit, diff, model-audit report",all labels have evidence class and source fields,do not retrain; return to verification
+10,7,retrain_after_gates,approved labels and generator outputs,leakage-controlled model metrics,evaluation sample size and split design support the claim,report prototype-only claim boundary

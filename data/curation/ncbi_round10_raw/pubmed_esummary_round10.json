@@ -1,0 +1,4184 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "40528807",
+      "38959406",
+      "33537693",
+      "32716447",
+      "27977191",
+      "41925800",
+      "41770313",
+      "41590663",
+      "41588328",
+      "41511855",
+      "40597460",
+      "40543124",
+      "39826514",
+      "39674423",
+      "38975869",
+      "37569640",
+      "36965386",
+      "34689346",
+      "34208885",
+      "34202738",
+      "41797252",
+      "40135481",
+      "38389793",
+      "36938958",
+      "33382612",
+      "33330584",
+      "17449591",
+      "15877880",
+      "12736449",
+      "31344423",
+      "28234482",
+      "25771121",
+      "25045111",
+      "20397197"
+    ],
+    "40528807": {
+      "uid": "40528807",
+      "pubdate": "2025 Oct",
+      "epubdate": "2025 Jun 18",
+      "source": "J Sci Food Agric",
+      "authors": [
+        {
+          "name": "Ding X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu W",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Zhu W",
+      "title": "The hydrogenation metabolism process of rosmarinic acid by microbial enzymes in chickens.",
+      "sorttitle": "hydrogenation metabolism process of rosmarinic acid by microbial enzymes in chickens",
+      "volume": "105",
+      "issue": "13",
+      "pages": "7340-7349",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0376334",
+      "issn": "0022-5142",
+      "essn": "1097-0010",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40528807"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1002/jsfa.70000"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "revised",
+          "date": "2025/05/14 00:00"
+        },
+        {
+          "pubstatus": "received",
+          "date": "2025/03/28 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/05/30 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/09/17 00:31"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/06/18 06:25"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/06/18 05:23"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of the science of food and agriculture",
+      "elocationid": "doi: 10.1002/jsfa.70000",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/10/01 00:00",
+      "sortfirstauthor": "Ding X",
+      "vernaculartitle": ""
+    },
+    "38959406": {
+      "uid": "38959406",
+      "pubdate": "2024 Jul 17",
+      "epubdate": "2024 Jul 3",
+      "source": "ACS Chem Neurosci",
+      "authors": [
+        {
+          "name": "Balsamo JM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhou K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kammarchedu V",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ebrahimi A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bess EN",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Bess EN",
+      "title": "Mechanistic Insight into Intestinal \u03b1-Synuclein Aggregation in Parkinson's Disease Using a Laser-Printed Electrochemical Sensor.",
+      "sorttitle": "mechanistic insight into intestinal synuclein aggregation in parkinson s disease using a laser printed electrochemical sensor",
+      "volume": "15",
+      "issue": "14",
+      "pages": "2623-2632",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101525337",
+      "issn": "",
+      "essn": "1948-7193",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "38959406"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11258680"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11258680;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acschemneuro.4c00106"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2024/07/17 06:43"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/07/03 18:43"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/07/03 14:53"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2024/07/19 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 54,
+      "fulljournalname": "ACS chemical neuroscience",
+      "elocationid": "doi: 10.1021/acschemneuro.4c00106",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/07/17 00:00",
+      "sortfirstauthor": "Balsamo JM",
+      "vernaculartitle": ""
+    },
+    "33537693": {
+      "uid": "33537693",
+      "pubdate": "2021 Mar 7",
+      "epubdate": "2021 Feb 4",
+      "source": "Food Funct",
+      "authors": [
+        {
+          "name": "Dom\u00ednguez-Fern\u00e1ndez M ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ludwig IA ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "De Pe\u00f1a MP ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cid C ",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Cid C ",
+      "title": "Bioaccessibility of Tudela artichoke (Cynara scolymus cv. Blanca de Tudela) (poly)phenols: the effects of heat treatment, simulated gastrointestinal digestion and human colonic microbiota.",
+      "sorttitle": "bioaccessibility of tudela artichoke cynara scolymus cv blanca de tudela poly phenols the effects of heat treatment simulated gastrointestinal digestion and human colonic microbiota",
+      "volume": "12",
+      "issue": "5",
+      "pages": "1996-2011",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101549033",
+      "issn": "2042-6496",
+      "essn": "2042-650X",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "33537693"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1039/d0fo03119d"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2021/02/05 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/04/17 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2021/02/04 05:53"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Food & function",
+      "elocationid": "doi: 10.1039/d0fo03119d",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2021/03/07 00:00",
+      "sortfirstauthor": "Dom\u00ednguez-Fern\u00e1ndez M ",
+      "vernaculartitle": ""
+    },
+    "32716447": {
+      "uid": "32716447",
+      "pubdate": "2020 Aug 1",
+      "epubdate": "2020 Jul 27",
+      "source": "Food Funct",
+      "authors": [
+        {
+          "name": "Garc\u00eda-Villalba R ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Beltr\u00e1n D ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Frutos MD ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Selma MV ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Esp\u00edn JC ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tom\u00e1s-Barber\u00e1n FA ",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tom\u00e1s-Barber\u00e1n FA ",
+      "title": "Metabolism of different dietary phenolic compounds by the urolithin-producing human-gut bacteria Gordonibacter urolithinfaciens and Ellagibacter isourolithinifaciens.",
+      "sorttitle": "metabolism of different dietary phenolic compounds by the urolithin producing human gut bacteria gordonibacter urolithinfaciens and ellagibacter isourolithinifaciens",
+      "volume": "11",
+      "issue": "8",
+      "pages": "7012-7022",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101549033",
+      "issn": "2042-6496",
+      "essn": "2042-650X",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "32716447"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1039/d0fo01649g"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2020/07/28 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/05/15 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2020/07/28 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Food & function",
+      "elocationid": "doi: 10.1039/d0fo01649g",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2020/08/01 00:00",
+      "sortfirstauthor": "Garc\u00eda-Villalba R ",
+      "vernaculartitle": ""
+    },
+    "27977191": {
+      "uid": "27977191",
+      "pubdate": "2016 Dec 28",
+      "epubdate": "2016 Dec 15",
+      "source": "J Agric Food Chem",
+      "authors": [
+        {
+          "name": "Xie M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hu B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhou L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ou S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zeng X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sun Y",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Sun Y",
+      "title": "Hydrolysis of Dicaffeoylquinic Acids from Ilex kudingcha Happens in the Colon by Intestinal Microbiota.",
+      "sorttitle": "hydrolysis of dicaffeoylquinic acids from ilex kudingcha happens in the colon by intestinal microbiota",
+      "volume": "64",
+      "issue": "51",
+      "pages": "9624-9630",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0374755",
+      "issn": "0021-8561",
+      "essn": "1520-5118",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "27977191"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acs.jafc.6b04710"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1021/acs.jafc.6b04710"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2016/12/16 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2017/04/30 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2016/12/16 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of agricultural and food chemistry",
+      "elocationid": "doi: 10.1021/acs.jafc.6b04710",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2016/12/28 00:00",
+      "sortfirstauthor": "Xie M",
+      "vernaculartitle": ""
+    },
+    "41925800": {
+      "uid": "41925800",
+      "pubdate": "2026 May",
+      "epubdate": "2026 Apr 2",
+      "source": "Mol Cell Biochem",
+      "authors": [
+        {
+          "name": "Ni F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Huang Z",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cui Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Huang P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Xue Z",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Huang G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhao Y",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Zhao Y",
+      "title": "S-equol promotes ferroptosis in triple negative breast cancer by coordinating NCOA4-mediated ferritinophagy and PPAR\u03b3-mediated lipid metabolism.",
+      "sorttitle": "s equol promotes ferroptosis in triple negative breast cancer by coordinating ncoa4 mediated ferritinophagy and ppar mediated lipid metabolism",
+      "volume": "481",
+      "issue": "5",
+      "pages": "2119-2137",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0364456",
+      "issn": "0300-8177",
+      "essn": "1573-4919",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41925800"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1007/s11010-026-05524-y"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1007/s11010-026-05524-y"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/11/22 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2026/03/13 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/05/17 06:27"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/04/02 12:36"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/04/02 11:06"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Molecular and cellular biochemistry",
+      "elocationid": "doi: 10.1007/s11010-026-05524-y",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/05/01 00:00",
+      "sortfirstauthor": "Ni F",
+      "vernaculartitle": ""
+    },
+    "41770313": {
+      "uid": "41770313",
+      "pubdate": "2026 Mar 2",
+      "epubdate": "2026 Mar 2",
+      "source": "Appl Microbiol Biotechnol",
+      "authors": [
+        {
+          "name": "Gangwar M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Abduljabbar SI",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Khan J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Alam MS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ahmed K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Naaz S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Panda BP",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Panda BP",
+      "title": "S-equol producing bacteria: isolation and identification from Albino Wistar rat gut microbiota.",
+      "sorttitle": "s equol producing bacteria isolation and identification from albino wistar rat gut microbiota",
+      "volume": "110",
+      "issue": "1",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8406612",
+      "issn": "0175-7598",
+      "essn": "1432-0614",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41770313"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC12953384"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC12953384;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1007/s00253-026-13759-4"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1007/s00253-026-13759-4"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/05/02 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2026/02/09 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2026/01/20 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/03/06 19:44"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/03/02 13:17"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/03/02 11:13"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2026/03/02 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 51,
+      "fulljournalname": "Applied microbiology and biotechnology",
+      "elocationid": "doi: 10.1007/s00253-026-13759-4",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/03/02 00:00",
+      "sortfirstauthor": "Gangwar M",
+      "vernaculartitle": ""
+    },
+    "41590663": {
+      "uid": "41590663",
+      "pubdate": "2026 Jan 8",
+      "epubdate": "2026 Jan 8",
+      "source": "Metabolites",
+      "authors": [
+        {
+          "name": "Kada-Kondo N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kimura N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Isobe K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kaida A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ota S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fujita A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Haraki Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nagai R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Aizawa K",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Aizawa K",
+      "title": "Urinary Equol Production Capacity, Dietary Habits, and Premenstrual Symptom Severity in Healthy Young Japanese Women.",
+      "sorttitle": "urinary equol production capacity dietary habits and premenstrual symptom severity in healthy young japanese women",
+      "volume": "16",
+      "issue": "1",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101578790",
+      "issn": "2218-1989",
+      "essn": "2218-1989",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41590663"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC12844494"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC12844494;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3390/metabo16010055"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "metabo16010055"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/11/27 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2025/12/26 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2026/01/04 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/01/27 13:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/01/27 12:59"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/01/27 09:34"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2026/01/08 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 41,
+      "fulljournalname": "Metabolites",
+      "elocationid": "doi: 10.3390/metabo16010055",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/01/08 00:00",
+      "sortfirstauthor": "Kada-Kondo N",
+      "vernaculartitle": ""
+    },
+    "41588328": {
+      "uid": "41588328",
+      "pubdate": "2026 Jan 26",
+      "epubdate": "2026 Jan 26",
+      "source": "BMC Microbiol",
+      "authors": [
+        {
+          "name": "Iino K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Iino C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Song S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sato M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nakamura M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tanabu R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Higuchi T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tamada Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Itoh K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sato N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Imoto S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mikami T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Murashita K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yokoyama Y",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Yokoyama Y",
+      "title": "Stability of equol production capability is associated with the diversity of the gut microbiota of the host: a prospective cohort study.",
+      "sorttitle": "stability of equol production capability is associated with the diversity of the gut microbiota of the host a prospective cohort study",
+      "volume": "26",
+      "issue": "1",
+      "pages": "141",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "100966981",
+      "issn": "",
+      "essn": "1471-2180",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - in process",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41588328"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC12918213"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC12918213;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1186/s12866-026-04749-7"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1186/s12866-026-04749-7"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/08/04 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2026/01/09 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/01/27 00:52"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/01/27 00:52"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/01/26 23:31"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2026/01/26 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 40,
+      "fulljournalname": "BMC microbiology",
+      "elocationid": "doi: 10.1186/s12866-026-04749-7",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/01/26 00:00",
+      "sortfirstauthor": "Iino K",
+      "vernaculartitle": ""
+    },
+    "41511855": {
+      "uid": "41511855",
+      "pubdate": "2026 Jan 21",
+      "epubdate": "2026 Jan 9",
+      "source": "J Agric Food Chem",
+      "authors": [
+        {
+          "name": "Kim MJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kim BS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lee DW",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Lee DW",
+      "title": "Microbial Production and Industrial Applications of (S)-Equol for Precision Health and Functional Food Innovation.",
+      "sorttitle": "microbial production and industrial applications of s equol for precision health and functional food innovation",
+      "volume": "74",
+      "issue": "2",
+      "pages": "1938-1953",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0374755",
+      "issn": "0021-8561",
+      "essn": "1520-5118",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41511855"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acs.jafc.5c15832"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2026/01/21 06:30"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/01/09 18:30"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/01/09 12:22"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of agricultural and food chemistry",
+      "elocationid": "doi: 10.1021/acs.jafc.5c15832",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/01/21 00:00",
+      "sortfirstauthor": "Kim MJ",
+      "vernaculartitle": ""
+    },
+    "40597460": {
+      "uid": "40597460",
+      "pubdate": "2025 Oct",
+      "epubdate": "2025 May 29",
+      "source": "Food Res Int",
+      "authors": [
+        {
+          "name": "Liu R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lu Q",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Weckwerth W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dong J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hu Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu R",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Liu R",
+      "title": "Metabolic characteristics of catechin (monomeric flavan-3-ols), B-type linkage flavan-3-ols and A-type linkage flavan-3-ols revealed by un-targeted and targeted metabolomics.",
+      "sorttitle": "metabolic characteristics of catechin monomeric flavan 3 ols b type linkage flavan 3 ols and a type linkage flavan 3 ols revealed by un targeted and targeted metabolomics",
+      "volume": "217",
+      "issue": "",
+      "pages": "116357",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9210143",
+      "issn": "0963-9969",
+      "essn": "1873-7145",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40597460"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.foodres.2025.116357"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0963-9969(25)00695-7"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/12/02 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2025/02/27 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/04/15 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/07/02 12:28"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/07/02 06:27"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/07/02 04:07"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Food research international (Ottawa, Ont.)",
+      "elocationid": "doi: 10.1016/j.foodres.2025.116357",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/10/01 00:00",
+      "sortfirstauthor": "Liu R",
+      "vernaculartitle": ""
+    },
+    "40543124": {
+      "uid": "40543124",
+      "pubdate": "2025 Nov 1",
+      "epubdate": "2025 Jun 18",
+      "source": "Food Chem",
+      "authors": [
+        {
+          "name": "Tosi N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bresciani L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Favari C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rosi A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dodi R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bertel\u00e9 A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Curti C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Crozier A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Del Rio D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Brighenti F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mena P",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Mena P",
+      "title": "How does the flavan-3-ol structure condition the quali-quantitative production of phenolic metabolites? Insights from a 3-arm intervention.",
+      "sorttitle": "how does the flavan 3 ol structure condition the quali quantitative production of phenolic metabolites insights from a 3 arm intervention",
+      "volume": "491",
+      "issue": "",
+      "pages": "145207",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7702639",
+      "issn": "0308-8146",
+      "essn": "1873-7072",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40543124"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.foodchem.2025.145207"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0308-8146(25)02458-6"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/04/09 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2025/06/05 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/06/17 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/09/08 08:02"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/06/22 06:10"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/06/21 18:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Food chemistry",
+      "elocationid": "doi: 10.1016/j.foodchem.2025.145207",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/11/01 00:00",
+      "sortfirstauthor": "Tosi N",
+      "vernaculartitle": ""
+    },
+    "39826514": {
+      "uid": "39826514",
+      "pubdate": "2025 Apr 30",
+      "epubdate": "2025 Jan 11",
+      "source": "Food Chem",
+      "authors": [
+        {
+          "name": "Wang Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bao C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "He B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "He Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wu Q",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Wu Q",
+      "title": "A study on the qualitative analysis of lotus seedpod oligomeric procyanidins during digestion, absorption and colonic fermentation based on UPLC-Q-Exactive/MS.",
+      "sorttitle": "study on the qualitative analysis of lotus seedpod oligomeric procyanidins during digestion absorption and colonic fermentation based on uplc q exactive ms",
+      "volume": "472",
+      "issue": "",
+      "pages": "142864",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7702639",
+      "issn": "0308-8146",
+      "essn": "1873-7072",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39826514"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.foodchem.2025.142864"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0308-8146(25)00114-1"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/09/23 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2024/11/21 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/01/09 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/02/19 06:21"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/01/20 22:53"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/01/18 18:11"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Food chemistry",
+      "elocationid": "doi: 10.1016/j.foodchem.2025.142864",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/04/30 00:00",
+      "sortfirstauthor": "Wang Y",
+      "vernaculartitle": ""
+    },
+    "39674423": {
+      "uid": "39674423",
+      "pubdate": "2025 Feb 1",
+      "epubdate": "2024 Dec 12",
+      "source": "Free Radic Biol Med",
+      "authors": [
+        {
+          "name": "Ma Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ghiretti L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Castellone V",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mena P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rubert J",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Rubert J",
+      "title": "Static and dynamic in vitro colonic models reveal the spatiotemporal production of flavan-3-ol catabolites.",
+      "sorttitle": "static and dynamic in vitro colonic models reveal the spatiotemporal production of flavan 3 ol catabolites",
+      "volume": "227",
+      "issue": "",
+      "pages": "582-592",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8709159",
+      "issn": "0891-5849",
+      "essn": "1873-4596",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39674423"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.freeradbiomed.2024.12.034"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0891-5849(24)01143-2"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/06/17 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2024/12/03 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2024/12/12 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/01/24 00:26"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/12/15 00:41"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/12/14 19:16"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Free radical biology & medicine",
+      "elocationid": "doi: 10.1016/j.freeradbiomed.2024.12.034",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/02/01 00:00",
+      "sortfirstauthor": "Ma Y",
+      "vernaculartitle": ""
+    },
+    "38975869": {
+      "uid": "38975869",
+      "pubdate": "2024",
+      "epubdate": "2023 Feb 21",
+      "source": "Crit Rev Food Sci Nutr",
+      "authors": [
+        {
+          "name": "Liu C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gan RY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zheng L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ng SB",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rietjens IMCM",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Rietjens IMCM",
+      "title": "Gut microbiota-mediated metabolism of green tea catechins and the biological consequences: An updated review.",
+      "sorttitle": "gut microbiota mediated metabolism of green tea catechins and the biological consequences an updated review",
+      "volume": "64",
+      "issue": "20",
+      "pages": "7067-7084",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8914818",
+      "issn": "1040-8398",
+      "essn": "1549-7852",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "38975869"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1080/10408398.2023.2180478"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2024/07/08 12:44"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/07/08 12:43"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/07/08 10:03"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Critical reviews in food science and nutrition",
+      "elocationid": "doi: 10.1080/10408398.2023.2180478",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/01/01 00:00",
+      "sortfirstauthor": "Liu C",
+      "vernaculartitle": ""
+    },
+    "37569640": {
+      "uid": "37569640",
+      "pubdate": "2023 Jul 31",
+      "epubdate": "2023 Jul 31",
+      "source": "Int J Mol Sci",
+      "authors": [
+        {
+          "name": "Cattivelli A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Conte A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tagliazucchi D",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tagliazucchi D",
+      "title": "Quercetins, Chlorogenic Acids and Their Colon Metabolites Inhibit Colon Cancer Cell Proliferation at Physiologically Relevant Concentrations.",
+      "sorttitle": "quercetins chlorogenic acids and their colon metabolites inhibit colon cancer cell proliferation at physiologically relevant concentrations",
+      "volume": "24",
+      "issue": "15",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101092791",
+      "issn": "",
+      "essn": "1422-0067",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "37569640"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC10418599"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC10418599;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3390/ijms241512265"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "ijms241512265"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2023/07/07 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2023/07/28 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2023/07/29 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/03/11 01:11"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2023/08/12 10:43"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2023/08/12 01:10"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2023/07/31 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 67,
+      "fulljournalname": "International journal of molecular sciences",
+      "elocationid": "doi: 10.3390/ijms241512265",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2023/07/31 00:00",
+      "sortfirstauthor": "Cattivelli A",
+      "vernaculartitle": ""
+    },
+    "36965386": {
+      "uid": "36965386",
+      "pubdate": "2023 Aug 30",
+      "epubdate": "2023 Mar 11",
+      "source": "Food Chem",
+      "authors": [
+        {
+          "name": "Liu S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Loo YT",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li Z",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ng K",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Ng K",
+      "title": "Alginate-inulin-chitosan based microspheres alter metabolic fate of encapsulated quercetin, promote short chain fatty acid production, and modulate pig gut microbiota.",
+      "sorttitle": "alginate inulin chitosan based microspheres alter metabolic fate of encapsulated quercetin promote short chain fatty acid production and modulate pig gut microbiota",
+      "volume": "418",
+      "issue": "",
+      "pages": "135802",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7702639",
+      "issn": "0308-8146",
+      "essn": "1873-7072",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "36965386"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.foodchem.2023.135802"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0308-8146(23)00419-3"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2022/12/06 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2023/02/21 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2023/02/24 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2023/04/19 06:41"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2023/03/26 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2023/03/25 19:08"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Food chemistry",
+      "elocationid": "doi: 10.1016/j.foodchem.2023.135802",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2023/08/30 00:00",
+      "sortfirstauthor": "Liu S",
+      "vernaculartitle": ""
+    },
+    "34689346": {
+      "uid": "34689346",
+      "pubdate": "2022 Apr",
+      "epubdate": "2021 Nov 2",
+      "source": "J Sci Food Agric",
+      "authors": [
+        {
+          "name": "Landete JM",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Landete JM",
+      "title": "Flavone, flavanone and flavonol metabolism from soybean and flaxseed extracts by the intestinal microbiota of adults and infants.",
+      "sorttitle": "flavone flavanone and flavonol metabolism from soybean and flaxseed extracts by the intestinal microbiota of adults and infants",
+      "volume": "102",
+      "issue": "6",
+      "pages": "2575-2583",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0376334",
+      "issn": "0022-5142",
+      "essn": "1097-0010",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "34689346"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1002/jsfa.11599"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "revised",
+          "date": "2021/10/18 00:00"
+        },
+        {
+          "pubstatus": "received",
+          "date": "2021/08/28 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2021/10/24 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2021/10/25 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2022/03/18 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2021/10/24 20:59"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of the science of food and agriculture",
+      "elocationid": "doi: 10.1002/jsfa.11599",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2022/04/01 00:00",
+      "sortfirstauthor": "Landete JM",
+      "vernaculartitle": ""
+    },
+    "34208885": {
+      "uid": "34208885",
+      "pubdate": "2021 Jun 30",
+      "epubdate": "2021 Jun 30",
+      "source": "Int J Mol Sci",
+      "authors": [
+        {
+          "name": "Sankaranarayanan R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sekhon PK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ambat A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nelson J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jose D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bhat GJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Scaria J",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Scaria J",
+      "title": "Screening of Human Gut Bacterial Culture Collection Identifies Species That Biotransform Quercetin into Metabolites with Anticancer Properties.",
+      "sorttitle": "screening of human gut bacterial culture collection identifies species that biotransform quercetin into metabolites with anticancer properties",
+      "volume": "22",
+      "issue": "13",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101092791",
+      "issn": "",
+      "essn": "1422-0067",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "34208885"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC8269047"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC8269047;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3390/ijms22137045"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "ijms22137045"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2021/06/01 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2021/06/23 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2021/06/25 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2021/07/02 01:36"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2021/07/03 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/07/30 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2021/06/30 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 53,
+      "fulljournalname": "International journal of molecular sciences",
+      "elocationid": "doi: 10.3390/ijms22137045",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2021/06/30 00:00",
+      "sortfirstauthor": "Sankaranarayanan R",
+      "vernaculartitle": ""
+    },
+    "34202738": {
+      "uid": "34202738",
+      "pubdate": "2021 Jun 24",
+      "epubdate": "2021 Jun 24",
+      "source": "Microorganisms",
+      "authors": [
+        {
+          "name": "Zorraqu\u00edn-Pe\u00f1a I",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Taladrid D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tamargo A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Silva M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Molinero N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "de Llano DG",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bartolom\u00e9 B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Moreno-Arribas MV",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Moreno-Arribas MV",
+      "title": "Effects of Wine and Its Microbial-Derived Metabolites on Intestinal Permeability Using Simulated Gastrointestinal Digestion/Colonic Fermentation and Caco-2 Intestinal Cell Models.",
+      "sorttitle": "effects of wine and its microbial derived metabolites on intestinal permeability using simulated gastrointestinal digestion colonic fermentation and caco 2 intestinal cell models",
+      "volume": "9",
+      "issue": "7",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101625893",
+      "issn": "2076-2607",
+      "essn": "2076-2607",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "34202738"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC8306816"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC8306816;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3390/microorganisms9071378"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "microorganisms9071378"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2021/05/28 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2021/06/16 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2021/06/21 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2021/07/02 01:15"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2021/07/03 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/07/03 06:01"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2021/06/24 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 60,
+      "fulljournalname": "Microorganisms",
+      "elocationid": "doi: 10.3390/microorganisms9071378",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2021/06/24 00:00",
+      "sortfirstauthor": "Zorraqu\u00edn-Pe\u00f1a I",
+      "vernaculartitle": ""
+    },
+    "41797252": {
+      "uid": "41797252",
+      "pubdate": "2026 Jun",
+      "epubdate": "2026 Feb 27",
+      "source": "Enzyme Microb Technol",
+      "authors": [
+        {
+          "name": "Katasho A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kumazawa K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Watanabe H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nakajima T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chiba N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yamamoto H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kishino S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ogawa J",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Ogawa J",
+      "title": "Urolithin 9-dehydroxylase from Enterocloster bolteae JCM 12243(T) catalyzing regiospecific dehydroxylation of urolithins.",
+      "sorttitle": "urolithin 9 dehydroxylase from enterocloster bolteae jcm 12243 t catalyzing regiospecific dehydroxylation of urolithins",
+      "volume": "197",
+      "issue": "",
+      "pages": "110837",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8003761",
+      "issn": "0141-0229",
+      "essn": "1879-0909",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41797252"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.enzmictec.2026.110837"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0141-0229(26)00020-7"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/11/03 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2026/01/27 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2026/02/26 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/03/29 07:35"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/03/09 07:42"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/03/09 01:28"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Enzyme and microbial technology",
+      "elocationid": "doi: 10.1016/j.enzmictec.2026.110837",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/06/01 00:00",
+      "sortfirstauthor": "Katasho A",
+      "vernaculartitle": ""
+    },
+    "40135481": {
+      "uid": "40135481",
+      "pubdate": "2025 Mar",
+      "epubdate": "",
+      "source": "J Food Sci",
+      "authors": [
+        {
+          "name": "Ren X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Xiao M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fu X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mou H",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Mou H",
+      "title": "Impact of 2'-fucosyllactose on adult gut microbiota composition and metabolome based on colonic fermentation and prebiotic quantitative evaluation.",
+      "sorttitle": "impact of 2 fucosyllactose on adult gut microbiota composition and metabolome based on colonic fermentation and prebiotic quantitative evaluation",
+      "volume": "90",
+      "issue": "3",
+      "pages": "e70084",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0014052",
+      "issn": "0022-1147",
+      "essn": "1750-3841",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40135481"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1111/1750-3841.70084"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "revised",
+          "date": "2025/01/23 00:00"
+        },
+        {
+          "pubstatus": "received",
+          "date": "2024/11/24 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/02/04 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/03/26 12:32"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/03/26 12:31"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/03/26 06:03"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of food science",
+      "elocationid": "doi: 10.1111/1750-3841.70084",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/03/01 00:00",
+      "sortfirstauthor": "Ren X",
+      "vernaculartitle": ""
+    },
+    "38389793": {
+      "uid": "38389793",
+      "pubdate": "2024",
+      "epubdate": "2024 Feb 8",
+      "source": "Front Nutr",
+      "authors": [
+        {
+          "name": "Kuntz S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kunz C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Borsch C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hill D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Morrin S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Buck R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rudloff S",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Rudloff S",
+      "title": "Influence of microbially fermented 2\u00b4-fucosyllactose on neuronal-like cell activity in an in vitro co-culture system.",
+      "sorttitle": "influence of microbially fermented 2 fucosyllactose on neuronal like cell activity in an in vitro co culture system",
+      "volume": "11",
+      "issue": "",
+      "pages": "1351433",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101642264",
+      "issn": "2296-861X",
+      "essn": "2296-861X",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "258",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "38389793"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC10881714"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC10881714;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3389/fnut.2024.1351433"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2023/12/06 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2024/01/18 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2024/02/23 06:44"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/02/23 06:43"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/02/23 03:47"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2024/01/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 93,
+      "fulljournalname": "Frontiers in nutrition",
+      "elocationid": "doi: 10.3389/fnut.2024.1351433",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/02/08 00:00",
+      "sortfirstauthor": "Kuntz S",
+      "vernaculartitle": ""
+    },
+    "36938958": {
+      "uid": "36938958",
+      "pubdate": "2023 Jun",
+      "epubdate": "2023 May 8",
+      "source": "Mol Nutr Food Res",
+      "authors": [
+        {
+          "name": "Dedon LR",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hilliard MA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rani A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Daza-Merchan ZT",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Story G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Briere CE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sela DA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Sela DA",
+      "title": "Fucosylated Human Milk Oligosaccharides Drive Structure-Specific Syntrophy between Bifidobacterium infantis and Eubacterium hallii within a Modeled Infant Gut Microbiome.",
+      "sorttitle": "fucosylated human milk oligosaccharides drive structure specific syntrophy between bifidobacterium infantis and eubacterium hallii within a modeled infant gut microbiome",
+      "volume": "67",
+      "issue": "11",
+      "pages": "e2200851",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101231818",
+      "issn": "1613-4125",
+      "essn": "1613-4133",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "36938958"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS1888466"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11010582"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11010582;manuscript-id: NIHMS1888466;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1002/mnfr.202200851"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "revised",
+          "date": "2023/03/23 00:00"
+        },
+        {
+          "pubstatus": "received",
+          "date": "2022/12/05 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2023/06/05 06:42"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2023/03/21 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2023/03/20 06:14"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2024/06/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 69,
+      "fulljournalname": "Molecular nutrition & food research",
+      "elocationid": "doi: 10.1002/mnfr.202200851",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2023/06/01 00:00",
+      "sortfirstauthor": "Dedon LR",
+      "vernaculartitle": ""
+    },
+    "33382612": {
+      "uid": "33382612",
+      "pubdate": "2021 Jan 13",
+      "epubdate": "2020 Dec 31",
+      "source": "J Agric Food Chem",
+      "authors": [
+        {
+          "name": "Salli K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hirvonen J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Siitonen J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ahonen I",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Anglenius H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Maukonen J",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Maukonen J",
+      "title": "Selective Utilization of the Human Milk Oligosaccharides 2'-Fucosyllactose, 3-Fucosyllactose, and Difucosyllactose by Various Probiotic and Pathogenic Bacteria.",
+      "sorttitle": "selective utilization of the human milk oligosaccharides 2 fucosyllactose 3 fucosyllactose and difucosyllactose by various probiotic and pathogenic bacteria",
+      "volume": "69",
+      "issue": "1",
+      "pages": "170-182",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0374755",
+      "issn": "0021-8561",
+      "essn": "1520-5118",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "33382612"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acs.jafc.0c06041"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2021/01/01 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/04/13 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2020/12/31 17:08"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of agricultural and food chemistry",
+      "elocationid": "doi: 10.1021/acs.jafc.0c06041",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2021/01/13 00:00",
+      "sortfirstauthor": "Salli K",
+      "vernaculartitle": ""
+    },
+    "33330584": {
+      "uid": "33330584",
+      "pubdate": "2020",
+      "epubdate": "2020 Nov 24",
+      "source": "Front Nutr",
+      "authors": [
+        {
+          "name": "Dedon LR",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "\u00d6zcan E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rani A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sela DA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Sela DA",
+      "title": "Bifidobacterium infantis Metabolizes 2'Fucosyllactose-Derived and Free Fucose Through a Common Catabolic Pathway Resulting in 1,2-Propanediol Secretion.",
+      "sorttitle": "bifidobacterium infantis metabolizes 2 fucosyllactose derived and free fucose through a common catabolic pathway resulting in 1 2 propanediol secretion",
+      "volume": "7",
+      "issue": "",
+      "pages": "583397",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101642264",
+      "issn": "2296-861X",
+      "essn": "2296-861X",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "258",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "33330584"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC7732495"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC7732495;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3389/fnut.2020.583397"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2020/07/14 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2020/10/09 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2020/12/17 05:54"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2020/12/18 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2020/12/18 06:01"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2020/01/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 53,
+      "fulljournalname": "Frontiers in nutrition",
+      "elocationid": "doi: 10.3389/fnut.2020.583397",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2020/11/24 00:00",
+      "sortfirstauthor": "Dedon LR",
+      "vernaculartitle": ""
+    },
+    "17449591": {
+      "uid": "17449591",
+      "pubdate": "2007 May",
+      "epubdate": "",
+      "source": "J Nutr",
+      "authors": [
+        {
+          "name": "Milder IE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kuijsten A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Arts IC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Feskens EJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kampman E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hollman PC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Van 't Veer P",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Van 't Veer P",
+      "title": "Relation between plasma enterodiol and enterolactone and dietary intake of lignans in a Dutch endoscopy-based population.",
+      "sorttitle": "relation between plasma enterodiol and enterolactone and dietary intake of lignans in a dutch endoscopy based population",
+      "volume": "137",
+      "issue": "5",
+      "pages": "1266-71",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0404243",
+      "issn": "0022-3166",
+      "essn": "",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "17449591"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1093/jn/137.5.1266"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0022-3166(22)09220-3"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2007/04/24 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2007/06/01 09:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2007/04/24 09:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "The Journal of nutrition",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2007/05/01 00:00",
+      "sortfirstauthor": "Milder IE",
+      "vernaculartitle": ""
+    },
+    "15877880": {
+      "uid": "15877880",
+      "pubdate": "2005 Mar",
+      "epubdate": "",
+      "source": "Br J Nutr",
+      "authors": [
+        {
+          "name": "Milder IE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Arts IC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "van de Putte B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Venema DP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hollman PC",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Hollman PC",
+      "title": "Lignan contents of Dutch plant foods: a database including lariciresinol, pinoresinol, secoisolariciresinol and matairesinol.",
+      "sorttitle": "lignan contents of dutch plant foods a database including lariciresinol pinoresinol secoisolariciresinol and matairesinol",
+      "volume": "93",
+      "issue": "3",
+      "pages": "393-402",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0372547",
+      "issn": "0007-1145",
+      "essn": "",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "15877880"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1079/bjn20051371"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0007114505000504"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2005/05/10 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2005/07/22 09:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2005/05/10 09:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "The British journal of nutrition",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2005/03/01 00:00",
+      "sortfirstauthor": "Milder IE",
+      "vernaculartitle": ""
+    },
+    "12736449": {
+      "uid": "12736449",
+      "pubdate": "2003 May",
+      "epubdate": "",
+      "source": "Chem Pharm Bull (Tokyo)",
+      "authors": [
+        {
+          "name": "Xie LH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Akao T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hamasaki K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Deyama T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hattori M",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Hattori M",
+      "title": "Biotransformation of pinoresinol diglucoside to mammalian lignans by human intestinal microflora, and isolation of Enterococcus faecalis strain PDG-1 responsible for the transformation of (+)-pinoresinol to (+)-lariciresinol.",
+      "sorttitle": "biotransformation of pinoresinol diglucoside to mammalian lignans by human intestinal microflora and isolation of enterococcus faecalis strain pdg 1 responsible for the transformation of pinoresinol to lariciresinol",
+      "volume": "51",
+      "issue": "5",
+      "pages": "508-15",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0377775",
+      "issn": "0009-2363",
+      "essn": "",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "12736449"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1248/cpb.51.508"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2003/05/09 05:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2004/01/06 05:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2003/05/09 05:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Chemical & pharmaceutical bulletin",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2003/05/01 00:00",
+      "sortfirstauthor": "Xie LH",
+      "vernaculartitle": ""
+    },
+    "31344423": {
+      "uid": "31344423",
+      "pubdate": "2019 Sep",
+      "epubdate": "2019 Jul 22",
+      "source": "Pharmacol Res",
+      "authors": [
+        {
+          "name": "Dey P",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Dey P",
+      "title": "Gut microbiota in phytopharmacology: A comprehensive overview of concepts, reciprocal interactions, biotransformations and mode of actions.",
+      "sorttitle": "gut microbiota in phytopharmacology a comprehensive overview of concepts reciprocal interactions biotransformations and mode of actions",
+      "volume": "147",
+      "issue": "",
+      "pages": "104367",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8907422",
+      "issn": "1043-6618",
+      "essn": "1096-1186",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "31344423"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.phrs.2019.104367"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S1043-6618(19)30813-8"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2019/05/07 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2019/07/11 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2019/07/19 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2019/07/26 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2020/06/18 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2019/07/26 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Pharmacological research",
+      "elocationid": "doi: 10.1016/j.phrs.2019.104367",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2019/09/01 00:00",
+      "sortfirstauthor": "Dey P",
+      "vernaculartitle": ""
+    },
+    "28234482": {
+      "uid": "28234482",
+      "pubdate": "2017 Apr 28",
+      "epubdate": "2017 Feb 24",
+      "source": "J Nat Prod",
+      "authors": [
+        {
+          "name": "Luescher S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Urmann C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Butterweck V",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Butterweck V",
+      "title": "Effect of Hops Derived Prenylated Phenols on TNF-\u03b1 Induced Barrier Dysfunction in Intestinal Epithelial Cells.",
+      "sorttitle": "effect of hops derived prenylated phenols on tnf induced barrier dysfunction in intestinal epithelial cells",
+      "volume": "80",
+      "issue": "4",
+      "pages": "925-931",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7906882",
+      "issn": "0163-3864",
+      "essn": "1520-6025",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "28234482"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acs.jnatprod.6b00869"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2017/02/25 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2017/08/02 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2017/02/25 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of natural products",
+      "elocationid": "doi: 10.1021/acs.jnatprod.6b00869",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2017/04/28 00:00",
+      "sortfirstauthor": "Luescher S",
+      "vernaculartitle": ""
+    },
+    "25771121": {
+      "uid": "25771121",
+      "pubdate": "2015 Jun",
+      "epubdate": "2015 Mar 12",
+      "source": "Fitoterapia",
+      "authors": [
+        {
+          "name": "\u017bo\u0142nierczyk AK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "M\u0105czka WK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Grabarczyk M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wi\u0144ska K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wo\u017aniak E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Anio\u0142 M",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Anio\u0142 M",
+      "title": "Isoxanthohumol--Biologically active hop flavonoid.",
+      "sorttitle": "isoxanthohumol biologically active hop flavonoid",
+      "volume": "103",
+      "issue": "",
+      "pages": "71-82",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "16930290R",
+      "issn": "0367-326X",
+      "essn": "1873-6971",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "25771121"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.fitote.2015.03.007"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0367-326X(15)00061-1"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2015/01/14 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2015/03/02 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2015/03/06 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2015/03/16 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2015/03/17 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2015/09/19 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Fitoterapia",
+      "elocationid": "doi: 10.1016/j.fitote.2015.03.007",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2015/06/01 00:00",
+      "sortfirstauthor": "\u017bo\u0142nierczyk AK",
+      "vernaculartitle": ""
+    },
+    "25045111": {
+      "uid": "25045111",
+      "pubdate": "2014 Oct",
+      "epubdate": "2014 Sep 16",
+      "source": "Mol Nutr Food Res",
+      "authors": [
+        {
+          "name": "van Breemen RB",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yuan Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Banuvar S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shulman LP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Qiu X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Alvarenga RF",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen SN",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dietz BM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bolton JL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Pauli GF",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Krause E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Viana M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nikolic D",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Nikolic D",
+      "title": "Pharmacokinetics of prenylated hop phenols in women following oral administration of a standardized extract of hops.",
+      "sorttitle": "pharmacokinetics of prenylated hop phenols in women following oral administration of a standardized extract of hops",
+      "volume": "58",
+      "issue": "10",
+      "pages": "1962-9",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101231818",
+      "issn": "1613-4125",
+      "essn": "1613-4133",
+      "pubtype": [
+        "Comparative Study",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "25045111"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS637851"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC4265473"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC4265473;manuscript-id: NIHMS637851;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1002/mnfr.201400245"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2014/04/09 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2014/06/06 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2014/06/13 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2014/07/22 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2014/07/22 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2015/06/06 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2015/10/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 30,
+      "fulljournalname": "Molecular nutrition & food research",
+      "elocationid": "doi: 10.1002/mnfr.201400245",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2014/10/01 00:00",
+      "sortfirstauthor": "van Breemen RB",
+      "vernaculartitle": ""
+    },
+    "20397197": {
+      "uid": "20397197",
+      "pubdate": "2010 Oct",
+      "epubdate": "",
+      "source": "Mol Nutr Food Res",
+      "authors": [
+        {
+          "name": "Hanske L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Loh G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sczesny S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Blaut M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Braune A",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Braune A",
+      "title": "Recovery and metabolism of xanthohumol in germ-free and human microbiota-associated rats.",
+      "sorttitle": "recovery and metabolism of xanthohumol in germ free and human microbiota associated rats",
+      "volume": "54",
+      "issue": "10",
+      "pages": "1405-13",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101231818",
+      "issn": "1613-4125",
+      "essn": "1613-4133",
+      "pubtype": [
+        "Comparative Study",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "20397197"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1002/mnfr.200900517"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2010/04/17 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2010/04/17 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2011/02/15 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Molecular nutrition & food research",
+      "elocationid": "doi: 10.1002/mnfr.200900517",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2010/10/01 00:00",
+      "sortfirstauthor": "Hanske L",
+      "vernaculartitle": ""
+    }
+  }
+}

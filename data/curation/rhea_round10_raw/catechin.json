@@ -1,0 +1,38 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "10616",
+      "equation": "(2R,3S)-catechin + NADP(+) + H2O = (2R,3S,4S)-leucocyanidin + NADPH + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15600\">(2<i>R</i>,3<i>S</i>)-catechin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58349\">NADP<small><sup>+</sup></small></a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:11412\">(2<i>R</i>,3<i>S</i>,4<i>S</i>)-leucocyanidin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57783\">NADPH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "catechin": [
+        {
+          "term": "catechin",
+          "query": "chebi:\"(2R,3S)-catechin [15600]\"",
+          "count": "1",
+          "label": "(2<i>R</i>,3<i>S</i>)-catechin",
+          "id": "CHEBI:15600",
+          "isDirect": true,
+          "othernames": "(+)-Cyanidan-3-ol, (+)-Catechol, Cyanidanol, (2<i>R</i>,3<i>S</i>)-2-(3,4-dihydroxyphenyl)chromane-3,5,7-triol, (2R,3S)-Catechin, (+)-Catechin, (2<i>R</i>,3<i>S</i>)-2-(3,4-dihydroxyphenyl)-3,4-dihydro-1<i>H</i>-chromene-3,5,7-triol, catechuic acid, (2R-trans)-2-(3,4-dihydroxyphenyl)-3,4-dihydro-2H-1-Benzopyran-3,5,7-triol, D-Catechin, (+)-catechin, (2R,3S)-(+)-Catechin, Cianidanol, (+)-(2R,3S)-5,7,3',4'-Tetrahydroxyflavan-3-ol, (+)-3',4',5,7-Tetrahydroxy-2,3-trans-flavan-3-ol"
+        },
+        {
+          "term": "catechin",
+          "query": "chebi:\"catechin [23053]\"",
+          "count": "1",
+          "label": "catechin",
+          "id": "CHEBI:23053",
+          "isDirect": false,
+          "othernames": "catechins, (+/-)-Catechin"
+        }
+      ]
+    }
+  ]
+}

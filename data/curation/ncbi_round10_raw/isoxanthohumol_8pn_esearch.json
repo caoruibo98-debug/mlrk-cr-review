@@ -1,0 +1,37 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "11",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "31344423",
+      "28234482",
+      "25771121",
+      "25045111",
+      "20397197"
+    ],
+    "translationset": [
+      {
+        "from": "isoxanthohumol",
+        "to": "\"isoxanthohumol\"[Supplementary Concept] OR \"isoxanthohumol\"[All Fields]"
+      },
+      {
+        "from": "8-prenylnaringenin",
+        "to": "\"8-prenylnaringenin\"[Supplementary Concept] OR \"8-prenylnaringenin\"[All Fields] OR \"8 prenylnaringenin\"[All Fields]"
+      },
+      {
+        "from": "human",
+        "to": "\"human's\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]"
+      },
+      {
+        "from": "intestine",
+        "to": "\"intestinalization\"[All Fields] OR \"intestinalized\"[All Fields] OR \"intestinally\"[All Fields] OR \"intestinals\"[All Fields] OR \"intestine's\"[All Fields] OR \"intestines\"[MeSH Terms] OR \"intestines\"[All Fields] OR \"intestinal\"[All Fields] OR \"intestine\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"isoxanthohumol\"[Supplementary Concept] OR \"isoxanthohumol\"[All Fields]) AND (\"8 prenylnaringenin\"[Supplementary Concept] OR \"8 prenylnaringenin\"[All Fields] OR \"8 prenylnaringenin\"[All Fields]) AND (\"human s\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]) AND (\"intestinalization\"[All Fields] OR \"intestinalized\"[All Fields] OR \"intestinally\"[All Fields] OR \"intestinals\"[All Fields] OR \"intestine s\"[All Fields] OR \"intestines\"[MeSH Terms] OR \"intestines\"[All Fields] OR \"intestinal\"[All Fields] OR \"intestine\"[All Fields])"
+  }
+}

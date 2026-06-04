@@ -1,0 +1,210 @@
+{
+  "count": 13,
+  "results": [
+    {
+      "id": "23532",
+      "equation": "cholate + ATP + CoA = choloyl-CoA + AMP + diphosphate",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29747\">cholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:30616\">ATP</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57287\">CoA</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57373\">choloyl-CoA</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:456215\">AMP</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:33019\">diphosphate</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "43764",
+      "equation": "chenodeoxycholate + ATP + CoA = chenodeoxycholoyl-CoA + AMP + diphosphate",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:36234\">chenodeoxycholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:30616\">ATP</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57287\">CoA</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:62989\">chenodeoxycholoyl-CoA</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:456215\">AMP</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:33019\">diphosphate</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "47128",
+      "equation": "deoxycholate + ATP + CoA = deoxycholoyl-CoA + AMP + diphosphate",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:23614\">deoxycholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:30616\">ATP</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57287\">CoA</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58810\">deoxycholoyl-CoA</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:456215\">AMP</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:33019\">diphosphate</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "47136",
+      "equation": "lithocholate + ATP + CoA = lithocholoyl-CoA + AMP + diphosphate",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29744\">lithocholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:30616\">ATP</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57287\">CoA</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:87438\">lithocholoyl-CoA</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:456215\">AMP</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:33019\">diphosphate</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "14541",
+      "equation": "choloyl-CoA + H2O = cholate + CoA + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57373\">choloyl-CoA</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29747\">cholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57287\">CoA</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "79123",
+      "equation": "cholate + L-phenylalanine = L-phenylalanocholate + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29747\">cholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58095\"><small>L</small>-phenylalanine</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:229714\"><small>L</small>-phenylalanocholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "16309",
+      "equation": "taurochenodeoxycholate + H2O = chenodeoxycholate + taurine",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:9407\">taurochenodeoxycholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:36234\">chenodeoxycholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:507393\">taurine</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "19353",
+      "equation": "glycocholate + H2O = cholate + glycine",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29746\">glycocholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29747\">cholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57305\">glycine</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "79099",
+      "equation": "cholate + L-histidine = L-histidocholate + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29747\">cholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57595\"><small>L</small>-histidine</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:229712\"><small>L</small>-histidocholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "79111",
+      "equation": "cholate + L-arginine = L-arginocholate + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29747\">cholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:32682\"><small>L</small>-arginine</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:229713\"><small>L</small>-arginocholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "79131",
+      "equation": "cholate + L-alanine = L-alanocholate + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29747\">cholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57972\"><small>L</small>-alanine</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:229710\"><small>L</small>-alanocholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "79139",
+      "equation": "cholate + L-serine = L-serocholate + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29747\">cholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:33384\"><small>L</small>-serine</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:229711\"><small>L</small>-serocholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "79087",
+      "equation": "an L-alpha-amino acid + cholate = an N-choloyl-L-alpha-amino acid + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:59869\">an <small>L</small>-&#945;-amino acid</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29747\">cholate</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:229709\">an <i>N</i>-choloyl-<small>L</small>-&#945;-amino acid</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "salt": [
+        {
+          "term": "salt",
+          "query": "bile chebi:\"bile acid [3098]\" hydrolase",
+          "count": "13",
+          "label": "bile acid",
+          "id": "CHEBI:3098",
+          "isDirect": false,
+          "othernames": "Gallens&#228;ure, bile acids, 5&#946;-bile acid, Gallens&#228;uren, 5&#946;-bile acids, Bile salt"
+        }
+      ],
+      "bile": [
+        {
+          "term": "bile",
+          "query": "chebi:\"bile acid [3098]\" salt hydrolase",
+          "count": "13",
+          "label": "bile acid",
+          "id": "CHEBI:3098",
+          "isDirect": false,
+          "othernames": "Gallens&#228;ure, bile acids, 5&#946;-bile acid, Gallens&#228;uren, 5&#946;-bile acids, Bile salt"
+        },
+        {
+          "term": "bile",
+          "query": "chebi:\"bile acid anion [36235]\" salt hydrolase",
+          "count": "13",
+          "label": "bile acid anion",
+          "id": "CHEBI:36235",
+          "isDirect": false,
+          "othernames": "bile acid anions"
+        },
+        {
+          "term": "bile",
+          "query": "chebi:\"cholanoid [36078]\" salt hydrolase",
+          "count": "13",
+          "label": "cholanoid",
+          "id": "CHEBI:36078",
+          "isDirect": false,
+          "othernames": "bile acids and derivatives, cholanoids"
+        },
+        {
+          "term": "bile",
+          "query": "chebi:\"bile acids [138366]\" salt hydrolase",
+          "count": "13",
+          "label": "bile acids",
+          "id": "CHEBI:138366",
+          "isDirect": false
+        },
+        {
+          "term": "bile",
+          "query": "chebi:\"a 3alpha-hydroxy bile acid CoA [138842]\" salt hydrolase",
+          "count": "5",
+          "label": "a 3&#945;-hydroxy bile acid CoA",
+          "id": "CHEBI:138842",
+          "isDirect": true,
+          "othernames": "3&#945;-hydroxy bile acid CoA thioester(4&#8722;)"
+        },
+        {
+          "term": "bile",
+          "query": "chebi:\"bile acid conjugate [36249]\" salt hydrolase",
+          "count": "2",
+          "label": "bile acid conjugate",
+          "id": "CHEBI:36249",
+          "isDirect": false,
+          "othernames": "conjugated bile acid, bile acid conjugates, conjugated bile acids"
+        },
+        {
+          "term": "bile",
+          "query": "chebi:\"bile acid taurine conjugate [23219]\" salt hydrolase",
+          "count": "1",
+          "label": "bile acid taurine conjugate",
+          "id": "CHEBI:23219",
+          "isDirect": false,
+          "othernames": "bile acid taurine conjugates"
+        },
+        {
+          "term": "bile",
+          "query": "chebi:\"bile acid glycine conjugate [36255]\" salt hydrolase",
+          "count": "1",
+          "label": "bile acid glycine conjugate",
+          "id": "CHEBI:36255",
+          "isDirect": false,
+          "othernames": "bile acid glycine conjugates"
+        }
+      ]
+    }
+  ]
+}
