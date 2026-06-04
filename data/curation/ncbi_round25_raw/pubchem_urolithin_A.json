@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5488186,
+        "MolecularFormula": "C13H8O4",
+        "SMILES": "C1=CC2=C(C=C1O)C(=O)OC3=C2C=CC(=C3)O",
+        "ConnectivitySMILES": "C1=CC2=C(C=C1O)C(=O)OC3=C2C=CC(=C3)O",
+        "InChIKey": "RIUPLDUFZCXCHM-UHFFFAOYSA-N"
+      }
+    ]
+  }
+}

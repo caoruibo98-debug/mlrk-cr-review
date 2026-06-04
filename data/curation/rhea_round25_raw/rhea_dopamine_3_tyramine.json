@@ -1,0 +1,58 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "61520",
+      "equation": "dopamine + AH2 = 3-tyramine + A + H2O",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:59905\">dopamine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:17499\">AH<small><sub>2</sub></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:144800\">3-tyramine</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:13193\">A</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "3-tyramine": [
+        {
+          "term": "3-tyramine",
+          "query": "dopamine chebi:\"3-tyramine [144800]\"",
+          "count": "1",
+          "label": "3-tyramine",
+          "id": "CHEBI:144800",
+          "isDirect": true,
+          "othernames": "<i>m</i>-tyraminium, <i>meta</i>-tyraminium, 2-(3-hydroxyphenyl)ethanaminium"
+        },
+        {
+          "term": "3-tyramine",
+          "query": "dopamine chebi:\"m-tyramine [89626]\"",
+          "count": "1",
+          "label": "m-tyramine",
+          "id": "CHEBI:89626",
+          "isDirect": false,
+          "othernames": "<i>m</i>-tyramine, 3-tyramine, 2-(3-hydroxyphenyl)ethylamine, <i>meta</i>-tyramine, <i>m</i>-hydroxyphenethylamine, 3-(2-aminoethyl)phenol, 3-hydroxyphenethylamine, 3-hydroxyphenylethylamine"
+        }
+      ],
+      "dopamine": [
+        {
+          "term": "dopamine",
+          "query": "chebi:\"dopamine [18243]\" \"3-tyramine\"",
+          "count": "1",
+          "label": "dopamine",
+          "id": "CHEBI:18243",
+          "isDirect": false,
+          "othernames": "dopamina, 4-(2-aminoethyl)catechol, Deoxyepinephrine, 2-(3,4-dihydroxyphenyl)ethylamine, 4-(2-aminoethyl)pyrocatechol, 3-Hydroxytyramine, 4-(2-aminoethyl)-1,2-benzenediol, 4-(2-Aminoethyl)benzene-1,2-diol, dopaminum, 4-(2-Aminoethyl)-1,2-benzenediol, 2-(3,4-Dihydroxyphenyl)ethylamine, 4-(2-aminoethyl)benzene-1,2-diol, Hydroxytyramin, 3,4-Dihydroxyphenethylamine"
+        },
+        {
+          "term": "dopamine",
+          "query": "chebi:\"dopamine [59905]\" \"3-tyramine\"",
+          "count": "1",
+          "label": "dopamine",
+          "id": "CHEBI:59905",
+          "isDirect": true,
+          "othernames": "2-(3,4-dihydroxyphenyl)ethan-1-aminium, 2-(3,4-dihydroxyphenyl)ethanaminium, dopaminium cation, dopaminium(1+)"
+        }
+      ]
+    }
+  ]
+}

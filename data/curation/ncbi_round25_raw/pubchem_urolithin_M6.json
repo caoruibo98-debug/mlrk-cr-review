@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 101461104,
+        "MolecularFormula": "C13H8O6",
+        "SMILES": "C1=CC2=C(C=C1O)OC(=O)C3=CC(=C(C(=C23)O)O)O",
+        "ConnectivitySMILES": "C1=CC2=C(C=C1O)OC(=O)C3=CC(=C(C(=C23)O)O)O",
+        "InChIKey": "LGXFTZDSEIQMMP-UHFFFAOYSA-N"
+      }
+    ]
+  }
+}

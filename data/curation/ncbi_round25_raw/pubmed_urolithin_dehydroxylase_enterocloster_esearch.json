@@ -1,0 +1,24 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "4",
+    "retmax": "4",
+    "retstart": "0",
+    "idlist": [
+      "41797252",
+      "41298472",
+      "39856097",
+      "37494568"
+    ],
+    "translationset": [
+      {
+        "from": "urolithin",
+        "to": "\"urolithin\"[All Fields] OR \"urolithins\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"urolithin\"[All Fields] OR \"urolithins\"[All Fields]) AND \"dehydroxylase\"[All Fields] AND \"Enterocloster\"[All Fields]"
+  }
+}

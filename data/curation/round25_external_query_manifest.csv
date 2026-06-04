@@ -1,0 +1,9 @@
+round,source,query,raw_path,result_summary,url
+round25,Rhea,RHEA:22416,D:\CRB\Food models\scripts\ssrf\ml_ranking_kernel_prod_candidate\data\curation\rhea_round25_raw\rhea_22416.json,approved exact protocatechuate decarboxylase reaction,https://www.rhea-db.org/rhea/22416
+round25,Rhea,urolithin dehydroxylase,D:\CRB\Food models\scripts\ssrf\ml_ranking_kernel_prod_candidate\data\curation\rhea_round25_raw\rhea_urolithin_dehydroxylase.json,zero exact Rhea hits in round25 query,https://www.rhea-db.org/
+round25,Rhea,dopamine 3-tyramine,D:\CRB\Food models\scripts\ssrf\ml_ranking_kernel_prod_candidate\data\curation\rhea_round25_raw\rhea_dopamine_3_tyramine.json,approved exact dopamine + AH2 = 3-tyramine + A + H2O,https://www.rhea-db.org/
+round25,PubMed,urolithin dehydroxylase Enterocloster,D:\CRB\Food models\scripts\ssrf\ml_ranking_kernel_prod_candidate\data\curation\ncbi_round25_raw\pubmed_urolithin_dehydroxylase_enterocloster_esearch.json,"PMIDs 41797252, 41298472, 39856097, 37494568",https://pubmed.ncbi.nlm.nih.gov/
+round25,PubChem,urolithin A/C/M6 property lookups,D:\CRB\Food models\scripts\ssrf\ml_ranking_kernel_prod_candidate\data\curation\ncbi_round25_raw,"PubChem structures found for urolithin A, C, and M6; urolithin G name lookup failed",https://pubchem.ncbi.nlm.nih.gov/
+round25,GitHub,rxn4chemistry/biocatalysis-model,,"ECReact is drawn from Rhea, BRENDA, PathBank, MetaNetX and covers all 7 EC classes.",https://github.com/rxn4chemistry/biocatalysis-model
+round25,GitHub,hesther/enzymemap,,EnzymeMap processed_reactions.csv.gz is the current database file used for rule-level audit.,https://github.com/hesther/enzymemap
+round25,RetroRules,reaction rule generation docs,,RetroRules uses AAM reaction-center templates and mono-substrate decomposition; not all plausible food-gut reactions are precomputed.,https://retrorules.org/docs
