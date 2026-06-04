@@ -1,0 +1,9 @@
+round,queue_type,priority,pair_key,substrate_name,product_name,source_id,next_action
+8,positive_exact_extraction,high,HHXMEXZVPJFAIJ__RIUPLDUFZCXCHM,urolithin C,urolithin A,PMID:39856097,"extract Ucd assay/ex vivo details, position-specific dehydroxylation, and organism context"
+8,positive_exact_extraction,high,SNFSYLYCDAVZGP__SHZGCJCMOBCMKK,2'-fucosyllactose,L-fucose,PMID:31138818,confirm L-fucose chemical mapping and whether product edge should include lactose/monomers
+8,positive_exact_extraction,high,HGXBRUKMWQGOIE__MHXCIKYXNYCMHY,pinoresinol,lariciresinol,PMID:12736449,map stereochemistry and source row; keep Round2 holdout guard before training
+8,positive_exact_extraction,high,YKGCBLWILMDSAV__LPEPZZAVFJPLNZ,isoxanthohumol,8-prenylnaringenin,PMID:16772450,use this reaction-focused source preferentially; extract SHIME/fecal/human context and mapping
+8,fulltext_table_extraction,medium,ATJVZXXHKSYELS__KSEBMYQBYZTDHS,ethyl ferulate,ferulic acid,PMID:19502437,extract enzyme substrate table for ethyl ferulate hydrolysis product and EC/protein context
+8,fulltext_table_extraction,medium,MHXCIKYXNYCMHY__PUETUDUXMCLALY,lariciresinol,secoisolariciresinol,PMID:11453749,extract pathway scheme/table and reconcile with Rhea direction and stereochemistry
+8,conditional_negative_extraction,medium,QAIPRVGONGVQAS__DZAUWHJDUNRCTF,,,PMID:40528807,extract exact compartment/antibiotic context and substrate tested
+8,conditional_negative_extraction,medium,SNFSYLYCDAVZGP__SHZGCJCMOBCMKK,,,PMID:19520709,"extract enzyme name, substrate class, exact assay substrate, conditions, and detection statement"

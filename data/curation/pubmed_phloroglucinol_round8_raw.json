@@ -1,0 +1,34 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "phloroglucinol",
+        "to": "\"phloroglucinol\"[Supplementary Concept] OR \"phloroglucinol\"[All Fields] OR \"phloroglucinol\"[MeSH Terms] OR \"phloroglucinols\"[All Fields]"
+      },
+      {
+        "from": "decarboxylation",
+        "to": "\"decarboxylate\"[All Fields] OR \"decarboxylated\"[All Fields] OR \"decarboxylates\"[All Fields] OR \"decarboxylating\"[All Fields] OR \"decarboxylation\"[MeSH Terms] OR \"decarboxylation\"[All Fields] OR \"decarboxylations\"[All Fields] OR \"decarboxylative\"[All Fields]"
+      },
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      }
+    ],
+    "querytranslation": "\"phloroglucinol carboxylic acid\"[All Fields] AND ((\"phloroglucinol\"[Supplementary Concept] OR \"phloroglucinol\"[All Fields] OR \"phloroglucinol\"[MeSH Terms] OR \"phloroglucinols\"[All Fields]) AND (\"decarboxylate\"[All Fields] OR \"decarboxylated\"[All Fields] OR \"decarboxylates\"[All Fields] OR \"decarboxylating\"[All Fields] OR \"decarboxylation\"[MeSH Terms] OR \"decarboxylation\"[All Fields] OR \"decarboxylations\"[All Fields] OR \"decarboxylative\"[All Fields]) AND (\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]))",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}
