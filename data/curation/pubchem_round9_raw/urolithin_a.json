@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5488186,
+        "MolecularFormula": "C13H8O4",
+        "MolecularWeight": "228.20",
+        "SMILES": "C1=CC2=C(C=C1O)C(=O)OC3=C2C=CC(=C3)O",
+        "ConnectivitySMILES": "C1=CC2=C(C=C1O)C(=O)OC3=C2C=CC(=C3)O",
+        "InChIKey": "RIUPLDUFZCXCHM-UHFFFAOYSA-N",
+        "IUPACName": "3,8-dihydroxybenzo[c]chromen-6-one"
+      }
+    ]
+  }
+}

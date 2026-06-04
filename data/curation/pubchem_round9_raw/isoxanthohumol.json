@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 513197,
+        "MolecularFormula": "C21H22O5",
+        "MolecularWeight": "354.4",
+        "SMILES": "CC(=CCC1=C2C(=C(C=C1O)OC)C(=O)CC(O2)C3=CC=C(C=C3)O)C",
+        "ConnectivitySMILES": "CC(=CCC1=C2C(=C(C=C1O)OC)C(=O)CC(O2)C3=CC=C(C=C3)O)C",
+        "InChIKey": "YKGCBLWILMDSAV-UHFFFAOYSA-N",
+        "IUPACName": "7-hydroxy-2-(4-hydroxyphenyl)-5-methoxy-8-(3-methylbut-2-enyl)-2,3-dihydrochromen-4-one"
+      }
+    ]
+  }
+}

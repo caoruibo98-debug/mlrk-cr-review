@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 60198001,
+        "MolecularFormula": "C13H8O5",
+        "MolecularWeight": "244.20",
+        "SMILES": "C1=CC2=C(C=C1O)OC(=O)C3=CC(=C(C=C23)O)O",
+        "ConnectivitySMILES": "C1=CC2=C(C=C1O)OC(=O)C3=CC(=C(C=C23)O)O",
+        "InChIKey": "HHXMEXZVPJFAIJ-UHFFFAOYSA-N",
+        "IUPACName": "3,8,9-trihydroxybenzo[c]chromen-6-one"
+      }
+    ]
+  }
+}

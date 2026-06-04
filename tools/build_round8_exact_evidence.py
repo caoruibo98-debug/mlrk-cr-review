@@ -195,8 +195,11 @@ def parse_pubmed_xml(paths: list[Path]) -> dict[str, dict[str, str]]:
                 or ""
             )
             doi_values = []
-            for node in art.findall(".//ArticleId"):
+            for node in art.findall("./PubmedData/ArticleIdList/ArticleId"):
                 if node.attrib.get("IdType", "").lower() == "doi" and node.text:
+                    doi_values.append(node.text)
+            for node in art.findall("./MedlineCitation/Article/ELocationID"):
+                if node.attrib.get("EIdType", "").lower() == "doi" and node.text:
                     doi_values.append(node.text)
             records[pmid] = {
                 "pmid": pmid,

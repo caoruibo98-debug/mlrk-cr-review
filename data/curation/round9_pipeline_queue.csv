@@ -1,0 +1,5 @@
+round,queue_type,priority,pair_key,substrate_name,product_name,next_action
+9,candidate_generation_recall_fix,high,HHXMEXZVPJFAIJ__RIUPLDUFZCXCHM,urolithin C,urolithin A,recover or import source-traceable rule so deployment generator can enumerate the known gold product
+9,candidate_generation_recall_fix,high,SNFSYLYCDAVZGP__SHZGCJCMOBCMKK,2'-fucosyllactose,L-fucose,recover or import source-traceable rule so deployment generator can enumerate the known gold product
+9,candidate_generation_recall_fix,high,HGXBRUKMWQGOIE__MHXCIKYXNYCMHY,pinoresinol,lariciresinol,recover or import source-traceable rule so deployment generator can enumerate the known gold product
+9,candidate_generation_recall_fix,high,YKGCBLWILMDSAV__LPEPZZAVFJPLNZ,isoxanthohumol,8-prenylnaringenin,recover or import source-traceable rule so deployment generator can enumerate the known gold product

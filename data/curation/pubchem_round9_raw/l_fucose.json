@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 17106,
+        "MolecularFormula": "C6H12O5",
+        "MolecularWeight": "164.16",
+        "SMILES": "C[C@H]1[C@H]([C@H]([C@@H](C(O1)O)O)O)O",
+        "ConnectivitySMILES": "CC1C(C(C(C(O1)O)O)O)O",
+        "InChIKey": "SHZGCJCMOBCMKK-DHVFOXMCSA-N",
+        "IUPACName": "(3S,4R,5S,6S)-6-methyloxane-2,3,4,5-tetrol"
+      }
+    ]
+  }
+}

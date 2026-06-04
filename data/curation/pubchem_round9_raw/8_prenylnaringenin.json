@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 480764,
+        "MolecularFormula": "C20H20O5",
+        "MolecularWeight": "340.4",
+        "SMILES": "CC(=CCC1=C2C(=C(C=C1O)O)C(=O)C[C@H](O2)C3=CC=C(C=C3)O)C",
+        "ConnectivitySMILES": "CC(=CCC1=C2C(=C(C=C1O)O)C(=O)CC(O2)C3=CC=C(C=C3)O)C",
+        "InChIKey": "LPEPZZAVFJPLNZ-SFHVURJKSA-N",
+        "IUPACName": "(2S)-5,7-dihydroxy-2-(4-hydroxyphenyl)-8-(3-methylbut-2-enyl)-2,3-dihydrochromen-4-one"
+      }
+    ]
+  }
+}
