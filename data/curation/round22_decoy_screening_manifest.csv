@@ -1,0 +1,172 @@
+round,candidate_id,rule_variant,substrate_name,decoy_pb,decoy_product_smiles,decoy_ec_classes,decoy_rule_hashes,decoy_status_round22,training_allowed_round22
+22,R21-P0-002,sampled_all_800,dopamine,DEKNNWJXAQTLFA,NCCc1ccc(OS(=O)(=O)O)c(O)c1,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,GPRLSGONYQIRFK,[H+],0,1c9957f44c72;63f22a592d65;7e9d68ae5363,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,HJFQVSQPSPNSET,COP(=O)(OC)Oc1ccc(CCN)cc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,ICDKEGIUNBERCN,Nc1ncnc2c1NCN2C1OC(COP(=O)([O-])[O-])C(OP(=O)([O-])[O-])C1O,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,ISHGVKSNVLFVFL,NCCc1cc(O)c(O)cc1C(=O)[O-],0,1c9957f44c72,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,NZHQRBVMCINAPD,NCCc1ccc(O)c(O)c1C(=O)[O-],0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,OZVJHPOLBSJHBT,NCCc1cc(O)c(O)c(C(=O)[O-])c1,0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,RHMIGKKRLLVEGS,NCCC(C=O)=CC=C(O)C(=O)O,0,7e9d68ae5363,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,SVDUFHMHFHGKLT,COP(=O)(OC)Oc1cc(CCN)ccc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,XLYOFNOQVPJJNP,O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,sampled_all_800,dopamine,ZMVAQWGFALJRBZ,NCCC(C=CC(=O)O)=CC(=O)O,0,63f22a592d65,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,AACUDZJCXYXYCE,NCCC1=CC=C(O)C(O)(O)C1O,0,a9dbd95ed9de,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,DEKNNWJXAQTLFA,NCCc1ccc(OS(=O)(=O)O)c(O)c1,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,FXMHTTIDXGKNPT,NCCC(=CC=O)C=C(O)C(=O)[O-],0,bcdb3b37ebd0,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,GACHUKQIQXVSNB,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1,0,a9dbd95ed9de,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,GOCVYFRHRBGOSY,NCCC1=CC(O)=C(O)C(O)C1O,0,a9dbd95ed9de,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,GPRLSGONYQIRFK,[H+],0;1,1c9957f44c72;63f22a592d65;7e9d68ae5363;e5403ef63118,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,HJFQVSQPSPNSET,COP(=O)(OC)Oc1ccc(CCN)cc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,ICDKEGIUNBERCN,Nc1ncnc2c1NCN2C1OC(COP(=O)([O-])[O-])C(OP(=O)([O-])[O-])C1O,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,ISHGVKSNVLFVFL,NCCc1cc(O)c(O)cc1C(=O)[O-],0,1c9957f44c72,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,IYJOAJXSCQFTLS,NCC(c1ccc(O)c(O)c1)C(CC(=O)[O-])C(=O)[O-],0,dc41600269c2,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,KWCIWVCMDMTKSP,NCCC1=CC(O)C(O)C=C1,0,4b8fa8789d87,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,LCCFTBFFBCXECD,C[CH2][Fe+3]1([CH2]C)[S-2][Fe+3]([CH2]C)([CH2]C)[S-2]1,0,fa50c04db904,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,NZHQRBVMCINAPD,NCCc1ccc(O)c(O)c1C(=O)[O-],0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,OZVJHPOLBSJHBT,NCCc1cc(O)c(O)c(C(=O)[O-])c1,0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,RHMIGKKRLLVEGS,NCCC(C=O)=CC=C(O)C(=O)O,0,7e9d68ae5363;bcdb3b37ebd0,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,SFLSHLFXELFNJZ,NCC(O)c1ccc(O)c(O)c1,0,fa50c04db904,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,SMRHOBVGZMGFBC,O=C([O-])c1ccccc1C(=O)NCCc1ccc(O)c(O)c1,0,a675e69855ad,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,SVDUFHMHFHGKLT,COP(=O)(OC)Oc1cc(CCN)ccc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,WPMJELZXMKXLPW,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(OP(=O)([O-])[O-])C3O)C(O)C2O)c1,0,4b8fa8789d87,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,XLYOFNOQVPJJNP,O,0,01fbdcc0ad49;a675e69855ad;fa50c04db904,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_all_rules,dopamine,ZMVAQWGFALJRBZ,NCCC(C=CC(=O)[O-])=CC(=O)[O-],0;1,63f22a592d65;e5403ef63118,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_require_ec,dopamine,GPRLSGONYQIRFK,[H+],1,e5403ef63118,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-002,all_pool_require_ec,dopamine,ZMVAQWGFALJRBZ,NCCC(C=CC(=O)[O-])=CC(=O)[O-],1,e5403ef63118,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,ADUHKQBXXKYHEY,COP(=O)(OC)Oc1cc(C(=O)O)ccc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,DBFJDZUUYSITIE,Oc1ccc(C(O)O)cc1O,0,c0a998b37428,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,DGWVMPXQZBUAOI,NC(=O)C1=CN(C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(OP(=O)([O-])[O-])C3O)C(O)C2O)C=CC1,0,4589bac28862;ef4121785e15,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,DRKDIMGHUAWNRS,[NH3+]CC1CCC(C(=O)Oc2ccc(CCC(=O)OC(=O)c3ccc(O)c(O)c3)cc2)CC1,0,7ec8e3e1530e,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,DVJHQNQHIBZHEF,O=CC(=CC=C(O)C(=O)O)C(=O)O,0,7e9d68ae5363,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,FBOCZYIJDQZQFE,O=C(O)c1cc(O)c(O)c(C(=O)[O-])c1,0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,FPTXOHZIIYBLQQ,COP(=O)(OC)Oc1ccc(C(=O)O)cc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,GACHUKQIQXVSNB,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1,0,c0a998b37428,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,GPRLSGONYQIRFK,[H+],0,1c9957f44c72;4589bac28862;63f22a592d65;7e9d68ae5363;ef4121785e15,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,ICDKEGIUNBERCN,Nc1ncnc2c1NCN2C1OC(COP(=O)([O-])[O-])C(OP(=O)([O-])[O-])C1O,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,MFWBRYATDCBUOF,N#CC(O)(O)c1ccc(O)c(O)c1,0,27d37047aceb,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,NGQYUDIZIPNWJV,O=C(O)c1ccc(OS(=O)(=O)O)c(O)c1,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,QXGJCWSBOZXWOV,O=C(O)c1ccc(O)c(O)c1C(=O)[O-],0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,XLYOFNOQVPJJNP,O,0,01fbdcc0ad49;7ec8e3e1530e;c4d9fdf19cb9,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,sampled_all_800,protocatechuic acid,YZBCICVNBHNLTK,O=C([O-])c1cc(O)c(O)cc1C(=O)O,0,1c9957f44c72,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,ADUHKQBXXKYHEY,COP(=O)(OC)Oc1cc(C(=O)O)ccc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,BXMLIDRPYTWCIX,C[CH2][Fe+2]1([CH2]C)[S-2][Fe+3]([CH2]C)([CH2]C)[S-2]1,0,af999656e7e6,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,DBFJDZUUYSITIE,Oc1ccc(C(O)O)cc1O,0,2ae1d5889834;c0a998b37428,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,DGWVMPXQZBUAOI,NC(=O)C1=CN(C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(OP(=O)([O-])[O-])C3O)C(O)C2O)C=CC1,0,4589bac28862;63ec1f9e35b3;ef4121785e15,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,DRKDIMGHUAWNRS,[NH3+]CC1CCC(C(=O)Oc2ccc(CCC(=O)OC(=O)c3ccc(O)c(O)c3)cc2)CC1,0,7ec8e3e1530e,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,DVJHQNQHIBZHEF,O=CC(=CC=C(O)C(=O)O)C(=O)O,0,7e9d68ae5363;bcdb3b37ebd0,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,FBOCZYIJDQZQFE,O=C(O)c1cc(O)c(O)c(C(=O)[O-])c1,0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,FPTXOHZIIYBLQQ,COP(=O)(OC)Oc1ccc(C(=O)O)cc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,GACHUKQIQXVSNB,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1,0,2ae1d5889834;c0a998b37428,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,GPRLSGONYQIRFK,[H+],0;1,01d534ebc18f;1c9957f44c72;3b9d9595ffa4;4589bac28862;63ec1f9e35b3;63f22a592d65;6fdddb6491f9;7e9d68ae5363,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,HEZMWWAKWCSUCB,O=C(O)C1=CC(O)C(O)C=C1,0,4b8fa8789d87,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,IBGBGRVKPALMCQ,O=Cc1ccc(O)c(O)c1,0,af999656e7e6,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,ICDKEGIUNBERCN,Nc1ncnc2c1NCN2C1OC(COP(=O)([O-])[O-])C(OP(=O)([O-])[O-])C1O,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,KHXCPDGSWVZGSZ,O=C(OP(=O)([O-])O)c1ccc(O)c(O)c1,0,c2ea5a6e148c,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,LCCFTBFFBCXECD,C[CH2][Fe+3]1([CH2]C)[S-2][Fe+3]([CH2]C)([CH2]C)[S-2]1,0,fa50c04db904,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,MFWBRYATDCBUOF,N#CC(O)(O)c1ccc(O)c(O)c1,0,27d37047aceb,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,MTEFVQGTTSYUIA,O=C([O-])c1cc(O)c(O)c(OC(=O)c2ccc(O)c(O)c2)c1,0,292b4facbe63,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,MYMOFIZGZYHOMD,O=O,0,292b4facbe63;af999656e7e6,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,NGQYUDIZIPNWJV,O=C(O)c1ccc(OS(=O)(=O)O)c(O)c1,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,PHDOXVGRXXAYEB,[NH3+]C(CCC(=O)NC(CS)C(=O)NCC(=O)NCCCC[NH2+]CCCNC(=O)CNC(=O)C(CS)NC(=O)CCC([NH3+])C(=O)[O-])C(=O)[O-],0,a2a6984fc828,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,QXGJCWSBOZXWOV,O=C(O)c1ccc(O)c(O)c1C(=O)[O-],0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,UCBZNEHWJADUIE,O=C(OO)c1ccc(O)c(O)c1,0,a2a6984fc828,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,WPMJELZXMKXLPW,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(OP(=O)([O-])[O-])C3O)C(O)C2O)c1,0,4b8fa8789d87,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,XLYOFNOQVPJJNP,O,0,01fbdcc0ad49;7ec8e3e1530e;c2ea5a6e148c;c4d9fdf19cb9;fa50c04db904,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,YUYMJFOMVAPAOJ,NC(=O)C1=CN(C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)C=CC1,0,01d534ebc18f;6fdddb6491f9;a725c2fd2798;fd2dbe591675,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_all_rules,protocatechuic acid,YZBCICVNBHNLTK,O=C([O-])c1cc(O)c(O)cc1C(=O)O,0,1c9957f44c72,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-009,all_pool_require_ec,protocatechuic acid,GPRLSGONYQIRFK,[H+],1,e5403ef63118,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,sampled_all_800,corticosterone,DCMCEXCRUWBAFV,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(O)CO,0,4ec5871037fa,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,sampled_all_800,corticosterone,GACHUKQIQXVSNB,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1,0,4ec5871037fa,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,sampled_all_800,corticosterone,XLYOFNOQVPJJNP,O,0,c4d9fdf19cb9,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,AYFVYJQAPQTCCC,CC(O)C([NH3+])C(=O)[O-],0,ddf10be3f7ac,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,CEOSTUWANCCJAI,CC(=O)C(O)(CO)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3[C@@H](O)C[C@]12C,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,CQSNEIJHCNGJFK,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(=O)C(O)F,0,ddf10be3f7ac,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,DCMCEXCRUWBAFV,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(O)CO,0,1eb0f4fb4804;4ec5871037fa;aaa12484e619,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,DFLMNHVGQUJXMV,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C([NH3+])CO,0,20bb4cba5a11,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,DGWVMPXQZBUAOI,NC(=O)C1=CN(C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(OP(=O)([O-])[O-])C3O)C(O)C2O)C=CC1,0,a4b5f4dda312,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,DKDACGRLOGBANH,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(=O)C=O,0,405187fbeb90;a4b5f4dda312,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,DXNXLVLLNXVDDE,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(=O)COc1cc(C(=O)[O-])cc(O)c1O,0,292b4facbe63,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,FKIMBWKRCMUBGB,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(CO)Nc1nc(N)nc(Cl)n1,0,bec57ed88d12,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,GACHUKQIQXVSNB,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1,0;2,3e08c0a19067;4ec5871037fa;aaa12484e619,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,GPRLSGONYQIRFK,[H+],0;1,01d534ebc18f;405187fbeb90;5d62d76c7200;5e5fd6d12972;5f7aec908b0d;88e8c1bdd4e2;a4b5f4dda312;b21aee19fff7,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,IVENSCMCQBJAKW,CCNc1nc(N)nc(Cl)n1,0,bec57ed88d12,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,MHAJPDPJQMAIIY,OO,0,88e8c1bdd4e2,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,MXWJVTOOROXGIU,CCNc1nc(Cl)nc(NC(C)C)n1,0,dd3a6ca15be8,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,MYMOFIZGZYHOMD,O=O,0,20bb4cba5a11;292b4facbe63;bec57ed88d12;dd3a6ca15be8,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,PHDOXVGRXXAYEB,[NH3+]C(CCC(=O)NC(CS)C(=O)NCC(=O)NCCCC[NH2+]CCCNC(=O)CNC(=O)C(CS)NC(=O)CCC([NH3+])C(=O)[O-])C(=O)[O-],0,a2a6984fc828,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,RHEJDLZHKWMYNR,CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1OC(N2CNc3c(N)ncnc32)C(O)C1OP(=O)([O-])[O-])C(O)C(=O)NCCC(=O)NCCS,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,RRHZCMRHQCWLHV,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(O)(CO)C([NH3+])C(=O)[O-],4,471aedd0e78e,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,UDORHMPKTOBCSF,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(=O)COP(=O)([O-])O,0,c2ea5a6e148c,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,WPMJELZXMKXLPW,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(OP(=O)([O-])[O-])C3O)C(O)C2O)c1,0,1eb0f4fb4804,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,XLYOFNOQVPJJNP,O,0,20bb4cba5a11;c2ea5a6e148c;c4d9fdf19cb9,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,XNSVDEDOICVCDC,CC(C)Nc1nc(Cl)nc(NC(CO)[C@H]2CC[C@H]3[C@@H]4CCC5=CC(=O)CC[C@]5(C)[C@H]4[C@@H](O)C[C@]23C)n1,0,dd3a6ca15be8,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,XRKTYJYKLZKYJU,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(=O)C(O)C(=O)[O-],0,5d62d76c7200,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,YCEHJNJMYMWSKE,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(=O)COO,0,a2a6984fc828,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_all_rules,corticosterone,YUYMJFOMVAPAOJ,NC(=O)C1=CN(C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)C=CC1,0;1,01d534ebc18f;405187fbeb90;5f7aec908b0d;b21aee19fff7,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_require_ec,corticosterone,CEOSTUWANCCJAI,CC(=O)C(O)(CO)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3[C@@H](O)C[C@]12C,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_require_ec,corticosterone,GACHUKQIQXVSNB,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_require_ec,corticosterone,GPRLSGONYQIRFK,[H+],1,5f7aec908b0d;b21aee19fff7,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_require_ec,corticosterone,RHEJDLZHKWMYNR,CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1OC(N2CNc3c(N)ncnc32)C(O)C1OP(=O)([O-])[O-])C(O)C(=O)NCCC(=O)NCCS,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_require_ec,corticosterone,RRHZCMRHQCWLHV,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(O)(CO)C([NH3+])C(=O)[O-],4,471aedd0e78e,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-012,all_pool_require_ec,corticosterone,YUYMJFOMVAPAOJ,NC(=O)C1=CN(C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)C=CC1,1,5f7aec908b0d;b21aee19fff7,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,GACHUKQIQXVSNB,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1,0,4ec5871037fa;f41f84d8897c,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,GPRLSGONYQIRFK,[H+],0,1c9957f44c72;63f22a592d65;7e9d68ae5363,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,GRPAIKHEWZVRJG,O=C(O)CCc1ccc(O)c(O)c1C(=O)[O-],0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,IBHQMOBHDFJBIY,Oc1ccc(CCC(O)O)cc1O,0,4ec5871037fa;f41f84d8897c,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,ICDKEGIUNBERCN,Nc1ncnc2c1NCN2C1OC(COP(=O)([O-])[O-])C(OP(=O)([O-])[O-])C1O,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,JBVZMRMPRKZCEF,O=C([O-])C(=O)CC(O)(O)CCc1ccc(O)c(O)c1,0,01420c783b69,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,MJRGXAOTNGANHT,COP(=O)(OC)Oc1cc(CCC(=O)O)ccc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,OEPMLSWEOOUPHZ,O=C(O)C=CC(=CC(=O)O)CCC(=O)O,0,63f22a592d65,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,QPYRNEIVICYZQG,O=C(O)CCc1cc(O)c(O)cc1C(=O)[O-],0,1c9957f44c72,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,STOAUPQHCFCVAW,O=C(O)CCc1cc(O)c(O)c(C(=O)[O-])c1,0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,TYISBAMDCQXGTK,COP(=O)(OC)Oc1ccc(CCC(=O)O)cc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,WEPNMLSXEATIJK,O=C(O)CCc1ccc(OS(=O)(=O)O)c(O)c1,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,XLYOFNOQVPJJNP,O,0,01fbdcc0ad49;c4d9fdf19cb9,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,sampled_all_800,hydrocaffeic acid,ZBOPGTZYFJDGBU,O=CC(=CC=C(O)C(=O)O)CCC(=O)O,0,7e9d68ae5363,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,ADXJSSMBDQVMRA,O=C(O)CCC1=CC(O)C(O)C=C1,0,4b8fa8789d87,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,AYFVYJQAPQTCCC,CC(O)C([NH3+])C(=O)[O-],0,ddf10be3f7ac,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,BUCQPWUTNDGEDF,O=C(O)CC(O)c1ccc(O)c(O)c1,0,fa50c04db904,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,CDHQONZUVBTFSW,O=C(O)CCC1=CC(O)=C(O)C(O)C1O,0,a9dbd95ed9de,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,CUSOWRGIQJDICZ,[NH3+]C(C(=O)[O-])C(O)(O)CCc1ccc(O)c(O)c1,4,471aedd0e78e,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,DBQVBSXCICUQIM,O=C(O)C(F)Cc1ccc(O)c(O)c1,0,ddf10be3f7ac,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,DGWVMPXQZBUAOI,NC(=O)C1=CN(C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(OP(=O)([O-])[O-])C3O)C(O)C2O)C=CC1,0,a4b5f4dda312,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,DWHUHVCZAMLFOY,CC(=O)C(O)(O)CCc1ccc(O)c(O)c1,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,GACHUKQIQXVSNB,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1,0;2,3e08c0a19067;4ec5871037fa;a9dbd95ed9de;f41f84d8897c,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,GMZVHHZORQMKBF,O=C(CCc1ccc(O)c(O)c1)Oc1cc(C(=O)[O-])cc(O)c1O,0,292b4facbe63,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,GPRLSGONYQIRFK,[H+],0;1,01d534ebc18f;1c9957f44c72;29c74b6c0c8f;405187fbeb90;5d62d76c7200;5e5fd6d12972;5f7aec908b0d;63f22a592d65,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,GRPAIKHEWZVRJG,O=C(O)CCc1ccc(O)c(O)c1C(=O)[O-],0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,HFNNEWXQESAZRX,CC(C)Nc1nc(Cl)nc(NC(O)CCc2ccc(O)c(O)c2)n1,0,dd3a6ca15be8,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,IBHQMOBHDFJBIY,Oc1ccc(CCC(O)O)cc1O,0,1eb0f4fb4804;4ec5871037fa;f41f84d8897c,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,ICDKEGIUNBERCN,Nc1ncnc2c1NCN2C1OC(COP(=O)([O-])[O-])C(OP(=O)([O-])[O-])C1O,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,IVENSCMCQBJAKW,CCNc1nc(N)nc(Cl)n1,0,bec57ed88d12,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,JBVZMRMPRKZCEF,O=C([O-])C(=O)CC(O)(O)CCc1ccc(O)c(O)c1,0,01420c783b69,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,JQXRGOHTFGIPBP,O=CC=C(C=C(O)C(=O)[O-])CCC(=O)O,0,bcdb3b37ebd0,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,LCCFTBFFBCXECD,C[CH2][Fe+3]1([CH2]C)[S-2][Fe+3]([CH2]C)([CH2]C)[S-2]1,0,fa50c04db904,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,MHAJPDPJQMAIIY,OO,0,88e8c1bdd4e2,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,MJRGXAOTNGANHT,COP(=O)(OC)Oc1cc(CCC(=O)O)ccc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,MWZVVSJUHWSCPO,Nc1nc(Cl)nc(NC(O)CCc2ccc(O)c(O)c2)n1,0,bec57ed88d12,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,MXWJVTOOROXGIU,CCNc1nc(Cl)nc(NC(C)C)n1,0,dd3a6ca15be8,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,MYMOFIZGZYHOMD,O=O,0,292b4facbe63;bec57ed88d12;dd3a6ca15be8,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,OEPMLSWEOOUPHZ,O=C([O-])C=CC(=CC(=O)[O-])CCC(=O)O,0;1,63f22a592d65;e5403ef63118,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,PHDOXVGRXXAYEB,[NH3+]C(CCC(=O)NC(CS)C(=O)NCC(=O)NCCCC[NH2+]CCCNC(=O)CNC(=O)C(CS)NC(=O)CCC([NH3+])C(=O)[O-])C(=O)[O-],0,a2a6984fc828,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,QPYRNEIVICYZQG,O=C(O)CCc1cc(O)c(O)cc1C(=O)[O-],0,1c9957f44c72,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,RHEJDLZHKWMYNR,CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1OC(N2CNc3c(N)ncnc32)C(O)C1OP(=O)([O-])[O-])C(O)C(=O)NCCC(=O)NCCS,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,RZDLRWRBWQJYJD,O=C(CCc1ccc(O)c(O)c1)OO,0,a2a6984fc828,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,STOAUPQHCFCVAW,O=C(O)CCc1cc(O)c(O)c(C(=O)[O-])c1,0,0bb6a08bec22,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,TYISBAMDCQXGTK,COP(=O)(OC)Oc1ccc(CCC(=O)O)cc1O,0,01fbdcc0ad49,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,UZUUNRCGVHPXNL,O=C(O)CCC1=CC=C(O)C(O)(O)C1O,0,a9dbd95ed9de,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,VXDHHLFMBKSFQD,O=C(CCc1ccc(O)c(O)c1)OP(=O)([O-])O,0,c2ea5a6e148c,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,WEPNMLSXEATIJK,O=C(O)CCc1ccc(OS(=O)(=O)O)c(O)c1,0,22f0baed9122,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,WPMJELZXMKXLPW,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(OP(=O)([O-])[O-])C3O)C(O)C2O)c1,0,1eb0f4fb4804;4b8fa8789d87,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,XEJSFWLPYXXENI,O=C([O-])C(Cc1ccc(O)c(O)c1)C(=O)O,0,5d62d76c7200,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,XHXIOICKHGHHSX,O=C([O-])CC(C(=O)[O-])C(CC(=O)O)c1ccc(O)c(O)c1,0,dc41600269c2,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,XLYOFNOQVPJJNP,O,0,01fbdcc0ad49;c2ea5a6e148c;c4d9fdf19cb9;fa50c04db904,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,YUYMJFOMVAPAOJ,NC(=O)C1=CN(C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)C=CC1,0;1,01d534ebc18f;29c74b6c0c8f;405187fbeb90;5f7aec908b0d,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_all_rules,hydrocaffeic acid,ZBOPGTZYFJDGBU,O=CC(=CC=C(O)C(=O)O)CCC(=O)O,0,7e9d68ae5363;bcdb3b37ebd0,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_require_ec,hydrocaffeic acid,CUSOWRGIQJDICZ,[NH3+]C(C(=O)[O-])C(O)(O)CCc1ccc(O)c(O)c1,4,471aedd0e78e,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_require_ec,hydrocaffeic acid,DWHUHVCZAMLFOY,CC(=O)C(O)(O)CCc1ccc(O)c(O)c1,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_require_ec,hydrocaffeic acid,GACHUKQIQXVSNB,NC(=O)c1ccc[n+](C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_require_ec,hydrocaffeic acid,GPRLSGONYQIRFK,[H+],1,5f7aec908b0d;e5403ef63118,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_require_ec,hydrocaffeic acid,OEPMLSWEOOUPHZ,O=C([O-])C=CC(=CC(=O)[O-])CCC(=O)O,1,e5403ef63118,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_require_ec,hydrocaffeic acid,RHEJDLZHKWMYNR,CC(C)(COP(=O)([O-])OP(=O)([O-])OCC1OC(N2CNc3c(N)ncnc32)C(O)C1OP(=O)([O-])[O-])C(O)C(=O)NCCC(=O)NCCS,2,3e08c0a19067,unlabeled_decoy_screen_against_external_sources_before_training,False
+22,R21-P0-013,all_pool_require_ec,hydrocaffeic acid,YUYMJFOMVAPAOJ,NC(=O)C1=CN(C2OC(COP(=O)([O-])OP(=O)([O-])OCC3OC(N4CNc5c(N)ncnc54)C(O)C3O)C(O)C2O)C=CC1,1,5f7aec908b0d,unlabeled_decoy_screen_against_external_sources_before_training,False
