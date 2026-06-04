@@ -1,0 +1,1361 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "40528807",
+      "19502437",
+      "12736449",
+      "11453749",
+      "36432010",
+      "39856097",
+      "29583112",
+      "31138818",
+      "19520709",
+      "20397197",
+      "41571201"
+    ],
+    "40528807": {
+      "uid": "40528807",
+      "pubdate": "2025 Oct",
+      "epubdate": "2025 Jun 18",
+      "source": "J Sci Food Agric",
+      "authors": [
+        {
+          "name": "Ding X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu W",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Zhu W",
+      "title": "The hydrogenation metabolism process of rosmarinic acid by microbial enzymes in chickens.",
+      "sorttitle": "hydrogenation metabolism process of rosmarinic acid by microbial enzymes in chickens",
+      "volume": "105",
+      "issue": "13",
+      "pages": "7340-7349",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0376334",
+      "issn": "0022-5142",
+      "essn": "1097-0010",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40528807"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1002/jsfa.70000"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "revised",
+          "date": "2025/05/14 00:00"
+        },
+        {
+          "pubstatus": "received",
+          "date": "2025/03/28 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/05/30 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/09/17 00:31"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/06/18 06:25"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/06/18 05:23"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of the science of food and agriculture",
+      "elocationid": "doi: 10.1002/jsfa.70000",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/10/01 00:00",
+      "sortfirstauthor": "Ding X",
+      "vernaculartitle": ""
+    },
+    "19502437": {
+      "uid": "19502437",
+      "pubdate": "2009 Aug",
+      "epubdate": "2009 Jun 5",
+      "source": "Appl Environ Microbiol",
+      "authors": [
+        {
+          "name": "Lai KK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lorca GL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gonzalez CF",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Gonzalez CF",
+      "title": "Biochemical properties of two cinnamoyl esterases purified from a Lactobacillus johnsonii strain isolated from stool samples of diabetes-resistant rats.",
+      "sorttitle": "biochemical properties of two cinnamoyl esterases purified from a lactobacillus johnsonii strain isolated from stool samples of diabetes resistant rats",
+      "volume": "75",
+      "issue": "15",
+      "pages": "5018-24",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7605801",
+      "issn": "0099-2240",
+      "essn": "1098-5336",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "19502437"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC2725488"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC2725488;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1128/AEM.02837-08"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "AEM.02837-08"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2009/06/09 09:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2009/06/09 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2009/09/22 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2010/02/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 40,
+      "fulljournalname": "Applied and environmental microbiology",
+      "elocationid": "doi: 10.1128/AEM.02837-08",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2009/08/01 00:00",
+      "sortfirstauthor": "Lai KK",
+      "vernaculartitle": ""
+    },
+    "12736449": {
+      "uid": "12736449",
+      "pubdate": "2003 May",
+      "epubdate": "",
+      "source": "Chem Pharm Bull (Tokyo)",
+      "authors": [
+        {
+          "name": "Xie LH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Akao T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hamasaki K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Deyama T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hattori M",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Hattori M",
+      "title": "Biotransformation of pinoresinol diglucoside to mammalian lignans by human intestinal microflora, and isolation of Enterococcus faecalis strain PDG-1 responsible for the transformation of (+)-pinoresinol to (+)-lariciresinol.",
+      "sorttitle": "biotransformation of pinoresinol diglucoside to mammalian lignans by human intestinal microflora and isolation of enterococcus faecalis strain pdg 1 responsible for the transformation of pinoresinol to lariciresinol",
+      "volume": "51",
+      "issue": "5",
+      "pages": "508-15",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0377775",
+      "issn": "0009-2363",
+      "essn": "",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "12736449"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1248/cpb.51.508"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2003/05/09 05:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2004/01/06 05:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2003/05/09 05:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Chemical & pharmaceutical bulletin",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2003/05/01 00:00",
+      "sortfirstauthor": "Xie LH",
+      "vernaculartitle": ""
+    },
+    "11453749": {
+      "uid": "11453749",
+      "pubdate": "2001 Jul",
+      "epubdate": "",
+      "source": "J Agric Food Chem",
+      "authors": [
+        {
+          "name": "Heinonen S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nurmi T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liukkonen K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Poutanen K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "W\u00e4h\u00e4l\u00e4 K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Deyama T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nishibe S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Adlercreutz H",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Adlercreutz H",
+      "title": "In vitro metabolism of plant lignans: new precursors of mammalian lignans enterolactone and enterodiol.",
+      "sorttitle": "in vitro metabolism of plant lignans new precursors of mammalian lignans enterolactone and enterodiol",
+      "volume": "49",
+      "issue": "7",
+      "pages": "3178-86",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0374755",
+      "issn": "0021-8561",
+      "essn": "",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "11453749"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/jf010038a"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "jf010038a"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2001/07/17 10:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2001/10/26 10:01"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2001/07/17 10:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of agricultural and food chemistry",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2001/07/01 00:00",
+      "sortfirstauthor": "Heinonen S",
+      "vernaculartitle": ""
+    },
+    "36432010": {
+      "uid": "36432010",
+      "pubdate": "2022 Nov 16",
+      "epubdate": "2022 Nov 16",
+      "source": "Molecules",
+      "authors": [
+        {
+          "name": "Palm GJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Thomsen M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Berndt L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hinrichs W",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Hinrichs W",
+      "title": "Structural Basis for (2R,3R)-Taxifolin Binding and Reaction Products to the Bacterial Chalcone Isomerase of Eubacterium ramulus.",
+      "sorttitle": "structural basis for 2r 3r taxifolin binding and reaction products to the bacterial chalcone isomerase of eubacterium ramulus",
+      "volume": "27",
+      "issue": "22",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "100964009",
+      "issn": "",
+      "essn": "1420-3049",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "36432010"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC9694015"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC9694015;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3390/molecules27227909"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "molecules27227909"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2022/10/06 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2022/10/30 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2022/11/15 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2022/11/26 01:27"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2022/11/27 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2022/11/30 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2022/11/16 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 36,
+      "fulljournalname": "Molecules (Basel, Switzerland)",
+      "elocationid": "doi: 10.3390/molecules27227909",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2022/11/16 00:00",
+      "sortfirstauthor": "Palm GJ",
+      "vernaculartitle": ""
+    },
+    "39856097": {
+      "uid": "39856097",
+      "pubdate": "2025 Jan 24",
+      "epubdate": "2025 Jan 24",
+      "source": "Nat Commun",
+      "authors": [
+        {
+          "name": "Pidgeon R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mitchell S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shamash M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Suleiman L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dridi L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Maurice CF",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Castagner B",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Castagner B",
+      "title": "Diet-derived urolithin A is produced by a dehydroxylase encoded by human gut Enterocloster species.",
+      "sorttitle": "diet derived urolithin a is produced by a dehydroxylase encoded by human gut enterocloster species",
+      "volume": "16",
+      "issue": "1",
+      "pages": "999",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101528555",
+      "issn": "",
+      "essn": "2041-1723",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39856097"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11760930"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11760930;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41467-025-56266-2"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41467-025-56266-2"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/05/01 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/01/13 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/01/25 13:54"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/01/25 13:53"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/01/24 23:16"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2025/01/24 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 77,
+      "fulljournalname": "Nature communications",
+      "elocationid": "doi: 10.1038/s41467-025-56266-2",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/01/24 00:00",
+      "sortfirstauthor": "Pidgeon R",
+      "vernaculartitle": ""
+    },
+    "29583112": {
+      "uid": "29583112",
+      "pubdate": "2018 May",
+      "epubdate": "2018 Mar 27",
+      "source": "Int J Syst Evol Microbiol",
+      "authors": [
+        {
+          "name": "Beltr\u00e1n D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Romo-Vaquero M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Esp\u00edn JC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tom\u00e1s-Barber\u00e1n FA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Selma MV",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Selma MV",
+      "title": "Ellagibacter isourolithinifaciens gen. nov., sp. nov., a new member of the family Eggerthellaceae, isolated from human gut.",
+      "sorttitle": "ellagibacter isourolithinifaciens gen nov sp nov a new member of the family eggerthellaceae isolated from human gut",
+      "volume": "68",
+      "issue": "5",
+      "pages": "1707-1712",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "100899600",
+      "issn": "1466-5026",
+      "essn": "1466-5034",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29583112"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1099/ijsem.0.002735"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/03/28 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/05/24 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/03/28 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "International journal of systematic and evolutionary microbiology",
+      "elocationid": "doi: 10.1099/ijsem.0.002735",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/05/01 00:00",
+      "sortfirstauthor": "Beltr\u00e1n D",
+      "vernaculartitle": ""
+    },
+    "31138818": {
+      "uid": "31138818",
+      "pubdate": "2019 May 28",
+      "epubdate": "2019 May 28",
+      "source": "Sci Rep",
+      "authors": [
+        {
+          "name": "Zabel B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yde CC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Roos P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Marcussen J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jensen HM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Salli K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hirvonen J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ouwehand AC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Morovic W",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Morovic W",
+      "title": "Novel Genes and Metabolite Trends in Bifidobacterium longum subsp. infantis Bi-26 Metabolism of Human Milk Oligosaccharide 2'-fucosyllactose.",
+      "sorttitle": "novel genes and metabolite trends in bifidobacterium longum subsp infantis bi 26 metabolism of human milk oligosaccharide 2 fucosyllactose",
+      "volume": "9",
+      "issue": "1",
+      "pages": "7983",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101563288",
+      "issn": "",
+      "essn": "2045-2322",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "31138818"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC6538704"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC6538704;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41598-019-43780-9"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41598-019-43780-9"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/11/18 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2019/05/01 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2019/05/30 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2019/05/30 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2020/10/21 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2019/05/28 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 47,
+      "fulljournalname": "Scientific reports",
+      "elocationid": "doi: 10.1038/s41598-019-43780-9",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2019/05/28 00:00",
+      "sortfirstauthor": "Zabel B",
+      "vernaculartitle": ""
+    },
+    "19520709": {
+      "uid": "19520709",
+      "pubdate": "2009 Sep",
+      "epubdate": "2009 Jun 11",
+      "source": "Glycobiology",
+      "authors": [
+        {
+          "name": "Ashida H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Miyake A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kiyohara M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wada J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yoshida E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kumagai H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Katayama T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yamamoto K",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Yamamoto K",
+      "title": "Two distinct alpha-L-fucosidases from Bifidobacterium bifidum are essential for the utilization of fucosylated milk oligosaccharides and glycoconjugates.",
+      "sorttitle": "two distinct alpha l fucosidases from bifidobacterium bifidum are essential for the utilization of fucosylated milk oligosaccharides and glycoconjugates",
+      "volume": "19",
+      "issue": "9",
+      "pages": "1010-7",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9104124",
+      "issn": "0959-6658",
+      "essn": "1460-2423",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "19520709"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1093/glycob/cwp082"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "cwp082"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2009/06/13 09:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2009/06/13 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2009/11/03 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Glycobiology",
+      "elocationid": "doi: 10.1093/glycob/cwp082",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2009/09/01 00:00",
+      "sortfirstauthor": "Ashida H",
+      "vernaculartitle": ""
+    },
+    "20397197": {
+      "uid": "20397197",
+      "pubdate": "2010 Oct",
+      "epubdate": "",
+      "source": "Mol Nutr Food Res",
+      "authors": [
+        {
+          "name": "Hanske L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Loh G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sczesny S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Blaut M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Braune A",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Braune A",
+      "title": "Recovery and metabolism of xanthohumol in germ-free and human microbiota-associated rats.",
+      "sorttitle": "recovery and metabolism of xanthohumol in germ free and human microbiota associated rats",
+      "volume": "54",
+      "issue": "10",
+      "pages": "1405-13",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101231818",
+      "issn": "1613-4125",
+      "essn": "1613-4133",
+      "pubtype": [
+        "Comparative Study",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "20397197"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1002/mnfr.200900517"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2010/04/17 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2010/04/17 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2011/02/15 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Molecular nutrition & food research",
+      "elocationid": "doi: 10.1002/mnfr.200900517",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2010/10/01 00:00",
+      "sortfirstauthor": "Hanske L",
+      "vernaculartitle": ""
+    },
+    "41571201": {
+      "uid": "41571201",
+      "pubdate": "2026 Apr",
+      "epubdate": "2026 Jan 20",
+      "source": "Biochem Pharmacol",
+      "authors": [
+        {
+          "name": "Lee SY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ngoc Bui AT",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Thai TN",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lee GH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kim M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kim SY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Maeng J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jung JK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lee MY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lee SK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yun HY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kim ND",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Han EH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jeong HG",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Jeong HG",
+      "title": "Gut microbiota-derived isoxanthohumol metabolite, 8-prenylnaringenin, mitigates endothelial dysfunction in Angiotensin II-induced hypertension through G protein-coupled estrogen receptor-mediated eNOS activation.",
+      "sorttitle": "gut microbiota derived isoxanthohumol metabolite 8 prenylnaringenin mitigates endothelial dysfunction in angiotensin ii induced hypertension through g protein coupled estrogen receptor mediated enos activation",
+      "volume": "246",
+      "issue": "",
+      "pages": "117728",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0101032",
+      "issn": "0006-2952",
+      "essn": "1873-2968",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - in process",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41571201"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.bcp.2026.117728"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0006-2952(26)00059-6"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/11/24 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2026/01/15 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2026/01/16 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/02/20 00:32"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/01/23 00:26"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/01/22 19:19"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Biochemical pharmacology",
+      "elocationid": "doi: 10.1016/j.bcp.2026.117728",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/04/01 00:00",
+      "sortfirstauthor": "Lee SY",
+      "vernaculartitle": ""
+    }
+  }
+}

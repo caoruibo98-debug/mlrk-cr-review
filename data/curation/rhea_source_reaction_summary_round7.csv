@@ -1,0 +1,21 @@
+round,substrate_name,product_name,rule_id,rhea_id,rhea_found_live_round7,rhea_status,rhea_equation,rhea_balanced,rhea_pair_exactness_by_name,round7_training_implication
+7,caffeic acid,dihydrocaffeic acid,retrorules_RR-02-64c777dae538a974-02-F,,False,,,,no_rhea_xref,no_direct_rhea_support_for_pair
+7,lariciresinol,secoisolariciresinol,retrorules_RR-02-68cf65e608353cc6-02-F,34423,True,approved,(-)-secoisolariciresinol + NADP(+) = (+)-lariciresinol + NADPH + H(+),True,rhea_equation_names_both_pair_compounds,candidate_exact_pair_check_still_needs_direction_stereo_context
+7,lariciresinol,secoisolariciresinol,retrorules_RR-02-68cf65e608353cc6-02-F,34424,False,,,,rhea_directional_companion_not_returned_live,do_not_train_positive_from_rhea_alone
+7,lariciresinol,secoisolariciresinol,retrorules_RR-02-68cf65e608353cc6-02-F,34425,False,,,,rhea_directional_companion_not_returned_live,do_not_train_positive_from_rhea_alone
+7,lariciresinol,secoisolariciresinol,retrorules_RR-02-68cf65e608353cc6-02-F,34426,False,,,,rhea_directional_companion_not_returned_live,do_not_train_positive_from_rhea_alone
+7,pinoresinol,lariciresinol,retrorules_RR-02-68cf65e608353cc6-02-F,34423,True,approved,(-)-secoisolariciresinol + NADP(+) = (+)-lariciresinol + NADPH + H(+),True,rhea_equation_names_one_pair_compound,do_not_train_positive_from_rhea_alone
+7,pinoresinol,lariciresinol,retrorules_RR-02-68cf65e608353cc6-02-F,34424,False,,,,rhea_directional_companion_not_returned_live,do_not_train_positive_from_rhea_alone
+7,pinoresinol,lariciresinol,retrorules_RR-02-68cf65e608353cc6-02-F,34425,False,,,,rhea_directional_companion_not_returned_live,do_not_train_positive_from_rhea_alone
+7,pinoresinol,lariciresinol,retrorules_RR-02-68cf65e608353cc6-02-F,34426,False,,,,rhea_directional_companion_not_returned_live,do_not_train_positive_from_rhea_alone
+7,quercetin,taxifolin,retrorules_RR-02-80f4118a337ce901-02-F,61140,True,approved,"(2R,3R)-dihydromyricetin + 2-oxoglutarate + O2 = myricetin + succinate + CO2 + H2O + H(+)",True,rhea_equation_not_exact_pair_by_name,do_not_train_positive_from_rhea_alone
+7,quercetin,taxifolin,retrorules_RR-02-80f4118a337ce901-02-F,61141,False,,,,rhea_directional_companion_not_returned_live,do_not_train_positive_from_rhea_alone
+7,quercetin,taxifolin,retrorules_RR-02-80f4118a337ce901-02-F,61142,False,,,,rhea_directional_companion_not_returned_live,do_not_train_positive_from_rhea_alone
+7,quercetin,taxifolin,retrorules_RR-02-80f4118a337ce901-02-F,61143,False,,,,rhea_directional_companion_not_returned_live,do_not_train_positive_from_rhea_alone
+7,ethyl ferulate,ferulic acid,microberx_3HBBUTH_LR,,False,,,,no_rhea_xref,no_direct_rhea_support_for_pair
+7,isoxanthohumol,8-prenylnaringenin,microberx_1331TAALThr_LR,,False,,,,no_rhea_xref,no_direct_rhea_support_for_pair
+7,phloroglucinol carboxylic acid,phloroglucinol,microberx_AMHAMT_RL,,False,,,,no_rhea_xref,no_direct_rhea_support_for_pair
+7,urolithin A,urolithin B,microberx_RE2426C_RL,,False,,,,no_rhea_xref,no_direct_rhea_support_for_pair
+7,urolithin C,isourolithin A,microberx_RE2426C_RL,,False,,,,no_rhea_xref,no_direct_rhea_support_for_pair
+7,urolithin C,urolithin A,microberx_RE2426C_RL,,False,,,,no_rhea_xref,no_direct_rhea_support_for_pair
+7,2'-fucosyllactose,L-fucose,microberx_14BDGGH_LR,,False,,,,no_rhea_xref,no_direct_rhea_support_for_pair
