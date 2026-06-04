@@ -1,0 +1,96 @@
+{
+  "id": 62932,
+  "chebi_accession": "CHEBI:62932",
+  "name": "mycophenolate",
+  "stars": 3,
+  "definition": "A monocarboxylic acid anion resulting from the removal of a proton from the carboxy group of mycophenolic acid.",
+  "ascii_name": "mycophenolate",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "(4<i>E</i>)-6-(4-hydroxy-6-methoxy-7-methyl-3-oxo-1,3-dihydro-2-benzofuran-5-yl)-4-methylhex-4-enoate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "(4E)-6-(4-hydroxy-6-methoxy-7-methyl-3-oxo-1,3-dihydro-2-benzofuran-5-yl)-4-methylhex-4-enoate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "mycophenolate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "mycophenolate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C17H19O6",
+    "charge": -1,
+    "mass": "319.333",
+    "monoisotopic_mass": "319.11871"
+  },
+  "modified_on": "2012-08-17T08:12:26Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2782430,
+    "smiles": "COc1c(C)c2c(c(O)c1C/C=C(\\C)CCC(=O)[O-])C(=O)OC2",
+    "standard_inchi": "InChI=1S/C17H20O6/c1-9(5-7-13(18)19)4-6-11-15(20)14-12(8-23-17(14)21)10(2)16(11)22-3/h4,20H,5-8H2,1-3H3,(H,18,19)/p-1/b9-4+",
+    "standard_inchi_key": "HPNSFSBZBAHARI-RUDMXATFSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [
+    "David Hill"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 231832,
+        "init_name": "6-<em>O</em>-desmethylmycophenolate",
+        "relation_type": "has functional parent",
+        "final_id": 62932,
+        "final_name": "mycophenolate"
+      },
+      {
+        "init_id": 67155,
+        "init_name": "mycophenolate sodium",
+        "relation_type": "has part",
+        "final_id": 62932,
+        "final_name": "mycophenolate"
+      },
+      {
+        "init_id": 168396,
+        "init_name": "mycophenolic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 62932,
+        "final_name": "mycophenolate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 62932,
+        "init_name": "mycophenolate",
+        "relation_type": "is a",
+        "final_id": 35757,
+        "final_name": "monocarboxylic acid anion"
+      },
+      {
+        "init_id": 62932,
+        "init_name": "mycophenolate",
+        "relation_type": "is conjugate base of",
+        "final_id": 168396,
+        "final_name": "mycophenolic acid"
+      }
+    ]
+  },
+  "database_accessions": {},
+  "roles_classification": null,
+  "is_released": true
+}

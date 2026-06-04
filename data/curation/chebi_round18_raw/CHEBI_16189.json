@@ -1,0 +1,653 @@
+{
+  "id": 16189,
+  "chebi_accession": "CHEBI:16189",
+  "name": "sulfate",
+  "stars": 3,
+  "definition": "A sulfur oxoanion obtained by deprotonation of both OH groups of sulfuric acid.",
+  "ascii_name": "sulfate",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "[SO<small><sub>4</sub></small>]<small><sup>2\u2212</small></sup>",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "[SO4](2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "SO<small><sub>4</sub></small><small><sup>2\u2212</small></sup>",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "SO4(2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Sulfate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Sulfate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Sulfate(2-)",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "HMDB",
+        "ascii_name": "Sulfate(2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Sulfate anion(2-)",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "HMDB",
+        "ascii_name": "Sulfate anion(2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Sulfate dianion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "HMDB",
+        "ascii_name": "Sulfate dianion",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "SULFATE ION",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "SULFATE ION",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Sulfuric acid ion(2-)",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "HMDB",
+        "ascii_name": "Sulfuric acid ion(2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "sulphate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "sulphate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "sulphate ion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "sulphate ion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "sulfate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "sulfate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "tetraoxidosulfate(2\u2212)",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "tetraoxidosulfate(2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "tetraoxosulfate(2\u2212)",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "tetraoxosulfate(2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "tetraoxosulfate(VI)",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "tetraoxosulfate(VI)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "sulfate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "sulfate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "O4S",
+    "charge": -2,
+    "mass": "96.063",
+    "monoisotopic_mass": "95.95283"
+  },
+  "modified_on": "2021-07-02T15:43:58Z",
+  "secondary_ids": [
+    "CHEBI:9335",
+    "CHEBI:15135",
+    "CHEBI:45687"
+  ],
+  "default_structure": {
+    "id": 491,
+    "smiles": "O=S(=O)([O-])[O-]",
+    "standard_inchi": "InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)/p-2",
+    "standard_inchi_key": "QAOWNCQODCNURD-UHFFFAOYSA-L",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 58958,
+        "init_name": "organosulfate oxoanion",
+        "relation_type": "has functional parent",
+        "final_id": 16189,
+        "final_name": "sulfate"
+      },
+      {
+        "init_id": 81836,
+        "init_name": "thallium sulfate",
+        "relation_type": "has part",
+        "final_id": 16189,
+        "final_name": "sulfate"
+      },
+      {
+        "init_id": 45696,
+        "init_name": "hydrogensulfate",
+        "relation_type": "is conjugate acid of",
+        "final_id": 16189,
+        "final_name": "sulfate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 16189,
+        "init_name": "sulfate",
+        "relation_type": "has role",
+        "final_id": 23357,
+        "final_name": "cofactor"
+      },
+      {
+        "init_id": 16189,
+        "init_name": "sulfate",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 16189,
+        "init_name": "sulfate",
+        "relation_type": "has role",
+        "final_id": 75772,
+        "final_name": "<em>Saccharomyces cerevisiae </em> metabolite"
+      },
+      {
+        "init_id": 16189,
+        "init_name": "sulfate",
+        "relation_type": "is a",
+        "final_id": 48154,
+        "final_name": "sulfur oxide"
+      },
+      {
+        "init_id": 16189,
+        "init_name": "sulfate",
+        "relation_type": "is a",
+        "final_id": 79388,
+        "final_name": "divalent inorganic anion"
+      },
+      {
+        "init_id": 16189,
+        "init_name": "sulfate",
+        "relation_type": "is a",
+        "final_id": 24834,
+        "final_name": "inorganic anion"
+      },
+      {
+        "init_id": 16189,
+        "init_name": "sulfate",
+        "relation_type": "is a",
+        "final_id": 33482,
+        "final_name": "sulfur oxoanion"
+      },
+      {
+        "init_id": 16189,
+        "init_name": "sulfate",
+        "relation_type": "is conjugate base of",
+        "final_id": 45696,
+        "final_name": "hydrogensulfate"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 804871,
+        "accession_number": "11200094",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/11200094",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804895,
+        "accession_number": "11452993",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/11452993",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804879,
+        "accession_number": "11581495",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/11581495",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804894,
+        "accession_number": "11798107",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/11798107",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804893,
+        "accession_number": "12166931",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/12166931",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804899,
+        "accession_number": "12668033",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/12668033",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804881,
+        "accession_number": "14597181",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/14597181",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804890,
+        "accession_number": "15093386",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/15093386",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804880,
+        "accession_number": "15984785",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/15984785",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804887,
+        "accession_number": "16186560",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16186560",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804876,
+        "accession_number": "16345535",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16345535",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804892,
+        "accession_number": "16347366",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16347366",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804875,
+        "accession_number": "16348007",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16348007",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804898,
+        "accession_number": "16483812",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16483812",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804877,
+        "accession_number": "16534979",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16534979",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804886,
+        "accession_number": "16656509",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16656509",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804891,
+        "accession_number": "16742508",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16742508",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804888,
+        "accession_number": "16742518",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16742518",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804885,
+        "accession_number": "17120760",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17120760",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804897,
+        "accession_number": "17420092",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17420092",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804870,
+        "accession_number": "17439666",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17439666",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804872,
+        "accession_number": "17709180",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17709180",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804873,
+        "accession_number": "18398178",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18398178",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804878,
+        "accession_number": "18815700",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18815700",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804889,
+        "accession_number": "18846414",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18846414",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804874,
+        "accession_number": "19047345",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19047345",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804884,
+        "accession_number": "19244483",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19244483",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804896,
+        "accession_number": "19544990",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19544990",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804883,
+        "accession_number": "19628332",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19628332",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 804882,
+        "accession_number": "19812358",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19812358",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 1006313,
+        "accession_number": "30398859",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/30398859",
+        "prefix": "pubmed"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 804904,
+        "accession_number": "14808-79-8",
+        "type": "CAS",
+        "source_name": "NIST Chemistry WebBook",
+        "url": "http://webbook.nist.gov/cgi/cbook.cgi?ID=14808-79-8",
+        "prefix": "nist"
+      },
+      {
+        "id": 81597,
+        "accession_number": "14808-79-8",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:14808-79-8",
+        "prefix": "chemidplus"
+      }
+    ],
+    "REGISTRY_NUMBER": [
+      {
+        "id": 83023,
+        "accession_number": "2120",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      },
+      {
+        "id": 804865,
+        "accession_number": "3648446",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 29782,
+        "accession_number": "C00059",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00059",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 804863,
+        "accession_number": "D05963",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG DRUG",
+        "url": "https://bioregistry.io/kegg.drug:D05963",
+        "prefix": "kegg.drug"
+      },
+      {
+        "id": 804867,
+        "accession_number": "HMDB0001448",
+        "type": "MANUAL_X_REF",
+        "source_name": "HMDB",
+        "url": "https://bioregistry.io/hmdb:HMDB0001448",
+        "prefix": "hmdb"
+      },
+      {
+        "id": 82695,
+        "accession_number": "SO4",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:SO4",
+        "prefix": "pdb-ccd"
+      },
+      {
+        "id": 804869,
+        "accession_number": "Sulfate",
+        "type": "MANUAL_X_REF",
+        "source_name": "Wikipedia",
+        "url": "https://bioregistry.io/wikipedia.en:Sulfate",
+        "prefix": "wikipedia.en"
+      },
+      {
+        "id": 804868,
+        "accession_number": "SULFATE",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:SULFATE",
+        "prefix": "metacyc.compound"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:23357",
+      "name": "cofactor",
+      "definition": "An organic molecule or ion (usually a metal ion) that is required by an enzyme for its activity. It may be attached either loosely (coenzyme) or tightly (prosthetic group).",
+      "id": 23357,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

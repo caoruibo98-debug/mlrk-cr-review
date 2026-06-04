@@ -1,0 +1,168 @@
+{
+  "id": 58389,
+  "chebi_accession": "CHEBI:58389",
+  "name": "trimethylammonium",
+  "stars": 3,
+  "definition": "An ammonium ion that is the conjugate acid of trimethylamine, obtained via protonation of the nitrogen; major species at pH 7.3.",
+  "ascii_name": "trimethylammonium",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "<em>N</em>,<em>N</em>-dimethylmethanaminium",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "N,N-dimethylmethanaminium",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "trimethylamine",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "trimethylamine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "trimethylammonium cation",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "trimethylammonium cation",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "trimethylazanium",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "trimethylazanium",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "trimethylazanium cation",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "trimethylazanium cation",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C3H10N",
+    "charge": 1,
+    "mass": "60.120",
+    "monoisotopic_mass": "60.08078"
+  },
+  "modified_on": "2021-07-13T08:56:17Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2179999,
+    "smiles": "C[NH+](C)C",
+    "standard_inchi": "InChI=1S/C3H9N/c1-4(2)3/h1-3H3/p+1",
+    "standard_inchi_key": "GETQZCLCWQTVFV-UHFFFAOYSA-O",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 166856,
+        "init_name": "hydroxytrimethylaminium",
+        "relation_type": "has functional parent",
+        "final_id": 58389,
+        "final_name": "trimethylammonium"
+      },
+      {
+        "init_id": 64700,
+        "init_name": "trimethylamine hydrochloride",
+        "relation_type": "has part",
+        "final_id": 58389,
+        "final_name": "trimethylammonium"
+      },
+      {
+        "init_id": 18139,
+        "init_name": "trimethylamine",
+        "relation_type": "is conjugate base of",
+        "final_id": 58389,
+        "final_name": "trimethylammonium"
+      },
+      {
+        "init_id": 176790,
+        "init_name": "trimethylammonio group",
+        "relation_type": "is substituent group from",
+        "final_id": 58389,
+        "final_name": "trimethylammonium"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 58389,
+        "init_name": "trimethylammonium",
+        "relation_type": "has role",
+        "final_id": 76967,
+        "final_name": "human xenobiotic metabolite"
+      },
+      {
+        "init_id": 58389,
+        "init_name": "trimethylammonium",
+        "relation_type": "is a",
+        "final_id": 35274,
+        "final_name": "ammonium ion derivative"
+      },
+      {
+        "init_id": 58389,
+        "init_name": "trimethylammonium",
+        "relation_type": "is conjugate acid of",
+        "final_id": 18139,
+        "final_name": "trimethylamine"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 783723,
+        "accession_number": "16709444",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 803201,
+        "accession_number": "TRIMETHYLAMINE",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:TRIMETHYLAMINE",
+        "prefix": "metacyc.compound"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76967",
+      "name": "human xenobiotic metabolite",
+      "definition": "Any human metabolite produced by metabolism of a xenobiotic compound in humans.",
+      "id": 76967,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

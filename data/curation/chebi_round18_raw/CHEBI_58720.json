@@ -1,0 +1,163 @@
+{
+  "id": 58720,
+  "chebi_accession": "CHEBI:58720",
+  "name": "<small>D</small>-glucopyranuronate",
+  "stars": 3,
+  "definition": "A carbohydrate acid anion that is the conjugate base of <small>D</small>-glucopyranuronic acid.",
+  "ascii_name": "D-glucopyranuronate",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "(2<i>S</i>,3<i>S</i>,4<i>S</i>,5<i>R</i>)-3,4,5,6-tetrahydroxytetrahydro-2<em>H</em>-pyran-2-carboxylate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "(2S,3S,4S,5R)-3,4,5,6-tetrahydroxytetrahydro-2H-pyran-2-carboxylate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "<small>D</small>-glucopyranuronate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "D-glucopyranuronate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "<small>D</small>-glucuronate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "D-glucuronate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C6H9O7",
+    "charge": -1,
+    "mass": "193.131",
+    "monoisotopic_mass": "193.03538"
+  },
+  "modified_on": "2014-06-18T12:44:36Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2181270,
+    "smiles": "O=C([O-])[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O",
+    "standard_inchi": "InChI=1S/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)/p-1/t1-,2-,3+,4-,6?/m0/s1",
+    "standard_inchi_key": "AEMOLEFTQBMNLQ-AQKNRBDQSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 171668,
+        "init_name": "4-<em>O</em>-methyl-\u03b1-<small>D</small>-glucuronoside",
+        "relation_type": "has functional parent",
+        "final_id": 58720,
+        "final_name": "<small>D</small>-glucopyranuronate"
+      },
+      {
+        "init_id": 85313,
+        "init_name": "\u03b2-<small>D</small>-glucuronate",
+        "relation_type": "is a",
+        "final_id": 58720,
+        "final_name": "<small>D</small>-glucopyranuronate"
+      },
+      {
+        "init_id": 189642,
+        "init_name": "\u03b1-<small>D</small>-glucuronate",
+        "relation_type": "is a",
+        "final_id": 58720,
+        "final_name": "<small>D</small>-glucopyranuronate"
+      },
+      {
+        "init_id": 47952,
+        "init_name": "<small>D</small>-glucopyranuronic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 58720,
+        "final_name": "<small>D</small>-glucopyranuronate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 58720,
+        "init_name": "<small>D</small>-glucopyranuronate",
+        "relation_type": "has role",
+        "final_id": 76971,
+        "final_name": "<em>Escherichia coli</em> metabolite"
+      },
+      {
+        "init_id": 58720,
+        "init_name": "<small>D</small>-glucopyranuronate",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 58720,
+        "init_name": "<small>D</small>-glucopyranuronate",
+        "relation_type": "is a",
+        "final_id": 35757,
+        "final_name": "monocarboxylic acid anion"
+      },
+      {
+        "init_id": 58720,
+        "init_name": "<small>D</small>-glucopyranuronate",
+        "relation_type": "is a",
+        "final_id": 33721,
+        "final_name": "carbohydrate acid anion"
+      },
+      {
+        "init_id": 58720,
+        "init_name": "<small>D</small>-glucopyranuronate",
+        "relation_type": "is conjugate base of",
+        "final_id": 47952,
+        "final_name": "<small>D</small>-glucopyranuronic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 707118,
+        "accession_number": "4189951",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76971",
+      "name": "Escherichia coli metabolite",
+      "definition": "Any bacterial metabolite produced during a metabolic reaction in <em>Escherichia coli</em>.",
+      "id": 76971,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

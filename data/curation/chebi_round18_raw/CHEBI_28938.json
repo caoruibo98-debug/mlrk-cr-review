@@ -1,0 +1,555 @@
+{
+  "id": 28938,
+  "chebi_accession": "CHEBI:28938",
+  "name": "ammonium",
+  "stars": 3,
+  "definition": "An onium cation obtained by protonation of ammonia.",
+  "ascii_name": "ammonium",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "ammonium",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "ammonium",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Ammonium(1+)",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "Ammonium(1+)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "ammonium cation",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "ammonium cation",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "ammonium ion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "ammonium ion",
+        "adapted": true,
+        "language_code": "en"
+      },
+      {
+        "name": "NH4+",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "NH4+",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "[NH<small><sub>4</sub></small>]<small><sup>+</small></sup>",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "MolBase",
+        "ascii_name": "[NH4](+)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "NH<small><sub>4</sub></small><small><sup>+</small></sup>",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "NH4(+)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "ammonium",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "ammonium",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "azanium",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "azanium",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "NH<small><sub>4</sub></small><small><sup>+</small></sup>",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "NH(4)(+)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "H4N",
+    "charge": 1,
+    "mass": "18.039",
+    "monoisotopic_mass": "18.03383"
+  },
+  "modified_on": "2020-04-27T08:38:21Z",
+  "secondary_ids": [
+    "CHEBI:7435",
+    "CHEBI:22534",
+    "CHEBI:49783"
+  ],
+  "default_structure": {
+    "id": 1241,
+    "smiles": "[H][N+]([H])([H])[H]",
+    "standard_inchi": "InChI=1S/H3N/h1H3/p+1",
+    "standard_inchi_key": "QGZKDVFQNNGYKY-UHFFFAOYSA-O",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Escherichia coli",
+      "species_accession": "562",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "21988831",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:562",
+      "source_accession_url": "http://europepmc.org/abstract/MED/21988831",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 35274,
+        "init_name": "ammonium ion derivative",
+        "relation_type": "has parent hydride",
+        "final_id": 28938,
+        "final_name": "ammonium"
+      },
+      {
+        "init_id": 35267,
+        "init_name": "quaternary ammonium ion",
+        "relation_type": "has parent hydride",
+        "final_id": 28938,
+        "final_name": "ammonium"
+      },
+      {
+        "init_id": 47704,
+        "init_name": "ammonium salt",
+        "relation_type": "has part",
+        "final_id": 28938,
+        "final_name": "ammonium"
+      },
+      {
+        "init_id": 81754,
+        "init_name": "amobam",
+        "relation_type": "has part",
+        "final_id": 28938,
+        "final_name": "ammonium"
+      },
+      {
+        "init_id": 31604,
+        "init_name": "ferric ammonium citrate",
+        "relation_type": "has part",
+        "final_id": 28938,
+        "final_name": "ammonium"
+      },
+      {
+        "init_id": 16134,
+        "init_name": "ammonia",
+        "relation_type": "is conjugate base of",
+        "final_id": 28938,
+        "final_name": "ammonium"
+      },
+      {
+        "init_id": 48284,
+        "init_name": "azaniumyl group",
+        "relation_type": "is substituent group from",
+        "final_id": 28938,
+        "final_name": "ammonium"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 28938,
+        "init_name": "ammonium",
+        "relation_type": "has role",
+        "final_id": 23357,
+        "final_name": "cofactor"
+      },
+      {
+        "init_id": 28938,
+        "init_name": "ammonium",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 28938,
+        "init_name": "ammonium",
+        "relation_type": "has role",
+        "final_id": 76971,
+        "final_name": "<em>Escherichia coli</em> metabolite"
+      },
+      {
+        "init_id": 28938,
+        "init_name": "ammonium",
+        "relation_type": "has role",
+        "final_id": 75772,
+        "final_name": "<em>Saccharomyces cerevisiae </em> metabolite"
+      },
+      {
+        "init_id": 28938,
+        "init_name": "ammonium",
+        "relation_type": "is a",
+        "final_id": 60242,
+        "final_name": "monovalent inorganic cation"
+      },
+      {
+        "init_id": 28938,
+        "init_name": "ammonium",
+        "relation_type": "is a",
+        "final_id": 35106,
+        "final_name": "nitrogen hydride"
+      },
+      {
+        "init_id": 28938,
+        "init_name": "ammonium",
+        "relation_type": "is a",
+        "final_id": 50313,
+        "final_name": "onium cation"
+      },
+      {
+        "init_id": 28938,
+        "init_name": "ammonium",
+        "relation_type": "is conjugate acid of",
+        "final_id": 16134,
+        "final_name": "ammonia"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 805129,
+        "accession_number": "11319011",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/11319011",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805128,
+        "accession_number": "11341317",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/11341317",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805140,
+        "accession_number": "12096804",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/12096804",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805133,
+        "accession_number": "14512268",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/14512268",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805132,
+        "accession_number": "14879753",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/14879753",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805139,
+        "accession_number": "16345391",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16345391",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805135,
+        "accession_number": "16903292",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16903292",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805138,
+        "accession_number": "17392693",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17392693",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805127,
+        "accession_number": "18515490",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18515490",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805131,
+        "accession_number": "19199063",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19199063",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805134,
+        "accession_number": "19596600",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19596600",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805130,
+        "accession_number": "19682559",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19682559",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805136,
+        "accession_number": "19716251",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19716251",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805143,
+        "accession_number": "21993530",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/21993530",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805141,
+        "accession_number": "22265469",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22265469",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805144,
+        "accession_number": "22524020",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22524020",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805142,
+        "accession_number": "22562341",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22562341",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 805145,
+        "accession_number": "22631217",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22631217",
+        "prefix": "pubmed"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 84071,
+        "accession_number": "14798-03-9",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:14798-03-9",
+        "prefix": "chemidplus"
+      },
+      {
+        "id": 84072,
+        "accession_number": "14798-03-9",
+        "type": "CAS",
+        "source_name": "NIST Chemistry WebBook",
+        "url": "http://webbook.nist.gov/cgi/cbook.cgi?ID=14798-03-9",
+        "prefix": "nist"
+      }
+    ],
+    "REGISTRY_NUMBER": [
+      {
+        "id": 805124,
+        "accession_number": "16093784",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      },
+      {
+        "id": 84070,
+        "accession_number": "84",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 84069,
+        "accession_number": "929",
+        "type": "MANUAL_X_REF",
+        "source_name": "MolBase",
+        "url": "https://bioregistry.io/molbase:929",
+        "prefix": "molbase"
+      },
+      {
+        "id": 805126,
+        "accession_number": "Ammonium",
+        "type": "MANUAL_X_REF",
+        "source_name": "Wikipedia",
+        "url": "https://bioregistry.io/wikipedia.en:Ammonium",
+        "prefix": "wikipedia.en"
+      },
+      {
+        "id": 805125,
+        "accession_number": "AMMONIUM",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:AMMONIUM",
+        "prefix": "metacyc.compound"
+      },
+      {
+        "id": 23891,
+        "accession_number": "C01342",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C01342",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 73451,
+        "accession_number": "C01342",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C01342",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 82698,
+        "accession_number": "NH4",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:NH4",
+        "prefix": "pdb-ccd"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:23357",
+      "name": "cofactor",
+      "definition": "An organic molecule or ion (usually a metal ion) that is required by an enzyme for its activity. It may be attached either loosely (coenzyme) or tightly (prosthetic group).",
+      "id": 23357,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76971",
+      "name": "Escherichia coli metabolite",
+      "definition": "Any bacterial metabolite produced during a metabolic reaction in <em>Escherichia coli</em>.",
+      "id": 76971,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

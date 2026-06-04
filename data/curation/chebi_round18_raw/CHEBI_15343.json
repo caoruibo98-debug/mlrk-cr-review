@@ -1,0 +1,699 @@
+{
+  "id": 15343,
+  "chebi_accession": "CHEBI:15343",
+  "name": "acetaldehyde",
+  "stars": 3,
+  "definition": "The aldehyde formed from acetic acid by reduction of the carboxy group. It is the most abundant carcinogen in tobacco smoke.",
+  "ascii_name": "acetaldehyde",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "Acetaldehyd",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "NIST Chemistry WebBook",
+        "ascii_name": "Acetaldehyd",
+        "adapted": false,
+        "language_code": "de"
+      },
+      {
+        "name": "Acetaldehyde",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Acetaldehyde",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "ACETALDEHYDE",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "ACETALDEHYDE",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "acetaldehydes",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "acetaldehydes",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "acetic aldehyde",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "NIST Chemistry WebBook",
+        "ascii_name": "acetic aldehyde",
+        "adapted": true,
+        "language_code": "en"
+      },
+      {
+        "name": "Azetaldehyd",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "Azetaldehyd",
+        "adapted": false,
+        "language_code": "de"
+      },
+      {
+        "name": "Ethanal",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Ethanal",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "ethyl aldehyde",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "NIST Chemistry WebBook",
+        "ascii_name": "ethyl aldehyde",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "acetaldehyde",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "acetaldehyde",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "acetaldehyde",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "acetaldehyde",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C2H4O",
+    "charge": 0,
+    "mass": "44.053",
+    "monoisotopic_mass": "44.02621"
+  },
+  "modified_on": "2019-11-20T17:00:24Z",
+  "secondary_ids": [
+    "CHEBI:2383",
+    "CHEBI:13703",
+    "CHEBI:22158",
+    "CHEBI:40533"
+  ],
+  "default_structure": {
+    "id": 75,
+    "smiles": "[H]C(C)=O",
+    "standard_inchi": "InChI=1S/C2H4O/c1-2-3/h2H,1H3",
+    "standard_inchi_key": "IKHGUXGNUITLKF-UHFFFAOYSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Escherichia coli",
+      "species_accession": "562",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "21988831",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:562",
+      "source_accession_url": "http://europepmc.org/abstract/MED/21988831",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Mus musculus",
+      "species_accession": "10090",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "19425150",
+      "comments": "Source: BioModels - MODEL1507180067",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:10090",
+      "source_accession_url": "http://europepmc.org/abstract/MED/19425150",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "Marcus Ennis"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 27871,
+        "init_name": "chloroacetaldehyde",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 18124,
+        "init_name": "phosphonoacetaldehyde",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 38535,
+        "init_name": "acetaldehyde hydrazone",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 48697,
+        "init_name": "\u03b1-campholenaldehyde",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 46886,
+        "init_name": "formylmethyl",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 46887,
+        "init_name": "acetyl",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 48814,
+        "init_name": "trichloroacetaldehyde",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 14272,
+        "init_name": "fluoroacetaldehyde",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 24823,
+        "init_name": "indoleacetaldehyde",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 141184,
+        "init_name": "(methylsulfanyl)acetaldehyde",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      },
+      {
+        "init_id": 60542,
+        "init_name": "benzylpenilloaldehyde",
+        "relation_type": "has functional parent",
+        "final_id": 15343,
+        "final_name": "acetaldehyde"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 75771,
+        "final_name": "mouse metabolite"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 76971,
+        "final_name": "<em>Escherichia coli</em> metabolite"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 75772,
+        "final_name": "<em>Saccharomyces cerevisiae </em> metabolite"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 77941,
+        "final_name": "EC 3.5.1.4 (amidase) inhibitor"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 50903,
+        "final_name": "carcinogenic agent"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 25435,
+        "final_name": "mutagen"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 50905,
+        "final_name": "teratogenic agent"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 63248,
+        "final_name": "oxidising agent"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "has role",
+        "final_id": 17654,
+        "final_name": "electron acceptor"
+      },
+      {
+        "init_id": 15343,
+        "init_name": "acetaldehyde",
+        "relation_type": "is a",
+        "final_id": 17478,
+        "final_name": "aldehyde"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 856086,
+        "accession_number": "11058591",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/11058591",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856057,
+        "accession_number": "110589",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/110589",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856081,
+        "accession_number": "11087437",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/11087437",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856080,
+        "accession_number": "11290854",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/11290854",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787404,
+        "accession_number": "15239123",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/15239123",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856083,
+        "accession_number": "15833031",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/15833031",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856087,
+        "accession_number": "16404561",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16404561",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856082,
+        "accession_number": "16485909",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16485909",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787403,
+        "accession_number": "18001279",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18001279",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856079,
+        "accession_number": "19396661",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19396661",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787399,
+        "accession_number": "2233695",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/2233695",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856088,
+        "accession_number": "24282063",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/24282063",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856089,
+        "accession_number": "24326678",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/24326678",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856090,
+        "accession_number": "24503565",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/24503565",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787402,
+        "accession_number": "4239189",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/4239189",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787400,
+        "accession_number": "5526694",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/5526694",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787401,
+        "accession_number": "6036728",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/6036728",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856084,
+        "accession_number": "7163973",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/7163973",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 856085,
+        "accession_number": "9171333",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/9171333",
+        "prefix": "pubmed"
+      }
+    ],
+    "REGISTRY_NUMBER": [
+      {
+        "id": 791591,
+        "accession_number": "505984",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      },
+      {
+        "id": 91882,
+        "accession_number": "779",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 6899,
+        "accession_number": "75-07-0",
+        "type": "CAS",
+        "source_name": "KEGG COMPOUND",
+        "url": null,
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 91881,
+        "accession_number": "75-07-0",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:75-07-0",
+        "prefix": "chemidplus"
+      },
+      {
+        "id": 72801,
+        "accession_number": "75-07-0",
+        "type": "CAS",
+        "source_name": "NIST Chemistry WebBook",
+        "url": "http://webbook.nist.gov/cgi/cbook.cgi?ID=75-07-0",
+        "prefix": "nist"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 1013081,
+        "accession_number": "ACE",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:ACE",
+        "prefix": "pdb-ccd"
+      },
+      {
+        "id": 791592,
+        "accession_number": "Acetaldehyde",
+        "type": "MANUAL_X_REF",
+        "source_name": "Wikipedia",
+        "url": "https://bioregistry.io/wikipedia.en:Acetaldehyde",
+        "prefix": "wikipedia.en"
+      },
+      {
+        "id": 864860,
+        "accession_number": "C00007392",
+        "type": "MANUAL_X_REF",
+        "source_name": "KNApSAcK",
+        "url": "https://bioregistry.io/knapsack:C00007392",
+        "prefix": "knapsack"
+      },
+      {
+        "id": 6878,
+        "accession_number": "C00084",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00084",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 72802,
+        "accession_number": "c0160",
+        "type": "MANUAL_X_REF",
+        "source_name": "UM-BBD",
+        "url": "https://bioregistry.io/umbbd.compound:c0160",
+        "prefix": "umbbd.compound"
+      },
+      {
+        "id": 791590,
+        "accession_number": "HMDB0000990",
+        "type": "MANUAL_X_REF",
+        "source_name": "HMDB",
+        "url": "https://bioregistry.io/hmdb:HMDB0000990",
+        "prefix": "hmdb"
+      },
+      {
+        "id": 961272,
+        "accession_number": "LSM-37193",
+        "type": "MANUAL_X_REF",
+        "source_name": "LINCS",
+        "url": "https://bioregistry.io/lincs.smallmolecule:LSM-37193",
+        "prefix": "lincs.smallmolecule"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:50903",
+      "name": "carcinogenic agent",
+      "definition": "A role played by a chemical compound which is known to  induce a process of carcinogenesis  by corrupting  normal cellular pathways, leading to the acquistion of tumoral capabilities.",
+      "id": 50903,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76971",
+      "name": "Escherichia coli metabolite",
+      "definition": "Any bacterial metabolite produced during a metabolic reaction in <em>Escherichia coli</em>.",
+      "id": 76971,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:25435",
+      "name": "mutagen",
+      "definition": "An agent that increases the frequency of mutations above the normal background level, usually by interacting directly with DNA and causing it damage, including base substitution.",
+      "id": 25435,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": true,
+      "chebi_accession": "CHEBI:17654",
+      "name": "electron acceptor",
+      "definition": "A substance to which an electron may be transferred.",
+      "id": 17654,
+      "biological_role": false
+    },
+    {
+      "application": false,
+      "chemical_role": true,
+      "chebi_accession": "CHEBI:63248",
+      "name": "oxidising agent",
+      "definition": "A substance that removes electrons from another reactant in a redox reaction.",
+      "id": 63248,
+      "biological_role": false
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75771",
+      "name": "mouse metabolite",
+      "definition": "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>).",
+      "id": 75771,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:50905",
+      "name": "teratogenic agent",
+      "definition": "A role played by a chemical compound  in biological systems with adverse consequences in embryo developments, leading to birth defects, embryo death or altered development, growth retardation and functional defect.",
+      "id": 50905,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77941",
+      "name": "EC 3.5.1.4 (amidase) inhibitor",
+      "definition": "An EC 3.5.1.* (non-peptide linear amide C-N hydrolase) inhibitor that interferes with the action of amidase (EC 3.5.1.4).",
+      "id": 77941,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

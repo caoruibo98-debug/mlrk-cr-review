@@ -1,0 +1,340 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "40863168",
+      "35273169"
+    ],
+    "40863168": {
+      "uid": "40863168",
+      "pubdate": "2025 Aug 16",
+      "epubdate": "2025 Aug 16",
+      "source": "Metabolites",
+      "authors": [
+        {
+          "name": "Buckley AM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zaidan S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sweet MG",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ewin DJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ratliff JG",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Alkazemi A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Davis Birch W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "McAmis AM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Neilson AP",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Neilson AP",
+      "title": "Choline Metabolism to the Proatherogenic Metabolite Trimethylamine Occurs Primarily in the Distal Colon Microbiome In Vitro.",
+      "sorttitle": "choline metabolism to the proatherogenic metabolite trimethylamine occurs primarily in the distal colon microbiome in vitro",
+      "volume": "15",
+      "issue": "8",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101578790",
+      "issn": "2218-1989",
+      "essn": "2218-1989",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40863168"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC12388646"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC12388646;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3390/metabo15080552"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "metabo15080552"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/06/25 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2025/08/08 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/08/14 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/08/28 20:52"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/08/28 20:51"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/08/27 10:14"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2025/08/16 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 44,
+      "fulljournalname": "Metabolites",
+      "elocationid": "doi: 10.3390/metabo15080552",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/08/16 00:00",
+      "sortfirstauthor": "Buckley AM",
+      "vernaculartitle": ""
+    },
+    "35273169": {
+      "uid": "35273169",
+      "pubdate": "2022 Mar 10",
+      "epubdate": "2022 Mar 10",
+      "source": "NPJ Biofilms Microbiomes",
+      "authors": [
+        {
+          "name": "Cai YY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Huang FQ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lao X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lu Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gao X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Alolga RN",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yin K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhou X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shang J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Qi LW",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li J",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Li J",
+      "title": "Integrated metagenomics identifies a crucial role for trimethylamine-producing Lachnoclostridium in promoting atherosclerosis.",
+      "sorttitle": "integrated metagenomics identifies a crucial role for trimethylamine producing lachnoclostridium in promoting atherosclerosis",
+      "volume": "8",
+      "issue": "1",
+      "pages": "11",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101666944",
+      "issn": "",
+      "essn": "2055-5008",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "35273169"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC8913745"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC8913745;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41522-022-00273-4"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41522-022-00273-4"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2021/06/27 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2022/01/31 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2022/03/11 05:37"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2022/03/12 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2022/04/01 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2022/03/10 00:00"
+        }
+      ],
+      "references": [
+        {
+          "refsource": "NPJ Biofilms Microbiomes. 2022 May 9;8(1):40. doi: 10.1038/s41522-022-00303-1.",
+          "reftype": "Erratum in",
+          "pmid": 35534501,
+          "note": ""
+        }
+      ],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 59,
+      "fulljournalname": "NPJ biofilms and microbiomes",
+      "elocationid": "doi: 10.1038/s41522-022-00273-4",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2022/03/10 00:00",
+      "sortfirstauthor": "Cai YY",
+      "vernaculartitle": ""
+    }
+  }
+}

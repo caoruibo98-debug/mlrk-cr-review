@@ -1,0 +1,211 @@
+{
+  "id": 30616,
+  "chebi_accession": "CHEBI:30616",
+  "name": "ATP(4\u2212)",
+  "stars": 3,
+  "definition": "A nucleoside triphosphate(4\u2212) obtained by global deprotonation of the triphosphate OH groups of ATP; major species present at pH 7.3.",
+  "ascii_name": "ATP(4-)",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "adenosine 5'-triphosphate(4\u2212)",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "adenosine 5'-triphosphate(4-)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "atp",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "atp",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "ATP",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "ATP",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C10H12N5O13P3",
+    "charge": -4,
+    "mass": "503.150",
+    "monoisotopic_mass": "502.96664"
+  },
+  "modified_on": "2019-07-25T15:02:14Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 13653,
+    "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+    "standard_inchi": "InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1",
+    "standard_inchi_key": "ZKHQWZAMYRWXGA-KQYNXXCUSA-J",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "Kirill Degtyarenko"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 50105,
+        "init_name": "TNP-ATP<small><sup>5\u2212</small></sup>",
+        "relation_type": "has functional parent",
+        "final_id": 30616,
+        "final_name": "ATP(4\u2212)"
+      },
+      {
+        "init_id": 87953,
+        "init_name": "9-ribosyl-<i>trans</i>-zeatin 5'-triphosphate(4\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 30616,
+        "final_name": "ATP(4\u2212)"
+      },
+      {
+        "init_id": 189076,
+        "init_name": "8-oxo-ATP(4\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 30616,
+        "final_name": "ATP(4\u2212)"
+      },
+      {
+        "init_id": 57299,
+        "init_name": "ATP(3\u2212)",
+        "relation_type": "is conjugate acid of",
+        "final_id": 30616,
+        "final_name": "ATP(4\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 30616,
+        "init_name": "ATP(4\u2212)",
+        "relation_type": "has role",
+        "final_id": 23357,
+        "final_name": "cofactor"
+      },
+      {
+        "init_id": 30616,
+        "init_name": "ATP(4\u2212)",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 30616,
+        "init_name": "ATP(4\u2212)",
+        "relation_type": "has role",
+        "final_id": 78675,
+        "final_name": "fundamental metabolite"
+      },
+      {
+        "init_id": 30616,
+        "init_name": "ATP(4\u2212)",
+        "relation_type": "is a",
+        "final_id": 61557,
+        "final_name": "nucleoside 5'-triphoshate(4\u2212)"
+      },
+      {
+        "init_id": 30616,
+        "init_name": "ATP(4\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 57299,
+        "final_name": "ATP(3\u2212)"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 84343,
+        "accession_number": "342798",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      },
+      {
+        "id": 84342,
+        "accession_number": "3581767",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:23357",
+      "name": "cofactor",
+      "definition": "An organic molecule or ion (usually a metal ion) that is required by an enzyme for its activity. It may be attached either loosely (coenzyme) or tightly (prosthetic group).",
+      "id": 23357,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:78675",
+      "name": "fundamental metabolite",
+      "definition": "Any metabolite produced by all living cells.",
+      "id": 78675,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

@@ -1,0 +1,119 @@
+{
+  "id": 58052,
+  "chebi_accession": "CHEBI:58052",
+  "name": "UDP-\u03b1-<small>D</small>-glucuronate(3\u2212)",
+  "stars": 3,
+  "definition": "A nucleotide-sugar oxoanion that is a trianion arising from deprotonation of the carboxy and diphosphate OH groups of UDP-\u03b1-<small>D</small>-glucuronic acid; major species at pH 7.3.",
+  "ascii_name": "UDP-alpha-D-glucuronate(3-)",
+  "names": {
+    "UNIPROT NAME": [
+      {
+        "name": "UDP-\u03b1-<small>D</small>-glucuronate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "UDP-alpha-D-glucuronate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "UDP-\u03b1-<small>D</small>-glucuronate trianion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "UDP-alpha-D-glucuronate trianion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C15H19N2O18P2",
+    "charge": -3,
+    "mass": "577.261",
+    "monoisotopic_mass": "577.01246"
+  },
+  "modified_on": "2014-06-18T14:33:01Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2178715,
+    "smiles": "O=C([O-])[C@H]1O[C@H](OP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H](n3ccc(=O)nc3=O)[C@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+    "standard_inchi": "InChI=1S/C15H22N2O18P2/c18-5-1-2-17(15(26)16-5)12-9(22)6(19)4(32-12)3-31-36(27,28)35-37(29,30)34-14-10(23)7(20)8(21)11(33-14)13(24)25/h1-2,4,6-12,14,19-23H,3H2,(H,24,25)(H,27,28)(H,29,30)(H,16,18,26)/p-3/t4-,6-,7+,8+,9-,10-,11+,12-,14-/m1/s1",
+    "standard_inchi_key": "HDYANYHVCAPMJV-LXQIFKJMSA-K",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 17200,
+        "init_name": "UDP-\u03b1-<small>D</small>-glucuronic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 58052,
+        "final_name": "UDP-\u03b1-<small>D</small>-glucuronate(3\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 58052,
+        "init_name": "UDP-\u03b1-<small>D</small>-glucuronate(3\u2212)",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 58052,
+        "init_name": "UDP-\u03b1-<small>D</small>-glucuronate(3\u2212)",
+        "relation_type": "is a",
+        "final_id": 63551,
+        "final_name": "carbohydrate acid derivative anion"
+      },
+      {
+        "init_id": 58052,
+        "init_name": "UDP-\u03b1-<small>D</small>-glucuronate(3\u2212)",
+        "relation_type": "is a",
+        "final_id": 59737,
+        "final_name": "nucleotide-sugar oxoanion"
+      },
+      {
+        "init_id": 58052,
+        "init_name": "UDP-\u03b1-<small>D</small>-glucuronate(3\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 17200,
+        "final_name": "UDP-\u03b1-<small>D</small>-glucuronic acid"
+      }
+    ]
+  },
+  "database_accessions": {},
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

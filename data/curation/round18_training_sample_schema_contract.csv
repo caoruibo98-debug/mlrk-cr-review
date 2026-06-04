@@ -1,0 +1,29 @@
+round,field_name,field_audience,definition,requirement_level
+18,record_id,machine,stable unique row id,required
+18,label_type,machine,positive / hard_decoy / assay_negative,required
+18,negative_type,machine,hard_decoy_rule_generated_nontruth / explicit_assay_no_conversion / blank for positive,required_for_negative
+18,reaction_family,machine,controlled family name from coverage matrix,required
+18,module,machine,A/B/C/D routing module,required
+18,substrate_name_en,human,English compound name,required
+18,substrate_name_zh,human,Chinese compound name or blank with translation status,recommended_for_web_app
+18,substrate_food_alias,human,food/common-source term for user-facing lookup,recommended_for_web_app
+18,substrate_smiles,machine,canonical SMILES,required
+18,substrate_inchikey,machine,full InChIKey,required
+18,substrate_inchikey_block1,machine,first InChIKey block used by current model,required
+18,product_name_en,human,English product name,required
+18,product_name_zh,human,Chinese product name or blank with translation status,recommended_for_web_app
+18,product_smiles,machine,canonical SMILES,required
+18,product_inchikey,machine,full InChIKey,required
+18,product_inchikey_block1,machine,first InChIKey block used by current model,required
+18,reaction_smiles,machine,substrate>>product or source-native reaction SMILES,required_before_model_export
+18,ec_number,evidence,full EC or class if available,required_when_claimed
+18,source_database,evidence,Rhea/ChEBI/PubChem/BRENDA/MetaNetX/VMH/MicrobeRX/PubMed,required
+18,source_id,evidence,"RHEA id, PMID, DOI, database accession",required
+18,evidence_sentence,evidence,short extracted text supporting conversion/no-conversion,required_for_gold_or_assay_negative
+18,microbe_or_strain,evidence,organism/community/strain,required_when_microbiome_specific
+18,assay_condition,evidence,condition/time/analytical method,required_for_assay_negative
+18,rule_id,generator,RetroRules/Rhea/overlay source-traceable rule id,required_for_rule_generated_candidate
+18,rule_smarts,generator,"source-backed SMARTS, if promoted",required_for_rule_promotion
+18,generator_hit,generator,whether deployment-like generator can produce product,required_before_training
+18,split_group,evaluation,scaffold/product-disjoint group,required_before_eval
+18,training_decision,governance,allowed/blocked and reason,required

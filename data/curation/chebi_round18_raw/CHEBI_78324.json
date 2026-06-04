@@ -1,0 +1,246 @@
+{
+  "id": 78324,
+  "chebi_accession": "CHEBI:78324",
+  "name": "baicalein(1\u2212)",
+  "stars": 3,
+  "definition": "A flavonoid oxoanion obtained by deprotonation of the hydroxy group at position 7 of baicalein. It is the major microspecies at pH 7.3 (according to Marvin v 6.2.0.).",
+  "ascii_name": "baicalein(1-)",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "5,6-dihydroxy-4-oxo-2-phenyl-4<em>H</em>-chromen-7-olate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "5,6-dihydroxy-4-oxo-2-phenyl-4H-chromen-7-olate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "baicalein",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "baicalein",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C15H9O5",
+    "charge": -1,
+    "mass": "269.232",
+    "monoisotopic_mass": "269.04555"
+  },
+  "modified_on": "2014-06-24T07:47:05Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2838468,
+    "smiles": "O=c1cc(-c2ccccc2)oc2cc([O-])c(O)c(O)c12",
+    "standard_inchi": "InChI=1S/C15H10O5/c16-9-6-11(8-4-2-1-3-5-8)20-12-7-10(17)14(18)15(19)13(9)12/h1-7,17-19H/p-1",
+    "standard_inchi_key": "FXNFHKRTJBSTCS-UHFFFAOYSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [
+    "Anne Morgat"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 2979,
+        "init_name": "baicalein",
+        "relation_type": "is conjugate acid of",
+        "final_id": 78324,
+        "final_name": "baicalein(1\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 25212,
+        "final_name": "metabolite"
+      },
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 22586,
+        "final_name": "antioxidant"
+      },
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 49023,
+        "final_name": "prostaglandin antagonist"
+      },
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 48578,
+        "final_name": "radical scavenger"
+      },
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 64995,
+        "final_name": "EC 1.13.11.31 (arachidonate 12-lipoxygenase) inhibitor"
+      },
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 64996,
+        "final_name": "EC 1.13.11.33 (arachidonate 15-lipoxygenase) inhibitor"
+      },
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 76779,
+        "final_name": "EC 3.4.21.26 (prolyl oligopeptidase) inhibitor"
+      },
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 49020,
+        "final_name": "hormone antagonist"
+      },
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 60038,
+        "final_name": "flavonoid oxoanion"
+      },
+      {
+        "init_id": 78324,
+        "init_name": "baicalein(1\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 2979,
+        "final_name": "baicalein"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 859882,
+        "accession_number": "10724177",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/10724177",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 859881,
+        "accession_number": "15853750",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/15853750",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 859880,
+        "accession_number": "22891631",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22891631",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 859883,
+        "accession_number": "23098745",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/23098745",
+        "prefix": "pubmed"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": true,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:49020",
+      "name": "hormone antagonist",
+      "definition": "A chemical substance which inhibits the function of the endocrine glands, the biosynthesis of their secreted hormones, or the action of hormones upon their specific sites.",
+      "id": 49020,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:64996",
+      "name": "EC 1.13.11.33 (arachidonate 15-lipoxygenase) inhibitor",
+      "definition": "A lipoxygenase inhibitor that interferes with the action of arachidonate 15-lipoxygenase (EC 1.13.11.33).",
+      "id": 64996,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76779",
+      "name": "EC 3.4.21.26 (prolyl oligopeptidase) inhibitor",
+      "definition": "Any EC 3.4.21.* (serine endopeptidase) inhibitor that interferes with the action of prolyl oligopeptidase (EC 3.4.21.26).",
+      "id": 76779,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:64995",
+      "name": "EC 1.13.11.31 (arachidonate 12-lipoxygenase) inhibitor",
+      "definition": "A lipoxygenase inhibitor that interferes with the action of arachidonate 12-lipoxygenase (EC 1.13.11.31).",
+      "id": 64995,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": true,
+      "chebi_accession": "CHEBI:48578",
+      "name": "radical scavenger",
+      "definition": "A role played by a substance that can react readily with, and thereby eliminate, radicals.",
+      "id": 48578,
+      "biological_role": false
+    },
+    {
+      "application": true,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:49023",
+      "name": "prostaglandin antagonist",
+      "definition": "A compound that inhibits the action of prostaglandins.",
+      "id": 49023,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": true,
+      "chebi_accession": "CHEBI:22586",
+      "name": "antioxidant",
+      "definition": "A substance that opposes oxidation or inhibits reactions brought about by dioxygen or peroxides.",
+      "id": 22586,
+      "biological_role": false
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:25212",
+      "name": "metabolite",
+      "definition": "Any intermediate or product resulting from metabolism. The term 'metabolite' subsumes the classes commonly known as primary and secondary metabolites.",
+      "id": 25212,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

@@ -1,0 +1,300 @@
+{
+  "id": 16881,
+  "chebi_accession": "CHEBI:16881",
+  "name": "1<em>H</em>-indole",
+  "stars": 3,
+  "definition": null,
+  "ascii_name": "1H-indole",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "1<em>H</em>-indole",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "1H-indole",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "2,3-Benzopyrrole",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "2,3-Benzopyrrole",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Indol",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "NIST Chemistry WebBook",
+        "ascii_name": "Indol",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Indole",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Indole",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "INDOLE",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "INDOLE",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "indole",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "indole",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C8H7N",
+    "charge": 0,
+    "mass": "117.151",
+    "monoisotopic_mass": "117.05785"
+  },
+  "modified_on": "2018-03-26T16:29:35Z",
+  "secondary_ids": [
+    "CHEBI:5900",
+    "CHEBI:14444",
+    "CHEBI:24794",
+    "CHEBI:43537"
+  ],
+  "default_structure": {
+    "id": 2622,
+    "smiles": "c1ccc2nccc2c1",
+    "standard_inchi": "InChI=1S/C8H7N/c1-2-4-8-7(3-1)5-6-9-8/h1-6,9H",
+    "standard_inchi_key": "SIKJAQJRHWYJAI-UHFFFAOYSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Escherichia coli",
+      "species_accession": "562",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "21988831",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:562",
+      "source_accession_url": "http://europepmc.org/abstract/MED/21988831",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 156389,
+        "init_name": "5-isoprenylindole-3-carboxylate \u03b2-<small>D</small>-glycosyl ester",
+        "relation_type": "has functional parent",
+        "final_id": 16881,
+        "final_name": "1<em>H</em>-indole"
+      },
+      {
+        "init_id": 55530,
+        "init_name": "(<i>R</i>)-3-(5-benzyloxyindol-3-yl)lactic acid",
+        "relation_type": "has functional parent",
+        "final_id": 16881,
+        "final_name": "1<em>H</em>-indole"
+      },
+      {
+        "init_id": 55528,
+        "init_name": "(<i>R</i>)-indole-3-lactic acid",
+        "relation_type": "has functional parent",
+        "final_id": 16881,
+        "final_name": "1<em>H</em>-indole"
+      },
+      {
+        "init_id": 156365,
+        "init_name": "xenocyloin",
+        "relation_type": "has functional parent",
+        "final_id": 16881,
+        "final_name": "1<em>H</em>-indole"
+      },
+      {
+        "init_id": 140485,
+        "init_name": "<em>N</em>-(\u03b2-<small>D</small>-glucopyranosyl)indole",
+        "relation_type": "has functional parent",
+        "final_id": 16881,
+        "final_name": "1<em>H</em>-indole"
+      },
+      {
+        "init_id": 49402,
+        "init_name": "2-methyl-1<em>H</em>-indole",
+        "relation_type": "has parent hydride",
+        "final_id": 16881,
+        "final_name": "1<em>H</em>-indole"
+      },
+      {
+        "init_id": 35579,
+        "init_name": "3<em>H</em>-indole",
+        "relation_type": "is tautomer of",
+        "final_id": 16881,
+        "final_name": "1<em>H</em>-indole"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 16881,
+        "init_name": "1<em>H</em>-indole",
+        "relation_type": "has role",
+        "final_id": 76971,
+        "final_name": "<em>Escherichia coli</em> metabolite"
+      },
+      {
+        "init_id": 16881,
+        "init_name": "1<em>H</em>-indole",
+        "relation_type": "is a",
+        "final_id": 35581,
+        "final_name": "indole"
+      },
+      {
+        "init_id": 16881,
+        "init_name": "1<em>H</em>-indole",
+        "relation_type": "is a",
+        "final_id": 38180,
+        "final_name": "polycyclic heteroarene"
+      },
+      {
+        "init_id": 16881,
+        "init_name": "1<em>H</em>-indole",
+        "relation_type": "is tautomer of",
+        "final_id": 35579,
+        "final_name": "3<em>H</em>-indole"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 89927,
+        "accession_number": "107693",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      },
+      {
+        "id": 89928,
+        "accession_number": "3477",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 18186,
+        "accession_number": "120-72-9",
+        "type": "CAS",
+        "source_name": "KEGG COMPOUND",
+        "url": null,
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 89924,
+        "accession_number": "120-72-9",
+        "type": "CAS",
+        "source_name": "NIST Chemistry WebBook",
+        "url": "http://webbook.nist.gov/cgi/cbook.cgi?ID=120-72-9",
+        "prefix": "nist"
+      },
+      {
+        "id": 89925,
+        "accession_number": "120-72-9",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:120-72-9",
+        "prefix": "chemidplus"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 865166,
+        "accession_number": "C00001418",
+        "type": "MANUAL_X_REF",
+        "source_name": "KNApSAcK",
+        "url": "https://bioregistry.io/knapsack:C00001418",
+        "prefix": "knapsack"
+      },
+      {
+        "id": 18182,
+        "accession_number": "C00463",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00463",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 77244,
+        "accession_number": "C00463",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00463",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 810584,
+        "accession_number": "DB04532",
+        "type": "MANUAL_X_REF",
+        "source_name": "DrugBank",
+        "url": "https://bioregistry.io/drugbank:DB04532",
+        "prefix": "drugbank"
+      },
+      {
+        "id": 89926,
+        "accession_number": "IND",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:IND",
+        "prefix": "pdb-ccd"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76971",
+      "name": "Escherichia coli metabolite",
+      "definition": "Any bacterial metabolite produced during a metabolic reaction in <em>Escherichia coli</em>.",
+      "id": 76971,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

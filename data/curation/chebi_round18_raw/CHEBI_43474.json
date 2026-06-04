@@ -1,0 +1,320 @@
+{
+  "id": 43474,
+  "chebi_accession": "CHEBI:43474",
+  "name": "hydrogenphosphate",
+  "stars": 3,
+  "definition": "A phosphate ion that is the conjugate base of dihydrogenphosphate.",
+  "ascii_name": "hydrogenphosphate",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "HPO<small><sub>4</sub></small><small><sup>2\u2212</small></sup>",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "HPO4(2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "hydrogen phosphate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "hydrogen phosphate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "HYDROGENPHOSPHATE ION",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "HYDROGENPHOSPHATE ION",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "INORGANIC PHOSPHATE GROUP",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "INORGANIC PHOSPHATE GROUP",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "[P(OH)O<small><sub>3</sub></small>]<small><sup>2\u2212</small></sup>",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "MolBase",
+        "ascii_name": "[P(OH)O3](2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "[PO<small><sub>3</sub></small>(OH)]<small><sup>2\u2212</small></sup>",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "[PO3(OH)](2-)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "hydrogenphosphate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "hydrogenphosphate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "hydrogen(tetraoxidophosphate)(2\u2212)",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "hydrogen(tetraoxidophosphate)(2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "hydrogentetraoxophosphate(2\u2212)",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "hydrogentetraoxophosphate(2-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "hydrogentetraoxophosphate(V)",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "hydrogentetraoxophosphate(V)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "hydroxidotrioxidophosphate(2\u2212)",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "hydroxidotrioxidophosphate(2-)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "phosphate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "phosphate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "HO4P",
+    "charge": -2,
+    "mass": "95.978",
+    "monoisotopic_mass": "95.96234"
+  },
+  "modified_on": "2019-11-20T16:44:43Z",
+  "secondary_ids": [
+    "CHEBI:29139",
+    "CHEBI:43470"
+  ],
+  "default_structure": {
+    "id": 3848,
+    "smiles": "O=P([O-])([O-])O",
+    "standard_inchi": "InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-2",
+    "standard_inchi_key": "NBIIXXVUZAFLBC-UHFFFAOYSA-L",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "Kirill Degtyarenko"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 39745,
+        "init_name": "dihydrogenphosphate",
+        "relation_type": "is conjugate acid of",
+        "final_id": 43474,
+        "final_name": "hydrogenphosphate"
+      },
+      {
+        "init_id": 18367,
+        "init_name": "phosphate(3\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 43474,
+        "final_name": "hydrogenphosphate"
+      },
+      {
+        "init_id": 30931,
+        "init_name": "phosphonato group",
+        "relation_type": "is substituent group from",
+        "final_id": 43474,
+        "final_name": "hydrogenphosphate"
+      },
+      {
+        "init_id": 68546,
+        "init_name": "phosphate group(2\u2212)",
+        "relation_type": "is substituent group from",
+        "final_id": 43474,
+        "final_name": "hydrogenphosphate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 43474,
+        "init_name": "hydrogenphosphate",
+        "relation_type": "has role",
+        "final_id": 23357,
+        "final_name": "cofactor"
+      },
+      {
+        "init_id": 43474,
+        "init_name": "hydrogenphosphate",
+        "relation_type": "has role",
+        "final_id": 75772,
+        "final_name": "<em>Saccharomyces cerevisiae </em> metabolite"
+      },
+      {
+        "init_id": 43474,
+        "init_name": "hydrogenphosphate",
+        "relation_type": "is a",
+        "final_id": 35780,
+        "final_name": "phosphate ion"
+      },
+      {
+        "init_id": 43474,
+        "init_name": "hydrogenphosphate",
+        "relation_type": "is a",
+        "final_id": 79388,
+        "final_name": "divalent inorganic anion"
+      },
+      {
+        "init_id": 43474,
+        "init_name": "hydrogenphosphate",
+        "relation_type": "is conjugate acid of",
+        "final_id": 18367,
+        "final_name": "phosphate(3\u2212)"
+      },
+      {
+        "init_id": 43474,
+        "init_name": "hydrogenphosphate",
+        "relation_type": "is conjugate base of",
+        "final_id": 39745,
+        "final_name": "dihydrogenphosphate"
+      }
+    ]
+  },
+  "database_accessions": {
+    "MANUAL_X_REF": [
+      {
+        "id": 100478,
+        "accession_number": "1628",
+        "type": "MANUAL_X_REF",
+        "source_name": "MolBase",
+        "url": "https://bioregistry.io/molbase:1628",
+        "prefix": "molbase"
+      },
+      {
+        "id": 82682,
+        "accession_number": "PI",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:PI",
+        "prefix": "pdb-ccd"
+      },
+      {
+        "id": 1013074,
+        "accession_number": "PO4",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:PO4",
+        "prefix": "pdb-ccd"
+      }
+    ],
+    "REGISTRY_NUMBER": [
+      {
+        "id": 90835,
+        "accession_number": "1998",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:23357",
+      "name": "cofactor",
+      "definition": "An organic molecule or ion (usually a metal ion) that is required by an enzyme for its activity. It may be attached either loosely (coenzyme) or tightly (prosthetic group).",
+      "id": 23357,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

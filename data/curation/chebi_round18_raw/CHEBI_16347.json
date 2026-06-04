@@ -1,0 +1,486 @@
+{
+  "id": 16347,
+  "chebi_accession": "CHEBI:16347",
+  "name": "(<i>R</i>)-carnitine",
+  "stars": 3,
+  "definition": "The (<i>R</i>)-enantiomer of carnitine.",
+  "ascii_name": "(R)-carnitine",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "3-Carboxy-2-hydroxy-N,N,N-trimethyl-1-propanaminium hydroxide, inner salt",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "3-Carboxy-2-hydroxy-N,N,N-trimethyl-1-propanaminium hydroxide, inner salt",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "(-)-Carnitine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "(-)-Carnitine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Carnitine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "Carnitine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "(-)-L-Carnitine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "(-)-L-Carnitine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "L-Carnitine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "L-Carnitine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Levocarnitine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "Levocarnitine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Levocarnitine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Levocarnitine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "(R)-Carnitine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "(R)-Carnitine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Vitamin BT",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Vitamin BT",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "(3<i>R</i>)-3-hydroxy-4-(trimethylammonio)butanoate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "(3R)-3-hydroxy-4-(trimethylammonio)butanoate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "BRAND NAME": [
+      {
+        "name": "Carnicor",
+        "status": "C",
+        "type": "BRAND NAME",
+        "source": "ChEBI",
+        "ascii_name": "Carnicor",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Carnitene",
+        "status": "C",
+        "type": "BRAND NAME",
+        "source": "ChEBI",
+        "ascii_name": "Carnitene",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Carnitor",
+        "status": "C",
+        "type": "BRAND NAME",
+        "source": "DrugBank",
+        "ascii_name": "Carnitor",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Karnitin",
+        "status": "P",
+        "type": "BRAND NAME",
+        "source": "DrugBank",
+        "ascii_name": "Karnitin",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "(<i>R</i>)-carnitine",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "(R)-carnitine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C7H15NO3",
+    "charge": 0,
+    "mass": "161.201",
+    "monoisotopic_mass": "161.10519"
+  },
+  "modified_on": "2021-08-04T15:15:23Z",
+  "secondary_ids": [
+    "CHEBI:6202",
+    "CHEBI:13091",
+    "CHEBI:21256"
+  ],
+  "default_structure": {
+    "id": 521,
+    "smiles": "C[N+](C)(C)C[C@H](O)CC(=O)[O-]",
+    "standard_inchi": "InChI=1S/C7H15NO3/c1-8(2,3)5-6(9)4-7(10)11/h6,9H,4-5H2,1-3H3/t6-/m1/s1",
+    "standard_inchi_key": "PHIQHXFUZVPYII-ZCFIWIBFSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": "blood serum",
+      "component_accession": "BTO:0000133",
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "MetaboLights",
+      "source_accession": "MTBLS90",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "component_accession_url": "https://purl.obolibrary.org/obo/BTO_0000133",
+      "source_accession_url": "https://bioregistry.io/metabolights:MTBLS90",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 17159,
+        "init_name": "(<i>R</i>)-carnitinamide",
+        "relation_type": "has functional parent",
+        "final_id": 16347,
+        "final_name": "(<i>R</i>)-carnitine"
+      },
+      {
+        "init_id": 75659,
+        "init_name": "<em>O</em>-acyl-<small>L</small>-carnitine",
+        "relation_type": "has functional parent",
+        "final_id": 16347,
+        "final_name": "(<i>R</i>)-carnitine"
+      },
+      {
+        "init_id": 183234,
+        "init_name": "(3<i>R</i>)-4-(dimethylammonio)-3-hydroxybutanoate",
+        "relation_type": "has functional parent",
+        "final_id": 16347,
+        "final_name": "(<i>R</i>)-carnitine"
+      },
+      {
+        "init_id": 39547,
+        "init_name": "(<i>R</i>)-carnitinium",
+        "relation_type": "is conjugate acid of",
+        "final_id": 16347,
+        "final_name": "(<i>R</i>)-carnitine"
+      },
+      {
+        "init_id": 11060,
+        "init_name": "(<i>S</i>)-carnitine",
+        "relation_type": "is enantiomer of",
+        "final_id": 16347,
+        "final_name": "(<i>R</i>)-carnitine"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 16347,
+        "init_name": "(<i>R</i>)-carnitine",
+        "relation_type": "has role",
+        "final_id": 75772,
+        "final_name": "<em>Saccharomyces cerevisiae </em> metabolite"
+      },
+      {
+        "init_id": 16347,
+        "init_name": "(<i>R</i>)-carnitine",
+        "relation_type": "has role",
+        "final_id": 27314,
+        "final_name": "water-soluble vitamin (role)"
+      },
+      {
+        "init_id": 16347,
+        "init_name": "(<i>R</i>)-carnitine",
+        "relation_type": "has role",
+        "final_id": 50733,
+        "final_name": "nutraceutical"
+      },
+      {
+        "init_id": 16347,
+        "init_name": "(<i>R</i>)-carnitine",
+        "relation_type": "has role",
+        "final_id": 66980,
+        "final_name": "nootropic agent"
+      },
+      {
+        "init_id": 16347,
+        "init_name": "(<i>R</i>)-carnitine",
+        "relation_type": "has role",
+        "final_id": 35679,
+        "final_name": "antilipemic drug"
+      },
+      {
+        "init_id": 16347,
+        "init_name": "(<i>R</i>)-carnitine",
+        "relation_type": "is a",
+        "final_id": 17126,
+        "final_name": "carnitine"
+      },
+      {
+        "init_id": 16347,
+        "init_name": "(<i>R</i>)-carnitine",
+        "relation_type": "is conjugate base of",
+        "final_id": 39547,
+        "final_name": "(<i>R</i>)-carnitinium"
+      },
+      {
+        "init_id": 16347,
+        "init_name": "(<i>R</i>)-carnitine",
+        "relation_type": "is enantiomer of",
+        "final_id": 11060,
+        "final_name": "(<i>S</i>)-carnitine"
+      }
+    ]
+  },
+  "database_accessions": {
+    "MANUAL_X_REF": [
+      {
+        "id": 865059,
+        "accession_number": "152",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:152",
+        "prefix": "pdb-ccd"
+      },
+      {
+        "id": 979321,
+        "accession_number": "513",
+        "type": "MANUAL_X_REF",
+        "source_name": "DrugCentral",
+        "url": "https://bioregistry.io/drugcentral:513",
+        "prefix": "drugcentral"
+      },
+      {
+        "id": 18981,
+        "accession_number": "C00318",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00318",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 967149,
+        "accession_number": "CARNITINE",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:CARNITINE",
+        "prefix": "metacyc.compound"
+      },
+      {
+        "id": 865058,
+        "accession_number": "D02176",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG DRUG",
+        "url": "https://bioregistry.io/kegg.drug:D02176",
+        "prefix": "kegg.drug"
+      },
+      {
+        "id": 115966,
+        "accession_number": "DB00583",
+        "type": "MANUAL_X_REF",
+        "source_name": "DrugBank",
+        "url": "https://bioregistry.io/drugbank:DB00583",
+        "prefix": "drugbank"
+      },
+      {
+        "id": 967146,
+        "accession_number": "HMDB0000062",
+        "type": "MANUAL_X_REF",
+        "source_name": "HMDB",
+        "url": "https://bioregistry.io/hmdb:HMDB0000062",
+        "prefix": "hmdb"
+      }
+    ],
+    "REGISTRY_NUMBER": [
+      {
+        "id": 100593,
+        "accession_number": "1782973",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      },
+      {
+        "id": 92002,
+        "accession_number": "4292315",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      },
+      {
+        "id": 115967,
+        "accession_number": "5732837",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 100581,
+        "accession_number": "541-15-1",
+        "type": "CAS",
+        "source_name": "KEGG COMPOUND",
+        "url": null,
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 71119,
+        "accession_number": "541-15-1",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:541-15-1",
+        "prefix": "chemidplus"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": true,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:50733",
+      "name": "nutraceutical",
+      "definition": "A product in capsule, tablet or liquid form that provide essential nutrients, such as a vitamin, an essential mineral, a protein, an herb, or similar nutritional substance.",
+      "id": 50733,
+      "biological_role": false
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    },
+    {
+      "application": true,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:66980",
+      "name": "nootropic agent",
+      "definition": "Any compound that improves mental functions such as cognition, memory, intelligence, motivation, attention, and concentration.",
+      "id": 66980,
+      "biological_role": false
+    },
+    {
+      "application": true,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:35679",
+      "name": "antilipemic drug",
+      "definition": "A substance used to treat hyperlipidemia (an excess of lipids in the blood).",
+      "id": 35679,
+      "biological_role": false
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:27314",
+      "name": "water-soluble vitamin (role)",
+      "definition": "Any vitamin that dissolves in water and readily absorbed into tissues for immediate use. Unlike the fat-soluble vitamins, they are not stored in the body and need to be replenished regularly in the diet and will rarely accumulate to toxic levels since they are quickly excreted from the body via urine.",
+      "id": 27314,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75771",
+      "name": "mouse metabolite",
+      "definition": "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>).",
+      "id": 75771,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

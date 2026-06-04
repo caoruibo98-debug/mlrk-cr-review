@@ -1,0 +1,532 @@
+{
+  "id": 15379,
+  "chebi_accession": "CHEBI:15379",
+  "name": "dioxygen",
+  "stars": 3,
+  "definition": null,
+  "ascii_name": "dioxygen",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "dioxygen",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "dioxygen",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "dioxyg\u00e8ne",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "dioxygene",
+        "adapted": false,
+        "language_code": "fr"
+      },
+      {
+        "name": "Disauerstoff",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "Disauerstoff",
+        "adapted": false,
+        "language_code": "de"
+      },
+      {
+        "name": "E 948",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "E 948",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "E-948",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "E-948",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "E948",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "E948",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "molecular oxygen",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "molecular oxygen",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "O2",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "O2",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "[OO]",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "MolBase",
+        "ascii_name": "[OO]",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "O<small><sub>2</sub></small>",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "O2",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Oxygen",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Oxygen",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "OXYGEN MOLECULE",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "OXYGEN MOLECULE",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "O<small><sub>2</sub></small>",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "O(2)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "O2",
+    "charge": 0,
+    "mass": "31.998",
+    "monoisotopic_mass": "31.98983"
+  },
+  "modified_on": "2022-08-26T10:09:45Z",
+  "secondary_ids": [
+    "CHEBI:7860",
+    "CHEBI:10745",
+    "CHEBI:13416",
+    "CHEBI:23833",
+    "CHEBI:25366",
+    "CHEBI:29097",
+    "CHEBI:30491",
+    "CHEBI:44742"
+  ],
+  "default_structure": {
+    "id": 3317900,
+    "smiles": "O=O",
+    "standard_inchi": "InChI=1S/O2/c1-2",
+    "standard_inchi_key": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "Kirill Degtyarenko",
+    "Marcus Ennis"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 26689,
+        "init_name": "singlet dioxygen",
+        "relation_type": "is a",
+        "final_id": 15379,
+        "final_name": "dioxygen"
+      },
+      {
+        "init_id": 27140,
+        "init_name": "triplet dioxygen",
+        "relation_type": "is a",
+        "final_id": 15379,
+        "final_name": "dioxygen"
+      },
+      {
+        "init_id": 29793,
+        "init_name": "hydridodioxygen(1+)",
+        "relation_type": "is conjugate acid of",
+        "final_id": 15379,
+        "final_name": "dioxygen"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "has role",
+        "final_id": 63248,
+        "final_name": "oxidising agent"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "has role",
+        "final_id": 77974,
+        "final_name": "food packaging gas"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "has role",
+        "final_id": 35472,
+        "final_name": "anti-inflammatory drug"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "has role",
+        "final_id": 33893,
+        "final_name": "reagent"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "has role",
+        "final_id": 33284,
+        "final_name": "nutrient"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "has role",
+        "final_id": 75772,
+        "final_name": "<em>Saccharomyces cerevisiae </em> metabolite"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "has role",
+        "final_id": 27027,
+        "final_name": "micronutrient"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "is a",
+        "final_id": 25362,
+        "final_name": "elemental molecule"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "is a",
+        "final_id": 138675,
+        "final_name": "gas molecular entity"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "is a",
+        "final_id": 33263,
+        "final_name": "diatomic oxygen"
+      },
+      {
+        "init_id": 15379,
+        "init_name": "dioxygen",
+        "relation_type": "is conjugate base of",
+        "final_id": 29793,
+        "final_name": "hydridodioxygen(1+)"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 846140,
+        "accession_number": "10906528",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/10906528",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 846143,
+        "accession_number": "16977326",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16977326",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 846134,
+        "accession_number": "18210929",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18210929",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 846137,
+        "accession_number": "18638417",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18638417",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 846139,
+        "accession_number": "19840863",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19840863",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 846135,
+        "accession_number": "7710549",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/7710549",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 846136,
+        "accession_number": "9463773",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/9463773",
+        "prefix": "pubmed"
+      }
+    ],
+    "REGISTRY_NUMBER": [
+      {
+        "id": 83946,
+        "accession_number": "485",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 83945,
+        "accession_number": "750",
+        "type": "MANUAL_X_REF",
+        "source_name": "MolBase",
+        "url": "https://bioregistry.io/molbase:750",
+        "prefix": "molbase"
+      },
+      {
+        "id": 25205,
+        "accession_number": "C00007",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00007",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 864779,
+        "accession_number": "D00003",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG DRUG",
+        "url": "https://bioregistry.io/kegg.drug:D00003",
+        "prefix": "kegg.drug"
+      },
+      {
+        "id": 846105,
+        "accession_number": "HMDB0001377",
+        "type": "MANUAL_X_REF",
+        "source_name": "HMDB",
+        "url": "https://bioregistry.io/hmdb:HMDB0001377",
+        "prefix": "hmdb"
+      },
+      {
+        "id": 83956,
+        "accession_number": "OXY",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:OXY",
+        "prefix": "pdb-ccd"
+      },
+      {
+        "id": 856192,
+        "accession_number": "Oxygen",
+        "type": "MANUAL_X_REF",
+        "source_name": "Wikipedia",
+        "url": "https://bioregistry.io/wikipedia.en:Oxygen",
+        "prefix": "wikipedia.en"
+      },
+      {
+        "id": 846106,
+        "accession_number": "OXYGEN-MOLECULE",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:OXYGEN-MOLECULE",
+        "prefix": "metacyc.compound"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 83948,
+        "accession_number": "7782-44-7",
+        "type": "CAS",
+        "source_name": "NIST Chemistry WebBook",
+        "url": "http://webbook.nist.gov/cgi/cbook.cgi?ID=7782-44-7",
+        "prefix": "nist"
+      },
+      {
+        "id": 83947,
+        "accession_number": "7782-44-7",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:7782-44-7",
+        "prefix": "chemidplus"
+      },
+      {
+        "id": 25548,
+        "accession_number": "7782-44-7",
+        "type": "CAS",
+        "source_name": "KEGG COMPOUND",
+        "url": null,
+        "prefix": "kegg.compound"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    },
+    {
+      "application": true,
+      "chemical_role": true,
+      "chebi_accession": "CHEBI:77974",
+      "name": "food packaging gas",
+      "definition": "A food additive that is a (generally inert) gas which is used to envelop foodstuffs during packing and so protect them from unwanted chemical reactions such as food spoilage or oxidation during subsequent transport and storage. The term includes propellant gases, used to expel foods from a container.",
+      "id": 77974,
+      "biological_role": true
+    },
+    {
+      "application": true,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:33893",
+      "name": "reagent",
+      "definition": "A substance used in a chemical reaction to detect, measure, examine, or produce other substances.",
+      "id": 33893,
+      "biological_role": false
+    },
+    {
+      "application": false,
+      "chemical_role": true,
+      "chebi_accession": "CHEBI:63248",
+      "name": "oxidising agent",
+      "definition": "A substance that removes electrons from another reactant in a redox reaction.",
+      "id": 63248,
+      "biological_role": false
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:33284",
+      "name": "nutrient",
+      "definition": "A nutrient is a food component that an organism uses to survive and grow.",
+      "id": 33284,
+      "biological_role": true
+    },
+    {
+      "application": true,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:35472",
+      "name": "anti-inflammatory drug",
+      "definition": "A substance that reduces or suppresses inflammation.",
+      "id": 35472,
+      "biological_role": false
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:27027",
+      "name": "micronutrient",
+      "definition": "Any nutrient required in small quantities by organisms throughout their life in order to orchestrate a range of physiological functions.",
+      "id": 27027,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

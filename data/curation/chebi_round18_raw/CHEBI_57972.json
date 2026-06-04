@@ -1,0 +1,102 @@
+{
+  "id": 57972,
+  "chebi_accession": "CHEBI:57972",
+  "name": "<small>L</small>-alanine zwitterion",
+  "stars": 3,
+  "definition": "Zwitterionic form of <small>L</small>-alanine arising from transfer of a proton from the carboxy to the amino group; major species at pH 7.3.",
+  "ascii_name": "L-alanine zwitterion",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "(2<i>S</i>)-2-ammoniopropanoate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "(2S)-2-ammoniopropanoate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "(2<i>S</i>)-2-azaniumylpropanoate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "(2S)-2-azaniumylpropanoate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "<small>L</small>-alanine",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "L-alanine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C3H7NO2",
+    "charge": 0,
+    "mass": "89.094",
+    "monoisotopic_mass": "89.04768"
+  },
+  "modified_on": "2014-04-14T12:19:51Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2178415,
+    "smiles": "C[C@H]([NH3+])C(=O)[O-]",
+    "standard_inchi": "InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1",
+    "standard_inchi_key": "QNAYBMKLOCPYGJ-REOHCLBHSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 16977,
+        "init_name": "<small>L</small>-alanine",
+        "relation_type": "is tautomer of",
+        "final_id": 57972,
+        "final_name": "<small>L</small>-alanine zwitterion"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 57972,
+        "init_name": "<small>L</small>-alanine zwitterion",
+        "relation_type": "is a",
+        "final_id": 66916,
+        "final_name": "alanine zwitterion"
+      },
+      {
+        "init_id": 57972,
+        "init_name": "<small>L</small>-alanine zwitterion",
+        "relation_type": "is tautomer of",
+        "final_id": 16977,
+        "final_name": "<small>L</small>-alanine"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 782608,
+        "accession_number": "362662",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}

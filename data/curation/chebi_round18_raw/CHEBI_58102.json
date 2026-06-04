@@ -1,0 +1,100 @@
+{
+  "id": 58102,
+  "chebi_accession": "CHEBI:58102",
+  "name": "2-<em>N</em>,6-<em>O</em>-disulfonato-<small>D</small>-glucosamine(2\u2212)",
+  "stars": 3,
+  "definition": "Dianion of 2-N,6-O-disulfo-D-glucosamine arising from deprotonation of both sulfate OH groups; major species at pH 7.3.",
+  "ascii_name": "2-N,6-O-disulfonato-D-glucosamine(2-)",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "2-deoxy-6-<em>O</em>-sulfonato-2-(sulfonatoamino)-<small>D</small>-glucose",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "2-deoxy-6-O-sulfonato-2-(sulfonatoamino)-D-glucose",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "2-<em>N</em>,6-<em>O</em>-disulfonato-<small>D</small>-glucosamine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "2-N,6-O-disulfonato-D-glucosamine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "2-<em>N</em>,6-<em>O</em>-disulfonato-<small>D</small>-glucosamine dianion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "2-N,6-O-disulfonato-D-glucosamine dianion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "<em>N</em><small><sup>2</small></sup>,6-disulfo-<small>D</small>-glucosamine",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "N(2),6-disulfo-D-glucosamine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C6H11NO11S2",
+    "charge": -2,
+    "mass": "337.284",
+    "monoisotopic_mass": "336.97845"
+  },
+  "modified_on": "2017-11-13T13:54:29Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2705832,
+    "smiles": "[H]C(=O)[C@H](NS(=O)(=O)[O-])[C@@H](O)[C@H](O)[C@H](O)COS(=O)(=O)[O-]",
+    "standard_inchi": "InChI=1S/C6H13NO11S2/c8-1-3(7-19(12,13)14)5(10)6(11)4(9)2-18-20(15,16)17/h1,3-7,9-11H,2H2,(H,12,13,14)(H,15,16,17)/p-2/t3-,4+,5+,6+/m0/s1",
+    "standard_inchi_key": "BQSMUQUKNCGJCT-SLPGGIOYSA-L",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 17316,
+        "init_name": "2-<em>N</em>,6-<em>O</em>-disulfo-<small>D</small>-glucosamine",
+        "relation_type": "is conjugate acid of",
+        "final_id": 58102,
+        "final_name": "2-<em>N</em>,6-<em>O</em>-disulfonato-<small>D</small>-glucosamine(2\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 58102,
+        "init_name": "2-<em>N</em>,6-<em>O</em>-disulfonato-<small>D</small>-glucosamine(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 58958,
+        "final_name": "organosulfate oxoanion"
+      },
+      {
+        "init_id": 58102,
+        "init_name": "2-<em>N</em>,6-<em>O</em>-disulfonato-<small>D</small>-glucosamine(2\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 17316,
+        "final_name": "2-<em>N</em>,6-<em>O</em>-disulfo-<small>D</small>-glucosamine"
+      }
+    ]
+  },
+  "database_accessions": {},
+  "roles_classification": null,
+  "is_released": true
+}

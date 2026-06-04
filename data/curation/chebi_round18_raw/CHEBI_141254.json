@@ -1,0 +1,66 @@
+{
+  "id": 141254,
+  "chebi_accession": "CHEBI:141254",
+  "name": "monogalactosyldiacylglycerol 34:2",
+  "stars": 2,
+  "definition": null,
+  "ascii_name": "monogalactosyldiacylglycerol 34:2",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "MGDG(34:2)",
+        "status": "S",
+        "type": "SYNONYM",
+        "source": "SUBMITTER",
+        "ascii_name": "MGDG(34:2)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C43H78O10",
+    "charge": 0,
+    "mass": "308.239",
+    "monoisotopic_mass": "754.55950"
+  },
+  "modified_on": "2018-07-11T12:02:59Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 3107436,
+    "smiles": "[1*]C(=O)OC[C@H](CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)OC([2*])=O",
+    "standard_inchi": "",
+    "standard_inchi_key": null,
+    "wurcs": null,
+    "is_r_group": true
+  },
+  "compound_origins": [],
+  "created_by": [
+    "mwilliams"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+      {
+        "init_id": 141254,
+        "init_name": "monogalactosyldiacylglycerol 34:2",
+        "relation_type": "is a",
+        "final_id": 17615,
+        "final_name": "1,2-diacyl-3-\u03b2-<small>D</small>-galactosyl-<em>sn</em>-glycerol"
+      }
+    ]
+  },
+  "database_accessions": {},
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75771",
+      "name": "mouse metabolite",
+      "definition": "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>).",
+      "id": 75771,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

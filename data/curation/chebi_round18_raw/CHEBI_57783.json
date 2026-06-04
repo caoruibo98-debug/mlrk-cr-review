@@ -1,0 +1,203 @@
+{
+  "id": 57783,
+  "chebi_accession": "CHEBI:57783",
+  "name": "NADPH(4\u2212)",
+  "stars": 3,
+  "definition": "Tetraanion of NADPH arising from deprotonation of the diphosphate and phosphate OH groups; major species at pH 7.3.",
+  "ascii_name": "NADPH(4-)",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "2'-<em>O</em>-phosphonatoadenosine 5'-{3-[1-(3-carbamoyl-1,4-dihydropyridin-1-yl)-1,4-anhydro-<small>D</small>-ribitol-5-yl] diphosphate}",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "2'-O-phosphonatoadenosine 5'-{3-[1-(3-carbamoyl-1,4-dihydropyridin-1-yl)-1,4-anhydro-D-ribitol-5-yl] diphosphate}",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "NADPH",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "NADPH",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "NADPH tetraanion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "NADPH tetraanion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C21H26N7O17P3",
+    "charge": -4,
+    "mass": "741.393",
+    "monoisotopic_mass": "741.06200"
+  },
+  "modified_on": "2019-07-26T08:25:23Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2177691,
+    "smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "standard_inchi": "InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/p-4/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1",
+    "standard_inchi_key": "ACFIXJIJDZMPPO-NNYOXOHSSA-J",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 64076,
+        "init_name": "(<i>S</i>)-NADPHX(4\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 57783,
+        "final_name": "NADPH(4\u2212)"
+      },
+      {
+        "init_id": 16474,
+        "init_name": "NADPH",
+        "relation_type": "is conjugate acid of",
+        "final_id": 57783,
+        "final_name": "NADPH(4\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 57783,
+        "init_name": "NADPH(4\u2212)",
+        "relation_type": "has role",
+        "final_id": 23357,
+        "final_name": "cofactor"
+      },
+      {
+        "init_id": 57783,
+        "init_name": "NADPH(4\u2212)",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 57783,
+        "init_name": "NADPH(4\u2212)",
+        "relation_type": "has role",
+        "final_id": 75772,
+        "final_name": "<em>Saccharomyces cerevisiae </em> metabolite"
+      },
+      {
+        "init_id": 57783,
+        "init_name": "NADPH(4\u2212)",
+        "relation_type": "is a",
+        "final_id": 17499,
+        "final_name": "hydrogen donor"
+      },
+      {
+        "init_id": 57783,
+        "init_name": "NADPH(4\u2212)",
+        "relation_type": "is a",
+        "final_id": 59724,
+        "final_name": "ribonucleoside triphosphate oxoanion"
+      },
+      {
+        "init_id": 57783,
+        "init_name": "NADPH(4\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 16474,
+        "final_name": "NADPH"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 782414,
+        "accession_number": "10411862",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:23357",
+      "name": "cofactor",
+      "definition": "An organic molecule or ion (usually a metal ion) that is required by an enzyme for its activity. It may be attached either loosely (coenzyme) or tightly (prosthetic group).",
+      "id": 23357,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": true,
+      "chebi_accession": "CHEBI:15022",
+      "name": "electron donor",
+      "definition": "A molecular entity that can transfer an electron to another molecular entity.",
+      "id": 15022,
+      "biological_role": false
+    }
+  ],
+  "is_released": true
+}

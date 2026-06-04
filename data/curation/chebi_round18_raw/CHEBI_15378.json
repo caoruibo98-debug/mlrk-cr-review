@@ -1,0 +1,154 @@
+{
+  "id": 15378,
+  "chebi_accession": "CHEBI:15378",
+  "name": "hydron",
+  "stars": 3,
+  "definition": "The general name for the hydrogen nucleus, to be used without regard to the hydrogen nuclear mass (either for hydrogen in its natural abundance or where it is not desired to distinguish between the isotopes).",
+  "ascii_name": "hydron",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "H+",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "H+",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Hydron",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Hydron",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "H<small><sup>+</small></sup>",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "H(+)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "hydrogen(1+)",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "hydrogen(1+)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "hydron",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "hydron",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "H",
+    "charge": 1,
+    "mass": "1.008",
+    "monoisotopic_mass": "1.00728"
+  },
+  "modified_on": "2014-07-28T15:20:32Z",
+  "secondary_ids": [
+    "CHEBI:5584",
+    "CHEBI:10744",
+    "CHEBI:13357"
+  ],
+  "default_structure": {
+    "id": 103,
+    "smiles": "[H+]",
+    "standard_inchi": "InChI=1S/p+1",
+    "standard_inchi_key": "GPRLSGONYQIRFK-UHFFFAOYSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [
+    "Marcus Ennis"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 24636,
+        "init_name": "proton",
+        "relation_type": "is a",
+        "final_id": 15378,
+        "final_name": "hydron"
+      },
+      {
+        "init_id": 29234,
+        "init_name": "triton",
+        "relation_type": "is a",
+        "final_id": 15378,
+        "final_name": "hydron"
+      },
+      {
+        "init_id": 29233,
+        "init_name": "deuteron",
+        "relation_type": "is a",
+        "final_id": 15378,
+        "final_name": "hydron"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 15378,
+        "init_name": "hydron",
+        "relation_type": "is a",
+        "final_id": 25414,
+        "final_name": "monoatomic monocation"
+      },
+      {
+        "init_id": 15378,
+        "init_name": "hydron",
+        "relation_type": "is a",
+        "final_id": 33252,
+        "final_name": "atomic nucleus"
+      },
+      {
+        "init_id": 15378,
+        "init_name": "hydron",
+        "relation_type": "is a",
+        "final_id": 33251,
+        "final_name": "monoatomic hydrogen"
+      },
+      {
+        "init_id": 15378,
+        "init_name": "hydron",
+        "relation_type": "is a",
+        "final_id": 60242,
+        "final_name": "monovalent inorganic cation"
+      }
+    ]
+  },
+  "database_accessions": {
+    "MANUAL_X_REF": [
+      {
+        "id": 15908,
+        "accession_number": "C00080",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00080",
+        "prefix": "kegg.compound"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}

@@ -1,0 +1,702 @@
+{
+  "id": 15354,
+  "chebi_accession": "CHEBI:15354",
+  "name": "choline",
+  "stars": 3,
+  "definition": "A choline that is the parent compound of the cholines class, consisting of ethanolamine having three methyl substituents attached to the amino function.",
+  "ascii_name": "choline",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "2-hydroxy-<em>N</em>,<em>N</em>,<em>N</em>-trimethylethanaminium",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "2-hydroxy-N,N,N-trimethylethanaminium",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "Bilineurine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Bilineurine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Choline",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Choline",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "CHOLINE ION",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "CHOLINE ION",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "N,N,N-trimethylethanol-ammonium",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "N,N,N-trimethylethanol-ammonium",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "N-trimethylethanolamine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "N-trimethylethanolamine",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "trimethylethanolamine",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "trimethylethanolamine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "choline",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "choline",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C5H14NO",
+    "charge": 1,
+    "mass": "104.173",
+    "monoisotopic_mass": "104.10699"
+  },
+  "modified_on": "2019-03-04T13:33:34Z",
+  "secondary_ids": [
+    "CHEBI:3665",
+    "CHEBI:13985",
+    "CHEBI:23212",
+    "CHEBI:41524"
+  ],
+  "default_structure": {
+    "id": 85,
+    "smiles": "C[N+](C)(C)CCO",
+    "standard_inchi": "InChI=1S/C5H14NO/c1-6(2,3)4-5-7/h7H,4-5H2,1-3H3/q+1",
+    "standard_inchi_key": "OEYIOHPDSNJKLS-UHFFFAOYSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Arabidopsis thaliana",
+      "species_accession": "3702",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1074/jbc.M302362200",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:3702",
+      "source_accession_url": "https://bioregistry.io/doi:10.1074/jbc.M302362200",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Daphnia magna",
+      "species_accession": "35525",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "Article",
+      "source_accession": "Mixtures of similarly acting compounds in Daphnia magna: From gene to metabolite and beyondTine Vandenbrouck, Oliver A.H. Jones, Nathalie Dom, Julian L. Griffin, Wim De CoenEnvironment International 36 (2010) 254-268",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:35525",
+      "source_accession_url": null,
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Escherichia coli",
+      "species_accession": "562",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "21988831",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:562",
+      "source_accession_url": "http://europepmc.org/abstract/MED/21988831",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Mus musculus",
+      "species_accession": "10090",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "19425150",
+      "comments": "Source: BioModels - MODEL1507180067",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:10090",
+      "source_accession_url": "http://europepmc.org/abstract/MED/19425150",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "Marcus Ennis"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 23213,
+        "init_name": "choline ester",
+        "relation_type": "has functional parent",
+        "final_id": 15354,
+        "final_name": "choline"
+      },
+      {
+        "init_id": 133341,
+        "init_name": "choline chloride",
+        "relation_type": "has part",
+        "final_id": 15354,
+        "final_name": "choline"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "has role",
+        "final_id": 50904,
+        "final_name": "allergen"
+      },
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "has role",
+        "final_id": 75771,
+        "final_name": "mouse metabolite"
+      },
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "has role",
+        "final_id": 33284,
+        "final_name": "nutrient"
+      },
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "has role",
+        "final_id": 25512,
+        "final_name": "neurotransmitter"
+      },
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "has role",
+        "final_id": 76971,
+        "final_name": "<em>Escherichia coli</em> metabolite"
+      },
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "has role",
+        "final_id": 75772,
+        "final_name": "<em>Saccharomyces cerevisiae </em> metabolite"
+      },
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "has role",
+        "final_id": 76924,
+        "final_name": "plant metabolite"
+      },
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "has role",
+        "final_id": 83056,
+        "final_name": "<em>Daphnia magna</em> metabolite"
+      },
+      {
+        "init_id": 15354,
+        "init_name": "choline",
+        "relation_type": "is a",
+        "final_id": 23217,
+        "final_name": "cholines"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 604246,
+        "accession_number": "10930630",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/10930630",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839027,
+        "accession_number": "12826235",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/12826235",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839025,
+        "accession_number": "12946691",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/12946691",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787175,
+        "accession_number": "14972364",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/14972364",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839031,
+        "accession_number": "16210714",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/16210714",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839018,
+        "accession_number": "17087106",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17087106",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839016,
+        "accession_number": "17283071",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17283071",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787179,
+        "accession_number": "17344490",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17344490",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839021,
+        "accession_number": "18204095",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18204095",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839020,
+        "accession_number": "18230680",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18230680",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839019,
+        "accession_number": "18786517",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18786517",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839022,
+        "accession_number": "18786520",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18786520",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839017,
+        "accession_number": "19246089",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19246089",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787178,
+        "accession_number": "20038853",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/20038853",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 787117,
+        "accession_number": "20446114",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/20446114",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 815857,
+        "accession_number": "22770225",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22770225",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839029,
+        "accession_number": "22961562",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22961562",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839024,
+        "accession_number": "23095202",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/23095202",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839030,
+        "accession_number": "23616508",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/23616508",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839015,
+        "accession_number": "23637565",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/23637565",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839028,
+        "accession_number": "23733158",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/23733158",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 680691,
+        "accession_number": "6420466",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/6420466",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839026,
+        "accession_number": "7590654",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/7590654",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 839023,
+        "accession_number": "9517478",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/9517478",
+        "prefix": "pubmed"
+      }
+    ],
+    "REGISTRY_NUMBER": [
+      {
+        "id": 815858,
+        "accession_number": "1736748",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      },
+      {
+        "id": 91267,
+        "accession_number": "324597",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 979079,
+        "accession_number": "3097",
+        "type": "MANUAL_X_REF",
+        "source_name": "DrugCentral",
+        "url": "https://bioregistry.io/drugcentral:3097",
+        "prefix": "drugcentral"
+      },
+      {
+        "id": 864897,
+        "accession_number": "C00007298",
+        "type": "MANUAL_X_REF",
+        "source_name": "KNApSAcK",
+        "url": "https://bioregistry.io/knapsack:C00007298",
+        "prefix": "knapsack"
+      },
+      {
+        "id": 74615,
+        "accession_number": "C00114",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00114",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 10533,
+        "accession_number": "C00114",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00114",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 815861,
+        "accession_number": "Choline",
+        "type": "MANUAL_X_REF",
+        "source_name": "Wikipedia",
+        "url": "https://bioregistry.io/wikipedia.en:Choline",
+        "prefix": "wikipedia.en"
+      },
+      {
+        "id": 815860,
+        "accession_number": "CHOLINE",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:CHOLINE",
+        "prefix": "metacyc.compound"
+      },
+      {
+        "id": 91269,
+        "accession_number": "CHT",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:CHT",
+        "prefix": "pdb-ccd"
+      },
+      {
+        "id": 864898,
+        "accession_number": "D07690",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG DRUG",
+        "url": "https://bioregistry.io/kegg.drug:D07690",
+        "prefix": "kegg.drug"
+      },
+      {
+        "id": 809746,
+        "accession_number": "DB00122",
+        "type": "MANUAL_X_REF",
+        "source_name": "DrugBank",
+        "url": "https://bioregistry.io/drugbank:DB00122",
+        "prefix": "drugbank"
+      },
+      {
+        "id": 880448,
+        "accession_number": "ECMDB00097",
+        "type": "MANUAL_X_REF",
+        "source_name": "ECMDB",
+        "url": "https://bioregistry.io/ecmdb:ECMDB00097",
+        "prefix": "ecmdb"
+      },
+      {
+        "id": 815859,
+        "accession_number": "HMDB0000097",
+        "type": "MANUAL_X_REF",
+        "source_name": "HMDB",
+        "url": "https://bioregistry.io/hmdb:HMDB0000097",
+        "prefix": "hmdb"
+      },
+      {
+        "id": 880449,
+        "accession_number": "YMDB00227",
+        "type": "MANUAL_X_REF",
+        "source_name": "YMDB",
+        "url": "https://bioregistry.io/ymdb:YMDB00227",
+        "prefix": "ymdb"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 10551,
+        "accession_number": "62-49-7",
+        "type": "CAS",
+        "source_name": "KEGG COMPOUND",
+        "url": null,
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 91266,
+        "accession_number": "62-49-7",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:62-49-7",
+        "prefix": "chemidplus"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:50904",
+      "name": "allergen",
+      "definition": "A chemical compound, or part thereof, which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy.",
+      "id": 50904,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:25512",
+      "name": "neurotransmitter",
+      "definition": "An endogenous compound that is used to transmit information across the synapse between a neuron and another cell.",
+      "id": 25512,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76971",
+      "name": "Escherichia coli metabolite",
+      "definition": "Any bacterial metabolite produced during a metabolic reaction in <em>Escherichia coli</em>.",
+      "id": 76971,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75771",
+      "name": "mouse metabolite",
+      "definition": "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>).",
+      "id": 75771,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:33284",
+      "name": "nutrient",
+      "definition": "A nutrient is a food component that an organism uses to survive and grow.",
+      "id": 33284,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76924",
+      "name": "plant metabolite",
+      "definition": "Any eukaryotic metabolite produced during a metabolic reaction in plants, the kingdom that include flowering plants, conifers and other gymnosperms.",
+      "id": 76924,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:83056",
+      "name": "Daphnia magna metabolite",
+      "definition": "A <em>Daphnia</em> metabolite produced by the species <em>Daphnia magna</em>.",
+      "id": 83056,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

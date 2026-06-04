@@ -1,0 +1,697 @@
+{
+  "id": 30879,
+  "chebi_accession": "CHEBI:30879",
+  "name": "alcohol",
+  "stars": 3,
+  "definition": "A compound in which a hydroxy group, \u2012OH, is attached to a saturated carbon atom.",
+  "ascii_name": "alcohol",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "Alcohol",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Alcohol",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "alcohols",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "alcohols",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "an alcohol",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "an alcohol",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "HOR",
+    "charge": 0,
+    "mass": "17.007",
+    "monoisotopic_mass": "17.00274"
+  },
+  "modified_on": "2019-04-30T17:37:51Z",
+  "secondary_ids": [
+    "CHEBI:2553",
+    "CHEBI:13804",
+    "CHEBI:22288"
+  ],
+  "default_structure": {
+    "id": 2842210,
+    "smiles": "*O",
+    "standard_inchi": "",
+    "standard_inchi_key": null,
+    "wurcs": null,
+    "is_r_group": true
+  },
+  "compound_origins": [
+    {
+      "species_text": "Mus musculus",
+      "species_accession": "10090",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "19425150",
+      "comments": "Source: BioModels - MODEL1507180067",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:10090",
+      "source_accession_url": "http://europepmc.org/abstract/MED/19425150",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "Kirill Degtyarenko"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 22478,
+        "init_name": "amino alcohol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 33854,
+        "init_name": "aromatic alcohol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 24026,
+        "init_name": "fatty alcohol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 15734,
+        "init_name": "primary alcohol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 35681,
+        "init_name": "secondary alcohol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 26878,
+        "init_name": "tertiary alcohol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 23480,
+        "init_name": "cyclohexanols",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 5653,
+        "init_name": "hemiacetal",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 26244,
+        "init_name": "prenols",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 46789,
+        "init_name": "hydroxyether",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 48837,
+        "init_name": "cycloalkenylalkanol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 4912,
+        "init_name": "etorphine",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 48579,
+        "init_name": "adamantanol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 2571,
+        "init_name": "aliphatic alcohol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 23495,
+        "init_name": "cyclopentanols",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 169502,
+        "init_name": "Chloropanaxydiol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 6906,
+        "init_name": "Metoprolol tartrate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 6905,
+        "init_name": "Metoprolol succinate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 165504,
+        "init_name": "2-Chlorohexadecanol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 88155,
+        "init_name": "dipropionin",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 70079,
+        "init_name": "Etrogol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 70077,
+        "init_name": "Stachyline C",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 68989,
+        "init_name": "oleuropein (aldehyde form)",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 94836,
+        "init_name": "1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)-2-propanol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 67777,
+        "init_name": "Z-Adrienyne, (rel)-",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 67778,
+        "init_name": "(E)-Adrienyne, [rel(threo)]-",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 80929,
+        "init_name": "Costatol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 34853,
+        "init_name": "Mitobronitol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 34213,
+        "init_name": "2,2-Dichloro-1,1-ethanediol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 76478,
+        "init_name": "dibutyrin",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 46703,
+        "init_name": "geosmin",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 88156,
+        "init_name": "diacetin",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 89421,
+        "init_name": "3,4-DHPEA-EA",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 89644,
+        "init_name": "3-Methoxy-4-Hydroxyphenylglycol sulfate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 89944,
+        "init_name": "1-Penten-3-ol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 88405,
+        "init_name": "Homovanillic acid sulfate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 88683,
+        "init_name": "4-Hydroxy-5-(4'-hydroxyphenyl)-valeric acid-4'-O-sulphate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 135170,
+        "init_name": "tribromoethanol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 135311,
+        "init_name": "mitolactol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 63732,
+        "init_name": "1,1-diol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 135877,
+        "init_name": "petrichloral",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 135956,
+        "init_name": "vernakalant",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 135970,
+        "init_name": "diiodohydroxypropane",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 134361,
+        "init_name": "allylic alcohol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 86986,
+        "init_name": "diacylglycerol 38:7",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 175849,
+        "init_name": "2-(3,4-Dihydroxyphenylethyl)-6-epi-elenaiate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 174916,
+        "init_name": "p-HPEA-EDA",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 174919,
+        "init_name": "3'-Deoxyoleacein",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 175090,
+        "init_name": "Oleacein",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 177738,
+        "init_name": "10-Chloro-1-heptadecene-4,6-diyne-3,9-diol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 205908,
+        "init_name": "Phenylbutenote",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 218587,
+        "init_name": "(3R)-4-chloro-3-hydroxy-4-pentenamide",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 201677,
+        "init_name": "Lachnumol A",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 205426,
+        "init_name": "(3E,9Z,12Z)-7-Chloro-3,9,12-pentadecatrien-1-yn-6-ol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 202286,
+        "init_name": "4-Hydroxyphenethyl methyl succinate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 203722,
+        "init_name": "4-hydroxyphenethyl 2-(4-oxo-5,6-dihydro-2H-pyran-3-yl) acetate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 204204,
+        "init_name": "Chondrosterin H",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 217370,
+        "init_name": "Tandyukisin E",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 212987,
+        "init_name": "(E)-1-[2,4-dihydroxy-3-(2-hydroxyethyl)-6-methoxyphenyl]but-2-en-1-one",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 213196,
+        "init_name": "4-(4-hydroxyphenethoxy)-4-oxobutanoic acid",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 224568,
+        "init_name": "Hypocrol A",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 206547,
+        "init_name": "Pichiafuran B",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 220098,
+        "init_name": "Phomonitroester",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 211095,
+        "init_name": "Tyrosol propionate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 211756,
+        "init_name": "4-(2',3'-dihydroxy-3'-methylbutanoxy)phenethanol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 214821,
+        "init_name": "Cyclohelminthol III",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 205744,
+        "init_name": "Plocamenol A",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 205881,
+        "init_name": "O-Methyltyrosol acetate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 211852,
+        "init_name": "Secoretipolide E",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 198055,
+        "init_name": "Papupyrrolal",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 224318,
+        "init_name": "3,4-Dibromo-5-methylenecyclopent-3-ene-1,2-diol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 213946,
+        "init_name": "4-Hydroxyphenethyl 2-(4-hydroxyphenyl)acetate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 198532,
+        "init_name": "Ilanepyrrolal",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 207887,
+        "init_name": "Cyclohelminthol IV",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 199052,
+        "init_name": "Monaspilosin",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 216790,
+        "init_name": "Hypocrenone B",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 210193,
+        "init_name": "Plocamenol B",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 199463,
+        "init_name": "Etrogol acetate",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 193361,
+        "init_name": "Ginsenoyne B",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 218429,
+        "init_name": "Trichodenol B",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 207791,
+        "init_name": "Cryptodiol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 207796,
+        "init_name": "Cryptotriol",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 215257,
+        "init_name": "(R)-desferri-ferrithiocinmethylester",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      },
+      {
+        "init_id": 209911,
+        "init_name": "Trieffusol C",
+        "relation_type": "is a",
+        "final_id": 30879,
+        "final_name": "alcohol"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 30879,
+        "init_name": "alcohol",
+        "relation_type": "is a",
+        "final_id": 33822,
+        "final_name": "organic hydroxy compound"
+      }
+    ]
+  },
+  "database_accessions": {
+    "MANUAL_X_REF": [
+      {
+        "id": 7604,
+        "accession_number": "C00069",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00069",
+        "prefix": "kegg.compound"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}

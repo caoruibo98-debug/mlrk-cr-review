@@ -1,0 +1,211 @@
+{
+  "id": 58223,
+  "chebi_accession": "CHEBI:58223",
+  "name": "UDP(3\u2212)",
+  "stars": 3,
+  "definition": "A nucleoside 5'-diphosphate(3\u2212) arising from deprotonation of the diphosphate OH groups of uridine 5'-diphosphate (UDP); major species at pH 7.3.",
+  "ascii_name": "UDP(3-)",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "5'-<em>O</em>-[(phosphonatooxy)phosphinato]uridine",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "5'-O-[(phosphonatooxy)phosphinato]uridine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "UDP",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "UDP",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "UDP trianion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "UDP trianion",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "uridine 5'-diphosphate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "uridine 5'-diphosphate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "uridine 5'-diphosphate(3\u2212)",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "uridine 5'-diphosphate(3-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "uridine 5'-diphosphate trianion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "uridine 5'-diphosphate trianion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C9H11N2O12P2",
+    "charge": -3,
+    "mass": "401.137",
+    "monoisotopic_mass": "400.98037"
+  },
+  "modified_on": "2017-03-13T11:30:42Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2179360,
+    "smiles": "O=c1ccn([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)n1",
+    "standard_inchi": "InChI=1S/C9H14N2O12P2/c12-5-1-2-11(9(15)10-5)8-7(14)6(13)4(22-8)3-21-25(19,20)23-24(16,17)18/h1-2,4,6-8,13-14H,3H2,(H,19,20)(H,10,12,15)(H2,16,17,18)/p-3/t4-,6-,7-,8-/m1/s1",
+    "standard_inchi_key": "XCCTYIAWTASOJW-XVFCMESISA-K",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 17659,
+        "init_name": "UDP",
+        "relation_type": "is conjugate acid of",
+        "final_id": 58223,
+        "final_name": "UDP(3\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 58223,
+        "init_name": "UDP(3\u2212)",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 58223,
+        "init_name": "UDP(3\u2212)",
+        "relation_type": "has role",
+        "final_id": 75772,
+        "final_name": "<em>Saccharomyces cerevisiae </em> metabolite"
+      },
+      {
+        "init_id": 58223,
+        "init_name": "UDP(3\u2212)",
+        "relation_type": "is a",
+        "final_id": 57930,
+        "final_name": "nucleoside 5'-diphosphate(3\u2212)"
+      },
+      {
+        "init_id": 58223,
+        "init_name": "UDP(3\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 17659,
+        "final_name": "UDP"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 783288,
+        "accession_number": "4895226",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      }
+    ],
+    "CITATION": [
+      {
+        "id": 783290,
+        "accession_number": "8632770",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/8632770",
+        "prefix": "pubmed"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 785287,
+        "accession_number": "UDP",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:UDP",
+        "prefix": "metacyc.compound"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

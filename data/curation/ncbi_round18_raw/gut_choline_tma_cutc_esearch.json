@@ -1,0 +1,42 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "2",
+    "retmax": "2",
+    "retstart": "0",
+    "idlist": [
+      "40863168",
+      "35273169"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "choline",
+        "to": "\"cholin\"[All Fields] OR \"choline\"[Supplementary Concept] OR \"choline\"[All Fields] OR \"choline\"[MeSH Terms] OR \"cholines\"[All Fields] OR \"choline's\"[All Fields]"
+      },
+      {
+        "from": "trimethylamine",
+        "to": "\"trimethylamine\"[Supplementary Concept] OR \"trimethylamine\"[All Fields] OR \"trimethylamines\"[All Fields]"
+      },
+      {
+        "from": "lyase",
+        "to": "\"lyases\"[Supplementary Concept] OR \"lyases\"[All Fields] OR \"lyase\"[All Fields] OR \"lyases\"[MeSH Terms]"
+      },
+      {
+        "from": "substrate",
+        "to": "\"substrate\"[All Fields] OR \"substrate's\"[All Fields] OR \"substrated\"[All Fields] OR \"substrates\"[All Fields]"
+      },
+      {
+        "from": "product",
+        "to": "\"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"production\"[All Fields] OR \"productions\"[All Fields] OR \"efficiency\"[MeSH Terms] OR \"efficiency\"[All Fields] OR \"productivity\"[All Fields] OR \"product\"[All Fields] OR \"product's\"[All Fields] OR \"productive\"[All Fields] OR \"productively\"[All Fields] OR \"productivities\"[All Fields] OR \"products\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"cholin\"[All Fields] OR \"choline\"[Supplementary Concept] OR \"choline\"[All Fields] OR \"choline\"[MeSH Terms] OR \"cholines\"[All Fields] OR \"choline s\"[All Fields]) AND (\"trimethylamine\"[Supplementary Concept] OR \"trimethylamine\"[All Fields] OR \"trimethylamines\"[All Fields]) AND (\"lyases\"[Supplementary Concept] OR \"lyases\"[All Fields] OR \"lyase\"[All Fields] OR \"lyases\"[MeSH Terms]) AND \"cutC\"[All Fields] AND (\"substrate\"[All Fields] OR \"substrate s\"[All Fields] OR \"substrated\"[All Fields] OR \"substrates\"[All Fields]) AND (\"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"production\"[All Fields] OR \"productions\"[All Fields] OR \"efficiency\"[MeSH Terms] OR \"efficiency\"[All Fields] OR \"productivity\"[All Fields] OR \"product\"[All Fields] OR \"product s\"[All Fields] OR \"productive\"[All Fields] OR \"productively\"[All Fields] OR \"productivities\"[All Fields] OR \"products\"[All Fields])"
+  }
+}

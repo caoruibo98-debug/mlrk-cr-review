@@ -1,0 +1,104 @@
+{
+  "id": 59776,
+  "chebi_accession": "CHEBI:59776",
+  "name": "<small>D</small>-glyceraldehyde 3-phosphate(2\u2212)",
+  "stars": 3,
+  "definition": "Dianion of <small>D</small>-glyceraldehyde 3-phosphate arising from deprotonation of both OH groups of the phosphate.",
+  "ascii_name": "D-glyceraldehyde 3-phosphate(2-)",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "(2<i>R</i>)-2-hydroxy-3-oxopropyl phosphate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "(2R)-2-hydroxy-3-oxopropyl phosphate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "<small>D</small>-glyceraldehyde 3-phosphate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "D-glyceraldehyde 3-phosphate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "<small>D</small>-glyceraldehyde 3-phosphate dianion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "D-glyceraldehyde 3-phosphate dianion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C3H5O6P",
+    "charge": -2,
+    "mass": "168.041",
+    "monoisotopic_mass": "167.98347"
+  },
+  "modified_on": "2010-08-17T08:10:27Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2527036,
+    "smiles": "[H]C(=O)[C@H](O)COP(=O)([O-])[O-]",
+    "standard_inchi": "InChI=1S/C3H7O6P/c4-1-3(5)2-9-10(6,7)8/h1,3,5H,2H2,(H2,6,7,8)/p-2/t3-/m0/s1",
+    "standard_inchi_key": "LXJXRIRHZLFYRP-VKHMYHEASA-L",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [
+    "Anne Morgat"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 29052,
+        "init_name": "<small>D</small>-glyceraldehyde 3-phosphate",
+        "relation_type": "is conjugate acid of",
+        "final_id": 59776,
+        "final_name": "<small>D</small>-glyceraldehyde 3-phosphate(2\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 59776,
+        "init_name": "<small>D</small>-glyceraldehyde 3-phosphate(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 58945,
+        "final_name": "organophosphate oxoanion"
+      },
+      {
+        "init_id": 59776,
+        "init_name": "<small>D</small>-glyceraldehyde 3-phosphate(2\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 29052,
+        "final_name": "<small>D</small>-glyceraldehyde 3-phosphate"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 744366,
+        "accession_number": "6139851",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}

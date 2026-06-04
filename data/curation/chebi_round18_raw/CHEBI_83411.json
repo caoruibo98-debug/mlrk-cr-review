@@ -1,0 +1,460 @@
+{
+  "id": 83411,
+  "chebi_accession": "CHEBI:83411",
+  "name": "\u03b2-<small>D</small>-glucosiduronate",
+  "stars": 3,
+  "definition": "A carbohydrate acid derivative anion obtained by deprotonation of the carboxy group of any \u03b2-<small>D</small>-glucosiduronic acid; major species at pH 7.3.",
+  "ascii_name": "beta-D-glucosiduronate",
+  "names": {
+    "UNIPROT NAME": [
+      {
+        "name": "a \u03b2-<small>D</small>-glucuronoside",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "a beta-D-glucuronoside",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C6H8O7R",
+    "charge": -1,
+    "mass": "192.124",
+    "monoisotopic_mass": "192.02700"
+  },
+  "modified_on": "2026-04-13T14:26:26.754322Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2874537,
+    "smiles": "*O[C@@H]1O[C@H](C(=O)[O-])[C@@H](O)[C@H](O)[C@H]1O",
+    "standard_inchi": "",
+    "standard_inchi_key": null,
+    "wurcs": null,
+    "is_r_group": true
+  },
+  "compound_origins": [],
+  "created_by": [
+    "Anne Morgat"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 747564,
+        "init_name": "glycitein 4'-<em>O</em>-glucuronide(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 133006,
+        "init_name": "2-methoxyacetaminophen glucuronide(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 132962,
+        "init_name": "acetaminophen <em>O</em>-\u03b2-<small>D</small>-glucosiduronate",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136971,
+        "init_name": "2-methoxyestrone 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 144584,
+        "init_name": "5,7-dimethyl-2-methylamino-4-(3-pyridylmethyl)-1,3-benzothiazol-6-yl \u03b2-<small>D</small>-glucuronide(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 144582,
+        "init_name": "4-methylumbelliferone \u03b2-<small>D</small>-glucuronide(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136903,
+        "init_name": "hyodeoxycholic acid 24-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136904,
+        "init_name": "hyocholic acid 24-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136905,
+        "init_name": "hyodeoxycholate 6-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136906,
+        "init_name": "hyocholate 6-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 149522,
+        "init_name": "candesartan <em>O</em>-\u03b2-<small>D</small>-glucuronoside(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136899,
+        "init_name": "chenodeoxycholic acid 24-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136900,
+        "init_name": "cholic acid 24-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136914,
+        "init_name": "5\u03b1-dihydrotestosterone 17-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136933,
+        "init_name": "2-hydroxy-17\u03b2-estradiol 2-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136936,
+        "init_name": "4-hydroxy-17\u03b2-estradiol 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136937,
+        "init_name": "4-hydroxy-17\u03b2-estradiol 4-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136965,
+        "init_name": "lithocholate 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136885,
+        "init_name": "16-epiestriol 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136968,
+        "init_name": "2-hydroxyestrone 2-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136969,
+        "init_name": "4-hydroxyestrone 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136970,
+        "init_name": "4-hydroxyestrone 4-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136973,
+        "init_name": "4-methoxyestrone 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136974,
+        "init_name": "2-methoxy-17\u03b2-estradiol 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136976,
+        "init_name": "4-methoxy-17\u03b2-estradiol 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136884,
+        "init_name": "17-epiestriol 16-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136886,
+        "init_name": "16-epiestriol 16-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136894,
+        "init_name": "chenodeoxycholate 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136883,
+        "init_name": "17-epiestriol 17-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136882,
+        "init_name": "17-epiestriol 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 149526,
+        "init_name": "zolarsartan <em>O</em>-\u03b2-<small>D</small>-glucuronoside(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 149486,
+        "init_name": "mycophenolate 7-<em>O</em>-\u03b2-<small>D</small>-glucuronide(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 149482,
+        "init_name": "SN-38 <em>O</em>-\u03b2-<small>D</small>-glucuronoside(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 147404,
+        "init_name": "prunetin-4'-<em>O</em>-\u03b2-<small>D</small>-glucuronide(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 147405,
+        "init_name": "prunetin-5-<em>O</em>-\u03b2-<small>D</small>-glucuronide(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136967,
+        "init_name": "2-hydroxyestrone 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136636,
+        "init_name": "16\u03b1-hydroxyestrone 16-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136635,
+        "init_name": "16\u03b1-hydroxyestrone 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136642,
+        "init_name": "17\u03b1-estradiol 17-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136673,
+        "init_name": "epitestosterone 17-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 57529,
+        "init_name": "17\u03b1-estradiol 3-glucosiduronate",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136641,
+        "init_name": "17\u03b2-estradiol 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136650,
+        "init_name": "estriol 16-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136649,
+        "init_name": "estriol 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136634,
+        "init_name": "estrone 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136639,
+        "init_name": "testosterone 17-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 82961,
+        "init_name": "17\u03b2-estradiol 17-glucosiduronate",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136901,
+        "init_name": "deoxycholic acid 24-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136902,
+        "init_name": "lithocholic acid 24-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136981,
+        "init_name": "5\u03b1-androstane-3\u03b2,17\u03b2-diol 17-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 136931,
+        "init_name": "2-hydroxy-17\u03b2-estradiol 3-<em>O</em>-(\u03b2-<small>D</small>-glucuronide)(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 229551,
+        "init_name": "\u03b1-<small>L</small>-rhamnosyl-(1\u21924)-\u03b2-<small>D</small>-glucuronide",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 229542,
+        "init_name": "3-<em>O</em>-\u03b2-<small>D</small>-glucosyl-\u03b2-<small>D</small>-glucuronoside",
+        "relation_type": "is a",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      },
+      {
+        "init_id": 15341,
+        "init_name": "\u03b2-<small>D</small>-glucosiduronic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 83411,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 83411,
+        "init_name": "\u03b2-<small>D</small>-glucosiduronate",
+        "relation_type": "is a",
+        "final_id": 63551,
+        "final_name": "carbohydrate acid derivative anion"
+      },
+      {
+        "init_id": 83411,
+        "init_name": "\u03b2-<small>D</small>-glucosiduronate",
+        "relation_type": "is a",
+        "final_id": 132367,
+        "final_name": "\u03b2-<small>D</small>-glucuronoside(1\u2212)"
+      },
+      {
+        "init_id": 83411,
+        "init_name": "\u03b2-<small>D</small>-glucosiduronate",
+        "relation_type": "is conjugate base of",
+        "final_id": 15341,
+        "final_name": "\u03b2-<small>D</small>-glucosiduronic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "MANUAL_X_REF": [
+      {
+        "id": 882968,
+        "accession_number": "Beta-D-Glucuronides",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:Beta-D-Glucuronides",
+        "prefix": "metacyc.compound"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}

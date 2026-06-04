@@ -1,0 +1,101 @@
+{
+  "id": 78017,
+  "chebi_accession": "CHEBI:78017",
+  "name": "food propellant",
+  "stars": 3,
+  "definition": "A propellant that is used to expel foods from an aerosol container.",
+  "ascii_name": "food propellant",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "food propellants",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "food propellants",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": null,
+  "modified_on": "2014-04-07T16:40:18Z",
+  "secondary_ids": [],
+  "default_structure": null,
+  "compound_origins": [],
+  "created_by": [
+    "Gareth Owen"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 16526,
+        "init_name": "carbon dioxide",
+        "relation_type": "has role",
+        "final_id": 78017,
+        "final_name": "food propellant"
+      },
+      {
+        "init_id": 17045,
+        "init_name": "dinitrogen oxide",
+        "relation_type": "has role",
+        "final_id": 78017,
+        "final_name": "food propellant"
+      },
+      {
+        "init_id": 17997,
+        "init_name": "dinitrogen",
+        "relation_type": "has role",
+        "final_id": 78017,
+        "final_name": "food propellant"
+      },
+      {
+        "init_id": 37808,
+        "init_name": "butane",
+        "relation_type": "has role",
+        "final_id": 78017,
+        "final_name": "food propellant"
+      },
+      {
+        "init_id": 30363,
+        "init_name": "isobutane",
+        "relation_type": "has role",
+        "final_id": 78017,
+        "final_name": "food propellant"
+      },
+      {
+        "init_id": 32879,
+        "init_name": "propane",
+        "relation_type": "has role",
+        "final_id": 78017,
+        "final_name": "food propellant"
+      },
+      {
+        "init_id": 31007,
+        "init_name": "octafluorocyclobutane",
+        "relation_type": "has role",
+        "final_id": 78017,
+        "final_name": "food propellant"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 78017,
+        "init_name": "food propellant",
+        "relation_type": "is a",
+        "final_id": 76414,
+        "final_name": "propellant"
+      },
+      {
+        "init_id": 78017,
+        "init_name": "food propellant",
+        "relation_type": "is a",
+        "final_id": 64047,
+        "final_name": "food additive"
+      }
+    ]
+  },
+  "database_accessions": {},
+  "roles_classification": null,
+  "is_released": true
+}

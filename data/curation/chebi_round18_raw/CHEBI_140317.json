@@ -1,0 +1,296 @@
+{
+  "id": 140317,
+  "chebi_accession": "CHEBI:140317",
+  "name": "phenyl sulfate oxoanion",
+  "stars": 3,
+  "definition": "An aryl sulfate oxoanion obtained by deprotonation of the sulfo group of any phenyl sulfate; major species at pH 7.3.",
+  "ascii_name": "phenyl sulfate oxoanion",
+  "names": {
+    "UNIPROT NAME": [
+      {
+        "name": "an aryl sulfate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "an aryl sulfate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "phenyl sulfate derivative",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "phenyl sulfate derivative",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "phenyl sulfate derivatives",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "phenyl sulfate derivatives",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "phenyl sulfate oxoanions",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "phenyl sulfate oxoanions",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C6O4SR5",
+    "charge": -1,
+    "mass": "168.128",
+    "monoisotopic_mass": "167.95173"
+  },
+  "modified_on": "2021-06-07T07:27:35Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 3104094,
+    "smiles": "*c1c(*)c(*)c(OS(=O)(=O)[O-])c(*)c1*",
+    "standard_inchi": "",
+    "standard_inchi_key": null,
+    "wurcs": null,
+    "is_r_group": true
+  },
+  "compound_origins": [],
+  "created_by": [
+    "Anne Morgat"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 133702,
+        "init_name": "3-methylcatechol monosulfate anion",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133703,
+        "init_name": "4-methylcatechol monosulfate anion",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133587,
+        "init_name": "1,2,3-benzenetriol monosulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133563,
+        "init_name": "2-acetamidophenol sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133194,
+        "init_name": "2-aminophenyl sulfate",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133502,
+        "init_name": "2-methoxyacetaminophen sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133550,
+        "init_name": "2-methoxyresorcinol sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133701,
+        "init_name": "3-(3-sulfooxyphenyl)propanoate(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133589,
+        "init_name": "3-methoxycatechol monosulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133687,
+        "init_name": "4-(acetylamino)-3-hydroxyphenyl sulfate",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133225,
+        "init_name": "4-acetylphenyl sulfate",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133681,
+        "init_name": "4-ethylphenyl sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133546,
+        "init_name": "4-vinylguaiacol sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133676,
+        "init_name": "4-vinylphenol sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133090,
+        "init_name": "<em>o</em>-cresol sulfate",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133670,
+        "init_name": "<em>p</em>-cresol sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 58377,
+        "init_name": "<small>L</small>-tyrosine methyl ester 4-sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133740,
+        "init_name": "caffeic acid 3-sulfate(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133097,
+        "init_name": "chavicol sulfate",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133705,
+        "init_name": "ethyl 4-hydroxybenzoate sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133571,
+        "init_name": "eugenol sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133463,
+        "init_name": "guaiacol sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133595,
+        "init_name": "isoeugenol sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133533,
+        "init_name": "methyl-4-hydroxybenzoate <em>O</em>-sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133707,
+        "init_name": "propyl 4-hydroxybenzoate sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 133663,
+        "init_name": "thymol sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 58910,
+        "init_name": "thyroxine sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 85289,
+        "init_name": "phenyl sulfate",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 167171,
+        "init_name": "bisphenol A sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      },
+      {
+        "init_id": 167173,
+        "init_name": "4-isopropylphenyl sulfate(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 140317,
+        "final_name": "phenyl sulfate oxoanion"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 140317,
+        "init_name": "phenyl sulfate oxoanion",
+        "relation_type": "is a",
+        "final_id": 139371,
+        "final_name": "aryl sulfate oxoanion"
+      }
+    ]
+  },
+  "database_accessions": {},
+  "roles_classification": null,
+  "is_released": true
+}

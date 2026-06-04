@@ -1,0 +1,132 @@
+{
+  "id": 33384,
+  "chebi_accession": "CHEBI:33384",
+  "name": "<small>L</small>-serine zwitterion",
+  "stars": 3,
+  "definition": "A serine zwitterion obtained by transfer of a proton from the carboxy to the amino group of <small>L</small>-serine.",
+  "ascii_name": "L-serine zwitterion",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "(2<i>S</i>)-2-ammonio-3-hydroxypropanoate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "(2S)-2-ammonio-3-hydroxypropanoate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "<small>L</small>-serine",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "L-serine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "<small>L</small>-serine zwitterion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "L-serine zwitterion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C3H7NO3",
+    "charge": 0,
+    "mass": "105.093",
+    "monoisotopic_mass": "105.04259"
+  },
+  "modified_on": "2024-09-18T14:45:22Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 16301,
+    "smiles": "[NH3+][C@@H](CO)C(=O)[O-]",
+    "standard_inchi": "InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m0/s1",
+    "standard_inchi_key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [
+    "Marcus Ennis"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 143778,
+        "init_name": "<em>N</em>-(<em>C</em>-5-[deoxy-\u03b2-<small>D</small>-glucosyl]-2,3-dihydroxybenzoyl)-<small>L</small>-serinate",
+        "relation_type": "has functional parent",
+        "final_id": 33384,
+        "final_name": "<small>L</small>-serine zwitterion"
+      },
+      {
+        "init_id": 35247,
+        "init_name": "<small>D</small>-serine zwitterion",
+        "relation_type": "is enantiomer of",
+        "final_id": 33384,
+        "final_name": "<small>L</small>-serine zwitterion"
+      },
+      {
+        "init_id": 17115,
+        "init_name": "<small>L</small>-serine",
+        "relation_type": "is tautomer of",
+        "final_id": 33384,
+        "final_name": "<small>L</small>-serine zwitterion"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 33384,
+        "init_name": "<small>L</small>-serine zwitterion",
+        "relation_type": "is a",
+        "final_id": 35243,
+        "final_name": "serine zwitterion"
+      },
+      {
+        "init_id": 33384,
+        "init_name": "<small>L</small>-serine zwitterion",
+        "relation_type": "is a",
+        "final_id": 59869,
+        "final_name": "<small>L</small>-\u03b1-amino acid zwitterion"
+      },
+      {
+        "init_id": 33384,
+        "init_name": "<small>L</small>-serine zwitterion",
+        "relation_type": "is enantiomer of",
+        "final_id": 35247,
+        "final_name": "<small>D</small>-serine zwitterion"
+      },
+      {
+        "init_id": 33384,
+        "init_name": "<small>L</small>-serine zwitterion",
+        "relation_type": "is tautomer of",
+        "final_id": 17115,
+        "final_name": "<small>L</small>-serine"
+      }
+    ]
+  },
+  "database_accessions": {
+    "MANUAL_X_REF": [
+      {
+        "id": 804816,
+        "accession_number": "SER",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:SER",
+        "prefix": "metacyc.compound"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}

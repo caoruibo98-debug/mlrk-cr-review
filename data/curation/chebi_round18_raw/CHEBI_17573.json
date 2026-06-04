@@ -1,0 +1,123 @@
+{
+  "id": 17573,
+  "chebi_accession": "CHEBI:17573",
+  "name": "glycyrrhetinate",
+  "stars": 3,
+  "definition": null,
+  "ascii_name": "glycyrrhetinate",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "3\u03b2-hydroxy-11-oxoolean-12-en-30-oate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "3beta-hydroxy-11-oxoolean-12-en-30-oate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "glycyrrhetinate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "glycyrrhetinate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "Glycyrrhetinate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Glycyrrhetinate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C30H45O4",
+    "charge": -1,
+    "mass": "469.686",
+    "monoisotopic_mass": "469.33233"
+  },
+  "modified_on": "2015-08-26T13:40:42Z",
+  "secondary_ids": [
+    "CHEBI:14366",
+    "CHEBI:24415"
+  ],
+  "default_structure": {
+    "id": 2932,
+    "smiles": "[H][C@]12C(=O)C=C3[C@]4([H])C[C@@](C)(C(=O)[O-])CC[C@]4(C)CC[C@@]3(C)[C@]1(C)CC[C@@]1([H])C(C)(C)[C@@H](O)CC[C@]21C",
+    "standard_inchi": "InChI=1S/C30H46O4/c1-25(2)21-8-11-30(7)23(28(21,5)10-9-22(25)32)20(31)16-18-19-17-27(4,24(33)34)13-12-26(19,3)14-15-29(18,30)6/h16,19,21-23,32H,8-15,17H2,1-7H3,(H,33,34)/p-1/t19-,21-,22-,23+,26+,27-,28-,29+,30+/m0/s1",
+    "standard_inchi_key": "MPDGHEJMBKOTSU-YKLVYJNSSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 30853,
+        "init_name": "glycyrrhetinic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 17573,
+        "final_name": "glycyrrhetinate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 17573,
+        "init_name": "glycyrrhetinate",
+        "relation_type": "is a",
+        "final_id": 35757,
+        "final_name": "monocarboxylic acid anion"
+      },
+      {
+        "init_id": 17573,
+        "init_name": "glycyrrhetinate",
+        "relation_type": "is conjugate base of",
+        "final_id": 30853,
+        "final_name": "glycyrrhetinic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CAS": [
+      {
+        "id": 89337,
+        "accession_number": "1449-05-4",
+        "type": "CAS",
+        "source_name": "KEGG COMPOUND",
+        "url": null,
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 89338,
+        "accession_number": "471-53-4",
+        "type": "CAS",
+        "source_name": "KEGG COMPOUND",
+        "url": null,
+        "prefix": "kegg.compound"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 76680,
+        "accession_number": "C02283",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C02283",
+        "prefix": "kegg.compound"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}

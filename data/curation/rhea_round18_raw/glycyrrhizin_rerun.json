@@ -1,0 +1,38 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "17369",
+      "equation": "glycyrrhizin + H2O = 2-(beta-D-glucuronosyl)-D-glucuronate + glycyrrhetinate",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29807\">glycyrrhizin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58230\">2-(&#946;-<small>D</small>-glucuronosyl)-<small>D</small>-glucuronate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:17573\">glycyrrhetinate</a><span class=\"location\"> </span></span>",
+      "comment": "Published in:\nMuro, T., Kuramoto, T., Imoto, K. and Okada, S. Purification and some properties of glycyrrhizinic acid hydrolase from <ital>Aspergillus niger</ital> GRM3. <ital>Agric. Biol. Chem.</ital> 50 (1986) 687\u2013692.",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "glycyrrhizin": [
+        {
+          "term": "glycyrrhizin",
+          "query": "chebi:\"glycyrrhizin [29807]\"",
+          "count": "1",
+          "label": "glycyrrhizin",
+          "id": "CHEBI:29807",
+          "isDirect": true,
+          "othernames": "Glycyrrhizinate, (3beta,20beta)-20-Carboxy-11-oxo-30-norolean-12-en-3-yl-2-O-beta-D-glucuronosyl-beta-D-glucosiduronic acid, glycyrrhizinate(3&#8722;), Glycyrrhizic acid"
+        },
+        {
+          "term": "glycyrrhizin",
+          "query": "chebi:\"glycyrrhizinic acid [15939]\"",
+          "count": "1",
+          "label": "glycyrrhizinic acid",
+          "id": "CHEBI:15939",
+          "isDirect": false,
+          "othernames": "30-hydroxy-11,30-dioxoolean-12-en-3&#946;-yl (2-<i>O</i>-&#946;-<small>D</small>-glucopyranosyluronic acid)-&#945;-<small>D</small>-glucopyranosiduronic acid, (3&#946;,20&#946;)-20-carboxy-11-oxo-30-norolean-12-en-3-yl-2-<i>O</i>-&#946;-<small>D</small>-glucopyranuronosyl-&#945;-<small>D</small>-glucopyranosiduronic acid, Glycyrrhizin, Glycyrrhizic acid"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "id": 15361,
+  "chebi_accession": "CHEBI:15361",
+  "name": "pyruvate",
+  "stars": 3,
+  "definition": "A 2-oxo monocarboxylic acid anion that is the conjugate base of pyruvic acid, arising from deprotonation of the carboxy group.",
+  "ascii_name": "pyruvate",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "2-oxopropanoate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "2-oxopropanoate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "2-oxopropanoate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "2-oxopropanoate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "2-oxopropanoic acid, ion(1\u2212)",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "2-oxopropanoic acid, ion(1-)",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "pyruvate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "pyruvate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C3H3O3",
+    "charge": -1,
+    "mass": "87.054",
+    "monoisotopic_mass": "87.00877"
+  },
+  "modified_on": "2023-05-19T13:34:00Z",
+  "secondary_ids": [
+    "CHEBI:14987",
+    "CHEBI:26462"
+  ],
+  "default_structure": {
+    "id": 2014,
+    "smiles": "CC(=O)C(=O)[O-]",
+    "standard_inchi": "InChI=1S/C3H4O3/c1-2(4)3(5)6/h1H3,(H,5,6)/p-1",
+    "standard_inchi_key": "LCTONWCANYUPML-UHFFFAOYSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Saccharomyces cerevisiae",
+      "species_accession": "4932",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "24678285",
+      "comments": "Source: yeast.sf.net",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:4932",
+      "source_accession_url": "http://europepmc.org/abstract/MED/24678285",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "Marcus Ennis"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 57278,
+        "init_name": "3-acylpyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 36242,
+        "init_name": "3-(4-hydroxyphenyl)pyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 29055,
+        "init_name": "3,4-dihydroxyphenylpyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 18005,
+        "init_name": "<em>keto</em>-phenylpyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 17271,
+        "init_name": "3-phosphonatopyruvate(3\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 17468,
+        "init_name": "(4-bromophenylsulfanyl)pyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 27040,
+        "init_name": "<i>trans</i>-2-carboxybenzylidenepyruvate(2\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 17180,
+        "init_name": "3-hydroxypyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 18110,
+        "init_name": "3-phosphonatooxypyruvate(3\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 55522,
+        "init_name": "3-fluoropyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 55520,
+        "init_name": "3-(5-benzyloxyindol-3-yl)pyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 64790,
+        "init_name": "tetrahydro-4-hydroxyphenylpyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 143071,
+        "init_name": "3-(4-aminophenyl)pyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 74408,
+        "init_name": "3-dimethylallyl-4-hydroxyphenylpyruvate(1\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 71402,
+        "init_name": "3-phosphonatopyruvate(2\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 64788,
+        "init_name": "3,4-dihydro-4-hydroxyphenylpyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 64789,
+        "init_name": "3-(4-hydroxycyclohex-2-en-1-ylidene)pyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 131592,
+        "init_name": "3-bromopyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 195180,
+        "init_name": "3-(5-hydroxyindol-3-yl)pyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 167869,
+        "init_name": "3-hydroxyphenylpyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 50144,
+        "init_name": "sodium pyruvate",
+        "relation_type": "has part",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      },
+      {
+        "init_id": 32816,
+        "init_name": "pyruvic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 15361,
+        "final_name": "pyruvate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 15361,
+        "init_name": "pyruvate",
+        "relation_type": "has functional parent",
+        "final_id": 17272,
+        "final_name": "propionate"
+      },
+      {
+        "init_id": 15361,
+        "init_name": "pyruvate",
+        "relation_type": "has role",
+        "final_id": 23357,
+        "final_name": "cofactor"
+      },
+      {
+        "init_id": 15361,
+        "init_name": "pyruvate",
+        "relation_type": "has role",
+        "final_id": 78675,
+        "final_name": "fundamental metabolite"
+      },
+      {
+        "init_id": 15361,
+        "init_name": "pyruvate",
+        "relation_type": "is a",
+        "final_id": 35179,
+        "final_name": "2-oxo monocarboxylic acid anion"
+      },
+      {
+        "init_id": 15361,
+        "init_name": "pyruvate",
+        "relation_type": "is conjugate base of",
+        "final_id": 32816,
+        "final_name": "pyruvic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 805298,
+        "accession_number": "17190852",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17190852",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 802752,
+        "accession_number": "21603897",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/21603897",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 802751,
+        "accession_number": "21823181",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/21823181",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 802753,
+        "accession_number": "21854850",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/21854850",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 802749,
+        "accession_number": "22006570",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22006570",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 802754,
+        "accession_number": "22016370",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22016370",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 802746,
+        "accession_number": "22215378",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22215378",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 802748,
+        "accession_number": "22311625",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22311625",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 802747,
+        "accession_number": "22451307",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22451307",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 802750,
+        "accession_number": "22458763",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/22458763",
+        "prefix": "pubmed"
+      }
+    ],
+    "REGISTRY_NUMBER": [
+      {
+        "id": 83738,
+        "accession_number": "2502",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      },
+      {
+        "id": 802745,
+        "accession_number": "3587721",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 83741,
+        "accession_number": "57-60-3",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:57-60-3",
+        "prefix": "chemidplus"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 79958,
+        "accession_number": "C00022",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00022",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 79959,
+        "accession_number": "c0159",
+        "type": "MANUAL_X_REF",
+        "source_name": "UM-BBD",
+        "url": "https://bioregistry.io/umbbd.compound:c0159",
+        "prefix": "umbbd.compound"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:23357",
+      "name": "cofactor",
+      "definition": "An organic molecule or ion (usually a metal ion) that is required by an enzyme for its activity. It may be attached either loosely (coenzyme) or tightly (prosthetic group).",
+      "id": 23357,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:78675",
+      "name": "fundamental metabolite",
+      "definition": "Any metabolite produced by all living cells.",
+      "id": 78675,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

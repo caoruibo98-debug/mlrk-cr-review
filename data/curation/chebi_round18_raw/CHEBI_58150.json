@@ -1,0 +1,105 @@
+{
+  "id": 58150,
+  "chebi_accession": "CHEBI:58150",
+  "name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfonato-\u03b2-<small>D</small>-glucosamine(3\u2212)",
+  "stars": 3,
+  "definition": "An organosulfate oxoanion that is a trianion arising from deprotonation of the <em>O</em>-sulfo, <em>N</em>-sulfo and carboxy groups of 3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfo-\u03b2-<small>D</small>-glucosamine; major species at pH 7.3.",
+  "ascii_name": "3-D-glucuronosyl-N(2),6-disulfonato-beta-D-glucosamine(3-)",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "2-deoxy-3-<em>O</em>-(<small>D</small>-glucopyranosyluronate)-6-<em>O</em>-sulfonato-2-(sulfonatoamino)-\u03b2-<small>D</small>-glucopyranose",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "2-deoxy-3-O-(D-glucopyranosyluronate)-6-O-sulfonato-2-(sulfonatoamino)-beta-D-glucopyranose",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfonato-\u03b2-<small>D</small>-glucosamine trianion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "3-D-glucuronosyl-N(2),6-disulfonato-beta-D-glucosamine trianion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfo-\u03b2-<small>D</small>-glucosamine",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "3-D-glucuronosyl-N(2),6-disulfo-beta-D-glucosamine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C12H18NO17S2",
+    "charge": -3,
+    "mass": "512.400",
+    "monoisotopic_mass": "512.00326"
+  },
+  "modified_on": "2017-11-13T13:54:29Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2179087,
+    "smiles": "O=C([O-])[C@H]1OC(O[C@H]2[C@H](O)[C@@H](COS(=O)(=O)[O-])O[C@@H](O)[C@@H]2NS(=O)(=O)[O-])[C@H](O)[C@@H](O)[C@@H]1O",
+    "standard_inchi": "InChI=1S/C12H21NO17S2/c14-4-2(1-27-32(24,25)26)28-11(20)3(13-31(21,22)23)8(4)29-12-7(17)5(15)6(16)9(30-12)10(18)19/h2-9,11-17,20H,1H2,(H,18,19)(H,21,22,23)(H,24,25,26)/p-3/t2-,3-,4-,5+,6+,7-,8-,9+,11-,12?/m1/s1",
+    "standard_inchi_key": "CRPMVGCTWVCEFA-STDISIGGSA-K",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 17446,
+        "init_name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfo-\u03b2-<small>D</small>-glucosamine",
+        "relation_type": "is conjugate acid of",
+        "final_id": 58150,
+        "final_name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfonato-\u03b2-<small>D</small>-glucosamine(3\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 58150,
+        "init_name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfonato-\u03b2-<small>D</small>-glucosamine(3\u2212)",
+        "relation_type": "is a",
+        "final_id": 35757,
+        "final_name": "monocarboxylic acid anion"
+      },
+      {
+        "init_id": 58150,
+        "init_name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfonato-\u03b2-<small>D</small>-glucosamine(3\u2212)",
+        "relation_type": "is a",
+        "final_id": 61660,
+        "final_name": "organic sulfamate oxoanion"
+      },
+      {
+        "init_id": 58150,
+        "init_name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfonato-\u03b2-<small>D</small>-glucosamine(3\u2212)",
+        "relation_type": "is a",
+        "final_id": 58958,
+        "final_name": "organosulfate oxoanion"
+      },
+      {
+        "init_id": 58150,
+        "init_name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfonato-\u03b2-<small>D</small>-glucosamine(3\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 17446,
+        "final_name": "3-<small>D</small>-glucuronosyl-<em>N</em><small><sup>2</small></sup>,6-disulfo-\u03b2-<small>D</small>-glucosamine"
+      }
+    ]
+  },
+  "database_accessions": {},
+  "roles_classification": null,
+  "is_released": true
+}

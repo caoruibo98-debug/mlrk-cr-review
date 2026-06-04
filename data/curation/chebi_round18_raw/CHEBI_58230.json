@@ -1,0 +1,116 @@
+{
+  "id": 58230,
+  "chebi_accession": "CHEBI:58230",
+  "name": "2-(\u03b2-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate(2\u2212)",
+  "stars": 3,
+  "definition": "A carbohydrate acid anion arising from deprotonation of both carboxy groups of 2-(\u03b2-<small>D</small>-glucopyranosyluronic acid)-<small>D</small>-glucuronic acid; major species at pH 7.3.",
+  "ascii_name": "2-(beta-D-glucopyranosyluronate)-D-glucuronate(2-)",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "2-<em>O</em>-\u03b2-<small>D</small>-glucopyranuronosyl-\u03b2-<small>D</small>-glucopyranuronate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "2-O-beta-D-glucopyranuronosyl-beta-D-glucopyranuronate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "2-(\u03b2-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "2-(beta-D-glucopyranosyluronate)-D-glucuronate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "2-(\u03b2-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate dianion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "2-(beta-D-glucopyranosyluronate)-D-glucuronate dianion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "2-(\u03b2-<small>D</small>-glucuronosyl)-<small>D</small>-glucuronate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "2-(beta-D-glucuronosyl)-D-glucuronate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "\u03b2-<small>D</small>-glucopyranuronosyl-(1\u21922)-\u03b2-<small>D</small>-glucopyranuronate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "beta-D-glucopyranuronosyl-(1->2)-beta-D-glucopyranuronate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C12H16O13",
+    "charge": -2,
+    "mass": "368.247",
+    "monoisotopic_mass": "368.06019"
+  },
+  "modified_on": "2017-11-13T13:54:30Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2179388,
+    "smiles": "O=C([O-])[C@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](O)[C@@H](C(=O)[O-])O[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+    "standard_inchi": "InChI=1S/C12H18O13/c13-1-2(14)7(10(20)21)24-12(5(1)17)25-8-4(16)3(15)6(9(18)19)23-11(8)22/h1-8,11-17,22H,(H,18,19)(H,20,21)/p-2/t1-,2-,3-,4-,5+,6-,7-,8+,11+,12-/m0/s1",
+    "standard_inchi_key": "IMNADAQGVSDVMI-CCLDAEICSA-L",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 17676,
+        "init_name": "2-(\u03b2-<small>D</small>-glucopyranosyluronic acid)-<small>D</small>-glucuronic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 58230,
+        "final_name": "2-(\u03b2-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate(2\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 58230,
+        "init_name": "2-(\u03b2-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 33721,
+        "final_name": "carbohydrate acid anion"
+      },
+      {
+        "init_id": 58230,
+        "init_name": "2-(\u03b2-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate(2\u2212)",
+        "relation_type": "is a",
+        "final_id": 28965,
+        "final_name": "dicarboxylic acid dianion"
+      },
+      {
+        "init_id": 58230,
+        "init_name": "2-(\u03b2-<small>D</small>-glucopyranosyluronate)-<small>D</small>-glucuronate(2\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 17676,
+        "final_name": "2-(\u03b2-<small>D</small>-glucopyranosyluronic acid)-<small>D</small>-glucuronic acid"
+      }
+    ]
+  },
+  "database_accessions": {},
+  "roles_classification": null,
+  "is_released": true
+}

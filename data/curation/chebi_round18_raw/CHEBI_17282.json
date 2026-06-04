@@ -1,0 +1,163 @@
+{
+  "id": 17282,
+  "chebi_accession": "CHEBI:17282",
+  "name": "3-(indol-3-yl)lactate",
+  "stars": 3,
+  "definition": "A 2-hydroxy carboxylate that is the conjugate base of 3-(indol-3-yl)lactic acid.",
+  "ascii_name": "3-(indol-3-yl)lactate",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "2-hydroxy-3-(1<em>H</em>-indol-3-yl)propanoate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "2-hydroxy-3-(1H-indol-3-yl)propanoate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "3-(indol-3-yl)lactate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "3-(indol-3-yl)lactate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "indole-3-lactate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "indole-3-lactate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "indole lactate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "indole lactate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Indolelactate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Indolelactate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C11H10NO3",
+    "charge": -1,
+    "mass": "204.205",
+    "monoisotopic_mass": "204.06662"
+  },
+  "modified_on": "2017-11-13T13:54:24Z",
+  "secondary_ids": [
+    "CHEBI:5916",
+    "CHEBI:14453",
+    "CHEBI:24812"
+  ],
+  "default_structure": {
+    "id": 21971,
+    "smiles": "O=C([O-])C(O)Cc1cnc2ccccc12",
+    "standard_inchi": "InChI=1S/C11H11NO3/c13-10(11(14)15)5-7-6-12-9-4-2-1-3-8(7)9/h1-4,6,10,12-13H,5H2,(H,14,15)/p-1",
+    "standard_inchi_key": "XGILAAMKEQUXLS-UHFFFAOYSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "2361979",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "http://europepmc.org/abstract/MED/2361979",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 24813,
+        "init_name": "3-(indol-3-yl)lactic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 17282,
+        "final_name": "3-(indol-3-yl)lactate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 17282,
+        "init_name": "3-(indol-3-yl)lactate",
+        "relation_type": "has functional parent",
+        "final_id": 24996,
+        "final_name": "lactate"
+      },
+      {
+        "init_id": 17282,
+        "init_name": "3-(indol-3-yl)lactate",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 17282,
+        "init_name": "3-(indol-3-yl)lactate",
+        "relation_type": "is a",
+        "final_id": 58896,
+        "final_name": "2-hydroxy carboxylate"
+      },
+      {
+        "init_id": 17282,
+        "init_name": "3-(indol-3-yl)lactate",
+        "relation_type": "is conjugate base of",
+        "final_id": 24813,
+        "final_name": "3-(indol-3-yl)lactic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "MANUAL_X_REF": [
+      {
+        "id": 18236,
+        "accession_number": "C02043",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C02043",
+        "prefix": "kegg.compound"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

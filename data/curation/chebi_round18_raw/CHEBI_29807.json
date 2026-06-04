@@ -1,0 +1,164 @@
+{
+  "id": 29807,
+  "chebi_accession": "CHEBI:29807",
+  "name": "glycyrrhizinate(3\u2212)",
+  "stars": 3,
+  "definition": "A tricarboxylic acid trianion that is the conjugate base of glycyrrhizinic acid.",
+  "ascii_name": "glycyrrhizinate(3-)",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "(3beta,20beta)-20-Carboxy-11-oxo-30-norolean-12-en-3-yl-2-O-beta-D-glucuronosyl-beta-D-glucosiduronic acid",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "(3beta,20beta)-20-Carboxy-11-oxo-30-norolean-12-en-3-yl-2-O-beta-D-glucuronosyl-beta-D-glucosiduronic acid",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Glycyrrhizic acid",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Glycyrrhizic acid",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "glycyrrhizin",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "glycyrrhizin",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Glycyrrhizin",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Glycyrrhizin",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Glycyrrhizinate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Glycyrrhizinate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "glycyrrhizin",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "glycyrrhizin",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C42H59O16",
+    "charge": -3,
+    "mass": "819.918",
+    "monoisotopic_mass": "819.38196"
+  },
+  "modified_on": "2016-01-08T14:18:38Z",
+  "secondary_ids": [
+    "CHEBI:14367",
+    "CHEBI:24419"
+  ],
+  "default_structure": {
+    "id": 3900,
+    "smiles": "[H][C@]12C(=O)C=C3[C@]4([H])C[C@@](C)(C(=O)[O-])CC[C@]4(C)CC[C@@]3(C)[C@]1(C)CC[C@@]1([H])C(C)(C)[C@@H](O[C@H]3O[C@H](C(=O)[O-])[C@@H](O)[C@H](O)[C@H]3O[C@@H]3O[C@H](C(=O)[O-])[C@@H](O)[C@H](O)[C@H]3O)CC[C@]21C",
+    "standard_inchi": "InChI=1S/C42H62O16/c1-37(2)21-8-11-42(7)31(20(43)16-18-19-17-39(4,36(53)54)13-12-38(19,3)14-15-41(18,42)6)40(21,5)10-9-22(37)55-35-30(26(47)25(46)29(57-35)33(51)52)58-34-27(48)23(44)24(45)28(56-34)32(49)50/h16,19,21-31,34-35,44-48H,8-15,17H2,1-7H3,(H,49,50)(H,51,52)(H,53,54)/p-3/t19-,21-,22-,23-,24-,25-,26-,27+,28-,29-,30+,31+,34-,35-,38+,39-,40-,41+,42+/m0/s1",
+    "standard_inchi_key": "LPLVUJXQOOQHMX-QWBHMCJMSA-K",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [
+    "Kirill Degtyarenko"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 15939,
+        "init_name": "glycyrrhizinic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 29807,
+        "final_name": "glycyrrhizinate(3\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 29807,
+        "init_name": "glycyrrhizinate(3\u2212)",
+        "relation_type": "is a",
+        "final_id": 27092,
+        "final_name": "tricarboxylic acid trianion"
+      },
+      {
+        "init_id": 29807,
+        "init_name": "glycyrrhizinate(3\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 15939,
+        "final_name": "glycyrrhizinic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "MANUAL_X_REF": [
+      {
+        "id": 865976,
+        "accession_number": "C00003522",
+        "type": "MANUAL_X_REF",
+        "source_name": "KNApSAcK",
+        "url": "https://bioregistry.io/knapsack:C00003522",
+        "prefix": "knapsack"
+      },
+      {
+        "id": 76686,
+        "accession_number": "C02284",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C02284",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 97195,
+        "accession_number": "C02284",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C02284",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 865977,
+        "accession_number": "D00157",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG DRUG",
+        "url": "https://bioregistry.io/kegg.drug:D00157",
+        "prefix": "kegg.drug"
+      },
+      {
+        "id": 851737,
+        "accession_number": "GLYCYRRHIZINATE",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:GLYCYRRHIZINATE",
+        "prefix": "metacyc.compound"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}
