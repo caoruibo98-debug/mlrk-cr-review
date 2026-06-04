@@ -1,0 +1,4 @@
+overlay_status_round12,n_rules,n_pairs,dryrun_allowed,deployment_allowed,round
+blocked_manual_source_direction_license_review,2,1,0,0,12
+blocked_microberx_source_recovery_required,7,3,0,0,12
+dryrun_candidate_source_traceable_rule,1,1,1,0,12

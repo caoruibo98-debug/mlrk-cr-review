@@ -1,0 +1,2 @@
+round,plan_status,pair_key,rule_id,dryrun_step,success_criterion
+12,dryrun_rule_overlay_candidate,HGXBRUKMWQGOIE__MHXCIKYXNYCMHY,retrorules_RR-02-0b00df2834267ac5-06-F,add this rule to a temporary generator overlay and rerun clean candidate generation for the target substrate only,target product appears in clean_candidates_full without duplicate positive import
