@@ -1,0 +1,2 @@
+round,pair_key,rule_id,generator_repair_result,can_modify_generator_next,training_allowed_round13,deployment_promotion_allowed_round13,next_required_gate
+13,HGXBRUKMWQGOIE__MHXCIKYXNYCMHY,retrorules_RR-02-0b00df2834267ac5-06-F,overlay_rule_recovers_target_candidate,True,False,False,"wire overlay into clean generator for target-family test, then rerun clean candidate output and leakage checks"
