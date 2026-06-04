@@ -1,0 +1,38 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "20689",
+      "equation": "chlorogenate + H2O = L-quinate + (E)-caffeate + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57644\">chlorogenate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:29751\"><small>L</small>-quinate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57770\">(<i>E</i>)-caffeate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "chlorogenate": [
+        {
+          "term": "chlorogenate",
+          "query": "chebi:\"chlorogenate [57644]\" hydrolase",
+          "count": "1",
+          "label": "chlorogenate",
+          "id": "CHEBI:57644",
+          "isDirect": true,
+          "othernames": "(1<i>S</i>,3<i>R</i>,4<i>R</i>,5<i>R</i>)-3-[3-(3,4-dihydroxyphenyl)prop-2-enoyloxy]-1,4,5-trihydroxycyclohexanecarboxylate, chlorogenate anion"
+        },
+        {
+          "term": "chlorogenate",
+          "query": "chebi:\"chlorogenic acid [16112]\" hydrolase",
+          "count": "1",
+          "label": "chlorogenic acid",
+          "id": "CHEBI:16112",
+          "isDirect": false,
+          "othernames": "3-O-Caffeoylquinic acid, 3-Caffeoylquinic acid, trans-5-O-Caffeoyl-D-quinate, Caffeoyl quinic acid, [1S-(1alpha,3beta,4alpha,5alpha)]3-[[3-(3,4-dihydroxyphenyl)-1-oxo-2-propenyl]oxy]-1,4,5-trihydroxycyclohexanecarboxylic acid, 5-O-(3,4-Dihydroxycinnamoyl)-L-quinic acid, edit(1<i>S</i>,3<i>R</i>,4<i>R</i>,5<i>R</i>)-3-{[(2<i>E</i>)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]oxy}-1,4,5-trihydroxycyclohexane-1-carboxylic acid, 3-(3,4-Dihydroxycinnamoyl)quinic acid, Chlorogenate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "3",
+    "retmax": "3",
+    "retstart": "0",
+    "idlist": [
+      "16915861",
+      "16765860",
+      "12736449"
+    ],
+    "translationset": [
+      {
+        "from": "pinoresinol",
+        "to": "\"pinoresinol\"[Supplementary Concept] OR \"pinoresinol\"[All Fields] OR \"pinoresinols\"[All Fields]"
+      },
+      {
+        "from": "lariciresinol",
+        "to": "\"lariciresinol\"[Supplementary Concept] OR \"lariciresinol\"[All Fields]"
+      },
+      {
+        "from": "human",
+        "to": "\"human's\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]"
+      },
+      {
+        "from": "intestinal",
+        "to": "\"intestinalization\"[All Fields] OR \"intestinalized\"[All Fields] OR \"intestinally\"[All Fields] OR \"intestinals\"[All Fields] OR \"intestine's\"[All Fields] OR \"intestines\"[MeSH Terms] OR \"intestines\"[All Fields] OR \"intestinal\"[All Fields] OR \"intestine\"[All Fields]"
+      },
+      {
+        "from": "bacteria",
+        "to": "\"bacteria's\"[All Fields] OR \"bacteriae\"[All Fields] OR \"bacterias\"[All Fields] OR \"microbiology\"[Subheading] OR \"microbiology\"[All Fields] OR \"bacteria\"[All Fields] OR \"bacteria\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "(\"pinoresinol\"[Supplementary Concept] OR \"pinoresinol\"[All Fields] OR \"pinoresinols\"[All Fields]) AND (\"lariciresinol\"[Supplementary Concept] OR \"lariciresinol\"[All Fields]) AND (\"human s\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]) AND (\"intestinalization\"[All Fields] OR \"intestinalized\"[All Fields] OR \"intestinally\"[All Fields] OR \"intestinals\"[All Fields] OR \"intestine s\"[All Fields] OR \"intestines\"[MeSH Terms] OR \"intestines\"[All Fields] OR \"intestinal\"[All Fields] OR \"intestine\"[All Fields]) AND (\"bacteria s\"[All Fields] OR \"bacteriae\"[All Fields] OR \"bacterias\"[All Fields] OR \"microbiology\"[MeSH Subheading] OR \"microbiology\"[All Fields] OR \"bacteria\"[All Fields] OR \"bacteria\"[MeSH Terms])"
+  }
+}

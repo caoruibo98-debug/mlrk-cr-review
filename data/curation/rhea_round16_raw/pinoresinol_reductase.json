@@ -1,0 +1,53 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "56776",
+      "equation": "(+)-pinoresinol + reduced [NADPH--hemoprotein reductase] + O2 = (+)-piperitol + oxidized [NADPH--hemoprotein reductase] + 2 H2O + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:40\">(+)-pinoresinol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"rhea-comp:11964\">reduced [NADPH&#8212;hemoprotein reductase]</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15379\">O<small><sub>2</sub></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:141003\">(+)-piperitol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"rhea-comp:11965\">oxidized [NADPH&#8212;hemoprotein reductase]</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\">2 </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "reductase": [
+        {
+          "term": "reductase",
+          "query": "pinoresinol rhea-comp:\"reduced [NADPH--hemoprotein reductase] [11964]\"",
+          "count": "1",
+          "label": "reduced [NADPH&#8212;hemoprotein reductase]",
+          "id": "RHEA-COMP:11964"
+        },
+        {
+          "term": "reductase",
+          "query": "pinoresinol rhea-comp:\"oxidized [NADPH--hemoprotein reductase] [11965]\"",
+          "count": "1",
+          "label": "oxidized [NADPH&#8212;hemoprotein reductase]",
+          "id": "RHEA-COMP:11965"
+        }
+      ],
+      "pinoresinol": [
+        {
+          "term": "pinoresinol",
+          "query": "chebi:\"(+)-pinoresinol [40]\" reductase",
+          "count": "1",
+          "label": "(+)-pinoresinol",
+          "id": "CHEBI:40",
+          "isDirect": true,
+          "othernames": "4,4'-(1<i>S</i>,3a<i>R</i>,4<i>S</i>,6a<i>R</i>)-tetrahydro-1<i>H</i>,3<i>H</i>-furo[3,4-<i>c</i>]furan-1,4-diylbis(2-methoxyphenol), (7&#945;,7'&#945;,8&#945;,8'&#945;)-3,3'-dimethoxy-7,9':7',9-diepoxylignane-4,4'-diol, pinoresinol"
+        },
+        {
+          "term": "pinoresinol",
+          "query": "chebi:\"pinoresinol [8225]\" reductase",
+          "count": "1",
+          "label": "pinoresinol",
+          "id": "CHEBI:8225",
+          "isDirect": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "chlorogenic acid",
+        "to": "\"chlorogenic acid\"[Supplementary Concept] OR \"chlorogenic acid\"[All Fields] OR \"chlorogenic acid\"[MeSH Terms] OR (\"chlorogenic\"[All Fields] AND \"acid\"[All Fields])"
+      },
+      {
+        "from": "caffeic acid",
+        "to": "\"caffeic acid\"[Supplementary Concept] OR \"caffeic acid\"[All Fields]"
+      },
+      {
+        "from": "quinic acid",
+        "to": "\"quinic acid\"[Supplementary Concept] OR \"quinic acid\"[All Fields] OR \"quinic acid\"[MeSH Terms] OR (\"quinic\"[All Fields] AND \"acid\"[All Fields])"
+      },
+      {
+        "from": "hydrolysis",
+        "to": "\"hydrolysis\"[MeSH Terms] OR \"hydrolysis\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"chlorogenic acid\"[Supplementary Concept] OR \"chlorogenic acid\"[All Fields] OR \"chlorogenic acid\"[MeSH Terms] OR (\"chlorogenic\"[All Fields] AND \"acid\"[All Fields])) AND (\"caffeic acid\"[Supplementary Concept] OR \"caffeic acid\"[All Fields]) AND (\"quinic acid\"[Supplementary Concept] OR \"quinic acid\"[All Fields] OR \"quinic acid\"[MeSH Terms] OR (\"quinic\"[All Fields] AND \"acid\"[All Fields])) AND (\"hydrolysis\"[MeSH Terms] OR \"hydrolysis\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

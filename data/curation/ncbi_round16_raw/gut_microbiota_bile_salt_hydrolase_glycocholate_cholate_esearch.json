@@ -1,0 +1,33 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "38326608"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "bile salt hydrolase",
+        "to": "\"choloylglycine hydrolase\"[Supplementary Concept] OR \"choloylglycine hydrolase\"[All Fields] OR \"bile salt hydrolase\"[All Fields]"
+      },
+      {
+        "from": "glycocholate",
+        "to": "\"glycocholic acid\"[Supplementary Concept] OR \"glycocholic acid\"[All Fields] OR \"glycocholate\"[All Fields] OR \"glycocholic acid\"[MeSH Terms] OR (\"glycocholic\"[All Fields] AND \"acid\"[All Fields]) OR \"glycocholic\"[All Fields]"
+      },
+      {
+        "from": "cholate",
+        "to": "\"cholates\"[Supplementary Concept] OR \"cholates\"[All Fields] OR \"cholate\"[All Fields] OR \"cholates\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"choloylglycine hydrolase\"[Supplementary Concept] OR \"choloylglycine hydrolase\"[All Fields] OR \"bile salt hydrolase\"[All Fields]) AND (\"glycocholic acid\"[Supplementary Concept] OR \"glycocholic acid\"[All Fields] OR \"glycocholate\"[All Fields] OR \"glycocholic acid\"[MeSH Terms] OR (\"glycocholic\"[All Fields] AND \"acid\"[All Fields]) OR \"glycocholic\"[All Fields]) AND (\"cholates\"[Supplementary Concept] OR \"cholates\"[All Fields] OR \"cholate\"[All Fields] OR \"cholates\"[MeSH Terms])"
+  }
+}

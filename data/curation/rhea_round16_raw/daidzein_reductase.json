@@ -1,0 +1,54 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "53208",
+      "equation": "daidzein + reduced [NADPH--hemoprotein reductase] + O2 = 2'-hydroxydaidzein + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:77764\">daidzein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"rhea-comp:11964\">reduced [NADPH&#8212;hemoprotein reductase]</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15379\">O<small><sub>2</sub></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:77800\">2'-hydroxydaidzein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"rhea-comp:11965\">oxidized [NADPH&#8212;hemoprotein reductase]</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "daidzein": [
+        {
+          "term": "daidzein",
+          "query": "chebi:\"daidzein [77764]\" reductase",
+          "count": "1",
+          "label": "daidzein",
+          "id": "CHEBI:77764",
+          "isDirect": true,
+          "othernames": "3-(4-hydroxyphenyl)-4-oxo-4<i>H</i>-chromen-7-olate, daidzein(1&#8722;)"
+        },
+        {
+          "term": "daidzein",
+          "query": "chebi:\"daidzein [28197]\" reductase",
+          "count": "1",
+          "label": "daidzein",
+          "id": "CHEBI:28197",
+          "isDirect": false,
+          "othernames": "isoaurostatin, 4',7-dihydroxyisoflavone, 7-hydroxy-3-(4-hydroxyphenyl)-4<i>H</i>-1-benzopyran-4-one, 7,4'-dihydroxyisoflavone, 7-hydroxy-3-(4-hydroxyphenyl)-4<i>H</i>-chromen-4-one, 7-Hydroxy-3-(4-hydroxyphenyl)-4-benzopyrone, daidzeol"
+        }
+      ],
+      "reductase": [
+        {
+          "term": "reductase",
+          "query": "daidzein rhea-comp:\"reduced [NADPH--hemoprotein reductase] [11964]\"",
+          "count": "1",
+          "label": "reduced [NADPH&#8212;hemoprotein reductase]",
+          "id": "RHEA-COMP:11964"
+        },
+        {
+          "term": "reductase",
+          "query": "daidzein rhea-comp:\"oxidized [NADPH--hemoprotein reductase] [11965]\"",
+          "count": "1",
+          "label": "oxidized [NADPH&#8212;hemoprotein reductase]",
+          "id": "RHEA-COMP:11965"
+        }
+      ]
+    }
+  ]
+}

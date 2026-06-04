@@ -1,0 +1,55 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "12",
+    "retmax": "12",
+    "retstart": "0",
+    "idlist": [
+      "36282591",
+      "36282480",
+      "33930123",
+      "24946051",
+      "23115971",
+      "22113864",
+      "21092366",
+      "19357217",
+      "18554770",
+      "18328079",
+      "14988453",
+      "11238753"
+    ],
+    "translationset": [
+      {
+        "from": "daidzein",
+        "to": "\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein's\"[All Fields]"
+      },
+      {
+        "from": "equol",
+        "to": "\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields]"
+      },
+      {
+        "from": "producer",
+        "to": "\"produce\"[All Fields] OR \"produced\"[All Fields] OR \"producent\"[All Fields] OR \"producer\"[All Fields] OR \"producer's\"[All Fields] OR \"producers\"[All Fields] OR \"produces\"[All Fields] OR \"producible\"[All Fields] OR \"producing\"[All Fields]"
+      },
+      {
+        "from": "conversion",
+        "to": "\"conversion\"[All Fields] OR \"conversions\"[All Fields]"
+      },
+      {
+        "from": "bacteria",
+        "to": "\"bacteria's\"[All Fields] OR \"bacteriae\"[All Fields] OR \"bacterias\"[All Fields] OR \"microbiology\"[Subheading] OR \"microbiology\"[All Fields] OR \"bacteria\"[All Fields] OR \"bacteria\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "(\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein s\"[All Fields]) AND (\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields]) AND \"non\"[All Fields] AND (\"produce\"[All Fields] OR \"produced\"[All Fields] OR \"producent\"[All Fields] OR \"producer\"[All Fields] OR \"producer s\"[All Fields] OR \"producers\"[All Fields] OR \"produces\"[All Fields] OR \"producible\"[All Fields] OR \"producing\"[All Fields]) AND (\"conversion\"[All Fields] OR \"conversions\"[All Fields]) AND (\"bacteria s\"[All Fields] OR \"bacteriae\"[All Fields] OR \"bacterias\"[All Fields] OR \"microbiology\"[MeSH Subheading] OR \"microbiology\"[All Fields] OR \"bacteria\"[All Fields] OR \"bacteria\"[MeSH Terms])",
+    "warninglist": {
+      "phrasesignored": [
+        "no"
+      ],
+      "quotedphrasesnotfound": [],
+      "outputmessages": []
+    }
+  }
+}

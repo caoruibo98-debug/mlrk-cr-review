@@ -1,0 +1,42 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "10",
+    "retmax": "10",
+    "retstart": "0",
+    "idlist": [
+      "36700831",
+      "35722280",
+      "33217923",
+      "31138818",
+      "30683741",
+      "27782805",
+      "24013960",
+      "23952813",
+      "19520709",
+      "17459873"
+    ],
+    "translationset": [
+      {
+        "from": "2 fucosyllactose",
+        "to": "\"2'-fucosyllactose\"[Supplementary Concept] OR \"2'-fucosyllactose\"[All Fields] OR \"2 fucosyllactose\"[All Fields]"
+      },
+      {
+        "from": "fucose",
+        "to": "\"fucose\"[Supplementary Concept] OR \"fucose\"[All Fields] OR \"fucose\"[MeSH Terms] OR \"fucoses\"[All Fields]"
+      },
+      {
+        "from": "bifidobacterium",
+        "to": "\"bifidobacterium\"[MeSH Terms] OR \"bifidobacterium\"[All Fields]"
+      },
+      {
+        "from": "fucosidase",
+        "to": "\"alpha-l-fucosidase\"[Supplementary Concept] OR \"alpha-l-fucosidase\"[All Fields] OR \"fucosidase\"[All Fields] OR \"alpha-l-fucosidase\"[MeSH Terms] OR \"fucosidases\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"2 fucosyllactose\"[Supplementary Concept] OR \"2 fucosyllactose\"[All Fields] OR \"2 fucosyllactose\"[All Fields]) AND (\"fucose\"[Supplementary Concept] OR \"fucose\"[All Fields] OR \"fucose\"[MeSH Terms] OR \"fucoses\"[All Fields]) AND (\"bifidobacterium\"[MeSH Terms] OR \"bifidobacterium\"[All Fields]) AND (\"alpha l fucosidase\"[Supplementary Concept] OR \"alpha l fucosidase\"[All Fields] OR \"fucosidase\"[All Fields] OR \"alpha l fucosidase\"[MeSH Terms] OR \"fucosidases\"[All Fields])"
+  }
+}

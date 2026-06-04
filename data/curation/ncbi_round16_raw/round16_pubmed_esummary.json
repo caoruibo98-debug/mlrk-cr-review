@@ -1,0 +1,3348 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "38326608",
+      "29504827",
+      "32397326",
+      "21457417",
+      "36700831",
+      "35722280",
+      "33217923",
+      "31138818",
+      "30683741",
+      "27782805",
+      "24013960",
+      "23952813",
+      "19520709",
+      "17459873",
+      "36282591",
+      "36282480",
+      "33930123",
+      "24946051",
+      "23115971",
+      "22113864",
+      "21092366",
+      "19357217",
+      "18554770",
+      "18328079",
+      "14988453",
+      "11238753",
+      "16915861",
+      "16765860",
+      "12736449"
+    ],
+    "38326608": {
+      "uid": "38326608",
+      "pubdate": "2024 Feb",
+      "epubdate": "2024 Feb 7",
+      "source": "Nature",
+      "authors": [
+        {
+          "name": "Guzior DV",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Okros M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shivel M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Armwald B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bridges C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fu Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Martin C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Schilmiller AL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Miller WM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ziegler KM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sims MD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Maddens ME",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Graham SF",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hausinger RP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Quinn RA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Quinn RA",
+      "title": "Bile salt hydrolase acyltransferase activity expands bile acid diversity.",
+      "sorttitle": "bile salt hydrolase acyltransferase activity expands bile acid diversity",
+      "volume": "626",
+      "issue": "8000",
+      "pages": "852-858",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0410462",
+      "issn": "0028-0836",
+      "essn": "1476-4687",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "38326608"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41586-024-07017-8"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41586-024-07017-8"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2022/09/09 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2024/01/02 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2024/02/23 06:43"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/02/08 00:42"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/02/07 23:28"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Nature",
+      "elocationid": "doi: 10.1038/s41586-024-07017-8",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/02/01 00:00",
+      "sortfirstauthor": "Guzior DV",
+      "vernaculartitle": ""
+    },
+    "29504827": {
+      "uid": "29504827",
+      "pubdate": "2018 Apr",
+      "epubdate": "2018 Mar 5",
+      "source": "Biosci Biotechnol Biochem",
+      "authors": [
+        {
+          "name": "Murota K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nakamura Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Uehara M",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Uehara M",
+      "title": "Flavonoid metabolism: the interaction of metabolites and gut microbiota.",
+      "sorttitle": "flavonoid metabolism the interaction of metabolites and gut microbiota",
+      "volume": "82",
+      "issue": "4",
+      "pages": "600-610",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9205717",
+      "issn": "0916-8451",
+      "essn": "1347-6947",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "29504827"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1080/09168451.2018.1444467"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2018/03/06 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2018/09/11 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2018/03/06 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Bioscience, biotechnology, and biochemistry",
+      "elocationid": "doi: 10.1080/09168451.2018.1444467",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2018/04/01 00:00",
+      "sortfirstauthor": "Murota K",
+      "vernaculartitle": ""
+    },
+    "32397326": {
+      "uid": "32397326",
+      "pubdate": "2020 May 8",
+      "epubdate": "2020 May 8",
+      "source": "Molecules",
+      "authors": [
+        {
+          "name": "Kim HS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chung S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Song MY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lim C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shin H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hur J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kwon H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Suh YG",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kim EH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shin D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kim SH",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Kim SH",
+      "title": "Efficient and Divergent Enantioselective Syntheses of DHPVs and Anti-Inflammatory Effect on IEC-6 Cells.",
+      "sorttitle": "efficient and divergent enantioselective syntheses of dhpvs and anti inflammatory effect on iec 6 cells",
+      "volume": "25",
+      "issue": "9",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "100964009",
+      "issn": "",
+      "essn": "1420-3049",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "32397326"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC7248962"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC7248962;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3390/molecules25092215"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "molecules25092215"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2020/04/16 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2020/05/01 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2020/05/06 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2020/05/14 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2020/05/14 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/02/10 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2020/05/08 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 29,
+      "fulljournalname": "Molecules (Basel, Switzerland)",
+      "elocationid": "doi: 10.3390/molecules25092215",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2020/05/08 00:00",
+      "sortfirstauthor": "Kim HS",
+      "vernaculartitle": ""
+    },
+    "21457417": {
+      "uid": "21457417",
+      "pubdate": "2011 Jul",
+      "epubdate": "2011 May 4",
+      "source": "J Appl Microbiol",
+      "authors": [
+        {
+          "name": "Kutschera M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Engst W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Blaut M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Braune A",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Braune A",
+      "title": "Isolation of catechin-converting human intestinal bacteria.",
+      "sorttitle": "isolation of catechin converting human intestinal bacteria",
+      "volume": "111",
+      "issue": "1",
+      "pages": "165-75",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9706280",
+      "issn": "1364-5072",
+      "essn": "1365-2672",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "21457417"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1111/j.1365-2672.2011.05025.x"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2011/04/05 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2011/04/05 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2011/10/04 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of applied microbiology",
+      "elocationid": "doi: 10.1111/j.1365-2672.2011.05025.x",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2011/07/01 00:00",
+      "sortfirstauthor": "Kutschera M",
+      "vernaculartitle": ""
+    },
+    "36700831": {
+      "uid": "36700831",
+      "pubdate": "2023 Feb 8",
+      "epubdate": "2023 Jan 26",
+      "source": "J Agric Food Chem",
+      "authors": [
+        {
+          "name": "Meng J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mu W",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Mu W",
+      "title": "Microbial Synthesis of l-Fucose with High Productivity by a Metabolically Engineered Escherichia coli.",
+      "sorttitle": "microbial synthesis of l fucose with high productivity by a metabolically engineered escherichia coli",
+      "volume": "71",
+      "issue": "5",
+      "pages": "2464-2471",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0374755",
+      "issn": "0021-8561",
+      "essn": "1520-5118",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "36700831"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acs.jafc.2c08906"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2023/01/27 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2023/02/10 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2023/01/26 09:53"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of agricultural and food chemistry",
+      "elocationid": "doi: 10.1021/acs.jafc.2c08906",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2023/02/08 00:00",
+      "sortfirstauthor": "Meng J",
+      "vernaculartitle": ""
+    },
+    "35722280": {
+      "uid": "35722280",
+      "pubdate": "2022",
+      "epubdate": "2022 Jun 2",
+      "source": "Front Microbiol",
+      "authors": [
+        {
+          "name": "Horigome A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hashikura N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yoshida K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Xiao JZ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Odamaki T",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Odamaki T",
+      "title": "2'-Fucosyllactose Increases the Abundance of Blautia in the Presence of Extracellular Fucosidase-Possessing Bacteria.",
+      "sorttitle": "2 fucosyllactose increases the abundance of blautia in the presence of extracellular fucosidase possessing bacteria",
+      "volume": "13",
+      "issue": "",
+      "pages": "913624",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101548977",
+      "issn": "1664-302X",
+      "essn": "1664-302X",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "258",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "35722280"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC9201481"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC9201481;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3389/fmicb.2022.913624"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2022/04/05 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2022/05/16 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2022/06/20 04:06"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2022/06/21 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2022/06/21 06:01"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2022/06/02 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 44,
+      "fulljournalname": "Frontiers in microbiology",
+      "elocationid": "doi: 10.3389/fmicb.2022.913624",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2022/06/02 00:00",
+      "sortfirstauthor": "Horigome A",
+      "vernaculartitle": ""
+    },
+    "33217923": {
+      "uid": "33217923",
+      "pubdate": "2020 Nov 18",
+      "epubdate": "2020 Nov 18",
+      "source": "J Fungi (Basel)",
+      "authors": [
+        {
+          "name": "Zeuner B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Vuillemin M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Holck J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Muschiol J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Meyer AS",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Meyer AS",
+      "title": "Improved Transglycosylation by a Xyloglucan-Active \u03b1-l-Fucosidase from Fusarium graminearum.",
+      "sorttitle": "improved transglycosylation by a xyloglucan active l fucosidase from fusarium graminearum",
+      "volume": "6",
+      "issue": "4",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101671827",
+      "issn": "",
+      "essn": "2309-608X",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "33217923"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC7711723"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC7711723;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3390/jof6040295"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "jof6040295"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2020/10/21 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2020/11/14 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2020/11/16 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2020/11/21 01:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2020/11/22 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2020/11/22 06:01"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2020/11/18 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 41,
+      "fulljournalname": "Journal of fungi (Basel, Switzerland)",
+      "elocationid": "doi: 10.3390/jof6040295",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2020/11/18 00:00",
+      "sortfirstauthor": "Zeuner B",
+      "vernaculartitle": ""
+    },
+    "31138818": {
+      "uid": "31138818",
+      "pubdate": "2019 May 28",
+      "epubdate": "2019 May 28",
+      "source": "Sci Rep",
+      "authors": [
+        {
+          "name": "Zabel B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yde CC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Roos P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Marcussen J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jensen HM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Salli K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hirvonen J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ouwehand AC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Morovic W",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Morovic W",
+      "title": "Novel Genes and Metabolite Trends in Bifidobacterium longum subsp. infantis Bi-26 Metabolism of Human Milk Oligosaccharide 2'-fucosyllactose.",
+      "sorttitle": "novel genes and metabolite trends in bifidobacterium longum subsp infantis bi 26 metabolism of human milk oligosaccharide 2 fucosyllactose",
+      "volume": "9",
+      "issue": "1",
+      "pages": "7983",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101563288",
+      "issn": "",
+      "essn": "2045-2322",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "31138818"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC6538704"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC6538704;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41598-019-43780-9"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41598-019-43780-9"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/11/18 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2019/05/01 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2019/05/30 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2019/05/30 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2020/10/21 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2019/05/28 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 47,
+      "fulljournalname": "Scientific reports",
+      "elocationid": "doi: 10.1038/s41598-019-43780-9",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2019/05/28 00:00",
+      "sortfirstauthor": "Zabel B",
+      "vernaculartitle": ""
+    },
+    "30683741": {
+      "uid": "30683741",
+      "pubdate": "2019 Apr 1",
+      "epubdate": "2019 Mar 22",
+      "source": "Appl Environ Microbiol",
+      "authors": [
+        {
+          "name": "Centanni M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ferguson SA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sims IM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Biswas A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tannock GW",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tannock GW",
+      "title": "Bifidobacterium bifidum ATCC 15696 and Bifidobacterium breve 24b Metabolic Interaction Based on 2'-O-Fucosyl-Lactose Studied in Steady-State Cultures in a Freter-Style Chemostat.",
+      "sorttitle": "bifidobacterium bifidum atcc 15696 and bifidobacterium breve 24b metabolic interaction based on 2 o fucosyl lactose studied in steady state cultures in a freter style chemostat",
+      "volume": "85",
+      "issue": "7",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7605801",
+      "issn": "0099-2240",
+      "essn": "1098-5336",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "257",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "30683741"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC6585490"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC6585490;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1128/AEM.02783-18"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "AEM.02783-18"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/11/19 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2019/01/16 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2019/01/27 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2020/03/31 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2019/01/27 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2019/09/22 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 59,
+      "fulljournalname": "Applied and environmental microbiology",
+      "elocationid": "doi: 10.1128/AEM.02783-18",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2019/03/22 00:00",
+      "sortfirstauthor": "Centanni M",
+      "vernaculartitle": ""
+    },
+    "27782805": {
+      "uid": "27782805",
+      "pubdate": "2016 Oct 26",
+      "epubdate": "2016 Oct 26",
+      "source": "BMC Microbiol",
+      "authors": [
+        {
+          "name": "Bunesova V",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lacroix C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Schwab C",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Schwab C",
+      "title": "Fucosyllactose and L-fucose utilization of infant Bifidobacterium longum and Bifidobacterium kashiwanohense.",
+      "sorttitle": "fucosyllactose and l fucose utilization of infant bifidobacterium longum and bifidobacterium kashiwanohense",
+      "volume": "16",
+      "issue": "1",
+      "pages": "248",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "100966981",
+      "issn": "",
+      "essn": "1471-2180",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "27782805"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC5080750"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC5080750;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1186/s12866-016-0867-4"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1186/s12866-016-0867-4"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2016/08/27 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2016/10/22 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2016/10/27 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2017/06/09 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2016/10/27 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2016/10/26 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 46,
+      "fulljournalname": "BMC microbiology",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2016/10/26 00:00",
+      "sortfirstauthor": "Bunesova V",
+      "vernaculartitle": ""
+    },
+    "24013960": {
+      "uid": "24013960",
+      "pubdate": "2013 Nov",
+      "epubdate": "2013 Sep 7",
+      "source": "Glycobiology",
+      "authors": [
+        {
+          "name": "Yu ZT",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Newburg DS",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Newburg DS",
+      "title": "Utilization of major fucosylated and sialylated human milk oligosaccharides by isolated human gut microbes.",
+      "sorttitle": "utilization of major fucosylated and sialylated human milk oligosaccharides by isolated human gut microbes",
+      "volume": "23",
+      "issue": "11",
+      "pages": "1281-92",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9104124",
+      "issn": "0959-6658",
+      "essn": "1460-2423",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "24013960"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC3796377"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC3796377;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1093/glycob/cwt065"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "cwt065"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2013/09/10 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2013/09/10 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2014/05/10 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2014/11/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 42,
+      "fulljournalname": "Glycobiology",
+      "elocationid": "doi: 10.1093/glycob/cwt065",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2013/11/01 00:00",
+      "sortfirstauthor": "Yu ZT",
+      "vernaculartitle": ""
+    },
+    "23952813": {
+      "uid": "23952813",
+      "pubdate": "2013 Sep 5",
+      "epubdate": "2013 Aug 26",
+      "source": "J Phys Chem B",
+      "authors": [
+        {
+          "name": "Liu J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zheng M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Xu D",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Xu D",
+      "title": "\"Amide resonance\" in the catalysis of 1,2-\u03b1-L-fucosidase from Bifidobacterium bifidum.",
+      "sorttitle": "amide resonance in the catalysis of 1 2 l fucosidase from bifidobacterium bifidum",
+      "volume": "117",
+      "issue": "35",
+      "pages": "10080-92",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101157530",
+      "issn": "",
+      "essn": "1520-5207",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "23952813"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/jp402110j"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2013/08/20 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2013/08/21 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2014/03/25 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "The journal of physical chemistry. B",
+      "elocationid": "doi: 10.1021/jp402110j",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2013/09/05 00:00",
+      "sortfirstauthor": "Liu J",
+      "vernaculartitle": ""
+    },
+    "19520709": {
+      "uid": "19520709",
+      "pubdate": "2009 Sep",
+      "epubdate": "2009 Jun 11",
+      "source": "Glycobiology",
+      "authors": [
+        {
+          "name": "Ashida H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Miyake A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kiyohara M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wada J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yoshida E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kumagai H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Katayama T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yamamoto K",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Yamamoto K",
+      "title": "Two distinct alpha-L-fucosidases from Bifidobacterium bifidum are essential for the utilization of fucosylated milk oligosaccharides and glycoconjugates.",
+      "sorttitle": "two distinct alpha l fucosidases from bifidobacterium bifidum are essential for the utilization of fucosylated milk oligosaccharides and glycoconjugates",
+      "volume": "19",
+      "issue": "9",
+      "pages": "1010-7",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9104124",
+      "issn": "0959-6658",
+      "essn": "1460-2423",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "19520709"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1093/glycob/cwp082"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "cwp082"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2009/06/13 09:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2009/06/13 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2009/11/03 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Glycobiology",
+      "elocationid": "doi: 10.1093/glycob/cwp082",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2009/09/01 00:00",
+      "sortfirstauthor": "Ashida H",
+      "vernaculartitle": ""
+    },
+    "17459873": {
+      "uid": "17459873",
+      "pubdate": "2007 Jun 22",
+      "epubdate": "2007 Apr 25",
+      "source": "J Biol Chem",
+      "authors": [
+        {
+          "name": "Nagae M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tsuchiya A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Katayama T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yamamoto K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wakatsuki S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kato R",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Kato R",
+      "title": "Structural basis of the catalytic reaction mechanism of novel 1,2-alpha-L-fucosidase from Bifidobacterium bifidum.",
+      "sorttitle": "structural basis of the catalytic reaction mechanism of novel 1 2 alpha l fucosidase from bifidobacterium bifidum",
+      "volume": "282",
+      "issue": "25",
+      "pages": "18497-18509",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "2985121R",
+      "issn": "0021-9258",
+      "essn": "",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "17459873"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1074/jbc.M702246200"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0021-9258(20)68951-7"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2007/04/27 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2007/08/24 09:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2007/04/27 09:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "The Journal of biological chemistry",
+      "elocationid": "doi: 10.1074/jbc.M702246200",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2007/06/22 00:00",
+      "sortfirstauthor": "Nagae M",
+      "vernaculartitle": ""
+    },
+    "36282591": {
+      "uid": "36282591",
+      "pubdate": "2022 Nov 18",
+      "epubdate": "2022 Oct 25",
+      "source": "ACS Synth Biol",
+      "authors": [
+        {
+          "name": "Kydd L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shiveshwarkar P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jaworski J",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Jaworski J",
+      "title": "Engineering Escherichia coli for Conversion of Dietary Isoflavones in the Gut.",
+      "sorttitle": "engineering escherichia coli for conversion of dietary isoflavones in the gut",
+      "volume": "11",
+      "issue": "11",
+      "pages": "3575-3582",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101575075",
+      "issn": "",
+      "essn": "2161-5063",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "36282591"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acssynbio.2c00277"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2022/10/26 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2022/11/22 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2022/10/25 12:03"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "ACS synthetic biology",
+      "elocationid": "doi: 10.1021/acssynbio.2c00277",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2022/11/18 00:00",
+      "sortfirstauthor": "Kydd L",
+      "vernaculartitle": ""
+    },
+    "36282480": {
+      "uid": "36282480",
+      "pubdate": "2022 Dec 16",
+      "epubdate": "2022 Oct 25",
+      "source": "ACS Synth Biol",
+      "authors": [
+        {
+          "name": "Deng H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gao S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhou J",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Zhou J",
+      "title": "High Titer of (S)-Equol Synthesis from Daidzein in Escherichia coli.",
+      "sorttitle": "high titer of s equol synthesis from daidzein in escherichia coli",
+      "volume": "11",
+      "issue": "12",
+      "pages": "4043-4053",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101575075",
+      "issn": "",
+      "essn": "2161-5063",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "36282480"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acssynbio.2c00378"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2022/10/26 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2022/12/20 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2022/10/25 11:22"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "ACS synthetic biology",
+      "elocationid": "doi: 10.1021/acssynbio.2c00378",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2022/12/16 00:00",
+      "sortfirstauthor": "Deng H",
+      "vernaculartitle": ""
+    },
+    "33930123": {
+      "uid": "33930123",
+      "pubdate": "2021 May 11",
+      "epubdate": "",
+      "source": "FEMS Microbiol Lett",
+      "authors": [
+        {
+          "name": "Guo Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhao L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fang X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhong Q",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liang H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liang W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang L",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Wang L",
+      "title": "Isolation and identification of a human intestinal bacterium capable of daidzein conversion.",
+      "sorttitle": "isolation and identification of a human intestinal bacterium capable of daidzein conversion",
+      "volume": "368",
+      "issue": "8",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7705721",
+      "issn": "0378-1097",
+      "essn": "1574-6968",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "33930123"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1093/femsle/fnab046"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "6261181"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2021/01/26 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2021/04/28 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2021/05/01 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/10/28 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2021/04/30 17:42"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "FEMS microbiology letters",
+      "elocationid": "pii: fnab046. doi: 10.1093/femsle/fnab046",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2021/05/11 00:00",
+      "sortfirstauthor": "Guo Y",
+      "vernaculartitle": ""
+    },
+    "24946051": {
+      "uid": "24946051",
+      "pubdate": "2014 Oct 1",
+      "epubdate": "2014 Jun 16",
+      "source": "Arch Biochem Biophys",
+      "authors": [
+        {
+          "name": "Franke AA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lai JF",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Halm BM",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Halm BM",
+      "title": "Absorption, distribution, metabolism, and excretion of isoflavonoids after soy intake.",
+      "sorttitle": "absorption distribution metabolism and excretion of isoflavonoids after soy intake",
+      "volume": "559",
+      "issue": "",
+      "pages": "24-8",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0372430",
+      "issn": "0003-9861",
+      "essn": "1096-0384",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "24946051"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS681364"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC4439254"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC4439254;manuscript-id: NIHMS681364;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.abb.2014.06.007"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0003-9861(14)00209-4"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2014/01/21 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2014/05/19 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2014/06/06 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2014/06/20 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2014/06/20 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2014/10/17 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2015/05/20 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 90,
+      "fulljournalname": "Archives of biochemistry and biophysics",
+      "elocationid": "doi: 10.1016/j.abb.2014.06.007",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2014/10/01 00:00",
+      "sortfirstauthor": "Franke AA",
+      "vernaculartitle": ""
+    },
+    "23115971": {
+      "uid": "23115971",
+      "pubdate": "2012 Jul 4",
+      "epubdate": "",
+      "source": "Wei Sheng Wu Xue Bao",
+      "authors": [
+        {
+          "name": "Zhang X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zheng W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Huang S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yao W",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Yao W",
+      "title": "[Microbial conversion of daidzein affects fecal equol concentration and bacterial composition of rats with or without ovariectomy].",
+      "sorttitle": "microbial conversion of daidzein affects fecal equol concentration and bacterial composition of rats with or without ovariectomy",
+      "volume": "52",
+      "issue": "7",
+      "pages": "866-74",
+      "lang": [
+        "chi"
+      ],
+      "nlmuniqueid": "21610860R",
+      "issn": "0001-6209",
+      "essn": "",
+      "pubtype": [
+        "English Abstract",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "23115971"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2012/11/03 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2012/11/03 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2012/12/15 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Wei sheng wu xue bao = Acta microbiologica Sinica",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2012/07/04 00:00",
+      "sortfirstauthor": "Zhang X",
+      "vernaculartitle": ""
+    },
+    "22113864": {
+      "uid": "22113864",
+      "pubdate": "2012 Jan",
+      "epubdate": "2011 Nov 23",
+      "source": "J Nutr",
+      "authors": [
+        {
+          "name": "Matthies A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Loh G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Blaut M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Braune A",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Braune A",
+      "title": "Daidzein and genistein are converted to equol and 5-hydroxy-equol by human intestinal Slackia isoflavoniconvertens in gnotobiotic rats.",
+      "sorttitle": "daidzein and genistein are converted to equol and 5 hydroxy equol by human intestinal slackia isoflavoniconvertens in gnotobiotic rats",
+      "volume": "142",
+      "issue": "1",
+      "pages": "40-6",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0404243",
+      "issn": "0022-3166",
+      "essn": "1541-6100",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "22113864"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3945/jn.111.148247"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0022-3166(22)02944-3"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2011/11/25 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2011/11/25 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2012/02/14 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "The Journal of nutrition",
+      "elocationid": "doi: 10.3945/jn.111.148247",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2012/01/01 00:00",
+      "sortfirstauthor": "Matthies A",
+      "vernaculartitle": ""
+    },
+    "21092366": {
+      "uid": "21092366",
+      "pubdate": "2011 Feb",
+      "epubdate": "2010 Nov 22",
+      "source": "Proc Nutr Soc",
+      "authors": [
+        {
+          "name": "Magee PJ",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Magee PJ",
+      "title": "Is equol production beneficial to health?",
+      "sorttitle": "is equol production beneficial to health",
+      "volume": "70",
+      "issue": "1",
+      "pages": "10-8",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7505881",
+      "issn": "0029-6651",
+      "essn": "1475-2719",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "21092366"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1017/S0029665110003940"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0029665110003940"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2010/11/25 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2010/11/26 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2011/07/22 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "The Proceedings of the Nutrition Society",
+      "elocationid": "doi: 10.1017/S0029665110003940",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2011/02/01 00:00",
+      "sortfirstauthor": "Magee PJ",
+      "vernaculartitle": ""
+    },
+    "19357217": {
+      "uid": "19357217",
+      "pubdate": "2009 May",
+      "epubdate": "2009 Apr 8",
+      "source": "Am J Clin Nutr",
+      "authors": [
+        {
+          "name": "Lampe JW",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Lampe JW",
+      "title": "Is equol the key to the efficacy of soy foods?",
+      "sorttitle": "is equol the key to the efficacy of soy foods",
+      "volume": "89",
+      "issue": "5",
+      "pages": "1664S-1667S",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0376027",
+      "issn": "0002-9165",
+      "essn": "1938-3207",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "19357217"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC2677009"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC2677009;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3945/ajcn.2009.26736T"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0002-9165(23)23841-1"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2009/04/10 09:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2009/04/10 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2009/05/15 09:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2010/05/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 58,
+      "fulljournalname": "The American journal of clinical nutrition",
+      "elocationid": "doi: 10.3945/ajcn.2009.26736T",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2009/05/01 00:00",
+      "sortfirstauthor": "Lampe JW",
+      "vernaculartitle": ""
+    },
+    "18554770": {
+      "uid": "18554770",
+      "pubdate": "2008 Aug",
+      "epubdate": "2008 Apr 29",
+      "source": "Food Chem Toxicol",
+      "authors": [
+        {
+          "name": "Yee S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Burdock GA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kurata Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Enomoto Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Narumi K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hamada S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Itoh T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shimomura Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ueno T",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Ueno T",
+      "title": "Acute and subchronic toxicity and genotoxicity of SE5-OH, an equol-rich product produced by Lactococcus garvieae.",
+      "sorttitle": "acute and subchronic toxicity and genotoxicity of se5 oh an equol rich product produced by lactococcus garvieae",
+      "volume": "46",
+      "issue": "8",
+      "pages": "2713-20",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8207483",
+      "issn": "0278-6915",
+      "essn": "",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "18554770"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.fct.2008.04.026"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0278-6915(08)00214-7"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2007/11/17 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2008/04/11 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2008/04/22 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2008/06/17 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2008/09/16 09:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2008/06/17 09:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+      "elocationid": "doi: 10.1016/j.fct.2008.04.026",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2008/08/01 00:00",
+      "sortfirstauthor": "Yee S",
+      "vernaculartitle": ""
+    },
+    "18328079": {
+      "uid": "18328079",
+      "pubdate": "2008 May",
+      "epubdate": "2008 Mar 4",
+      "source": "FEMS Microbiol Lett",
+      "authors": [
+        {
+          "name": "Yu ZT",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yao W",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu WY",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Zhu WY",
+      "title": "Isolation and identification of equol-producing bacterial strains from cultures of pig faeces.",
+      "sorttitle": "isolation and identification of equol producing bacterial strains from cultures of pig faeces",
+      "volume": "282",
+      "issue": "1",
+      "pages": "73-80",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7705721",
+      "issn": "0378-1097",
+      "essn": "",
+      "pubtype": [
+        "Comparative Study",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "18328079"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1111/j.1574-6968.2008.01108.x"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "FML1108"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2008/03/11 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2008/06/25 09:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2008/03/11 09:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "FEMS microbiology letters",
+      "elocationid": "doi: 10.1111/j.1574-6968.2008.01108.x",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2008/05/01 00:00",
+      "sortfirstauthor": "Yu ZT",
+      "vernaculartitle": ""
+    },
+    "14988453": {
+      "uid": "14988453",
+      "pubdate": "2004 Mar",
+      "epubdate": "",
+      "source": "J Nutr",
+      "authors": [
+        {
+          "name": "Atkinson C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Berman S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Humbert O",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lampe JW",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Lampe JW",
+      "title": "In vitro incubation of human feces with daidzein and antibiotics suggests interindividual differences in the bacteria responsible for equol production.",
+      "sorttitle": "in vitro incubation of human feces with daidzein and antibiotics suggests interindividual differences in the bacteria responsible for equol production",
+      "volume": "134",
+      "issue": "3",
+      "pages": "596-9",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0404243",
+      "issn": "0022-3166",
+      "essn": "",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "14988453"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1093/jn/134.3.596"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0022-3166(23)02681-0"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2004/02/28 05:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2004/04/20 05:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2004/02/28 05:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "The Journal of nutrition",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2004/03/01 00:00",
+      "sortfirstauthor": "Atkinson C",
+      "vernaculartitle": ""
+    },
+    "11238753": {
+      "uid": "11238753",
+      "pubdate": "2001 Mar",
+      "epubdate": "",
+      "source": "J Nutr",
+      "authors": [
+        {
+          "name": "Lampe JW",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Skor HE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "W\u00e4h\u00e4l\u00e4 K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Howald WN",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen C",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Chen C",
+      "title": "Wheat bran and soy protein feeding do not alter urinary excretion of the isoflavan equol in premenopausal women.",
+      "sorttitle": "wheat bran and soy protein feeding do not alter urinary excretion of the isoflavan equol in premenopausal women",
+      "volume": "131",
+      "issue": "3",
+      "pages": "740-4",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0404243",
+      "issn": "0022-3166",
+      "essn": "",
+      "pubtype": [
+        "Clinical Trial",
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "11238753"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1093/jn/131.3.740"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2001/03/10 10:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2001/04/21 10:01"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2001/03/10 10:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "The Journal of nutrition",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2001/03/01 00:00",
+      "sortfirstauthor": "Lampe JW",
+      "vernaculartitle": ""
+    },
+    "16915861": {
+      "uid": "16915861",
+      "pubdate": "2006 Jul-Aug",
+      "epubdate": "",
+      "source": "J AOAC Int",
+      "authors": [
+        {
+          "name": "Lampe JW",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Atkinson C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hullar MA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Hullar MA",
+      "title": "Assessing exposure to lignans and their metabolites in humans.",
+      "sorttitle": "assessing exposure to lignans and their metabolites in humans",
+      "volume": "89",
+      "issue": "4",
+      "pages": "1174-81",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9215446",
+      "issn": "1060-3271",
+      "essn": "",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "16915861"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2006/08/19 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2006/11/10 09:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2006/08/19 09:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of AOAC International",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2006/07/01 00:00",
+      "sortfirstauthor": "Lampe JW",
+      "vernaculartitle": ""
+    },
+    "16765860": {
+      "uid": "16765860",
+      "pubdate": "2006 Jun",
+      "epubdate": "2005 Dec 15",
+      "source": "Anaerobe",
+      "authors": [
+        {
+          "name": "Clavel T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Borrmann D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Braune A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dor\u00e9 J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Blaut M",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Blaut M",
+      "title": "Occurrence and activity of human intestinal bacteria involved in the conversion of dietary lignans.",
+      "sorttitle": "occurrence and activity of human intestinal bacteria involved in the conversion of dietary lignans",
+      "volume": "12",
+      "issue": "3",
+      "pages": "140-7",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9505216",
+      "issn": "1075-9964",
+      "essn": "",
+      "pubtype": [
+        "Comparative Study",
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "16765860"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.anaerobe.2005.11.002"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S1075-9964(05)00133-2"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2005/10/21 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2005/11/07 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2005/11/09 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2006/06/13 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2006/09/01 09:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2006/06/13 09:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Anaerobe",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2006/06/01 00:00",
+      "sortfirstauthor": "Clavel T",
+      "vernaculartitle": ""
+    },
+    "12736449": {
+      "uid": "12736449",
+      "pubdate": "2003 May",
+      "epubdate": "",
+      "source": "Chem Pharm Bull (Tokyo)",
+      "authors": [
+        {
+          "name": "Xie LH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Akao T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hamasaki K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Deyama T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hattori M",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Hattori M",
+      "title": "Biotransformation of pinoresinol diglucoside to mammalian lignans by human intestinal microflora, and isolation of Enterococcus faecalis strain PDG-1 responsible for the transformation of (+)-pinoresinol to (+)-lariciresinol.",
+      "sorttitle": "biotransformation of pinoresinol diglucoside to mammalian lignans by human intestinal microflora and isolation of enterococcus faecalis strain pdg 1 responsible for the transformation of pinoresinol to lariciresinol",
+      "volume": "51",
+      "issue": "5",
+      "pages": "508-15",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0377775",
+      "issn": "0009-2363",
+      "essn": "",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "12736449"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1248/cpb.51.508"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2003/05/09 05:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2004/01/06 05:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2003/05/09 05:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Chemical & pharmaceutical bulletin",
+      "elocationid": "",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2003/05/01 00:00",
+      "sortfirstauthor": "Xie LH",
+      "vernaculartitle": ""
+    }
+  }
+}
