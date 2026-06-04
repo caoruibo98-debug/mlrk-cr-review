@@ -1,0 +1,8 @@
+stage,stage_name,input,output,pass_gate
+1,collect,priority family + local generator miss + database/literature query,raw PubMed/Rhea/GitHub evidence files and query audit rows,"query, date, raw file, source URL saved"
+2,verify_truth,candidate paper/database row,"exact substrate-product, direction, organism/enzyme/context, source id",exact edge is visible in source; broad review/context rejected
+3,map_structures,accepted exact edge,"SMILES, InChIKey, names, synonyms, database ids",substrate/product structures parse and match local chemistry
+4,modify_candidate_source_or_rule,source-backed pair or source-backed rule,import manifest or generator overlay manifest,"license, direction, stereochemistry, duplicate, and split guards pass"
+5,generator_recall_check,candidate pair and deployment-faithful generator,true product in clean candidates or blocked reason,true product is enumerable before LTR retraining
+6,freeze_and_review,CSV manifests + generated candidate outputs,"commit hash, diff, model-quality review","AI/human review finds no leakage, duplicate import, or unsupported label"
+7,train_and_evaluate,gated positives + scoped negatives + hard decoys,split-safe metrics and failure panel,"metrics reported with n, CI, family coverage, and challenge-panel failures"

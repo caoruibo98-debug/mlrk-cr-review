@@ -1,0 +1,38 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "urolithin C",
+        "to": "\"urolithin C\"[Supplementary Concept] OR \"urolithin C\"[All Fields] OR \"urolithin c\"[All Fields]"
+      },
+      {
+        "from": "urolithin A",
+        "to": "\"3,8-dihydroxy-6h-dibenzo(b,d)pyran-6-one\"[Supplementary Concept] OR \"3,8-dihydroxy-6h-dibenzo(b,d)pyran-6-one\"[All Fields] OR \"urolithin a\"[All Fields]"
+      },
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "dehydroxylation",
+        "to": "\"dehydroxylated\"[All Fields] OR \"dehydroxylation\"[All Fields] OR \"dehydroxylations\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"urolithin c\"[Supplementary Concept] OR \"urolithin c\"[All Fields] OR \"urolithin c\"[All Fields]) AND (\"3 8 dihydroxy 6h dibenzo b d pyran 6 one\"[Supplementary Concept] OR \"3 8 dihydroxy 6h dibenzo b d pyran 6 one\"[All Fields] OR \"urolithin a\"[All Fields]) AND (\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"dehydroxylated\"[All Fields] OR \"dehydroxylation\"[All Fields] OR \"dehydroxylations\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

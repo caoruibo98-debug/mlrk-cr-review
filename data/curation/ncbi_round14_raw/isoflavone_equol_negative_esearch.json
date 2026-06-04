@@ -1,0 +1,44 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "daidzein",
+        "to": "\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein's\"[All Fields]"
+      },
+      {
+        "from": "equol",
+        "to": "\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields]"
+      },
+      {
+        "from": "conversion",
+        "to": "\"conversion\"[All Fields] OR \"conversions\"[All Fields]"
+      },
+      {
+        "from": "gut",
+        "to": "\"Gut\"[Journal:__jid2985108R] OR \"gut\"[All Fields]"
+      },
+      {
+        "from": "bacteria",
+        "to": "\"bacteria's\"[All Fields] OR \"bacteriae\"[All Fields] OR \"bacterias\"[All Fields] OR \"microbiology\"[Subheading] OR \"microbiology\"[All Fields] OR \"bacteria\"[All Fields] OR \"bacteria\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "(\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein s\"[All Fields]) AND (\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields]) AND \"non-producer\"[All Fields] AND (\"conversion\"[All Fields] OR \"conversions\"[All Fields]) AND (\"gut\"[Journal] OR \"gut\"[All Fields]) AND (\"bacteria s\"[All Fields] OR \"bacteriae\"[All Fields] OR \"bacterias\"[All Fields] OR \"microbiology\"[MeSH Subheading] OR \"microbiology\"[All Fields] OR \"bacteria\"[All Fields] OR \"bacteria\"[MeSH Terms])",
+    "warninglist": {
+      "phrasesignored": [
+        "no"
+      ],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

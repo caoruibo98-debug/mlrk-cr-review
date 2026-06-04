@@ -1,0 +1,110 @@
+{
+  "count": 6,
+  "results": [
+    {
+      "id": "56048",
+      "equation": "daidzein + UDP-alpha-D-glucose = daidzein 7-O-beta-D-glucoside + UDP",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:77764\">daidzein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58885\">UDP-&#945;-<small>D</small>-glucose</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:42202\">daidzein 7-<i>O</i>-&#946;-<small>D</small>-glucoside</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58223\">UDP</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "69683",
+      "equation": "daidzein 7-O-beta-D-glucoside + H2O = daidzein + beta-D-glucose + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:42202\">daidzein 7-<i>O</i>-&#946;-<small>D</small>-glucoside</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:77764\">daidzein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15903\">&#946;-<small>D</small>-glucose</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "Published in:\n\"The configurations at the anomeric carbon of the reaction products of some digestive carbohydrases.\"\nSemenza, G., Curtius, H.-C., Raunhardt, O. & Muller, M. (1969)\nCarbohydr. Res.10, 417-428.",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "16445",
+      "equation": "(2R,3S)-2,4',7-trihydroxyisoflavanone = daidzein + H2O + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:63325\">(2<i>R</i>,3<i>S</i>)-2,4',7-trihydroxyisoflavanone</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:77764\">daidzein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "53208",
+      "equation": "daidzein + reduced [NADPH--hemoprotein reductase] + O2 = 2'-hydroxydaidzein + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:77764\">daidzein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"rhea-comp:11964\">reduced [NADPH&#8212;hemoprotein reductase]</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15379\">O<small><sub>2</sub></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:77800\">2'-hydroxydaidzein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"rhea-comp:11965\">oxidized [NADPH&#8212;hemoprotein reductase]</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "78835",
+      "equation": "3''-dehydropuerarin = daidzein + 1,5-anhydro-D-erythro-hex-1-en-3-ulose",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:229571\">3''-dehydropuerarin</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:77764\">daidzein</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:195275\">1,5-anhydro-<small>D</small>-<i>erythro</i>-hex-1-en-3-ulose</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "78831",
+      "equation": "puerarin + 3-dehydro-D-glucose = 3''-dehydropuerarin + D-glucose",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:229573\">puerarin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:55402\">3-dehydro-<small>D</small>-glucose</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:229571\">3''-dehydropuerarin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:4167\"><small>D</small>-glucose</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "daidzein": [
+        {
+          "term": "daidzein",
+          "query": "chebi:\"daidzein [77764]\"",
+          "count": "5",
+          "label": "daidzein",
+          "id": "CHEBI:77764",
+          "isDirect": true,
+          "othernames": "3-(4-hydroxyphenyl)-4-oxo-4<i>H</i>-chromen-7-olate, daidzein(1&#8722;)"
+        },
+        {
+          "term": "daidzein",
+          "query": "chebi:\"daidzein [28197]\"",
+          "count": "5",
+          "label": "daidzein",
+          "id": "CHEBI:28197",
+          "isDirect": false,
+          "othernames": "isoaurostatin, 4',7-dihydroxyisoflavone, 7-hydroxy-3-(4-hydroxyphenyl)-4<i>H</i>-1-benzopyran-4-one, 7,4'-dihydroxyisoflavone, 7-hydroxy-3-(4-hydroxyphenyl)-4<i>H</i>-chromen-4-one, 7-Hydroxy-3-(4-hydroxyphenyl)-4-benzopyrone, daidzeol"
+        },
+        {
+          "term": "daidzein",
+          "query": "chebi:\"daidzein 7-O-beta-D-glucoside [42202]\"",
+          "count": "2",
+          "label": "daidzein 7-<i>O</i>-&#946;-<small>D</small>-glucoside",
+          "id": "CHEBI:42202",
+          "isDirect": true,
+          "othernames": "7-(&#946;-<small>D</small>-glucopyranosyloxy)-3-(4-hydroxyphenyl)-4<i>H</i>-chromen-4-one, Daidzin, 3-(4-hydroxyphenyl)-4-oxo-4<i>H</i>-1-benzopyran-7-yl &#946;-<small>D</small>-glucopyranoside, Daidzein 7-O-glucoside, DAIDZIN, daidzoside, daidzein 7-glucoside, daidzein 7-<i>O</i>-glucoside"
+        },
+        {
+          "term": "daidzein",
+          "query": "chebi:\"puerarin [8633]\"",
+          "count": "1",
+          "label": "puerarin",
+          "id": "CHEBI:8633",
+          "isDirect": false,
+          "othernames": "NPI 031G, (1<i>S</i>)-1,5-anhydro-1-[7-hydroxy-3-(4-hydroxyphenyl)-4-oxo-4<i>H</i>-chromen-8-yl]-<small>D</small>-glucitol, daidzein 8-<i>C</i>-glucoside, kakonein, 8-&#946;-<small>D</small>-glucopyranosyl-7-hydroxy-3-(4-hydroxyphenyl)-4<i>H</i>-1-benzopyran-4-one, (1<i>S</i>)-1,5-anhydro-1-[7-hydroxy-3-(4-hydroxyphenyl)-4-oxo-4<i>H</i>-1-benzopyran-8-yl]-<small>D</small>-glucitol"
+        },
+        {
+          "term": "daidzein",
+          "query": "chebi:\"puerarin [229573]\"",
+          "count": "1",
+          "label": "puerarin",
+          "id": "CHEBI:229573",
+          "isDirect": true,
+          "othernames": "puerarin(1&#8722;)"
+        }
+      ]
+    }
+  ]
+}

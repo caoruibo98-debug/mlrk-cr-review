@@ -1,0 +1,42 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "18",
+    "retmax": "10",
+    "retstart": "0",
+    "idlist": [
+      "36282480",
+      "23115971",
+      "33930123",
+      "38362621",
+      "36282591",
+      "22113864",
+      "21092366",
+      "19357217",
+      "24946051",
+      "18328079"
+    ],
+    "translationset": [
+      {
+        "from": "equol",
+        "to": "\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields]"
+      },
+      {
+        "from": "producer",
+        "to": "\"produce\"[All Fields] OR \"produced\"[All Fields] OR \"producent\"[All Fields] OR \"producer\"[All Fields] OR \"producer's\"[All Fields] OR \"producers\"[All Fields] OR \"produces\"[All Fields] OR \"producible\"[All Fields] OR \"producing\"[All Fields]"
+      },
+      {
+        "from": "daidzein",
+        "to": "\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein's\"[All Fields]"
+      },
+      {
+        "from": "conversion",
+        "to": "\"conversion\"[All Fields] OR \"conversions\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields]) AND \"non\"[All Fields] AND (\"produce\"[All Fields] OR \"produced\"[All Fields] OR \"producent\"[All Fields] OR \"producer\"[All Fields] OR \"producer s\"[All Fields] OR \"producers\"[All Fields] OR \"produces\"[All Fields] OR \"producible\"[All Fields] OR \"producing\"[All Fields]) AND (\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein s\"[All Fields]) AND (\"conversion\"[All Fields] OR \"conversions\"[All Fields])"
+  }
+}

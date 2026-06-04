@@ -1,0 +1,42 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "catechin",
+        "to": "\"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechin\"[MeSH Terms] OR \"catechins\"[All Fields] OR \"catechine\"[All Fields] OR \"catechines\"[All Fields]"
+      },
+      {
+        "from": "valerolactone",
+        "to": "\"valerolactone\"[All Fields] OR \"valerolactones\"[All Fields]"
+      },
+      {
+        "from": "substrate",
+        "to": "\"substrate\"[All Fields] OR \"substrate's\"[All Fields] OR \"substrated\"[All Fields] OR \"substrates\"[All Fields]"
+      },
+      {
+        "from": "product",
+        "to": "\"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"production\"[All Fields] OR \"productions\"[All Fields] OR \"efficiency\"[MeSH Terms] OR \"efficiency\"[All Fields] OR \"productivity\"[All Fields] OR \"product\"[All Fields] OR \"product's\"[All Fields] OR \"productive\"[All Fields] OR \"productively\"[All Fields] OR \"productivities\"[All Fields] OR \"products\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechin\"[MeSH Terms] OR \"catechins\"[All Fields] OR \"catechine\"[All Fields] OR \"catechines\"[All Fields]) AND (\"valerolactone\"[All Fields] OR \"valerolactones\"[All Fields]) AND \"phenylvalerolactone\"[All Fields] AND \"exact\"[All Fields] AND (\"substrate\"[All Fields] OR \"substrate s\"[All Fields] OR \"substrated\"[All Fields] OR \"substrates\"[All Fields]) AND (\"economics\"[MeSH Terms] OR \"economics\"[All Fields] OR \"production\"[All Fields] OR \"productions\"[All Fields] OR \"efficiency\"[MeSH Terms] OR \"efficiency\"[All Fields] OR \"productivity\"[All Fields] OR \"product\"[All Fields] OR \"product s\"[All Fields] OR \"productive\"[All Fields] OR \"productively\"[All Fields] OR \"productivities\"[All Fields] OR \"products\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

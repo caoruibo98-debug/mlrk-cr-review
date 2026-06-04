@@ -1,0 +1,65 @@
+{
+  "count": 4,
+  "results": [
+    {
+      "id": "34419",
+      "equation": "(+)-lariciresinol + NADP(+) = (+)-pinoresinol + NADPH + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:67246\">(+)-lariciresinol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58349\">NADP<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:40\">(+)-pinoresinol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57783\">NADPH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "34423",
+      "equation": "(-)-secoisolariciresinol + NADP(+) = (+)-lariciresinol + NADPH + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:65004\">(&#8722;)-secoisolariciresinol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58349\">NADP<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:67246\">(+)-lariciresinol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57783\">NADPH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "34427",
+      "equation": "(-)-lariciresinol + NADP(+) = (-)-pinoresinol + NADPH + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:67244\">(&#8722;)-lariciresinol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58349\">NADP<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:67245\">(&#8722;)-pinoresinol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57783\">NADPH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "34431",
+      "equation": "(+)-secoisolariciresinol + NADP(+) = (-)-lariciresinol + NADPH + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:67247\">(+)-secoisolariciresinol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58349\">NADP<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:67244\">(&#8722;)-lariciresinol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57783\">NADPH</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "lariciresinol": [
+        {
+          "term": "lariciresinol",
+          "query": "chebi:\"(-)-lariciresinol [67244]\"",
+          "count": "2",
+          "label": "(&#8722;)-lariciresinol",
+          "id": "CHEBI:67244",
+          "isDirect": true,
+          "othernames": "4-[(2<i>R</i>,3<i>S</i>,4<i>S</i>)-4-(4-hydroxy-3-methoxybenzyl)-3-(hydroxymethyl)tetrahydrofuran-2-yl]-2-methoxyphenol, Lariciresinol"
+        },
+        {
+          "term": "lariciresinol",
+          "query": "chebi:\"(+)-lariciresinol [67246]\"",
+          "count": "2",
+          "label": "(+)-lariciresinol",
+          "id": "CHEBI:67246",
+          "isDirect": true,
+          "othernames": "Lariciresinol, 4-[(2<i>S</i>,3<i>R</i>,4<i>R</i>)-4-(4-hydroxy-3-methoxybenzyl)-3-(hydroxymethyl)tetrahydrofuran-2-yl]-2-methoxyphenol"
+        }
+      ]
+    }
+  ]
+}

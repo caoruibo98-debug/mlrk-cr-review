@@ -1,0 +1,45 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "59",
+    "retmax": "10",
+    "retstart": "0",
+    "idlist": [
+      "34855380",
+      "36282480",
+      "31527435",
+      "22179235",
+      "31069407",
+      "23542626",
+      "23115971",
+      "18539813",
+      "33930123",
+      "31231095"
+    ],
+    "translationset": [
+      {
+        "from": "daidzein",
+        "to": "\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein's\"[All Fields]"
+      },
+      {
+        "from": "equol",
+        "to": "\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields]"
+      },
+      {
+        "from": "conversion",
+        "to": "\"conversion\"[All Fields] OR \"conversions\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"daidzein\"[Supplementary Concept] OR \"daidzein\"[All Fields] OR \"daidzein s\"[All Fields]) AND (\"equol\"[Supplementary Concept] OR \"equol\"[All Fields] OR \"equol\"[MeSH Terms] OR \"equols\"[All Fields]) AND (\"conversion\"[All Fields] OR \"conversions\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [
+        "no"
+      ],
+      "quotedphrasesnotfound": [],
+      "outputmessages": []
+    }
+  }
+}

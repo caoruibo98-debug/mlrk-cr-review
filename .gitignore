@@ -26,3 +26,4 @@ outputs/modular/ltr/*
 *.log
 data/curation/ncbi_pubmed_efetch_round8*.xml
 data/curation/ncbi_round11_raw/*.xml
+data/curation/ncbi_round14_raw/*.xml

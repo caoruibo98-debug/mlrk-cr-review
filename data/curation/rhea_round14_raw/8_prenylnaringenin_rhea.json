@@ -1,0 +1,38 @@
+{
+  "count": 2,
+  "results": [
+    {
+      "id": "11732",
+      "equation": "sophoraflavanone B + reduced [NADPH--hemoprotein reductase] + O2 = leachianone G + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:50207\">sophoraflavanone B</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"rhea-comp:11964\">reduced [NADPH&#8212;hemoprotein reductase]</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15379\">O<small><sub>2</sub></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:50208\">leachianone G</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"rhea-comp:11965\">oxidized [NADPH&#8212;hemoprotein reductase]</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "15433",
+      "equation": "(2S)-naringenin + dimethylallyl diphosphate = sophoraflavanone B + diphosphate",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:17846\">(2<i>S</i>)-naringenin</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57623\">dimethylallyl diphosphate</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:50207\">sophoraflavanone B</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:33019\">diphosphate</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "8-prenylnaringenin": [
+        {
+          "term": "8-prenylnaringenin",
+          "query": "chebi:\"sophoraflavanone B [50207]\"",
+          "count": "2",
+          "label": "sophoraflavanone B",
+          "id": "CHEBI:50207",
+          "isDirect": true,
+          "othernames": "(&#8722;)-(2<i>S</i>)-8-dimethylallylnaringenin, (2<i>S</i>)-5,7-dihydroxy-2-(4-hydroxyphenyl)-8-(3-methylbut-2-en-1-yl)-2,3-dihydro-4<i>H</i>-chromen-4-one, (&#8722;)-(2<i>S</i>)-5,7-dihydroxy-2-(4-hydroxyphenyl)-8-(3-methylbut-2-enyl)chroman-4-one, 8-prenylnaringenin, (<i>S</i>)-8-dimethylallylnaringenin, 8-Prenylnaringenin, Flavaprenin"
+        }
+      ]
+    }
+  ]
+}

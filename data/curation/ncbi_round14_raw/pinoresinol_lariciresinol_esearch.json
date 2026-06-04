@@ -1,0 +1,35 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "3",
+    "retmax": "3",
+    "retstart": "0",
+    "idlist": [
+      "15877880",
+      "17449591",
+      "12736449"
+    ],
+    "translationset": [
+      {
+        "from": "pinoresinol",
+        "to": "\"pinoresinol\"[Supplementary Concept] OR \"pinoresinol\"[All Fields] OR \"pinoresinols\"[All Fields]"
+      },
+      {
+        "from": "lariciresinol",
+        "to": "\"lariciresinol\"[Supplementary Concept] OR \"lariciresinol\"[All Fields]"
+      },
+      {
+        "from": "human",
+        "to": "\"human's\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]"
+      },
+      {
+        "from": "intestinal microflora",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"intestinal\"[All Fields] AND \"microflora\"[All Fields]) OR \"intestinal microflora\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"pinoresinol\"[Supplementary Concept] OR \"pinoresinol\"[All Fields] OR \"pinoresinols\"[All Fields]) AND (\"lariciresinol\"[Supplementary Concept] OR \"lariciresinol\"[All Fields]) AND (\"human s\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]) AND (\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"intestinal\"[All Fields] AND \"microflora\"[All Fields]) OR \"intestinal microflora\"[All Fields])"
+  }
+}

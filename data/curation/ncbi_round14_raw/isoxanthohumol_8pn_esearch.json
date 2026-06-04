@@ -1,0 +1,41 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "5",
+    "retmax": "5",
+    "retstart": "0",
+    "idlist": [
+      "16076107",
+      "18567753",
+      "23765740",
+      "17506823",
+      "20397197"
+    ],
+    "translationset": [
+      {
+        "from": "isoxanthohumol",
+        "to": "\"isoxanthohumol\"[Supplementary Concept] OR \"isoxanthohumol\"[All Fields]"
+      },
+      {
+        "from": "8-prenylnaringenin",
+        "to": "\"8-prenylnaringenin\"[Supplementary Concept] OR \"8-prenylnaringenin\"[All Fields] OR \"8 prenylnaringenin\"[All Fields]"
+      },
+      {
+        "from": "human",
+        "to": "\"human's\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]"
+      },
+      {
+        "from": "intestinal",
+        "to": "\"intestinalization\"[All Fields] OR \"intestinalized\"[All Fields] OR \"intestinally\"[All Fields] OR \"intestinals\"[All Fields] OR \"intestine's\"[All Fields] OR \"intestines\"[MeSH Terms] OR \"intestines\"[All Fields] OR \"intestinal\"[All Fields] OR \"intestine\"[All Fields]"
+      },
+      {
+        "from": "bacteria",
+        "to": "\"bacteria's\"[All Fields] OR \"bacteriae\"[All Fields] OR \"bacterias\"[All Fields] OR \"microbiology\"[Subheading] OR \"microbiology\"[All Fields] OR \"bacteria\"[All Fields] OR \"bacteria\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "(\"isoxanthohumol\"[Supplementary Concept] OR \"isoxanthohumol\"[All Fields]) AND (\"8 prenylnaringenin\"[Supplementary Concept] OR \"8 prenylnaringenin\"[All Fields] OR \"8 prenylnaringenin\"[All Fields]) AND (\"human s\"[All Fields] OR \"humans\"[MeSH Terms] OR \"humans\"[All Fields] OR \"human\"[All Fields]) AND (\"intestinalization\"[All Fields] OR \"intestinalized\"[All Fields] OR \"intestinally\"[All Fields] OR \"intestinals\"[All Fields] OR \"intestine s\"[All Fields] OR \"intestines\"[MeSH Terms] OR \"intestines\"[All Fields] OR \"intestinal\"[All Fields] OR \"intestine\"[All Fields]) AND (\"bacteria s\"[All Fields] OR \"bacteriae\"[All Fields] OR \"bacterias\"[All Fields] OR \"microbiology\"[MeSH Subheading] OR \"microbiology\"[All Fields] OR \"bacteria\"[All Fields] OR \"bacteria\"[MeSH Terms])"
+  }
+}

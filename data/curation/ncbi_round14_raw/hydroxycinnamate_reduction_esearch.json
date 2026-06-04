@@ -1,0 +1,33 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "32716447"
+    ],
+    "translationset": [
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "caffeic acid",
+        "to": "\"caffeic acid\"[Supplementary Concept] OR \"caffeic acid\"[All Fields]"
+      },
+      {
+        "from": "dihydrocaffeic acid",
+        "to": "\"3,4-dihydroxyphenylpropionic acid\"[Supplementary Concept] OR \"3,4-dihydroxyphenylpropionic acid\"[All Fields] OR \"dihydrocaffeic acid\"[All Fields]"
+      },
+      {
+        "from": "reduction",
+        "to": "\"reduction\"[All Fields] OR \"reductions\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"caffeic acid\"[Supplementary Concept] OR \"caffeic acid\"[All Fields]) AND (\"3 4 dihydroxyphenylpropionic acid\"[Supplementary Concept] OR \"3 4 dihydroxyphenylpropionic acid\"[All Fields] OR \"dihydrocaffeic acid\"[All Fields]) AND (\"reduction\"[All Fields] OR \"reductions\"[All Fields])"
+  }
+}
