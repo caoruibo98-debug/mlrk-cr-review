@@ -25,3 +25,4 @@ outputs/modular/ltr/*
 !outputs/modular/ltr/clean2_feature_importance.csv
 *.log
 data/curation/ncbi_pubmed_efetch_round8*.xml
+data/curation/ncbi_round11_raw/*.xml
