@@ -1,0 +1,1165 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "41915881",
+      "41516146",
+      "39856097",
+      "39471822",
+      "37494568",
+      "32716447",
+      "32067637",
+      "31196984"
+    ],
+    "41915881": {
+      "uid": "41915881",
+      "pubdate": "2026 Apr 15",
+      "epubdate": "2026 Mar 31",
+      "source": "J Am Chem Soc",
+      "authors": [
+        {
+          "name": "Yang J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bae M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kc K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dong X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nguyen QD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mengell J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Balskus EP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kirk ML",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Kirk ML",
+      "title": "Active Site Structure and Mechanism of a Molybdenum Catechol Dehydroxylase.",
+      "sorttitle": "active site structure and mechanism of a molybdenum catechol dehydroxylase",
+      "volume": "148",
+      "issue": "14",
+      "pages": "14877-14888",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7503056",
+      "issn": "0002-7863",
+      "essn": "1520-5126",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41915881"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS2166908"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC13154405"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC13154405;manuscript-id: NIHMS2166908;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/jacs.5c20654"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2026/04/15 06:29"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/03/31 18:49"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/03/31 16:13"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2026/05/08 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 68,
+      "fulljournalname": "Journal of the American Chemical Society",
+      "elocationid": "doi: 10.1021/jacs.5c20654",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/04/15 00:00",
+      "sortfirstauthor": "Yang J",
+      "vernaculartitle": ""
+    },
+    "41516146": {
+      "uid": "41516146",
+      "pubdate": "2025 Dec 26",
+      "epubdate": "2025 Dec 26",
+      "source": "Int J Mol Sci",
+      "authors": [
+        {
+          "name": "Barbu AC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Stoleru S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zugravu A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Poenaru E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dragomir A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Costescu M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Aurelian SM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shhab Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Stoleru CM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Coman OA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fulga I",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Fulga I",
+      "title": "Dopamine and the Gut Microbiota: Interactions Within the Microbiota-Gut-Brain Axis and Therapeutic Perspectives.",
+      "sorttitle": "dopamine and the gut microbiota interactions within the microbiota gut brain axis and therapeutic perspectives",
+      "volume": "27",
+      "issue": "1",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101092791",
+      "issn": "",
+      "essn": "1422-0067",
+      "pubtype": [
+        "Journal Article",
+        "Review"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41516146"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC12785850"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC12785850;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.3390/ijms27010271"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "ijms27010271"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/11/20 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2025/12/16 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/12/18 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/01/10 06:33"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/01/10 06:32"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/01/10 01:09"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2025/12/26 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 105,
+      "fulljournalname": "International journal of molecular sciences",
+      "elocationid": "doi: 10.3390/ijms27010271",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/12/26 00:00",
+      "sortfirstauthor": "Barbu AC",
+      "vernaculartitle": ""
+    },
+    "39856097": {
+      "uid": "39856097",
+      "pubdate": "2025 Jan 24",
+      "epubdate": "2025 Jan 24",
+      "source": "Nat Commun",
+      "authors": [
+        {
+          "name": "Pidgeon R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mitchell S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shamash M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Suleiman L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dridi L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Maurice CF",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Castagner B",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Castagner B",
+      "title": "Diet-derived urolithin A is produced by a dehydroxylase encoded by human gut Enterocloster species.",
+      "sorttitle": "diet derived urolithin a is produced by a dehydroxylase encoded by human gut enterocloster species",
+      "volume": "16",
+      "issue": "1",
+      "pages": "999",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101528555",
+      "issn": "",
+      "essn": "2041-1723",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39856097"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11760930"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11760930;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41467-025-56266-2"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41467-025-56266-2"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/05/01 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/01/13 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/01/25 13:54"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/01/25 13:53"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/01/24 23:16"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2025/01/24 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 77,
+      "fulljournalname": "Nature communications",
+      "elocationid": "doi: 10.1038/s41467-025-56266-2",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/01/24 00:00",
+      "sortfirstauthor": "Pidgeon R",
+      "vernaculartitle": ""
+    },
+    "39471822": {
+      "uid": "39471822",
+      "pubdate": "2024 Nov 13",
+      "epubdate": "2024 Oct 28",
+      "source": "Cell Host Microbe",
+      "authors": [
+        {
+          "name": "Bae M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Le C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mehta RS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dong X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Pieper LM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ramirez L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Alexander M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kiamehr S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Turnbaugh PJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Huttenhower C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chan AT",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Balskus EP",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Balskus EP",
+      "title": "Metatranscriptomics-guided discovery and characterization of a polyphenol-metabolizing gut microbial enzyme.",
+      "sorttitle": "metatranscriptomics guided discovery and characterization of a polyphenol metabolizing gut microbial enzyme",
+      "volume": "32",
+      "issue": "11",
+      "pages": "1887-1896.e8",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101302316",
+      "issn": "1931-3128",
+      "essn": "1934-6069",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39471822"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS2033475"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11585353"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11585353;manuscript-id: NIHMS2033475;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.chom.2024.10.002"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S1931-3128(24)00360-3"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/06/14 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2024/09/18 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2024/10/01 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2024/11/15 18:23"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/10/30 00:22"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/10/29 19:43"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2024/11/23 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 77,
+      "fulljournalname": "Cell host & microbe",
+      "elocationid": "doi: 10.1016/j.chom.2024.10.002",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/11/13 00:00",
+      "sortfirstauthor": "Bae M",
+      "vernaculartitle": ""
+    },
+    "37494568": {
+      "uid": "37494568",
+      "pubdate": "2023 Aug 9",
+      "epubdate": "2023 Jul 26",
+      "source": "J Agric Food Chem",
+      "authors": [
+        {
+          "name": "Beltr\u00e1n D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Frutos-Lis\u00f3n MD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Garc\u00eda-Villalba R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yuste JE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Garc\u00eda V",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Esp\u00edn JC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Selma MV",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tom\u00e1s-Barber\u00e1n FA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tom\u00e1s-Barber\u00e1n FA",
+      "title": "NMR Spectroscopic Identification of Urolithin G, a Novel Trihydroxy Urolithin Produced by Human Intestinal Enterocloster Species.",
+      "sorttitle": "nmr spectroscopic identification of urolithin g a novel trihydroxy urolithin produced by human intestinal enterocloster species",
+      "volume": "71",
+      "issue": "31",
+      "pages": "11921-11928",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0374755",
+      "issn": "0021-8561",
+      "essn": "1520-5118",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "37494568"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC10416303"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC10416303;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acs.jafc.3c01675"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2023/08/10 06:43"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2023/07/26 19:11"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2023/07/26 14:53"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2023/08/11 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 25,
+      "fulljournalname": "Journal of agricultural and food chemistry",
+      "elocationid": "doi: 10.1021/acs.jafc.3c01675",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2023/08/09 00:00",
+      "sortfirstauthor": "Beltr\u00e1n D",
+      "vernaculartitle": ""
+    },
+    "32716447": {
+      "uid": "32716447",
+      "pubdate": "2020 Aug 1",
+      "epubdate": "2020 Jul 27",
+      "source": "Food Funct",
+      "authors": [
+        {
+          "name": "Garc\u00eda-Villalba R ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Beltr\u00e1n D ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Frutos MD ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Selma MV ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Esp\u00edn JC ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tom\u00e1s-Barber\u00e1n FA ",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tom\u00e1s-Barber\u00e1n FA ",
+      "title": "Metabolism of different dietary phenolic compounds by the urolithin-producing human-gut bacteria Gordonibacter urolithinfaciens and Ellagibacter isourolithinifaciens.",
+      "sorttitle": "metabolism of different dietary phenolic compounds by the urolithin producing human gut bacteria gordonibacter urolithinfaciens and ellagibacter isourolithinifaciens",
+      "volume": "11",
+      "issue": "8",
+      "pages": "7012-7022",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101549033",
+      "issn": "2042-6496",
+      "essn": "2042-650X",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "32716447"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1039/d0fo01649g"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2020/07/28 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/05/15 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2020/07/28 06:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Food & function",
+      "elocationid": "doi: 10.1039/d0fo01649g",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2020/08/01 00:00",
+      "sortfirstauthor": "Garc\u00eda-Villalba R ",
+      "vernaculartitle": ""
+    },
+    "32067637": {
+      "uid": "32067637",
+      "pubdate": "2020 Feb 18",
+      "epubdate": "2020 Feb 18",
+      "source": "Elife",
+      "authors": [
+        {
+          "name": "Maini Rekdal V",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nol Bernadino P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Luescher MU",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kiamehr S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Le C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bisanz JE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Turnbaugh PJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bess EN",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Balskus EP",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Balskus EP",
+      "title": "A widely distributed metalloenzyme class enables gut microbial metabolism of host- and diet-derived catechols.",
+      "sorttitle": "widely distributed metalloenzyme class enables gut microbial metabolism of host and diet derived catechols",
+      "volume": "9",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101579614",
+      "issn": "",
+      "essn": "2050-084X",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "32067637"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC7028382"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC7028382;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.7554/eLife.50845"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "50845"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2019/08/05 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2020/01/03 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2020/02/19 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2020/02/19 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/04/15 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2020/02/18 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 111,
+      "fulljournalname": "eLife",
+      "elocationid": "doi: 10.7554/eLife.50845",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2020/02/18 00:00",
+      "sortfirstauthor": "Maini Rekdal V",
+      "vernaculartitle": ""
+    },
+    "31196984": {
+      "uid": "31196984",
+      "pubdate": "2019 Jun 14",
+      "epubdate": "",
+      "source": "Science",
+      "authors": [
+        {
+          "name": "Maini Rekdal V",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bess EN",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bisanz JE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Turnbaugh PJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Balskus EP",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Balskus EP",
+      "title": "Discovery and inhibition of an interspecies gut bacterial pathway for Levodopa metabolism.",
+      "sorttitle": "discovery and inhibition of an interspecies gut bacterial pathway for levodopa metabolism",
+      "volume": "364",
+      "issue": "6445",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0404511",
+      "issn": "0036-8075",
+      "essn": "1095-9203",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "31196984"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC7745125"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC7745125;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1126/science.aau6323"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "364/6445/eaau6323"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2018/06/29 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2019/04/18 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2019/05/02 00:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2019/06/15 06:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2019/06/15 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2019/11/20 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2020/12/17 00:00"
+        }
+      ],
+      "references": [
+        {
+          "refsource": "Science. 2019 Jun 14;364(6445):1030-1031. doi: 10.1126/science.aax8937.",
+          "reftype": "Comment in",
+          "pmid": 31196998,
+          "note": ""
+        },
+        {
+          "refsource": "Cell Metab. 2019 Aug 6;30(2):235-237. doi: 10.1016/j.cmet.2019.07.005.",
+          "reftype": "Comment in",
+          "pmid": 31390549,
+          "note": ""
+        },
+        {
+          "refsource": "Parkinsonism Relat Disord. 2019 Sep;66:265-266. doi: 10.1016/j.parkreldis.2019.08.010.",
+          "reftype": "Comment in",
+          "pmid": 31445904,
+          "note": ""
+        }
+      ],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 63,
+      "fulljournalname": "Science (New York, N.Y.)",
+      "elocationid": "doi: 10.1126/science.aau6323",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2019/06/14 00:00",
+      "sortfirstauthor": "Maini Rekdal V",
+      "vernaculartitle": ""
+    }
+  }
+}

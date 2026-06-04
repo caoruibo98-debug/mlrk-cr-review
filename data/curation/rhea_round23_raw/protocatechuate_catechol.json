@@ -1,0 +1,56 @@
+{
+  "count": 3,
+  "results": [
+    {
+      "id": "22416",
+      "equation": "3,4-dihydroxybenzoate + H(+) = catechol + CO2",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:36241\">3,4-dihydroxybenzoate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:18135\">catechol</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:16526\">CO<small><sub>2</sub></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "10084",
+      "equation": "3,4-dihydroxybenzoate + O2 = 3-carboxy-cis,cis-muconate + 2 H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:36241\">3,4-dihydroxybenzoate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15379\">O<small><sub>2</sub></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:57496\">3-carboxy-<i>cis</i>,<i>cis</i>-muconate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\">2 </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    },
+    {
+      "id": "24044",
+      "equation": "3,4-dihydroxybenzoate + O2 = 4-carboxy-2-hydroxy-cis,cis-muconate 6-semialdehyde + H(+)",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:36241\">3,4-dihydroxybenzoate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15379\">O<small><sub>2</sub></small></a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:58358\">4-carboxy-2-hydroxy-<i>cis</i>,<i>cis</i>-muconate 6-semialdehyde</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15378\">H<small><sup>+</sup></small></a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ],
+  "suggestions": [
+    {
+      "catechol": [
+        {
+          "term": "catechol",
+          "query": "protocatechuate chebi:\"a catechol [33566]\"",
+          "count": "3",
+          "label": "a catechol",
+          "id": "CHEBI:33566",
+          "isDirect": true,
+          "othernames": "1,2-benzenediols, catechols, benzene-1,2-diols"
+        },
+        {
+          "term": "catechol",
+          "query": "protocatechuate chebi:\"catechol [18135]\"",
+          "count": "1",
+          "label": "catechol",
+          "id": "CHEBI:18135",
+          "isDirect": true,
+          "othernames": "Pyrocatechol, o-Benzenediol, <i>o</i>-hydroxyphenol, 1,2-Dihydroxybenzene, benzene-1,2-diol, pyrocatechin, Brenzcatechin, 1,2-Benzenediol, 2-hydroxyphenol, &#945;-hydroxyphenol"
+        }
+      ]
+    }
+  ]
+}

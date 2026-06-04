@@ -1,0 +1,319 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "41915881",
+      "39471822"
+    ],
+    "41915881": {
+      "uid": "41915881",
+      "pubdate": "2026 Apr 15",
+      "epubdate": "2026 Mar 31",
+      "source": "J Am Chem Soc",
+      "authors": [
+        {
+          "name": "Yang J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bae M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kc K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dong X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nguyen QD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mengell J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Balskus EP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kirk ML",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Kirk ML",
+      "title": "Active Site Structure and Mechanism of a Molybdenum Catechol Dehydroxylase.",
+      "sorttitle": "active site structure and mechanism of a molybdenum catechol dehydroxylase",
+      "volume": "148",
+      "issue": "14",
+      "pages": "14877-14888",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7503056",
+      "issn": "0002-7863",
+      "essn": "1520-5126",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41915881"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS2166908"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC13154405"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC13154405;manuscript-id: NIHMS2166908;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/jacs.5c20654"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2026/04/15 06:29"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/03/31 18:49"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/03/31 16:13"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2026/05/08 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 68,
+      "fulljournalname": "Journal of the American Chemical Society",
+      "elocationid": "doi: 10.1021/jacs.5c20654",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/04/15 00:00",
+      "sortfirstauthor": "Yang J",
+      "vernaculartitle": ""
+    },
+    "39471822": {
+      "uid": "39471822",
+      "pubdate": "2024 Nov 13",
+      "epubdate": "2024 Oct 28",
+      "source": "Cell Host Microbe",
+      "authors": [
+        {
+          "name": "Bae M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Le C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mehta RS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dong X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Pieper LM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ramirez L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Alexander M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kiamehr S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Turnbaugh PJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Huttenhower C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chan AT",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Balskus EP",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Balskus EP",
+      "title": "Metatranscriptomics-guided discovery and characterization of a polyphenol-metabolizing gut microbial enzyme.",
+      "sorttitle": "metatranscriptomics guided discovery and characterization of a polyphenol metabolizing gut microbial enzyme",
+      "volume": "32",
+      "issue": "11",
+      "pages": "1887-1896.e8",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101302316",
+      "issn": "1931-3128",
+      "essn": "1934-6069",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39471822"
+        },
+        {
+          "idtype": "mid",
+          "idtypen": 8,
+          "value": "NIHMS2033475"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11585353"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11585353;manuscript-id: NIHMS2033475;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.chom.2024.10.002"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S1931-3128(24)00360-3"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/06/14 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2024/09/18 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2024/10/01 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2024/11/15 18:23"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/10/30 00:22"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/10/29 19:43"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2024/11/23 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 77,
+      "fulljournalname": "Cell host & microbe",
+      "elocationid": "doi: 10.1016/j.chom.2024.10.002",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/11/13 00:00",
+      "sortfirstauthor": "Bae M",
+      "vernaculartitle": ""
+    }
+  }
+}

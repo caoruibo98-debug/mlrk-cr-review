@@ -1,0 +1,1018 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "41645579",
+      "40795100",
+      "40604879",
+      "39730399",
+      "39319724",
+      "38117061",
+      "37399977",
+      "36563956"
+    ],
+    "41645579": {
+      "uid": "41645579",
+      "pubdate": "2026 Feb",
+      "epubdate": "",
+      "source": "Biotechnol J",
+      "authors": [
+        {
+          "name": "Wang C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yin J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ban Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Qiu J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yang X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yao H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Feng Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gao H",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Gao H",
+      "title": "Metabolic Engineering of Plasmid-Free Escherichia coli for the Highly Efficient Biosynthesis of cis,cis-Muconic Acid From Glucose.",
+      "sorttitle": "metabolic engineering of plasmid free escherichia coli for the highly efficient biosynthesis of cis cis muconic acid from glucose",
+      "volume": "21",
+      "issue": "2",
+      "pages": "e70186",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101265833",
+      "issn": "1860-6768",
+      "essn": "1860-7314",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - in process",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41645579"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1002/biot.70186"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "revised",
+          "date": "2026/01/13 00:00"
+        },
+        {
+          "pubstatus": "received",
+          "date": "2025/11/19 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2026/01/27 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/02/06 06:42"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/02/06 06:41"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/02/06 02:23"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Biotechnology journal",
+      "elocationid": "doi: 10.1002/biot.70186",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/02/01 00:00",
+      "sortfirstauthor": "Wang C",
+      "vernaculartitle": ""
+    },
+    "40795100": {
+      "uid": "40795100",
+      "pubdate": "2025 Sep 24",
+      "epubdate": "2025 Aug 12",
+      "source": "J Agric Food Chem",
+      "authors": [
+        {
+          "name": "Zhou Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu RY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fu N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li BZ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu ZH",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Liu ZH",
+      "title": "Artificial Biological Funnel Design Enabled Valorization of Aromatic Derivatives into Catechol.",
+      "sorttitle": "artificial biological funnel design enabled valorization of aromatic derivatives into catechol",
+      "volume": "73",
+      "issue": "38",
+      "pages": "24222-24236",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0374755",
+      "issn": "0021-8561",
+      "essn": "1520-5118",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40795100"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acs.jafc.5c04730"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2025/09/24 06:29"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/08/12 18:34"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/08/12 15:03"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Journal of agricultural and food chemistry",
+      "elocationid": "doi: 10.1021/acs.jafc.5c04730",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/09/24 00:00",
+      "sortfirstauthor": "Zhou Y",
+      "vernaculartitle": ""
+    },
+    "40604879": {
+      "uid": "40604879",
+      "pubdate": "2025 Jul 2",
+      "epubdate": "2025 Jul 2",
+      "source": "Microb Cell Fact",
+      "authors": [
+        {
+          "name": "Liu C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Juvonen V",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Meril\u00e4inen E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Efimova E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Luo J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Salmela M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Santala S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Santala V",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Santala V",
+      "title": "Cis,cis-muconic acid production from lignin related molecules byAcinetobacter baylyi ADP1.",
+      "sorttitle": "cis cis muconic acid production from lignin related molecules byacinetobacter baylyi adp1",
+      "volume": "24",
+      "issue": "1",
+      "pages": "150",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101139812",
+      "issn": "",
+      "essn": "1475-2859",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - in process",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "40604879"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC12220188"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC12220188;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1186/s12934-025-02780-3"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1186/s12934-025-02780-3"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/03/04 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/06/21 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/07/03 06:27"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/07/03 06:27"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/07/03 00:39"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2025/07/02 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 43,
+      "fulljournalname": "Microbial cell factories",
+      "elocationid": "doi: 10.1186/s12934-025-02780-3",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/07/02 00:00",
+      "sortfirstauthor": "Liu C",
+      "vernaculartitle": ""
+    },
+    "39730399": {
+      "uid": "39730399",
+      "pubdate": "2024 Dec 28",
+      "epubdate": "2024 Dec 28",
+      "source": "Sci Rep",
+      "authors": [
+        {
+          "name": "Hossain MS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Iken B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Iyer R",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Iyer R",
+      "title": "Whole genome analysis of 26 bacterial strains reveals aromatic and hydrocarbon degrading enzymes from diverse environmental soil samples.",
+      "sorttitle": "whole genome analysis of 26 bacterial strains reveals aromatic and hydrocarbon degrading enzymes from diverse environmental soil samples",
+      "volume": "14",
+      "issue": "1",
+      "pages": "30685",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101563288",
+      "issn": "",
+      "essn": "2045-2322",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39730399"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11680993"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11680993;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41598-024-78564-3"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41598-024-78564-3"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/01/31 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2024/10/31 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2024/12/28 11:46"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/12/28 11:45"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/12/27 23:21"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2024/12/28 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 68,
+      "fulljournalname": "Scientific reports",
+      "elocationid": "doi: 10.1038/s41598-024-78564-3",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/12/28 00:00",
+      "sortfirstauthor": "Hossain MS",
+      "vernaculartitle": ""
+    },
+    "39319724": {
+      "uid": "39319724",
+      "pubdate": "2024 Sep 25",
+      "epubdate": "",
+      "source": "Sheng Wu Gong Cheng Xue Bao",
+      "authors": [
+        {
+          "name": "Tian L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jiang X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Song G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lu F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dai Z",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li Q",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang Q",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Wang Q",
+      "title": "[Screening and engineering of a protocatechuic acid decarboxylase for efficient biosynthesis of catechol].",
+      "sorttitle": "screening and engineering of a protocatechuic acid decarboxylase for efficient biosynthesis of catechol",
+      "volume": "40",
+      "issue": "9",
+      "pages": "3057-3071",
+      "lang": [
+        "chi"
+      ],
+      "nlmuniqueid": "9426463",
+      "issn": "1000-3061",
+      "essn": "1872-2075",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39319724"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.13345/j.cjb.240173"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2024/09/25 16:19"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/09/25 16:18"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/09/25 07:33"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Sheng wu gong cheng xue bao = Chinese journal of biotechnology",
+      "elocationid": "doi: 10.13345/j.cjb.240173",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/09/25 00:00",
+      "sortfirstauthor": "Tian L",
+      "vernaculartitle": ""
+    },
+    "38117061": {
+      "uid": "38117061",
+      "pubdate": "2024 Jan 24",
+      "epubdate": "2023 Dec 20",
+      "source": "Appl Environ Microbiol",
+      "authors": [
+        {
+          "name": "Vilbert AC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kontur WS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gille D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Noguera DR",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Donohue TJ",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Donohue TJ",
+      "title": "Engineering Novosphingobium aromaticivorans to produce cis,cis-muconic acid from biomass aromatics.",
+      "sorttitle": "engineering novosphingobium aromaticivorans to produce cis cis muconic acid from biomass aromatics",
+      "volume": "90",
+      "issue": "1",
+      "pages": "e0166023",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7605801",
+      "issn": "0099-2240",
+      "essn": "1098-5336",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "38117061"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC10807440"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC10807440;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1128/aem.01660-23"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2024/01/25 06:44"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2023/12/20 12:42"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2023/12/20 09:03"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2023/12/20 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 65,
+      "fulljournalname": "Applied and environmental microbiology",
+      "elocationid": "doi: 10.1128/aem.01660-23",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/01/24 00:00",
+      "sortfirstauthor": "Vilbert AC",
+      "vernaculartitle": ""
+    },
+    "37399977": {
+      "uid": "37399977",
+      "pubdate": "2023 Aug",
+      "epubdate": "2023 Jul 1",
+      "source": "J Biol Chem",
+      "authors": [
+        {
+          "name": "Sgro M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chow N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Olyaei F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Arentshorst M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Geoffrion N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ram AFJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Powlowski J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tsang A",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tsang A",
+      "title": "Functional analysis of the protocatechuate branch of the \u03b2-ketoadipate pathway in Aspergillus niger.",
+      "sorttitle": "functional analysis of the protocatechuate branch of the ketoadipate pathway in aspergillus niger",
+      "volume": "299",
+      "issue": "8",
+      "pages": "105003",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "2985121R",
+      "issn": "0021-9258",
+      "essn": "1083-351X",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "37399977"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC10406623"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC10406623;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.jbc.2023.105003"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0021-9258(23)02031-8"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2023/02/06 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2023/06/27 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2023/06/28 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2023/08/31 06:41"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2023/07/04 01:05"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2023/07/03 19:21"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2023/07/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 67,
+      "fulljournalname": "The Journal of biological chemistry",
+      "elocationid": "doi: 10.1016/j.jbc.2023.105003",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2023/08/01 00:00",
+      "sortfirstauthor": "Sgro M",
+      "vernaculartitle": ""
+    },
+    "36563956": {
+      "uid": "36563956",
+      "pubdate": "2023 Jan",
+      "epubdate": "2022 Dec 20",
+      "source": "Metab Eng",
+      "authors": [
+        {
+          "name": "Weiland F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Barton N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kohlstedt M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Becker J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wittmann C",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Wittmann C",
+      "title": "Systems metabolic engineering upgrades Corynebacterium glutamicum to high-efficiency cis, cis-muconic acid production from lignin-based aromatics.",
+      "sorttitle": "systems metabolic engineering upgrades corynebacterium glutamicum to high efficiency cis cis muconic acid production from lignin based aromatics",
+      "volume": "75",
+      "issue": "",
+      "pages": "153-169",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "9815657",
+      "issn": "1096-7176",
+      "essn": "1096-7184",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "36563956"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.ymben.2022.12.005"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S1096-7176(22)00154-9"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2022/10/13 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2022/12/14 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2022/12/17 00:00"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2022/12/24 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2023/01/18 06:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2022/12/23 19:17"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Metabolic engineering",
+      "elocationid": "doi: 10.1016/j.ymben.2022.12.005",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2023/01/01 00:00",
+      "sortfirstauthor": "Weiland F",
+      "vernaculartitle": ""
+    }
+  }
+}

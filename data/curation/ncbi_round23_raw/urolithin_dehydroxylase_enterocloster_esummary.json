@@ -1,0 +1,538 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "41797252",
+      "41298472",
+      "39856097",
+      "37494568"
+    ],
+    "41797252": {
+      "uid": "41797252",
+      "pubdate": "2026 Jun",
+      "epubdate": "2026 Feb 27",
+      "source": "Enzyme Microb Technol",
+      "authors": [
+        {
+          "name": "Katasho A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kumazawa K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Watanabe H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nakajima T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chiba N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yamamoto H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kishino S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ogawa J",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Ogawa J",
+      "title": "Urolithin 9-dehydroxylase from Enterocloster bolteae JCM 12243(T) catalyzing regiospecific dehydroxylation of urolithins.",
+      "sorttitle": "urolithin 9 dehydroxylase from enterocloster bolteae jcm 12243 t catalyzing regiospecific dehydroxylation of urolithins",
+      "volume": "197",
+      "issue": "",
+      "pages": "110837",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "8003761",
+      "issn": "0141-0229",
+      "essn": "1879-0909",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41797252"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1016/j.enzmictec.2026.110837"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "S0141-0229(26)00020-7"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/11/03 00:00"
+        },
+        {
+          "pubstatus": "revised",
+          "date": "2026/01/27 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2026/02/26 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2026/03/29 07:35"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2026/03/09 07:42"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2026/03/09 01:28"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": "",
+      "fulljournalname": "Enzyme and microbial technology",
+      "elocationid": "doi: 10.1016/j.enzmictec.2026.110837",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2026/06/01 00:00",
+      "sortfirstauthor": "Katasho A",
+      "vernaculartitle": ""
+    },
+    "41298472": {
+      "uid": "41298472",
+      "pubdate": "2025 Nov 26",
+      "epubdate": "2025 Nov 26",
+      "source": "NPJ Biofilms Microbiomes",
+      "authors": [
+        {
+          "name": "Pidgeon R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Giurleo A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dridi L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Castagner B",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Castagner B",
+      "title": "The presence and induction of regioselective dehydroxylases dictate urolithin metabolism by Enterocloster species.",
+      "sorttitle": "presence and induction of regioselective dehydroxylases dictate urolithin metabolism by enterocloster species",
+      "volume": "11",
+      "issue": "1",
+      "pages": "220",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101666944",
+      "issn": "",
+      "essn": "2055-5008",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "41298472"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC12658268"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC12658268;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41522-025-00849-w"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41522-025-00849-w"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2025/08/07 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/10/21 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/11/27 00:28"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/11/27 00:27"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/11/26 23:20"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2025/11/26 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 69,
+      "fulljournalname": "NPJ biofilms and microbiomes",
+      "elocationid": "doi: 10.1038/s41522-025-00849-w",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/11/26 00:00",
+      "sortfirstauthor": "Pidgeon R",
+      "vernaculartitle": ""
+    },
+    "39856097": {
+      "uid": "39856097",
+      "pubdate": "2025 Jan 24",
+      "epubdate": "2025 Jan 24",
+      "source": "Nat Commun",
+      "authors": [
+        {
+          "name": "Pidgeon R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mitchell S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shamash M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Suleiman L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Dridi L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Maurice CF",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Castagner B",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Castagner B",
+      "title": "Diet-derived urolithin A is produced by a dehydroxylase encoded by human gut Enterocloster species.",
+      "sorttitle": "diet derived urolithin a is produced by a dehydroxylase encoded by human gut enterocloster species",
+      "volume": "16",
+      "issue": "1",
+      "pages": "999",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101528555",
+      "issn": "",
+      "essn": "2041-1723",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "39856097"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11760930"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11760930;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1038/s41467-025-56266-2"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "10.1038/s41467-025-56266-2"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "received",
+          "date": "2024/05/01 00:00"
+        },
+        {
+          "pubstatus": "accepted",
+          "date": "2025/01/13 00:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2025/01/25 13:54"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2025/01/25 13:53"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2025/01/24 23:16"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2025/01/24 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 77,
+      "fulljournalname": "Nature communications",
+      "elocationid": "doi: 10.1038/s41467-025-56266-2",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2025/01/24 00:00",
+      "sortfirstauthor": "Pidgeon R",
+      "vernaculartitle": ""
+    },
+    "37494568": {
+      "uid": "37494568",
+      "pubdate": "2023 Aug 9",
+      "epubdate": "2023 Jul 26",
+      "source": "J Agric Food Chem",
+      "authors": [
+        {
+          "name": "Beltr\u00e1n D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Frutos-Lis\u00f3n MD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Garc\u00eda-Villalba R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yuste JE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Garc\u00eda V",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Esp\u00edn JC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Selma MV",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tom\u00e1s-Barber\u00e1n FA",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Tom\u00e1s-Barber\u00e1n FA",
+      "title": "NMR Spectroscopic Identification of Urolithin G, a Novel Trihydroxy Urolithin Produced by Human Intestinal Enterocloster Species.",
+      "sorttitle": "nmr spectroscopic identification of urolithin g a novel trihydroxy urolithin produced by human intestinal enterocloster species",
+      "volume": "71",
+      "issue": "31",
+      "pages": "11921-11928",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "0374755",
+      "issn": "0021-8561",
+      "essn": "1520-5118",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "37494568"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC10416303"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC10416303;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1021/acs.jafc.3c01675"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "medline",
+          "date": "2023/08/10 06:43"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2023/07/26 19:11"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2023/07/26 14:53"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2023/08/11 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 25,
+      "fulljournalname": "Journal of agricultural and food chemistry",
+      "elocationid": "doi: 10.1021/acs.jafc.3c01675",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2023/08/09 00:00",
+      "sortfirstauthor": "Beltr\u00e1n D",
+      "vernaculartitle": ""
+    }
+  }
+}

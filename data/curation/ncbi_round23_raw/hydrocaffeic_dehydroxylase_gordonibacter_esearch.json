@@ -1,0 +1,22 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "2",
+    "retmax": "2",
+    "retstart": "0",
+    "idlist": [
+      "41915881",
+      "39471822"
+    ],
+    "translationset": [
+      {
+        "from": "acid",
+        "to": "\"acids\"[Supplementary Concept] OR \"acids\"[All Fields] OR \"acid\"[All Fields] OR \"acids\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "\"hydrocaffeic\"[All Fields] AND (\"acids\"[Supplementary Concept] OR \"acids\"[All Fields] OR \"acid\"[All Fields] OR \"acids\"[MeSH Terms]) AND \"dehydroxylase\"[All Fields] AND \"Gordonibacter\"[All Fields]"
+  }
+}

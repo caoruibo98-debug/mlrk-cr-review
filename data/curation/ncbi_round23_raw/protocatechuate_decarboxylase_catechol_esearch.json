@@ -1,0 +1,36 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "38",
+    "retmax": "8",
+    "retstart": "0",
+    "idlist": [
+      "41645579",
+      "40795100",
+      "40604879",
+      "39730399",
+      "39319724",
+      "38117061",
+      "37399977",
+      "36563956"
+    ],
+    "translationset": [
+      {
+        "from": "protocatechuate",
+        "to": "\"protocatechuate\"[All Fields] OR \"protocatechuates\"[All Fields] OR \"protocatechuic\"[All Fields]"
+      },
+      {
+        "from": "decarboxylase",
+        "to": "\"carboxy-lyases\"[Supplementary Concept] OR \"carboxy-lyases\"[All Fields] OR \"decarboxylase\"[All Fields] OR \"carboxy-lyases\"[MeSH Terms] OR \"decarboxylases\"[All Fields]"
+      },
+      {
+        "from": "catechol",
+        "to": "\"catecholate\"[All Fields] OR \"catecholates\"[All Fields] OR \"catecholic\"[All Fields] OR \"catechols\"[Supplementary Concept] OR \"catechols\"[All Fields] OR \"catechol\"[All Fields] OR \"catechol\"[Supplementary Concept] OR \"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechols\"[MeSH Terms] OR \"catechin\"[MeSH Terms]"
+      }
+    ],
+    "querytranslation": "(\"protocatechuate\"[All Fields] OR \"protocatechuates\"[All Fields] OR \"protocatechuic\"[All Fields]) AND (\"carboxy lyases\"[Supplementary Concept] OR \"carboxy lyases\"[All Fields] OR \"decarboxylase\"[All Fields] OR \"carboxy lyases\"[MeSH Terms] OR \"decarboxylases\"[All Fields]) AND (\"catecholate\"[All Fields] OR \"catecholates\"[All Fields] OR \"catecholic\"[All Fields] OR \"catechols\"[Supplementary Concept] OR \"catechols\"[All Fields] OR \"catechol\"[All Fields] OR \"catechol\"[Supplementary Concept] OR \"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechols\"[MeSH Terms] OR \"catechin\"[MeSH Terms])"
+  }
+}

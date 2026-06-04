@@ -1,0 +1,15 @@
+candidate_id,substrate_name,product_name,reaction_family,ecreact_forward_hits,ecreact_reverse_hits,example_forward_ec,example_reverse_ec,example_forward_source,example_reverse_source
+R21-P0-001,urolithin C,urolithin A,polyphenol_urolithin,0,0,,,,
+R21-P0-002,dopamine,m-tyramine,catechol_dehydroxylation,0,0,,,,
+R21-P0-003,urolithin C,isourolithin A,polyphenol_urolithin,0,0,,,,
+R21-P0-004,urolithin A,urolithin B,polyphenol_urolithin,0,0,,,,
+R21-P0-005,isourolithin A,urolithin B,polyphenol_urolithin,0,0,,,,
+R21-P0-006,urolithin M5,urolithin M6,polyphenol_urolithin,0,0,,,,
+R21-P0-007,ellagic acid,urolithin M5,polyphenol_urolithin,0,0,,,,
+R21-P0-008,urolithin M6,urolithin C,polyphenol_urolithin,0,0,,,,
+R21-P0-009,protocatechuic acid,catechol,decarboxylation,1,1,4.1.1.59,4.1.1.63,brenda_reaction_smiles,metanetx_reaction_smiles
+R21-P0-010,urolithin M6,urolithin M7,functional_group_removal,0,0,,,,
+R21-P0-011,urolithin M7,urolithin A,functional_group_removal,0,0,,,,
+R21-P0-012,corticosterone,11beta-hydroxyprogesterone,functional_group_removal,0,0,,,,
+R21-P0-013,hydrocaffeic acid,3-(3-hydroxyphenyl)propionic acid,functional_group_removal,0,0,,,,
+R21-P0-014,urolithin D,urolithin C,functional_group_removal,0,0,,,,

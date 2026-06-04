@@ -1,0 +1,32 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "8",
+    "retmax": "8",
+    "retstart": "0",
+    "idlist": [
+      "41915881",
+      "41516146",
+      "39856097",
+      "39471822",
+      "37494568",
+      "32716447",
+      "32067637",
+      "31196984"
+    ],
+    "translationset": [
+      {
+        "from": "catechol",
+        "to": "\"catecholate\"[All Fields] OR \"catecholates\"[All Fields] OR \"catecholic\"[All Fields] OR \"catechols\"[Supplementary Concept] OR \"catechols\"[All Fields] OR \"catechol\"[All Fields] OR \"catechol\"[Supplementary Concept] OR \"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechols\"[MeSH Terms] OR \"catechin\"[MeSH Terms]"
+      },
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"catecholate\"[All Fields] OR \"catecholates\"[All Fields] OR \"catecholic\"[All Fields] OR \"catechols\"[Supplementary Concept] OR \"catechols\"[All Fields] OR \"catechol\"[All Fields] OR \"catechol\"[Supplementary Concept] OR \"catechin\"[Supplementary Concept] OR \"catechin\"[All Fields] OR \"catechols\"[MeSH Terms] OR \"catechin\"[MeSH Terms]) AND \"dehydroxylase\"[All Fields] AND (\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields])"
+  }
+}
