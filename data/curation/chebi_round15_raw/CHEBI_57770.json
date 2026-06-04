@@ -1,0 +1,183 @@
+{
+  "id": 57770,
+  "chebi_accession": "CHEBI:57770",
+  "name": "<i>trans</i>-caffeate",
+  "stars": 3,
+  "definition": "The conjugate base of <i>trans</i>-caffeic acid; major species at pH 7.3.",
+  "ascii_name": "trans-caffeate",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "(2<i>E</i>)-3-(3,4-dihydroxyphenyl)acrylate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "(2E)-3-(3,4-dihydroxyphenyl)acrylate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "3,4-dihydroxy-<i>trans</i>-cinnamate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "3,4-dihydroxy-trans-cinnamate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "<i>trans</i>-caffeate(1\u2212)",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "trans-caffeate(1-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "<i>trans</i>-caffeate anion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "trans-caffeate anion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "(2<i>E</i>)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "(2E)-3-(3,4-dihydroxyphenyl)prop-2-enoate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "(<i>E</i>)-caffeate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "(E)-caffeate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C9H7O4",
+    "charge": -1,
+    "mass": "179.151",
+    "monoisotopic_mass": "179.03498"
+  },
+  "modified_on": "2019-08-09T12:29:15Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2177641,
+    "smiles": "O=C([O-])/C=C/c1ccc(O)c(O)c1",
+    "standard_inchi": "InChI=1S/C9H8O4/c10-7-3-1-6(5-8(7)11)2-4-9(12)13/h1-5,10-11H,(H,12,13)/p-1/b4-2+",
+    "standard_inchi_key": "QAIPRVGONGVQAS-DUXPYHPUSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 141765,
+        "init_name": "4-<em>O</em>-\u03b2-<small>D</small>-glucosyl-<i>trans</i>-caffeate",
+        "relation_type": "has functional parent",
+        "final_id": 57770,
+        "final_name": "<i>trans</i>-caffeate"
+      },
+      {
+        "init_id": 192349,
+        "init_name": "<i>trans</i>-caffeoyl-AMP(1\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 57770,
+        "final_name": "<i>trans</i>-caffeate"
+      },
+      {
+        "init_id": 16433,
+        "init_name": "<i>trans</i>-caffeic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 57770,
+        "final_name": "<i>trans</i>-caffeate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 57770,
+        "init_name": "<i>trans</i>-caffeate",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 57770,
+        "init_name": "<i>trans</i>-caffeate",
+        "relation_type": "is a",
+        "final_id": 36059,
+        "final_name": "hydroxy monocarboxylic acid anion"
+      },
+      {
+        "init_id": 57770,
+        "init_name": "<i>trans</i>-caffeate",
+        "relation_type": "is conjugate base of",
+        "final_id": 16433,
+        "final_name": "<i>trans</i>-caffeic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 782159,
+        "accession_number": "1824843",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      },
+      {
+        "id": 782158,
+        "accession_number": "8986917",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

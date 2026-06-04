@@ -1,0 +1,102 @@
+{
+  "id": 507393,
+  "chebi_accession": "CHEBI:507393",
+  "name": "taurine zwitterion",
+  "stars": 3,
+  "definition": "The zwitterion formed from taurine by transfer of a proton from the sulfonyl to the amino group.  It is the major species existing at physiological pH.",
+  "ascii_name": "taurine zwitterion",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "2-ammonioethanesulfonate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUPAC",
+        "ascii_name": "2-ammonioethanesulfonate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "2-azaniumylethane-1-sulfonate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "2-azaniumylethane-1-sulfonate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "taurine",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "taurine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C2H7NO3S",
+    "charge": 0,
+    "mass": "125.149",
+    "monoisotopic_mass": "125.01466"
+  },
+  "modified_on": "2011-01-24T09:56:50Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 397864,
+    "smiles": "[NH3+]CCS(=O)(=O)[O-]",
+    "standard_inchi": "InChI=1S/C2H7NO3S/c3-1-2-7(4,5)6/h1-3H2,(H,4,5,6)",
+    "standard_inchi_key": "XOAAWQZATWQOTB-UHFFFAOYSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 15891,
+        "init_name": "taurine",
+        "relation_type": "is tautomer of",
+        "final_id": 507393,
+        "final_name": "taurine zwitterion"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 507393,
+        "init_name": "taurine zwitterion",
+        "relation_type": "is a",
+        "final_id": 27369,
+        "final_name": "zwitterion"
+      },
+      {
+        "init_id": 507393,
+        "init_name": "taurine zwitterion",
+        "relation_type": "is tautomer of",
+        "final_id": 15891,
+        "final_name": "taurine"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 214790,
+        "accession_number": "17765547",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/17765547",
+        "prefix": "pubmed"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}

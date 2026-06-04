@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 54691412,
+        "MolecularFormula": "C9H7O4-",
+        "SMILES": "C1=CC(=C(C=C1/C=C/C(=O)O)O)[O-]",
+        "ConnectivitySMILES": "C1=CC(=C(C=C1C=CC(=O)O)O)[O-]",
+        "InChIKey": "QAIPRVGONGVQAS-DUXPYHPUSA-M",
+        "IUPACName": "4-[(E)-2-carboxyethenyl]-2-hydroxyphenolate"
+      }
+    ]
+  }
+}

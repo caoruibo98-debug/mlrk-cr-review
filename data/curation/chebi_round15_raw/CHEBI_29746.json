@@ -1,0 +1,168 @@
+{
+  "id": 29746,
+  "chebi_accession": "CHEBI:29746",
+  "name": "glycocholate",
+  "stars": 3,
+  "definition": "A cholanic acid conjugate anion that is the conjugate base of glycocholic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3.",
+  "ascii_name": "glycocholate",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "<em>N</em>-(3\u03b1,7\u03b1,12\u03b1-trihydroxy-5\u03b2-cholan-24-oyl)glycinate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "N-(3alpha,7alpha,12alpha-trihydroxy-5beta-cholan-24-oyl)glycinate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "glycocholate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "glycocholate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C26H42NO6",
+    "charge": -1,
+    "mass": "464.623",
+    "monoisotopic_mass": "464.30176"
+  },
+  "modified_on": "2016-08-26T09:21:19Z",
+  "secondary_ids": [
+    "CHEBI:14345",
+    "CHEBI:24377",
+    "CHEBI:58235"
+  ],
+  "default_structure": {
+    "id": 1364,
+    "smiles": "[H][C@@]12C[C@H](O)CC[C@]1(C)[C@@]1([H])C[C@H](O)[C@@]3(C)[C@@]([H])(CC[C@]3([H])[C@H](C)CCC(=O)NCC(=O)[O-])[C@]1([H])[C@H](O)C2",
+    "standard_inchi": "InChI=1S/C26H43NO6/c1-14(4-7-22(31)27-13-23(32)33)17-5-6-18-24-19(12-21(30)26(17,18)3)25(2)9-8-16(28)10-15(25)11-20(24)29/h14-21,24,28-30H,4-13H2,1-3H3,(H,27,31)(H,32,33)/p-1/t14-,15+,16-,17-,18+,19+,20-,21+,24+,25+,26-/m1/s1",
+    "standard_inchi_key": "RFDAIACWWDREDC-FRVQLJSFSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "Kirill Degtyarenko"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 172393,
+        "init_name": "glycocholate 7-sulfate(2\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 29746,
+        "final_name": "glycocholate"
+      },
+      {
+        "init_id": 36273,
+        "init_name": "sodium glycocholate",
+        "relation_type": "has part",
+        "final_id": 29746,
+        "final_name": "glycocholate"
+      },
+      {
+        "init_id": 17687,
+        "init_name": "glycocholic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 29746,
+        "final_name": "glycocholate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 29746,
+        "init_name": "glycocholate",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 29746,
+        "init_name": "glycocholate",
+        "relation_type": "is a",
+        "final_id": 131879,
+        "final_name": "cholanic acid conjugate anion"
+      },
+      {
+        "init_id": 29746,
+        "init_name": "glycocholate",
+        "relation_type": "is a",
+        "final_id": 57670,
+        "final_name": "<em>N</em>-acylglycinate"
+      },
+      {
+        "init_id": 29746,
+        "init_name": "glycocholate",
+        "relation_type": "is conjugate base of",
+        "final_id": 17687,
+        "final_name": "glycocholic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 783322,
+        "accession_number": "3739464",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 76622,
+        "accession_number": "C01921",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C01921",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 810197,
+        "accession_number": "DB02691",
+        "type": "MANUAL_X_REF",
+        "source_name": "DrugBank",
+        "url": "https://bioregistry.io/drugbank:DB02691",
+        "prefix": "drugbank"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

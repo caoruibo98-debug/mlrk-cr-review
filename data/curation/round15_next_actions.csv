@@ -1,0 +1,4 @@
+round,priority,next_action,n_pairs,pair_keys,why
+15,1,trace_clean_full_to_clean_candidates_loss,2,BHTRKEVKTKCXOH__RUDATBOHQWOJDD;RFDAIACWWDREDC__BHQCQFFYRZLCQQ,Existing positive reaches clean_candidates_full but not final clean_candidates; inspect filtering/sampling/evaluation path before retraining.; Existing positive reaches clean_candidates_full but not final clean_candidates; inspect filtering/sampling/evaluation path before retraining.
+15,2,promote_or_wire_source_traceable_rule_then_rerun_clean_candidates,1,CWVRJTMFETXNAD__QAIPRVGONGVQAS,"Existing positive has source/database support and full-rule evidence, but clean candidates miss it; repair generator/rule path, not duplicate label."
+15,4,provenance_enrichment_or_source_manifest_only,1,KYQZWONCHDNPDP__ZQSIJRDFPHDXIC,Existing positive is already available to the ranker; use Rhea as provenance enrichment only.

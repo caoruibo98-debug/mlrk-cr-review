@@ -1,0 +1,129 @@
+{
+  "id": 57305,
+  "chebi_accession": "CHEBI:57305",
+  "name": "glycine zwitterion",
+  "stars": 3,
+  "definition": "An amino acid zwitterion arising from transfer of a proton from the carboxy to the amino group of glycine.",
+  "ascii_name": "glycine zwitterion",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "2-azaniumylacetate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "2-azaniumylacetate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "glycine",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "glycine",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C2H5NO2",
+    "charge": 0,
+    "mass": "75.067",
+    "monoisotopic_mass": "75.03203"
+  },
+  "modified_on": "2012-08-03T08:14:18Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2175876,
+    "smiles": "[NH3+]CC(=O)[O-]",
+    "standard_inchi": "InChI=1S/C2H5NO2/c3-1-2(4)5/h1,3H2,(H,4,5)",
+    "standard_inchi_key": "DHMQDGOQFOQNFH-UHFFFAOYSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 66884,
+        "init_name": "<em>N</em>-alkylglycine zwitterion",
+        "relation_type": "has functional parent",
+        "final_id": 57305,
+        "final_name": "glycine zwitterion"
+      },
+      {
+        "init_id": 172399,
+        "init_name": "phosphatidylserine amidated glycine residue(2\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 57305,
+        "final_name": "glycine zwitterion"
+      },
+      {
+        "init_id": 195553,
+        "init_name": "(5'<i>S</i>,6'<i>R</i>)-<em>C</em>-glycyluridine zwitterion",
+        "relation_type": "has functional parent",
+        "final_id": 57305,
+        "final_name": "glycine zwitterion"
+      },
+      {
+        "init_id": 229461,
+        "init_name": "(5'<i>S</i>,6'<i>S</i>)-<em>C</em>-glycyluridine zwitterion",
+        "relation_type": "has functional parent",
+        "final_id": 57305,
+        "final_name": "glycine zwitterion"
+      },
+      {
+        "init_id": 15428,
+        "init_name": "glycine",
+        "relation_type": "is tautomer of",
+        "final_id": 57305,
+        "final_name": "glycine zwitterion"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 57305,
+        "init_name": "glycine zwitterion",
+        "relation_type": "is a",
+        "final_id": 35238,
+        "final_name": "amino-acid zwitterion"
+      },
+      {
+        "init_id": 57305,
+        "init_name": "glycine zwitterion",
+        "relation_type": "is tautomer of",
+        "final_id": 15428,
+        "final_name": "glycine"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 706814,
+        "accession_number": "1807",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 802611,
+        "accession_number": "GLY",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:GLY",
+        "prefix": "metacyc.compound"
+      }
+    ]
+  },
+  "roles_classification": null,
+  "is_released": true
+}

@@ -1,0 +1,208 @@
+{
+  "id": 77764,
+  "chebi_accession": "CHEBI:77764",
+  "name": "daidzein(1\u2212)",
+  "stars": 3,
+  "definition": "A flavonoid oxoanion obtained by deprotonation of the 7-hydroxy group of daidzein. It is the major microspecies at pH 7.3 (according to Marvin v 6.2.0.).",
+  "ascii_name": "daidzein(1-)",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "3-(4-hydroxyphenyl)-4-oxo-4<em>H</em>-chromen-7-olate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "3-(4-hydroxyphenyl)-4-oxo-4H-chromen-7-olate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "daidzein",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "daidzein",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C15H9O4",
+    "charge": -1,
+    "mass": "253.233",
+    "monoisotopic_mass": "253.05063"
+  },
+  "modified_on": "2016-04-07T16:03:41Z",
+  "secondary_ids": [],
+  "default_structure": {
+    "id": 2836482,
+    "smiles": "O=c1c(-c2ccc(O)cc2)coc2cc([O-])ccc12",
+    "standard_inchi": "InChI=1S/C15H10O4/c16-10-3-1-9(2-4-10)13-8-19-14-7-11(17)5-6-12(14)15(13)18/h1-8,16-17H/p-1",
+    "standard_inchi_key": "ZQSIJRDFPHDXIC-UHFFFAOYSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [
+    "Anne Morgat"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 28197,
+        "init_name": "daidzein",
+        "relation_type": "is conjugate acid of",
+        "final_id": 77764,
+        "final_name": "daidzein(1\u2212)"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 77764,
+        "init_name": "daidzein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 76989,
+        "final_name": "phytoestrogen"
+      },
+      {
+        "init_id": 77764,
+        "init_name": "daidzein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 35610,
+        "final_name": "antineoplastic agent"
+      },
+      {
+        "init_id": 77764,
+        "init_name": "daidzein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 76924,
+        "final_name": "plant metabolite"
+      },
+      {
+        "init_id": 77764,
+        "init_name": "daidzein(1\u2212)",
+        "relation_type": "has role",
+        "final_id": 131699,
+        "final_name": "EC 2.7.7.7 (DNA-directed DNA polymerase) inhibitor"
+      },
+      {
+        "init_id": 77764,
+        "init_name": "daidzein(1\u2212)",
+        "relation_type": "is a",
+        "final_id": 60038,
+        "final_name": "flavonoid oxoanion"
+      },
+      {
+        "init_id": 77764,
+        "init_name": "daidzein(1\u2212)",
+        "relation_type": "is conjugate base of",
+        "final_id": 28197,
+        "final_name": "daidzein"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 858723,
+        "accession_number": "21848266",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/21848266",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 858725,
+        "accession_number": "23267126",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/23267126",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 858722,
+        "accession_number": "23337939",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/23337939",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 858724,
+        "accession_number": "23342971",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/23342971",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 858726,
+        "accession_number": "23439294",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/23439294",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 858721,
+        "accession_number": "9544566",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/9544566",
+        "prefix": "pubmed"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 858717,
+        "accession_number": "DAIDZEIN",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:DAIDZEIN",
+        "prefix": "metacyc.compound"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76989",
+      "name": "phytoestrogen",
+      "definition": "Any compound produced by a plant that happens to have estrogenic activity.",
+      "id": 76989,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:131699",
+      "name": "EC 2.7.7.7 (DNA-directed DNA polymerase) inhibitor",
+      "definition": "A DNA polymerase inhibitor that interferes with the action of a DNA-directed DNA polymerase (EC 2.7.7.7).",
+      "id": 131699,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76924",
+      "name": "plant metabolite",
+      "definition": "Any eukaryotic metabolite produced during a metabolic reaction in plants, the kingdom that include flowering plants, conifers and other gymnosperms.",
+      "id": 76924,
+      "biological_role": true
+    },
+    {
+      "application": true,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:35610",
+      "name": "antineoplastic agent",
+      "definition": "A substance that inhibits or prevents the proliferation of neoplasms.",
+      "id": 35610,
+      "biological_role": false
+    }
+  ],
+  "is_released": true
+}

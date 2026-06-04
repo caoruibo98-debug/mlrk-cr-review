@@ -1,0 +1,177 @@
+{
+  "id": 36234,
+  "chebi_accession": "CHEBI:36234",
+  "name": "chenodeoxycholate",
+  "stars": 3,
+  "definition": "Conjugate base of chenodeoxycholic acid; major species at pH 7.3.",
+  "ascii_name": "chenodeoxycholate",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "3\u03b1,7\u03b1-dihydroxy-5\u03b2-cholan-24-oate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "3alpha,7alpha-dihydroxy-5beta-cholan-24-oate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "chenodeoxycholate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "chenodeoxycholate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "chenodeoxycholate(1\u2212)",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "chenodeoxycholate(1-)",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "chenodeoxycholate anion",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "chenodeoxycholate anion",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C24H39O4",
+    "charge": -1,
+    "mass": "391.572",
+    "monoisotopic_mass": "391.28538"
+  },
+  "modified_on": "2024-02-27T13:22:03Z",
+  "secondary_ids": [
+    "CHEBI:13960",
+    "CHEBI:23093",
+    "CHEBI:57884"
+  ],
+  "default_structure": {
+    "id": 20269,
+    "smiles": "[H][C@@]12C[C@H](O)CC[C@]1(C)[C@@]1([H])CC[C@@]3(C)[C@@]([H])(CC[C@]3([H])[C@H](C)CCC(=O)[O-])[C@]1([H])[C@H](O)C2",
+    "standard_inchi": "InChI=1S/C24H40O4/c1-14(4-7-21(27)28)17-5-6-18-22-19(9-11-24(17,18)3)23(2)10-8-16(25)12-15(23)13-20(22)26/h14-20,22,25-26H,4-13H2,1-3H3,(H,27,28)/p-1/t14-,15+,16-,17-,18+,19+,20-,22+,23+,24-/m1/s1",
+    "standard_inchi_key": "RUDATBOHQWOJDD-BSWAIDMHSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Homo sapiens",
+      "species_accession": "9606",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "DOI",
+      "source_accession": "10.1038/nbt.2488",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:9606",
+      "source_accession_url": "https://bioregistry.io/doi:10.1038/nbt.2488",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "Kirill Degtyarenko"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 234532,
+        "init_name": "chenodeoxycholate 3-sulfate(2\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 36234,
+        "final_name": "chenodeoxycholate"
+      },
+      {
+        "init_id": 172395,
+        "init_name": "chenodeoxycholate 7-sulfate(2\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 36234,
+        "final_name": "chenodeoxycholate"
+      },
+      {
+        "init_id": 142610,
+        "init_name": "chenodeoxycholate-3-<em>O</em>-\u03b2-<small>D</small>-glucoside(1\u2212)",
+        "relation_type": "has functional parent",
+        "final_id": 36234,
+        "final_name": "chenodeoxycholate"
+      },
+      {
+        "init_id": 16755,
+        "init_name": "chenodeoxycholic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 36234,
+        "final_name": "chenodeoxycholate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 36234,
+        "init_name": "chenodeoxycholate",
+        "relation_type": "has role",
+        "final_id": 77746,
+        "final_name": "human metabolite"
+      },
+      {
+        "init_id": 36234,
+        "init_name": "chenodeoxycholate",
+        "relation_type": "is a",
+        "final_id": 36235,
+        "final_name": "bile acid anion"
+      },
+      {
+        "init_id": 36234,
+        "init_name": "chenodeoxycholate",
+        "relation_type": "is a",
+        "final_id": 131878,
+        "final_name": "cholanic acid anion"
+      },
+      {
+        "init_id": 36234,
+        "init_name": "chenodeoxycholate",
+        "relation_type": "is conjugate base of",
+        "final_id": 16755,
+        "final_name": "chenodeoxycholic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 98626,
+        "accession_number": "3703074",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

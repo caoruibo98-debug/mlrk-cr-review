@@ -1,0 +1,366 @@
+{
+  "id": 42202,
+  "chebi_accession": "CHEBI:42202",
+  "name": "daidzein 7-<em>O</em>-\u03b2-<small>D</small>-glucoside",
+  "stars": 3,
+  "definition": "A glycosyloxyisoflavone that is  daidzein attached to a \u03b2-<small>D</small>-glucopyranosyl residue at position 7 via a glycosidic linkage. It is used in the treatment of alcohol dependency (antidipsotropic).",
+  "ascii_name": "daidzein 7-O-beta-D-glucoside",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "3-(4-hydroxyphenyl)-4-oxo-4<em>H</em>-1-benzopyran-7-yl \u03b2-<small>D</small>-glucopyranoside",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "3-(4-hydroxyphenyl)-4-oxo-4H-1-benzopyran-7-yl beta-D-glucopyranoside",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "7-(\u03b2-<small>D</small>-glucopyranosyloxy)-3-(4-hydroxyphenyl)-4<em>H</em>-chromen-4-one",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "7-(beta-D-glucopyranosyloxy)-3-(4-hydroxyphenyl)-4H-chromen-4-one",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "daidzein 7-<em>O</em>-glucoside",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "daidzein 7-O-glucoside",
+        "adapted": true,
+        "language_code": "en"
+      },
+      {
+        "name": "daidzein 7-glucoside",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "daidzein 7-glucoside",
+        "adapted": true,
+        "language_code": "en"
+      },
+      {
+        "name": "Daidzein 7-O-glucoside",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Daidzein 7-O-glucoside",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Daidzin",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Daidzin",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "DAIDZIN",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "DAIDZIN",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "daidzoside",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChemIDplus",
+        "ascii_name": "daidzoside",
+        "adapted": true,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "daidzein 7-<em>O</em>-\u03b2-<small>D</small>-glucoside",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "daidzein 7-O-beta-D-glucoside",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C21H20O9",
+    "charge": 0,
+    "mass": "416.382",
+    "monoisotopic_mass": "416.11073"
+  },
+  "modified_on": "2018-03-03T06:08:19Z",
+  "secondary_ids": [
+    "CHEBI:4307",
+    "CHEBI:42197",
+    "CHEBI:86150"
+  ],
+  "default_structure": {
+    "id": 15294,
+    "smiles": "O=c1c(-c2ccc(O)cc2)coc2cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)ccc12",
+    "standard_inchi": "InChI=1S/C21H20O9/c22-8-16-18(25)19(26)20(27)21(30-16)29-12-5-6-13-15(7-12)28-9-14(17(13)24)10-1-3-11(23)4-2-10/h1-7,9,16,18-23,25-27H,8H2/t16-,18-,19+,20-,21-/m1/s1",
+    "standard_inchi_key": "KYQZWONCHDNPDP-QNDFHXLGSA-N",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Glycine max",
+      "species_accession": "3847",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "25236207",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:3847",
+      "source_accession_url": "http://europepmc.org/abstract/MED/25236207",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [
+    "namrata"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 80371,
+        "init_name": "malonyldaidzin",
+        "relation_type": "has functional parent",
+        "final_id": 42202,
+        "final_name": "daidzein 7-<em>O</em>-\u03b2-<small>D</small>-glucoside"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 42202,
+        "init_name": "daidzein 7-<em>O</em>-\u03b2-<small>D</small>-glucoside",
+        "relation_type": "has functional parent",
+        "final_id": 28197,
+        "final_name": "daidzein"
+      },
+      {
+        "init_id": 42202,
+        "init_name": "daidzein 7-<em>O</em>-\u03b2-<small>D</small>-glucoside",
+        "relation_type": "has role",
+        "final_id": 76924,
+        "final_name": "plant metabolite"
+      },
+      {
+        "init_id": 42202,
+        "init_name": "daidzein 7-<em>O</em>-\u03b2-<small>D</small>-glucoside",
+        "relation_type": "is a",
+        "final_id": 38755,
+        "final_name": "hydroxyisoflavone"
+      },
+      {
+        "init_id": 42202,
+        "init_name": "daidzein 7-<em>O</em>-\u03b2-<small>D</small>-glucoside",
+        "relation_type": "is a",
+        "final_id": 63367,
+        "final_name": "monosaccharide derivative"
+      },
+      {
+        "init_id": 42202,
+        "init_name": "daidzein 7-<em>O</em>-\u03b2-<small>D</small>-glucoside",
+        "relation_type": "is a",
+        "final_id": 140301,
+        "final_name": "7-hydroxyisoflavones 7-<em>O</em>-\u03b2-<small>D</small>-glucoside"
+      }
+    ]
+  },
+  "database_accessions": {
+    "CITATION": [
+      {
+        "id": 850844,
+        "accession_number": "18613661",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/18613661",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 850845,
+        "accession_number": "24154619",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/24154619",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 850846,
+        "accession_number": "24483603",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/24483603",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 893880,
+        "accession_number": "25209298",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/25209298",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 893878,
+        "accession_number": "25236207",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/25236207",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 893879,
+        "accession_number": "25746576",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/25746576",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 893877,
+        "accession_number": "25845411",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/25845411",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 850843,
+        "accession_number": "8433985",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/8433985",
+        "prefix": "pubmed"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 893872,
+        "accession_number": "552-66-9",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:552-66-9",
+        "prefix": "chemidplus"
+      },
+      {
+        "id": 12638,
+        "accession_number": "552-66-9",
+        "type": "CAS",
+        "source_name": "KEGG COMPOUND",
+        "url": null,
+        "prefix": "kegg.compound"
+      }
+    ],
+    "REGISTRY_NUMBER": [
+      {
+        "id": 893873,
+        "accession_number": "59741",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      },
+      {
+        "id": 91750,
+        "accession_number": "59741",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Beilstein",
+        "url": null,
+        "prefix": "beilstein"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 869531,
+        "accession_number": "C00002518",
+        "type": "MANUAL_X_REF",
+        "source_name": "KNApSAcK",
+        "url": "https://bioregistry.io/knapsack:C00002518",
+        "prefix": "knapsack"
+      },
+      {
+        "id": 12637,
+        "accession_number": "C10216",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C10216",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 850839,
+        "accession_number": "CPD-3424",
+        "type": "MANUAL_X_REF",
+        "source_name": "MetaCyc",
+        "url": "https://bioregistry.io/metacyc.compound:CPD-3424",
+        "prefix": "metacyc.compound"
+      },
+      {
+        "id": 893875,
+        "accession_number": "Daidzin",
+        "type": "MANUAL_X_REF",
+        "source_name": "Wikipedia",
+        "url": "https://bioregistry.io/wikipedia.en:Daidzin",
+        "prefix": "wikipedia.en"
+      },
+      {
+        "id": 810072,
+        "accession_number": "DB02115",
+        "type": "MANUAL_X_REF",
+        "source_name": "DrugBank",
+        "url": "https://bioregistry.io/drugbank:DB02115",
+        "prefix": "drugbank"
+      },
+      {
+        "id": 91742,
+        "accession_number": "DZN",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:DZN",
+        "prefix": "pdb-ccd"
+      },
+      {
+        "id": 893876,
+        "accession_number": "HMDB0033991",
+        "type": "MANUAL_X_REF",
+        "source_name": "HMDB",
+        "url": "https://bioregistry.io/hmdb:HMDB0033991",
+        "prefix": "hmdb"
+      },
+      {
+        "id": 893874,
+        "accession_number": "LMPK12050013",
+        "type": "MANUAL_X_REF",
+        "source_name": "LIPID MAPS",
+        "url": "https://bioregistry.io/lipidmaps:LMPK12050013",
+        "prefix": "lipidmaps"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76924",
+      "name": "plant metabolite",
+      "definition": "Any eukaryotic metabolite produced during a metabolic reaction in plants, the kingdom that include flowering plants, conifers and other gymnosperms.",
+      "id": 76924,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

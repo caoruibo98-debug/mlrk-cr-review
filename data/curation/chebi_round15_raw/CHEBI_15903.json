@@ -1,0 +1,982 @@
+{
+  "id": 15903,
+  "chebi_accession": "CHEBI:15903",
+  "name": "\u03b2-<small>D</small>-glucose",
+  "stars": 3,
+  "definition": "<small>D</small>-Glucopyranose with \u03b2 configuration at the anomeric centre.",
+  "ascii_name": "beta-D-glucose",
+  "names": {
+    "SYNONYM": [
+      {
+        "name": "beta-D-Glucose",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "beta-D-Glucose",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "BETA-D-GLUCOSE",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "PDBeChem",
+        "ascii_name": "BETA-D-GLUCOSE",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "<small>D</small>-<i>gluco</i>-Hexose",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "ChEBI",
+        "ascii_name": "D-gluco-Hexose",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "IUPAC NAME": [
+      {
+        "name": "\u03b2-<small>D</small>-glucopyranose",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "beta-D-glucopyranose",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "\u03b2-<small>D</small>-glucose",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "beta-D-glucose",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C6H12O6",
+    "charge": 0,
+    "mass": "180.156",
+    "monoisotopic_mass": "180.06339"
+  },
+  "modified_on": "2025-07-24T14:40:19Z",
+  "secondary_ids": [
+    "CHEBI:10397",
+    "CHEBI:12373",
+    "CHEBI:22795",
+    "CHEBI:41140"
+  ],
+  "default_structure": {
+    "id": 427,
+    "smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O",
+    "standard_inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6-/m1/s1",
+    "standard_inchi_key": "WQZGKKKJIJFFOK-VFUOTHLCSA-N",
+    "wurcs": "WURCS=2.0/1,1,0/[a2122h-1b_1-5]/1/",
+    "is_r_group": false
+  },
+  "compound_origins": [
+    {
+      "species_text": "Daphnia magna",
+      "species_accession": "35525",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "Article",
+      "source_accession": "Mixtures of similarly acting compounds in Daphnia magna: From gene to metabolite and beyondTine Vandenbrouck, Oliver A.H. Jones, Nathalie Dom, Julian L. Griffin, Wim De CoenEnvironment International 36 (2010) 254-268",
+      "comments": null,
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:35525",
+      "source_accession_url": null,
+      "species_accession_prefix": "ncbitaxon"
+    },
+    {
+      "species_text": "Mus musculus",
+      "species_accession": "10090",
+      "component_text": null,
+      "component_accession": null,
+      "strain_text": null,
+      "strain_accession": null,
+      "source": "PubMed",
+      "source_accession": "19425150",
+      "comments": "Source: BioModels - MODEL1507180067",
+      "species_accession_url": "https://bioregistry.io/ncbitaxon:10090",
+      "source_accession_url": "http://europepmc.org/abstract/MED/19425150",
+      "species_accession_prefix": "ncbitaxon"
+    }
+  ],
+  "created_by": [],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 80207,
+        "init_name": "thermozeaxanthin-17",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 154433,
+        "init_name": "\u03b1-<small>D</small>-GlcpN-(1\u21921)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 154588,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21923)-<small>D</small>-Glc-OH",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 154801,
+        "init_name": "\u03b2-<small>D</small>-Gal<em>p</em>-(1\u21922)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 154967,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21925)-<small>D</small>-Xyl<em>f</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 155122,
+        "init_name": "\u03b1-<small>L</small>-Ara<em>p</em>-(1\u21922)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 153969,
+        "init_name": "\u03b2-<small>L</small>-Fuc<em>p</em>-(1\u21922)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 16546,
+        "init_name": "1-<em>O</em>-sinapoyl-\u03b2-<small>D</small>-glucose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 27993,
+        "init_name": "1,2-di-<em>O</em>-sinapoyl-\u03b2-<small>D</small>-glucose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 16279,
+        "init_name": "1-<em>O</em>-<i>trans</i>-cinnamoyl-\u03b2-<small>D</small>-glucopyranose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 17990,
+        "init_name": "1-<em>O</em>-(indol-3-ylacetyl)-\u03b2-<small>D</small>-glucose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 16218,
+        "init_name": "\u03b2-<small>D</small>-glucose 1-phosphate",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 17719,
+        "init_name": "\u03b2-<small>D</small>-glucose 6-phosphate",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 24183,
+        "init_name": "galloyl \u03b2-<small>D</small>-glucose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 20685,
+        "init_name": "6-<em>O</em>-(indole-3-acetyl)-\u03b2-<small>D</small>-glucose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 20774,
+        "init_name": "7-(\u03b2-<small>D</small>-glucosyloxy)indole-3-acetic acid",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 59362,
+        "init_name": "4,6-(1'-carboxyethylidene)-3-<em>O</em>-methyl-\u03b2-<small>D</small>-glucopyranose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 154750,
+        "init_name": "\u03b1-<small>L</small>-Fuc<em>p</em>-(1\u21922)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 28393,
+        "init_name": "\u03b2-<small>D</small>-glucosamine",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 27395,
+        "init_name": "1,2,6-tris-<em>O</em>-galloyl-\u03b2-<small>D</small>-glucose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 6951,
+        "init_name": "miserotoxin",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 49128,
+        "init_name": "2-deoxy-2-fluoro-\u03b2-<small>D</small>-glucose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 76089,
+        "init_name": "6-<em>O</em>-(<i>trans</i>-4-coumaroyl)-\u03b2-<small>D</small>-glucopyranose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 76093,
+        "init_name": "3-<em>O</em>-(<i>cis</i>-4-coumaroyl)-\u03b2-<small>D</small>-glucopyranose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 76094,
+        "init_name": "3-<em>O</em>-(<i>trans</i>-4-coumaroyl)-\u03b2-<small>D</small>-glucopyranose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 76121,
+        "init_name": "tryptophan <em>N</em>-glucoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 42896,
+        "init_name": "1-thio-\u03b2-<small>D</small>-glucopyranose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 145629,
+        "init_name": "sambubiose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 146845,
+        "init_name": "\u03b2-<small>D</small>-Xyl<em>p</em>-(1\u21924)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 75813,
+        "init_name": "myricetin 3-<em>O</em>-\u03b2-<small>D</small>-glucopyranoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 75816,
+        "init_name": "myricetin 3'-<em>O</em>-\u03b2-<small>D</small>-glucopyranoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 146431,
+        "init_name": "\u03b1-<small>D</small>-Xyl<em>p</em>-(1\u21926)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 146625,
+        "init_name": "\u03b1-<small>L</small>-Fuc<em>p</em>-(1\u21926)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 146899,
+        "init_name": "\u03b1-<small>L</small>-Fuc<em>p</em>-(1\u21923)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 151502,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21924)-\u03b1-<small>L</small>-Fuc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 150274,
+        "init_name": "gentiobiitol",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 150304,
+        "init_name": "\u03b1-<small>L</small>-Ara<em>p</em>-(1\u21924)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 150651,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21923)-\u03b1-<small>L</small>-Fuc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 150673,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21922)-<small>D</small>-Xyl<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 151762,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21925)-\u03b2-<small>D</small>-Xyl<em>f</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 151964,
+        "init_name": "\u03b2-<small>D</small>-Xyl<em>f</em>-(1\u21926)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 152395,
+        "init_name": "cellobiotol",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 152426,
+        "init_name": "\u03b2-<small>D</small>-Xyl<em>p</em>-(1\u21923)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 150380,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21924)-\u03b2-<small>D</small>-Glc<em>p</em>NAc",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 140078,
+        "init_name": "eruberin A",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 75790,
+        "init_name": "kaempferol 7-<em>O</em>-\u03b2-<small>D</small>-glucopyranoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 22151,
+        "init_name": "(+)-abscisic acid \u03b2-<small>D</small>-glucopyranosyl ester",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 62437,
+        "init_name": "(<i>S</i>)-2-<i>trans</i>-abscisic acid \u03b2-<small>D</small>-glucopyranosyl ester",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 75802,
+        "init_name": "kaempferol 5-<em>O</em>-\u03b2-<small>D</small>-glucopyranoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 62765,
+        "init_name": "\u03b2-<small>D</small>-glucosyl crocetin",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 62768,
+        "init_name": "bis(\u03b2-<small>D</small>-glucosyl) crocetin",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 75750,
+        "init_name": "isorhamnetin 3-<em>O</em>-\u03b2-<small>D</small>-glucopyranoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 75752,
+        "init_name": "isorhamnetin 7-<em>O</em>-\u03b2-<small>D</small>-glucopyranoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 145634,
+        "init_name": "\u03b1-<small>L</small>-Ara<em>p</em>-(1\u21926)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 145663,
+        "init_name": "2-(\u03b2-<small>D</small>-glucopyranosyloxy)benzoic acid",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 75820,
+        "init_name": "myricetin 7-<em>O</em>-\u03b2-<small>D</small>-glucopyranoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 68352,
+        "init_name": "quercetin 3-<em>O</em>-\u03b2-<small>D</small>-glucopyranoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 65913,
+        "init_name": "FR207944",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 22798,
+        "init_name": "\u03b2-<small>D</small>-glucoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 145603,
+        "init_name": "\u03b2-<small>D</small>-Gal<em>p</em>-(1\u21923)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 71690,
+        "init_name": "staphyloxanthin",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 152811,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21924)-<small>D</small>-Gal<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 152898,
+        "init_name": "6-<em>O</em>-\u03b1-<small>D</small>-glucopyranosyl-<small>D</small>-glucitol",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 152941,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21923)-\u03b1-<small>D</small>-Gal<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 152976,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21924)-\u03b1-<small>L</small>-Ara<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 148271,
+        "init_name": "\u03b1-<small>D</small>-Gal<em>p</em>-(1\u21924)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 149146,
+        "init_name": "\u03b2-<small>D</small>-Gal<em>p</em>NAc-(1\u21924)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 75839,
+        "init_name": "quercetin 4'-<em>O</em>-\u03b2-<small>D</small>-glucopyranoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 155139,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21923)-<small>D</small>-Gal<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 155241,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21922)-\u03b2-<small>D</small>-Gal<em>f</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 153954,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21922)-<small>D</small>-Glc-OH",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 154052,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21924)-\u03b2-<small>D</small>-Gal<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 65357,
+        "init_name": "abacopterin D",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 65355,
+        "init_name": "abacopterin B",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 65356,
+        "init_name": "abacopterin C",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 142266,
+        "init_name": "licoagroside B",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 153179,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21926)-\u03b1-<small>D</small>-Gal<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 148939,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21923)-\u03b2-<small>D</small>-Ara<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 149311,
+        "init_name": "\u03b1-<small>D</small>-Glc<em>p</em>NAc-(1\u21922)-\u03b2-<small>D</small>-Glc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 148105,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21924)-<small>D</small>-Xyl<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 151265,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21923)-<small>D</small>-Ara<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 153023,
+        "init_name": "3-<em>O</em>-sulfo-\u03b2-<small>D</small>-glucopyranose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 156661,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21923)-\u03b2-<small>L</small>-Fuc<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 142576,
+        "init_name": "25-acyl-27-norcholesteryl \u03b2-<small>D</small>-glucoside",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 155706,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21926)-\u03b2-<small>D</small>-Gal<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 153729,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21924)-\u03b2-<small>D</small>-Xyl<em>p</em>",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 152894,
+        "init_name": "\u03b2-<small>D</small>-Glc<em>p</em>-(1\u21923)-<small>D</small>-Glc<em>p</em>NAc",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 59473,
+        "init_name": "3,6-di-<em>O</em>-methyl-\u03b2-<small>D</small>-glucose",
+        "relation_type": "has functional parent",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 37631,
+        "init_name": "\u03b2-<small>L</small>-glucose",
+        "relation_type": "is enantiomer of",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      },
+      {
+        "init_id": 30697,
+        "init_name": "\u03b2-<small>D</small>-glucosyl group",
+        "relation_type": "is substituent group from",
+        "final_id": 15903,
+        "final_name": "\u03b2-<small>D</small>-glucose"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 15903,
+        "init_name": "\u03b2-<small>D</small>-glucose",
+        "relation_type": "has role",
+        "final_id": 53000,
+        "final_name": "epitope"
+      },
+      {
+        "init_id": 15903,
+        "init_name": "\u03b2-<small>D</small>-glucose",
+        "relation_type": "has role",
+        "final_id": 75771,
+        "final_name": "mouse metabolite"
+      },
+      {
+        "init_id": 15903,
+        "init_name": "\u03b2-<small>D</small>-glucose",
+        "relation_type": "is a",
+        "final_id": 4167,
+        "final_name": "<small>D</small>-glucopyranose"
+      },
+      {
+        "init_id": 15903,
+        "init_name": "\u03b2-<small>D</small>-glucose",
+        "relation_type": "is enantiomer of",
+        "final_id": 37631,
+        "final_name": "\u03b2-<small>L</small>-glucose"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 888525,
+        "accession_number": "1281607",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      },
+      {
+        "id": 100973,
+        "accession_number": "648637",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Gmelin",
+        "url": null,
+        "prefix": "gmelin"
+      }
+    ],
+    "CITATION": [
+      {
+        "id": 828576,
+        "accession_number": "19443021",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/19443021",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 888524,
+        "accession_number": "25568069",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/25568069",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 1015521,
+        "accession_number": "31537530",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/31537530",
+        "prefix": "pubmed"
+      },
+      {
+        "id": 1113294,
+        "accession_number": "32568414",
+        "type": "CITATION",
+        "source_name": "PubMed",
+        "url": "http://europepmc.org/abstract/MED/32568414",
+        "prefix": "pubmed"
+      }
+    ],
+    "CAS": [
+      {
+        "id": 85509,
+        "accession_number": "492-61-5",
+        "type": "CAS",
+        "source_name": "NIST Chemistry WebBook",
+        "url": "http://webbook.nist.gov/cgi/cbook.cgi?ID=492-61-5",
+        "prefix": "nist"
+      },
+      {
+        "id": 864986,
+        "accession_number": "492-61-5",
+        "type": "CAS",
+        "source_name": "KEGG COMPOUND",
+        "url": null,
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 73897,
+        "accession_number": "492-61-5",
+        "type": "CAS",
+        "source_name": "ChemIDplus",
+        "url": "https://bioregistry.io/chemidplus:492-61-5",
+        "prefix": "chemidplus"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 979455,
+        "accession_number": "845",
+        "type": "MANUAL_X_REF",
+        "source_name": "DrugCentral",
+        "url": "https://bioregistry.io/drugcentral:845",
+        "prefix": "drugcentral"
+      },
+      {
+        "id": 100974,
+        "accession_number": "BGC",
+        "type": "MANUAL_X_REF",
+        "source_name": "PDBeChem",
+        "url": "https://bioregistry.io/pdb-ccd:BGC",
+        "prefix": "pdb-ccd"
+      },
+      {
+        "id": 32732,
+        "accession_number": "C00221",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00221",
+        "prefix": "kegg.compound"
+      },
+      {
+        "id": 810140,
+        "accession_number": "DB02379",
+        "type": "MANUAL_X_REF",
+        "source_name": "DrugBank",
+        "url": "https://bioregistry.io/drugbank:DB02379",
+        "prefix": "drugbank"
+      },
+      {
+        "id": 1014725,
+        "accession_number": "G71142DF",
+        "type": "MANUAL_X_REF",
+        "source_name": "GlyTouCan",
+        "url": "https://bioregistry.io/glytoucan:G71142DF",
+        "prefix": "glytoucan"
+      },
+      {
+        "id": 1045282,
+        "accession_number": "G71142DF",
+        "type": "MANUAL_X_REF",
+        "source_name": "GlyGen",
+        "url": "https://bioregistry.io/glytoucan:G71142DF?provider=glygen",
+        "prefix": "glygen"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75771",
+      "name": "mouse metabolite",
+      "definition": "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>).",
+      "id": 75771,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:53000",
+      "name": "epitope",
+      "definition": "The biological role played by a material entity when bound by a receptor of the adaptive immune system. Specific site on an antigen to which an antibody binds.",
+      "id": 53000,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75772",
+      "name": "Saccharomyces cerevisiae metabolite",
+      "definition": "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>).",
+      "id": 75772,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:75771",
+      "name": "mouse metabolite",
+      "definition": "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>).",
+      "id": 75771,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:77746",
+      "name": "human metabolite",
+      "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+      "id": 77746,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76971",
+      "name": "Escherichia coli metabolite",
+      "definition": "Any bacterial metabolite produced during a metabolic reaction in <em>Escherichia coli</em>.",
+      "id": 76971,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:78675",
+      "name": "fundamental metabolite",
+      "definition": "Any metabolite produced by all living cells.",
+      "id": 78675,
+      "biological_role": true
+    },
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:78675",
+      "name": "fundamental metabolite",
+      "definition": "Any metabolite produced by all living cells.",
+      "id": 78675,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}

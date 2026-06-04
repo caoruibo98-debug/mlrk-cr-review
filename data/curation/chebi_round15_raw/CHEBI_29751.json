@@ -1,0 +1,173 @@
+{
+  "id": 29751,
+  "chebi_accession": "CHEBI:29751",
+  "name": "(\u2212)-quinate",
+  "stars": 3,
+  "definition": "A quinate that is the conjugate base of (\u2212)-quinic acid.",
+  "ascii_name": "(-)-quinate",
+  "names": {
+    "IUPAC NAME": [
+      {
+        "name": "(1<i>S</i>,3<i>R</i>,4<i>S</i>,5<i>R</i>)-1,3,4,5-tetrahydroxycyclohexanecarboxylate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "(1S,3R,4S,5R)-1,3,4,5-tetrahydroxycyclohexanecarboxylate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "1<small>L</small>-1(OH),3,4/5-Tetrahydroxycyclohexanecarboxylate",
+        "status": "C",
+        "type": "IUPAC NAME",
+        "source": "IUPAC",
+        "ascii_name": "1L-1(OH),3,4/5-Tetrahydroxycyclohexanecarboxylate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "SYNONYM": [
+      {
+        "name": "(\u2212)-quinate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "IUBMB",
+        "ascii_name": "(-)-quinate",
+        "adapted": false,
+        "language_code": "en"
+      },
+      {
+        "name": "Quinate",
+        "status": "C",
+        "type": "SYNONYM",
+        "source": "KEGG COMPOUND",
+        "ascii_name": "Quinate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ],
+    "UNIPROT NAME": [
+      {
+        "name": "<small>L</small>-quinate",
+        "status": "C",
+        "type": "UNIPROT NAME",
+        "source": "UniProt",
+        "ascii_name": "L-quinate",
+        "adapted": false,
+        "language_code": "en"
+      }
+    ]
+  },
+  "chemical_data": {
+    "formula": "C7H11O6",
+    "charge": -1,
+    "mass": "191.159",
+    "monoisotopic_mass": "191.05611"
+  },
+  "modified_on": "2014-09-09T08:04:41Z",
+  "secondary_ids": [
+    "CHEBI:15000",
+    "CHEBI:26489"
+  ],
+  "default_structure": {
+    "id": 3895,
+    "smiles": "O=C([O-])[C@]1(O)C[C@@H](O)[C@@H](O)[C@H](O)C1",
+    "standard_inchi": "InChI=1S/C7H12O6/c8-3-1-7(13,6(11)12)2-4(9)5(3)10/h3-5,8-10,13H,1-2H2,(H,11,12)/p-1/t3-,4-,5-,7+/m1/s1",
+    "standard_inchi_key": "AAWZDTNXLSGCEK-WYWMIBKRSA-M",
+    "wurcs": null,
+    "is_r_group": false
+  },
+  "compound_origins": [],
+  "created_by": [
+    "Kirill Degtyarenko"
+  ],
+  "ontology_relations": {
+    "incoming_relations": [
+      {
+        "init_id": 32364,
+        "init_name": "3-dehydroquinate",
+        "relation_type": "has functional parent",
+        "final_id": 29751,
+        "final_name": "(\u2212)-quinate"
+      },
+      {
+        "init_id": 57644,
+        "init_name": "chlorogenate",
+        "relation_type": "has functional parent",
+        "final_id": 29751,
+        "final_name": "(\u2212)-quinate"
+      },
+      {
+        "init_id": 60078,
+        "init_name": "4-<em>O</em>-feruloyl-<small>D</small>-quinate",
+        "relation_type": "has functional parent",
+        "final_id": 29751,
+        "final_name": "(\u2212)-quinate"
+      },
+      {
+        "init_id": 17521,
+        "init_name": "(\u2212)-quinic acid",
+        "relation_type": "is conjugate acid of",
+        "final_id": 29751,
+        "final_name": "(\u2212)-quinate"
+      }
+    ],
+    "outgoing_relations": [
+      {
+        "init_id": 29751,
+        "init_name": "(\u2212)-quinate",
+        "relation_type": "has role",
+        "final_id": 76924,
+        "final_name": "plant metabolite"
+      },
+      {
+        "init_id": 29751,
+        "init_name": "(\u2212)-quinate",
+        "relation_type": "is a",
+        "final_id": 26490,
+        "final_name": "quinate"
+      },
+      {
+        "init_id": 29751,
+        "init_name": "(\u2212)-quinate",
+        "relation_type": "is conjugate base of",
+        "final_id": 17521,
+        "final_name": "(\u2212)-quinic acid"
+      }
+    ]
+  },
+  "database_accessions": {
+    "REGISTRY_NUMBER": [
+      {
+        "id": 880293,
+        "accession_number": "5029142",
+        "type": "REGISTRY_NUMBER",
+        "source_name": "Reaxys",
+        "url": null,
+        "prefix": "reaxys"
+      }
+    ],
+    "MANUAL_X_REF": [
+      {
+        "id": 89356,
+        "accession_number": "C00296",
+        "type": "MANUAL_X_REF",
+        "source_name": "KEGG COMPOUND",
+        "url": "https://bioregistry.io/kegg.compound:C00296",
+        "prefix": "kegg.compound"
+      }
+    ]
+  },
+  "roles_classification": [
+    {
+      "application": false,
+      "chemical_role": false,
+      "chebi_accession": "CHEBI:76924",
+      "name": "plant metabolite",
+      "definition": "Any eukaryotic metabolite produced during a metabolic reaction in plants, the kingdom that include flowering plants, conifers and other gymnosperms.",
+      "id": 76924,
+      "biological_role": true
+    }
+  ],
+  "is_released": true
+}
