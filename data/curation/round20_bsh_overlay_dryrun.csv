@@ -1,0 +1,5 @@
+round,source_id,pair_key,substrate_name,product_name,rule_variant,rule_count,generated_product_count,generated_truth_products,target_generated,target_generated_ec_classes,decoy_count,final_clean_target_eligible_in_dryrun,training_allowed_round20
+20,RHEA:16309,BHTRKEVKTKCXOH__RUDATBOHQWOJDD,taurochenodeoxycholate,chenodeoxycholate,baseline_sampled_require_ec,563,3,XSOLDPYUICCHJX,False,,2,False,False
+20,RHEA:16309,BHTRKEVKTKCXOH__RUDATBOHQWOJDD,taurochenodeoxycholate,chenodeoxycholate,round20_exact_bsh_ec_repair_overlay,565,6,RUDATBOHQWOJDD;XOAAWQZATWQOTB;XSOLDPYUICCHJX,True,3,3,True,False
+20,RHEA:19353,RFDAIACWWDREDC__BHQCQFFYRZLCQQ,glycocholate,cholate,baseline_sampled_require_ec,563,0,,False,,0,False,False
+20,RHEA:19353,RFDAIACWWDREDC__BHQCQFFYRZLCQQ,glycocholate,cholate,round20_exact_bsh_ec_repair_overlay,565,3,BHQCQFFYRZLCQQ;DHMQDGOQFOQNFH,True,3,1,True,False

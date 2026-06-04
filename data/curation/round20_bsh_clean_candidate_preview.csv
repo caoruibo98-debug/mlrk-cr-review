@@ -1,0 +1,3 @@
+round,source_id,pair_key,rule_variant,module,sb,pb,substrate_smiles,product_smiles,ec_class,y,candidate_role
+20,RHEA:16309,BHTRKEVKTKCXOH__RUDATBOHQWOJDD,round20_exact_bsh_ec_repair_overlay,D,BHTRKEVKTKCXOH,RUDATBOHQWOJDD,CC(CCC(=O)NCCS(=O)(=O)[O-])C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CCC12C,CC(CCC(=O)[O-])C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CCC12C,3,1,dryrun_target_positive_preview_not_written_to_clean_candidates
+20,RHEA:19353,RFDAIACWWDREDC__BHQCQFFYRZLCQQ,round20_exact_bsh_ec_repair_overlay,D,RFDAIACWWDREDC,BHQCQFFYRZLCQQ,CC(CCC(=O)NCC(=O)[O-])C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C,CC(CCC(=O)[O-])C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C,3,1,dryrun_target_positive_preview_not_written_to_clean_candidates

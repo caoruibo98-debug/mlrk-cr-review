@@ -1,0 +1,3 @@
+round,source_id,baseline_target_generated,overlay_target_generated,overlay_final_clean_eligible,allowed_overlay_rule_count,blocked_overlay_rule_count,decision,next_gate,training_allowed_round20
+20,RHEA:16309,False,True,True,1,1,ready_for_targeted_generator_patch_review,code review source-backed overlay integration; rerun clean candidate target-family test; then leakage split audit,False
+20,RHEA:19353,False,True,True,1,4,ready_for_targeted_generator_patch_review,code review source-backed overlay integration; rerun clean candidate target-family test; then leakage split audit,False
