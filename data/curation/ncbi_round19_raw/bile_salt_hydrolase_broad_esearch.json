@@ -1,0 +1,42 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "bile salt hydrolase",
+        "to": "\"choloylglycine hydrolase\"[Supplementary Concept] OR \"choloylglycine hydrolase\"[All Fields] OR \"bile salt hydrolase\"[All Fields]"
+      },
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      },
+      {
+        "from": "glycocholate",
+        "to": "\"glycocholic acid\"[Supplementary Concept] OR \"glycocholic acid\"[All Fields] OR \"glycocholate\"[All Fields] OR \"glycocholic acid\"[MeSH Terms] OR (\"glycocholic\"[All Fields] AND \"acid\"[All Fields]) OR \"glycocholic\"[All Fields]"
+      },
+      {
+        "from": "taurocholate",
+        "to": "\"taurocholic acid\"[Supplementary Concept] OR \"taurocholic acid\"[All Fields] OR \"taurocholate\"[All Fields] OR \"taurocholic acid\"[MeSH Terms] OR (\"taurocholic\"[All Fields] AND \"acid\"[All Fields]) OR \"taurocholic\"[All Fields]"
+      },
+      {
+        "from": "substrate specificity",
+        "to": "\"substrate specificity\"[MeSH Terms] OR (\"substrate\"[All Fields] AND \"specificity\"[All Fields]) OR \"substrate specificity\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"choloylglycine hydrolase\"[Supplementary Concept] OR \"choloylglycine hydrolase\"[All Fields] OR \"bile salt hydrolase\"[All Fields]) AND (\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]) AND (\"glycocholic acid\"[Supplementary Concept] OR \"glycocholic acid\"[All Fields] OR \"glycocholate\"[All Fields] OR \"glycocholic acid\"[MeSH Terms] OR (\"glycocholic\"[All Fields] AND \"acid\"[All Fields]) OR \"glycocholic\"[All Fields]) AND (\"taurocholic acid\"[Supplementary Concept] OR \"taurocholic acid\"[All Fields] OR \"taurocholate\"[All Fields] OR \"taurocholic acid\"[MeSH Terms] OR (\"taurocholic\"[All Fields] AND \"acid\"[All Fields]) OR \"taurocholic\"[All Fields]) AND (\"substrate specificity\"[MeSH Terms] OR (\"substrate\"[All Fields] AND \"specificity\"[All Fields]) OR \"substrate specificity\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "bile salt hydrolase",
+        "to": "\"choloylglycine hydrolase\"[Supplementary Concept] OR \"choloylglycine hydrolase\"[All Fields] OR \"bile salt hydrolase\"[All Fields]"
+      },
+      {
+        "from": "taurochenodeoxycholate",
+        "to": "\"taurochenodeoxycholic acid\"[Supplementary Concept] OR \"taurochenodeoxycholic acid\"[All Fields] OR \"taurochenodeoxycholate\"[All Fields] OR \"taurochenodeoxycholic acid\"[MeSH Terms] OR (\"taurochenodeoxycholic\"[All Fields] AND \"acid\"[All Fields]) OR \"taurochenodeoxycholic\"[All Fields]"
+      },
+      {
+        "from": "glycocholate",
+        "to": "\"glycocholic acid\"[Supplementary Concept] OR \"glycocholic acid\"[All Fields] OR \"glycocholate\"[All Fields] OR \"glycocholic acid\"[MeSH Terms] OR (\"glycocholic\"[All Fields] AND \"acid\"[All Fields]) OR \"glycocholic\"[All Fields]"
+      },
+      {
+        "from": "cholate",
+        "to": "\"cholates\"[Supplementary Concept] OR \"cholates\"[All Fields] OR \"cholate\"[All Fields] OR \"cholates\"[MeSH Terms]"
+      },
+      {
+        "from": "chenodeoxycholate",
+        "to": "\"chenodeoxycholates\"[All Fields] OR \"chenodeoxycholic acid\"[Supplementary Concept] OR \"chenodeoxycholic acid\"[All Fields] OR \"chenodeoxycholate\"[All Fields] OR \"chenodeoxycholic acid\"[MeSH Terms] OR (\"chenodeoxycholic\"[All Fields] AND \"acid\"[All Fields]) OR \"chenodeoxycholic\"[All Fields]"
+      },
+      {
+        "from": "gut microbiota",
+        "to": "\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"choloylglycine hydrolase\"[Supplementary Concept] OR \"choloylglycine hydrolase\"[All Fields] OR \"bile salt hydrolase\"[All Fields]) AND (\"taurochenodeoxycholic acid\"[Supplementary Concept] OR \"taurochenodeoxycholic acid\"[All Fields] OR \"taurochenodeoxycholate\"[All Fields] OR \"taurochenodeoxycholic acid\"[MeSH Terms] OR (\"taurochenodeoxycholic\"[All Fields] AND \"acid\"[All Fields]) OR \"taurochenodeoxycholic\"[All Fields]) AND (\"glycocholic acid\"[Supplementary Concept] OR \"glycocholic acid\"[All Fields] OR \"glycocholate\"[All Fields] OR \"glycocholic acid\"[MeSH Terms] OR (\"glycocholic\"[All Fields] AND \"acid\"[All Fields]) OR \"glycocholic\"[All Fields]) AND (\"cholates\"[Supplementary Concept] OR \"cholates\"[All Fields] OR \"cholate\"[All Fields] OR \"cholates\"[MeSH Terms]) AND (\"chenodeoxycholates\"[All Fields] OR \"chenodeoxycholic acid\"[Supplementary Concept] OR \"chenodeoxycholic acid\"[All Fields] OR \"chenodeoxycholate\"[All Fields] OR \"chenodeoxycholic acid\"[MeSH Terms] OR (\"chenodeoxycholic\"[All Fields] AND \"acid\"[All Fields]) OR \"chenodeoxycholic\"[All Fields]) AND (\"gastrointestinal microbiome\"[MeSH Terms] OR (\"gastrointestinal\"[All Fields] AND \"microbiome\"[All Fields]) OR \"gastrointestinal microbiome\"[All Fields] OR (\"gut\"[All Fields] AND \"microbiota\"[All Fields]) OR \"gut microbiota\"[All Fields])",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

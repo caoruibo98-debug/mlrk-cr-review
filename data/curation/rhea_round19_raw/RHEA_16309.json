@@ -1,0 +1,14 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "16309",
+      "equation": "taurochenodeoxycholate + H2O = chenodeoxycholate + taurine",
+      "status": "approved",
+      "htmlequation": "<span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:9407\">taurochenodeoxycholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:15377\">H<small><sub>2</sub></small>O</a><span class=\"location\"> </span></span> = <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:36234\">chenodeoxycholate</a><span class=\"location\"> </span></span> + <span class=\"participant\"><span class=\"stoichiometry\"> </span><a data-molid=\"chebi:507393\">taurine</a><span class=\"location\"> </span></span>",
+      "comment": "",
+      "balanced": true,
+      "transport": false
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+round,source_id,priority_family,module,sb,pb,substrate_name,product_name,co_product_name,expected_ec,expected_ec_class,expected_ec_source,rhea_status,rhea_equation,balanced,raw_file
+19,RHEA:16309,bile_acid_deconjugation_and_lipid_context,D,BHTRKEVKTKCXOH,RUDATBOHQWOJDD,taurochenodeoxycholate,chenodeoxycholate,taurine,3.5.1.74,3,https://www.rhea-db.org/rhea/16309,approved,taurochenodeoxycholate + H2O = chenodeoxycholate + taurine,True,data\curation\rhea_round19_raw\RHEA_16309.json
+19,RHEA:19353,bile_acid_deconjugation_and_lipid_context,D,RFDAIACWWDREDC,BHQCQFFYRZLCQQ,glycocholate,cholate,glycine,3.5.1.24,3,https://enzyme.expasy.org/EC/3.5.1.24,approved,glycocholate + H2O = cholate + glycine,True,data\curation\rhea_round19_raw\RHEA_19353.json

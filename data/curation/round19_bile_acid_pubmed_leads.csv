@@ -1,0 +1,4 @@
+round,source_type,pmid,title,journal,pubdate,training_use,raw_file
+19,PubMed,38617281,Chemoproteomic profiling of substrate specificity in gut microbiota-associated bile salt hydrolases.,bioRxiv,2024 Apr 1,mechanism_or_context_only_until_exact_assay_extraction,data\curation\ncbi_round19_raw\bile_salt_hydrolase_known_pmids_esummary.json
+19,PubMed,18757757,Functional and comparative metagenomic analysis of bile salt hydrolase activity in the human gut microbiome.,Proc Natl Acad Sci U S A,2008 Sep 9,mechanism_or_context_only_until_exact_assay_extraction,data\curation\ncbi_round19_raw\bile_salt_hydrolase_known_pmids_esummary.json
+19,PubMed,33526676,Lactobacillus bile salt hydrolase substrate specificity governs bacterial fitness and host colonization.,Proc Natl Acad Sci U S A,2021 Feb 9,mechanism_or_context_only_until_exact_assay_extraction,data\curation\ncbi_round19_raw\bile_salt_hydrolase_known_pmids_esummary.json

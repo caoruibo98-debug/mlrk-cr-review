@@ -1,0 +1,419 @@
+{
+  "header": {
+    "type": "esummary",
+    "version": "0.3"
+  },
+  "result": {
+    "uids": [
+      "38617281",
+      "18757757",
+      "33526676"
+    ],
+    "38617281": {
+      "uid": "38617281",
+      "pubdate": "2024 Apr 1",
+      "epubdate": "2024 Apr 1",
+      "source": "bioRxiv",
+      "authors": [
+        {
+          "name": "Han L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Pendleton A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Singh A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Xu R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Scott SA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Palma JA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Diebold P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Malarney KP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Brito IL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chang PV",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Chang PV",
+      "title": "Chemoproteomic profiling of substrate specificity in gut microbiota-associated bile salt hydrolases.",
+      "sorttitle": "chemoproteomic profiling of substrate specificity in gut microbiota associated bile salt hydrolases",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "101680187",
+      "issn": "",
+      "essn": "2692-8205",
+      "pubtype": [
+        "Preprint",
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed",
+      "pubstatus": "3",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "38617281"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC11014516"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC11014516;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1101/2024.04.01.587558"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "2024.04.01.587558"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2024/04/15 06:44"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2024/04/15 06:45"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2024/04/15 04:16"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2024/04/12 00:00"
+        }
+      ],
+      "references": [
+        {
+          "refsource": "Cell Chem Biol. 2025 Jan 16;32(1):145-156.e9. doi: 10.1016/j.chembiol.2024.05.009.",
+          "reftype": "Update in",
+          "pmid": 38889717,
+          "note": ""
+        }
+      ],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 56,
+      "fulljournalname": "bioRxiv : the preprint server for biology",
+      "elocationid": "pii: 2024.04.01.587558. doi: 10.1101/2024.04.01.587558",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2024/04/01 00:00",
+      "sortfirstauthor": "Han L",
+      "vernaculartitle": ""
+    },
+    "18757757": {
+      "uid": "18757757",
+      "pubdate": "2008 Sep 9",
+      "epubdate": "2008 Aug 29",
+      "source": "Proc Natl Acad Sci U S A",
+      "authors": [
+        {
+          "name": "Jones BV",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Begley M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hill C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gahan CG",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Marchesi JR",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Marchesi JR",
+      "title": "Functional and comparative metagenomic analysis of bile salt hydrolase activity in the human gut microbiome.",
+      "sorttitle": "functional and comparative metagenomic analysis of bile salt hydrolase activity in the human gut microbiome",
+      "volume": "105",
+      "issue": "36",
+      "pages": "13580-5",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7505876",
+      "issn": "0027-8424",
+      "essn": "1091-6490",
+      "pubtype": [
+        "Comparative Study",
+        "Journal Article"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "256",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "18757757"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC2533232"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC2533232;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1073/pnas.0804437105"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "0804437105"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "pubmed",
+          "date": "2008/09/02 09:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2008/10/01 09:00"
+        },
+        {
+          "pubstatus": "entrez",
+          "date": "2008/09/02 09:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2009/03/09 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 38,
+      "fulljournalname": "Proceedings of the National Academy of Sciences of the United States of America",
+      "elocationid": "doi: 10.1073/pnas.0804437105",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2008/09/09 00:00",
+      "sortfirstauthor": "Jones BV",
+      "vernaculartitle": ""
+    },
+    "33526676": {
+      "uid": "33526676",
+      "pubdate": "2021 Feb 9",
+      "epubdate": "",
+      "source": "Proc Natl Acad Sci U S A",
+      "authors": [
+        {
+          "name": "Foley MH",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "O'Flaherty S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Allen G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rivera AJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Stewart AK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Barrangou R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Theriot CM",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "lastauthor": "Theriot CM",
+      "title": "Lactobacillus bile salt hydrolase substrate specificity governs bacterial fitness and host colonization.",
+      "sorttitle": "lactobacillus bile salt hydrolase substrate specificity governs bacterial fitness and host colonization",
+      "volume": "118",
+      "issue": "6",
+      "pages": "",
+      "lang": [
+        "eng"
+      ],
+      "nlmuniqueid": "7505876",
+      "issn": "0027-8424",
+      "essn": "1091-6490",
+      "pubtype": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "recordstatus": "PubMed - indexed for MEDLINE",
+      "pubstatus": "4",
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "idtypen": 1,
+          "value": "33526676"
+        },
+        {
+          "idtype": "pmc",
+          "idtypen": 8,
+          "value": "PMC8017965"
+        },
+        {
+          "idtype": "pmcid",
+          "idtypen": 5,
+          "value": "pmc-id: PMC8017965;"
+        },
+        {
+          "idtype": "doi",
+          "idtypen": 3,
+          "value": "10.1073/pnas.2017709118"
+        },
+        {
+          "idtype": "pii",
+          "idtypen": 4,
+          "value": "2017709118"
+        }
+      ],
+      "history": [
+        {
+          "pubstatus": "entrez",
+          "date": "2021/02/02 06:02"
+        },
+        {
+          "pubstatus": "pubmed",
+          "date": "2021/02/03 06:00"
+        },
+        {
+          "pubstatus": "medline",
+          "date": "2021/06/25 06:00"
+        },
+        {
+          "pubstatus": "pmc-release",
+          "date": "2021/02/01 00:00"
+        }
+      ],
+      "references": [],
+      "attributes": [
+        "Has Abstract"
+      ],
+      "pmcrefcount": 90,
+      "fulljournalname": "Proceedings of the National Academy of Sciences of the United States of America",
+      "elocationid": "doi: 10.1073/pnas.2017709118",
+      "doctype": "citation",
+      "srccontriblist": [],
+      "booktitle": "",
+      "medium": "",
+      "edition": "",
+      "publisherlocation": "",
+      "publishername": "",
+      "srcdate": "",
+      "reportnumber": "",
+      "availablefromurl": "",
+      "locationlabel": "",
+      "doccontriblist": [],
+      "docdate": "",
+      "bookname": "",
+      "chapter": "",
+      "sortpubdate": "2021/02/09 00:00",
+      "sortfirstauthor": "Foley MH",
+      "vernaculartitle": ""
+    }
+  }
+}
